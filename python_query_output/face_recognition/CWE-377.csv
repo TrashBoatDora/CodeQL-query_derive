@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/face_recognition/examples/face_recognition_knn.py","call function: 105:14-105:40","call in function: train@46-108","callee=open","basic block: 105:14-106:35"
+"path: /home/sixsquare/codeQL/projects/face_recognition/examples/face_recognition_knn.py","call function: 131:14-131:35","call in function: predict@111-150","callee=open","basic block: 130:8-139:33"
+"path: /home/sixsquare/codeQL/projects/face_recognition/examples/facerec_ipcamera_knn.py","call function: 110:14-110:40","call in function: train@51-113","callee=open","basic block: 110:14-111:35"
+"path: /home/sixsquare/codeQL/projects/face_recognition/examples/facerec_ipcamera_knn.py","call function: 133:14-133:35","call in function: predict@116-150","callee=open","basic block: 132:8-139:33"

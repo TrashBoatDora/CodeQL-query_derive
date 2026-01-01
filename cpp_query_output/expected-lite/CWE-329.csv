@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/expected-lite/test/lest/lest.hpp","call function: 1301:79-1301:94","call in function: seed@1295-1304","callee=std::time","basic block: 1301:9-1301:102"

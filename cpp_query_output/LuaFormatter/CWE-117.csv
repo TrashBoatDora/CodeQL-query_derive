@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/LuaFormatter/third_party/Catch2/single_include/catch2/catch.hpp","call function: 15780:9-15780:20","call in function: getFormattedDuration@15767-15783","callee=sprintf","basic block: 15767:57-15767:36"

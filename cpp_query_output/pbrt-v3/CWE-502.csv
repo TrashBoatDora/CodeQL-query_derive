@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/ext/glog/src/googletest.h","call function: 426:3-426:14","call in function: MungeLine@399-429","callee=std::getline","basic block: 424:3-429:1"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/ext/glog/src/demangle_unittest.cc","call function: 137:12-137:18","call in function: main@126-147","callee=std::getline","basic block: 137:20-137:12"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/ext/glog/src/demangle_unittest.cc","call function: 111:10-111:16","call in function: RunTest@105-124","callee=std::getline","basic block: 111:18-111:10"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/ext/openexr/IlmBase/Half/half.cpp","call function: 236:8-236:8","call in function: operator>>@233-239","callee=std::basic_istream::operator>>","basic block: 234:1-233:11"

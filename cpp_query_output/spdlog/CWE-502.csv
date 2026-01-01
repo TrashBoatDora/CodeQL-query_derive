@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spdlog/include/spdlog/cfg/helpers-inl.h","call function: 63:12-63:23","call in function: extract_key_vals_@59-71","callee=std::getline","basic block: 63:25-63:12"

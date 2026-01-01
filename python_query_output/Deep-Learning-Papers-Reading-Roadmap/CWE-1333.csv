@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Deep-Learning-Papers-Reading-Roadmap/download.py","call function: 63:10-63:37","call in function: shorten_title@62-69","callee=re.search","basic block: 62:19-65:9"
+"path: /home/sixsquare/codeQL/projects/Deep-Learning-Papers-Reading-Roadmap/download.py","call function: 64:10-64:33","call in function: shorten_title@62-69","callee=re.search","basic block: 62:19-65:9"

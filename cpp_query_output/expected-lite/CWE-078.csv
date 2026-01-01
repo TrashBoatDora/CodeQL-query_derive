@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/expected-lite/include/nonstd/expected.hpp","call function: 1806:9-1806:36","call in function: rethrow@1804-1807","callee=std::system","basic block: 1805:5-1804:23"
+"Path: /home/sixsquare/codeQL/projects/expected-lite/test/lest/lest.hpp","call function: 1301:37-1301:75","call in function: seed@1295-1304","callee=std::system","basic block: 1301:9-1301:102"
+"Path: /home/sixsquare/codeQL/projects/expected-lite/test/lest/lest.hpp","call function: 1166:101-1166:109","call in function: elapsed_seconds@1164-1167","callee=std::system","basic block: 1165:5-1164:26"

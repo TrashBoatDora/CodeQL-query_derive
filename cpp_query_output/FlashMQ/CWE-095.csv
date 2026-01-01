@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/retainedmessagesdb.cpp","call function: 82:84-82:113","call in function: openRead@57-92","callee=std::system","basic block: 82:9-83:55"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/retainedmessagesdb.cpp","call function: 45:80-45:109","call in function: openWrite@39-55","callee=std::system","basic block: 40:1-39:34"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/sessionsandsubscriptionsdb.cpp","call function: 317:80-317:109","call in function: saveData@309-479","callee=std::system","basic block: 314:5-0:0"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/sessionsandsubscriptionsdb.cpp","call function: 126:84-126:113","call in function: readDataV3V4V5V6V7@112-302","callee=std::system","basic block: 126:9-127:69"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/utils.cpp","call function: 676:22-676:51","call in function: timestampWithMillis@674-693","callee=std::system","basic block: 675:1-684:21"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/utils.cpp","call function: 678:26-678:61","call in function: timestampWithMillis@674-693","callee=std::system","basic block: 675:1-684:21"

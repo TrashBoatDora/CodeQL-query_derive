@@ -1,0 +1,191 @@
+{
+  "CWE-022": {},
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {},
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {
+    "time": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "seed",
+          1298,
+          1309,
+          1303,
+          37,
+          1303,
+          40,
+          1303,
+          9,
+          1303,
+          40
+        ]
+      ]
+    },
+    "srand": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "shuffle",
+          1274,
+          1284,
+          1279,
+          5,
+          1279,
+          15,
+          1275,
+          1,
+          1274,
+          19
+        ]
+      ]
+    },
+    "std::rand": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "shuffle",
+          1274,
+          1284,
+          1282,
+          5,
+          1282,
+          23,
+          1275,
+          1,
+          1274,
+          19
+        ]
+      ]
+    },
+    "gettimeofday": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "current_ticks",
+          1137,
+          1141,
+          1139,
+          20,
+          1139,
+          31,
+          1138,
+          5,
+          1137,
+          33
+        ]
+      ]
+    },
+    "rand": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "operator()",
+          1272,
+          1272,
+          1272,
+          47,
+          1272,
+          56,
+          1272,
+          38,
+          1272,
+          27
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {},
+  "CWE-643": {},
+  "CWE-760": {
+    "time": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "seed",
+          1298,
+          1309,
+          1303,
+          37,
+          1303,
+          40,
+          1303,
+          9,
+          1303,
+          40
+        ]
+      ]
+    },
+    "srand": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "shuffle",
+          1274,
+          1284,
+          1279,
+          5,
+          1279,
+          15,
+          1275,
+          1,
+          1274,
+          19
+        ]
+      ]
+    },
+    "std::rand": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "shuffle",
+          1274,
+          1284,
+          1282,
+          5,
+          1282,
+          23,
+          1275,
+          1,
+          1274,
+          19
+        ]
+      ]
+    },
+    "gettimeofday": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "current_ticks",
+          1137,
+          1141,
+          1139,
+          20,
+          1139,
+          31,
+          1138,
+          5,
+          1137,
+          33
+        ]
+      ]
+    },
+    "rand": {
+      "span-lite/test/lest/lest_cpp03.hpp": [
+        [
+          "operator()",
+          1272,
+          1272,
+          1272,
+          47,
+          1272,
+          56,
+          1272,
+          38,
+          1272,
+          27
+        ]
+      ]
+    }
+  },
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {}
+}

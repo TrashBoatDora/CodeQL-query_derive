@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/async_support/base/exchange.py","call function: 125:32-125:77","call in function: open@115-134","callee=ssl.create_default_context","basic block: 125:32-125:77"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/base/exchange.py","call function: 881:23-881:52","call in function: uuid22@880-881","callee=random.getrandbits","basic block: 880:16-881:58"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/base/exchange.py","call function: 885:23-885:52","call in function: uuid16@884-885","callee=random.getrandbits","basic block: 884:16-885:58"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/base/exchange.py","call function: 1401:23-1401:52","call in function: random_bytes@1400-1401","callee=random.getrandbits","basic block: 1400:22-1401:58"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/ecdsa/util.py","call function: 51:38-51:51","call in function: randrange@19-57","callee=os.urandom","basic block: 50:9-52:33"

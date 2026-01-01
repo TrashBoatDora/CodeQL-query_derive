@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/toolbox/__init__.py","call function: 169:45-169:69","call in function: record@162-170","callee=numpy.random.randint","basic block: 166:9-170:56"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/toolbox/__init__.py","call function: 305:45-305:69","call in function: vocode@225-311","callee=numpy.random.randint","basic block: 301:23-311:54"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/encoder/data_objects/utterance.py","call function: 24:21-24:68","call in function: random_partial@12-26","callee=numpy.random.randint","basic block: 24:21-24:17"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/vocoder/vocoder_dataset.py","call function: 61:20-61:47","call in function: collate_vocoder@58-84","callee=numpy.random.randint","basic block: 61:53-61:47"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/vocoder/vocoder_dataset.py","call function: 61:20-61:47","call in function: listcomp@61-61","callee=numpy.random.randint","basic block: 61:53-61:47"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/toolbox/ui.py","call function: 267:33-267:61","call in function: repopulate_box@256-269","callee=numpy.random.randint","basic block: 267:33-267:61"

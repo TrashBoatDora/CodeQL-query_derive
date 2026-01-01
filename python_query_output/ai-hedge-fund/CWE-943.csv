@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/app/backend/alembic/versions/5274886e5bee_add_hedgefundflow_table.py","call function: 26:72-26:101","call in function: upgrade@21-37","callee=sqlalchemy.text","basic block: 22:5-37:93"
+"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/app/backend/alembic/versions/2f8c5d9e4b1a_add_hedgefundflowrun_table.py","call function: 27:72-27:101","call in function: upgrade@21-39","callee=sqlalchemy.text","basic block: 22:5-39:111"
+"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/app/backend/alembic/versions/add_api_keys_table.py","call function: 26:76-26:105","call in function: upgrade@21-37","callee=sqlalchemy.text","basic block: 22:5-37:89"

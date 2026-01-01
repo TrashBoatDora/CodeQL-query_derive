@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/protobuf/build/_deps/absl-src/absl/flags/parse.cc","call function: 210:10-210:21","call in function: ReadFromFlagfile@193-240","callee=std::getline","basic block: 210:23-210:10"
+"Path: /home/sixsquare/codeQL/projects/protobuf/src/google/protobuf/compiler/command_line_interface.cc","call function: 1930:10-1930:21","call in function: ExpandArgumentFile@1907-1934","callee=std::getline","basic block: 1930:23-1930:10"
+"Path: /home/sixsquare/codeQL/projects/protobuf/build/_deps/absl-src/absl/time/internal/cctz/src/time_zone_info.cc","call function: 574:9-574:20","call in function: Open@535-583","callee=std::getline","basic block: 571:37-574:20"
+"Path: /home/sixsquare/codeQL/projects/protobuf/src/google/protobuf/compiler/objectivec/generator.cc","call function: 369:14-369:25","call in function: GenerateAll@75-498","callee=std::getline","basic block: 369:27-369:14"

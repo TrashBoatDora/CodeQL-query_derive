@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/openturns/lib/src/Base/Func/openturns/exprtk.hpp","call function: 43640:10-43640:21","call in function: stop@43638-43642","callee=gettimeofday","basic block: 43639:7-43638:22"
+"Path: /home/sixsquare/codeQL/projects/openturns/lib/src/Base/Func/openturns/exprtk.hpp","call function: 43635:10-43635:21","call in function: start@43632-43636","callee=gettimeofday","basic block: 43633:7-43632:23"

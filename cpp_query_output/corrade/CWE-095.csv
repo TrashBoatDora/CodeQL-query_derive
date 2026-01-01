@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/corrade/src/Corrade/TestSuite/Implementation/BenchmarkCounters.h","call function: 57:66-57:104","call in function: wallTime@55-58","callee=std::system","basic block: 55:33-55:29"

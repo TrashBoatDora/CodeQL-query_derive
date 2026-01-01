@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/mailio/src/mime.cpp","call function: 166:24-166:26","call in function: make_boundary@161-171","callee=std::rand","basic block: 162:1-168:32"
+"Path: /home/sixsquare/codeQL/projects/mailio/src/mime.cpp","call function: 171:1-171:1","call in function: make_boundary@161-171","callee=std::rand","basic block: 170:5-161:42"

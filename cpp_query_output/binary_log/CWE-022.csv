@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/mio.hpp","call function: 980:7-980:13","call in function: query_file_size@968-986","callee=fstat","basic block: 969:1-980:34"
+"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/mio.hpp","call function: 1251:5-1251:11","call in function: unmap@1226-1262","callee=close","basic block: 1247:28-1251:11"
+"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/mio.hpp","call function: 960:7-960:12","call in function: open_file@947-966","callee=open","basic block: 960:7-962:30"

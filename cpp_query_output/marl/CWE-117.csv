@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/marl/src/thread.cpp","call function: 440:3-440:11","call in function: setName@436-452","callee=vsnprintf","basic block: 436:44-436:20"
+"Path: /home/sixsquare/codeQL/projects/marl/src/debug.cpp","call function: 38:3-38:10","call in function: warn@35-40","callee=vfprintf","basic block: 35:33-35:9"
+"Path: /home/sixsquare/codeQL/projects/marl/src/debug.cpp","call function: 30:3-30:10","call in function: fatal@27-33","callee=vfprintf","basic block: 27:34-32:7"

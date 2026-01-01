@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/handy/handy/logging.cc","call function: 68:18-68:21","call in function: maybeRotate@67-99","callee=time","basic block: 67:28-69:23"
+"Path: /home/sixsquare/codeQL/projects/handy/handy/logging.cc","call function: 115:5-115:16","call in function: logv@102-143","callee=gettimeofday","basic block: 109:5-128:5"
+"Path: /home/sixsquare/codeQL/projects/handy/handy/util.cc","call function: 54:58-54:73","call in function: steadyMicro@52-55","callee=std::time","basic block: 52:29-52:25"
+"Path: /home/sixsquare/codeQL/projects/handy/handy/util.cc","call function: 50:58-50:73","call in function: timeMicro@48-51","callee=std::time","basic block: 48:27-48:23"

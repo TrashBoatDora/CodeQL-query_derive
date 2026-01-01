@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/gpt-engineer/gpt_engineer/applications/cli/learning.py","call function: 297:27-297:50","call in function: get_session@279-301","callee=random.randint","basic block: 297:27-297:50"
+"path: /home/sixsquare/codeQL/projects/gpt-engineer/gpt_engineer/applications/cli/learning.py","call function: 301:35-301:58","call in function: get_session@279-301","callee=random.randint","basic block: 300:5-301:59"
+"path: /home/sixsquare/codeQL/projects/gpt-engineer/projects/example-improve/model.py","call function: 19:22-19:42","call in function: generate_food@18-19","callee=random.randint","basic block: 18:23-19:66"
+"path: /home/sixsquare/codeQL/projects/gpt-engineer/projects/example-improve/model.py","call function: 19:45-19:65","call in function: generate_food@18-19","callee=random.randint","basic block: 18:23-19:66"

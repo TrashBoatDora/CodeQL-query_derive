@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/hydrogen-cpp/src/main.cpp","call function: 20:28-20:49","call in function: main@9-46","callee=std::basic_fstream::basic_fstream","basic block: 17:5-31:25"
+"Path: /home/sixsquare/codeQL/projects/hydrogen-cpp/src/main.cpp","call function: 38:27-38:51","call in function: main@9-46","callee=std::basic_fstream::basic_fstream","basic block: 36:5-46:1"
+"Path: /home/sixsquare/codeQL/projects/hydrogen-cpp/src/main.cpp","call function: 42:5-42:10","call in function: main@9-46","callee=system","basic block: 36:5-46:1"
+"Path: /home/sixsquare/codeQL/projects/hydrogen-cpp/src/main.cpp","call function: 43:5-43:10","call in function: main@9-46","callee=system","basic block: 36:5-46:1"

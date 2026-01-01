@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/signals/main.cpp","call function: 68:23-68:26","call in function: test@63-77","callee=rand","basic block: 64:2-68:33"
+"Path: /home/sixsquare/codeQL/projects/signals/main.cpp","call function: 86:9-86:12","call in function: onSig@79-93","callee=rand","basic block: 82:19-86:18"
+"Path: /home/sixsquare/codeQL/projects/signals/main.cpp","call function: 89:54-89:57","call in function: onSig@79-93","callee=rand","basic block: 89:6-89:26"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 56:21-56:22","call in function: bench_classes@54-111","callee=std::rand","basic block: 55:1-60:29"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 57:22-57:22","call in function: bench_classes@54-111","callee=std::rand","basic block: 55:1-60:29"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 111:1-111:1","call in function: bench_classes@54-111","callee=std::rand","basic block: 111:1-54:18"

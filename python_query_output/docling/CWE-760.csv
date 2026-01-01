@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/docling/docling/document_extractor.py","call function: 323:16-325:9","call in function: _get_pipeline_options_hash@320-325","callee=hashlib.md5","basic block: 320:36-325:21"
+"path: /home/sixsquare/codeQL/projects/docling/docling/document_converter.py","call function: 211:16-213:9","call in function: _get_pipeline_options_hash@208-213","callee=hashlib.md5","basic block: 208:36-213:21"
+"path: /home/sixsquare/codeQL/projects/docling/docling/utils/utils.py","call function: 23:14-23:50","call in function: create_file_hash@19-37","callee=hashlib.sha256","basic block: 19:22-31:39"
+"path: /home/sixsquare/codeQL/projects/docling/docling/utils/utils.py","call function: 41:14-41:50","call in function: create_hash@40-44","callee=hashlib.sha256","basic block: 40:17-44:29"

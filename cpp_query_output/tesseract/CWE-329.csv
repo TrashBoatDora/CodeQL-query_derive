@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/tesseract/src/api/pagerenderer.cpp","call function: 655:23-655:31","call in function: AddImageHandler@625-680","callee=time","basic block: 648:5-669:26"
+"Path: /home/sixsquare/codeQL/projects/tesseract/include/tesseract/ocrclass.h","call function: 137:18-137:33","call in function: deadline_exceeded@136-143","callee=std::time","basic block: 136:34-137:37"
+"Path: /home/sixsquare/codeQL/projects/tesseract/include/tesseract/ocrclass.h","call function: 123:16-124:67","call in function: ETEXT_DESC@122-125","callee=std::time","basic block: 122:61-122:12"

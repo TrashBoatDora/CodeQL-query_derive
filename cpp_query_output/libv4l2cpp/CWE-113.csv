@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/main.cpp","call function: 27:8-27:13","call in function: sighandler@25-29","callee=printf","basic block: 26:1-25:15"

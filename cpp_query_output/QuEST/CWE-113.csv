@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/QuEST/build/CMakeFiles/CMakeScratch/TryCompile-Cr1zd3/OpenMPCheckVersion.c","call function: 15:3-15:6","call in function: main@13-17","callee=puts","basic block: 14:1-13:8"
+"Path: /home/sixsquare/codeQL/projects/QuEST/build/CMakeFiles/CMakeScratch/TryCompile-Z0N9Yd/OpenMPCheckVersion.cpp","call function: 15:3-15:6","call in function: main@13-17","callee=puts","basic block: 14:1-13:8"
+"Path: /home/sixsquare/codeQL/projects/QuEST/quest/src/api/environment.cpp","call function: 501:5-501:12","call in function: getEnvironmentString@492-509","callee=snprintf","basic block: 501:5-492:25"

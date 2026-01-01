@@ -1,0 +1,37 @@
+{
+  "CWE-022": {},
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {
+    "print": {
+      "system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py": [
+        [
+          "bfs",
+          13,
+          28,
+          21,
+          13,
+          21,
+          23,
+          20,
+          20,
+          22,
+          27
+        ]
+      ]
+    }
+  },
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {},
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {},
+  "CWE-643": {},
+  "CWE-760": {},
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {}
+}

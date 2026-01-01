@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/scikit-learn/sklearn/datasets/_base.py","call function: 1562:18-1562:30","call in function: _derive_folder_and_filename_from_url@1561-1581","callee=urllib.parse.urlparse","basic block: 1561:42-1563:30"
+"path: /home/sixsquare/codeQL/projects/scikit-learn/sklearn/datasets/_openml.py","call function: 166:19-166:31","call in function: _open_openml_url@124-197","callee=urllib.parse.urlparse","basic block: 166:19-169:37"
+"path: /home/sixsquare/codeQL/projects/scikit-learn/sklearn/datasets/tests/test_base.py","call function: 476:21-476:33","call in function: _urlretrieve_mock@474-479","callee=urllib.parse.urlparse","basic block: 474:27-477:49"
+"path: /home/sixsquare/codeQL/projects/scikit-learn/sklearn/datasets/tests/test_base.py","call function: 476:21-476:33","call in function: _mock_urlretrieve@473-481","callee=urllib.parse.urlparse","basic block: 474:27-477:49"

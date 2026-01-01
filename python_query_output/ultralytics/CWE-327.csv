@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ultralytics/ultralytics/utils/__init__.py","call function: 1318:21-1318:64","call in function: __init__@1301-1348","callee=hashlib.sha256","basic block: 1309:26-1344:37"

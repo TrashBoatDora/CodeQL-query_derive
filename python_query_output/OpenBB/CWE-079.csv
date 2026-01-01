@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/providers/nasdaq/openbb_nasdaq/models/economic_calendar.py","call function: 67:17-67:32","call in function: clean_html@59-73","callee=html.unescape","basic block: 67:17-72:13"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/extensions/platform_api/openbb_platform_api/main.py","call function: 145:12-145:45","call in function: root@140-145","callee=fastapi.responses.HTMLResponse","basic block: 141:5-145:45"

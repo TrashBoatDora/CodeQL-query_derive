@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/json/tests/src/make_test_data_available.hpp","call function: 22:24-22:33","call in function: check_testsuite_downloaded@19-24","callee=fopen","basic block: 20:1-19:38"
+"Path: /home/sixsquare/codeQL/projects/json/tests/src/unit-testsuites.cpp","call function: 367:25-367:34","call in function: DOCTEST_ANON_FUNC_47@326-399","callee=fopen","basic block: 366:5-369:48"
+"Path: /home/sixsquare/codeQL/projects/json/tests/src/unit-testsuites.cpp","call function: 374:25-374:34","call in function: DOCTEST_ANON_FUNC_47@326-399","callee=fopen","basic block: 373:5-376:48"
+"Path: /home/sixsquare/codeQL/projects/json/tests/src/unit-testsuites.cpp","call function: 381:25-381:34","call in function: DOCTEST_ANON_FUNC_47@326-399","callee=fopen","basic block: 380:5-383:48"
+"Path: /home/sixsquare/codeQL/projects/json/tests/src/unit-testsuites.cpp","call function: 388:25-388:34","call in function: DOCTEST_ANON_FUNC_47@326-399","callee=fopen","basic block: 387:5-390:48"
+"Path: /home/sixsquare/codeQL/projects/json/tests/src/unit-testsuites.cpp","call function: 395:25-395:34","call in function: DOCTEST_ANON_FUNC_47@326-399","callee=fopen","basic block: 394:5-397:48"

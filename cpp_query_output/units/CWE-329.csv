@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/units/build/_deps/googletest-src/googlemock/src/gmock-matchers.cc","call function: 265:29-265:32","call in function: Randomize@261-268","callee=rand","basic block: 263:53-263:50"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/controllers/base.py","call function: 12:19-12:25","call in function: get_task_id@9-13","callee=uuid.uuid4","basic block: 12:19-12:15"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/utils/utils.py","call function: 61:13-61:19","call in function: get_uuid@60-64","callee=uuid.uuid4","basic block: 60:14-62:20"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/utils/utils.py","call function: 204:12-204:44","call in function: md5@201-204","callee=hashlib.md5","basic block: 201:9-204:56"

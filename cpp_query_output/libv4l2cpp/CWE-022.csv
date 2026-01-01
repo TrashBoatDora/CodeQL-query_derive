@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2Device.cpp","call function: 79:8-79:11","call in function: init@76-92","callee=stat","basic block: 77:1-79:47"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2Device.cpp","call function: 89:10-89:13","call in function: init@76-92","callee=open","basic block: 87:2-89:80"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2Device.cpp","call function: 97:9-97:12","call in function: initdevice@95-121","callee=open","basic block: 96:1-98:13"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2Device.cpp","call function: 53:3-53:9","call in function: close@50-56","callee=close","basic block: 53:3-53:9"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/main.cpp","call function: 111:18-111:22","call in function: main@34-130","callee=fopen","basic block: 108:48-114:17"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2ReadWriteDevice.cpp","call function: 25:9-25:14","call in function: readInternal@24-26","callee=read","basic block: 24:76-24:40"
+"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2ReadWriteDevice.cpp","call function: 21:9-21:15","call in function: writeInternal@20-22","callee=write","basic block: 20:76-20:41"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/public-apis/scripts/validate/links.py","call function: 29:10-29:51","call in function: find_links_in_file@26-38","callee=open","basic block: 26:24-32:30"
+"path: /home/sixsquare/codeQL/projects/public-apis/scripts/validate/format.py","call function: 256:10-256:51","call in function: main@254-264","callee=open","basic block: 254:10-261:27"

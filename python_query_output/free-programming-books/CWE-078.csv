@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/free-programming-books/scripts/rtl_ltr_linter.py","call function: 418:16-421:9","call in function: get_changed_lines_for_file@396-434","callee=subprocess.check_output","basic block: 419:14-421:9"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/interpreter/tnn/model_interpreter.cc","call function: 93:9-93:15","call in function: ConvertConfigStrToMap@85-101","callee=std::getline","basic block: 91:23-95:42"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/interpreter/tnn/model_interpreter.cc","call function: 160:17-160:23","call in function: InterpretConfig@143-166","callee=std::getline","basic block: 158:31-162:13"

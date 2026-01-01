@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 477:26-477:27","call in function: RunBenchmarks@386-521","callee=std::rand","basic block: 476:53-480:5"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 478:24-478:24","call in function: RunBenchmarks@386-521","callee=std::rand","basic block: 476:53-480:5"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 480:5-480:5","call in function: RunBenchmarks@386-521","callee=std::rand","basic block: 476:53-480:5"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/timers.h","call function: 68:37-68:52","call in function: ChronoClockNow@65-69","callee=std::time","basic block: 65:32-65:28"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/timers.cc","call function: 204:7-204:19","call in function: ThreadCPUUsage@158-211","callee=clock_gettime","basic block: 158:25-204:54"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/timers.cc","call function: 147:7-147:19","call in function: ProcessCPUUsage@118-156","callee=clock_gettime","basic block: 118:26-147:57"

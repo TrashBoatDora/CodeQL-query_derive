@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/base_config.py","call function: 39:27-39:48","call in function: from_yaml@27-42","callee=yaml.safe_load","basic block: 27:19-42:33"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/config.py","call function: 28:27-28:48","call in function: from_yaml@25-31","callee=yaml.safe_load","basic block: 25:19-31:33"
+"path: /home/sixsquare/codeQL/projects/quivr/core/tests/conftest.py","call function: 61:31-61:44","call in function: chunks_stream_answer@55-65","callee=json.loads","basic block: 60:9-62:28"

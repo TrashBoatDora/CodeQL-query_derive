@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/libADLMIDI/src/file_reader.hpp","call function: 97:16-97:25","call in function: openFile@92-108","callee=fopen","basic block: 97:9-92:17"

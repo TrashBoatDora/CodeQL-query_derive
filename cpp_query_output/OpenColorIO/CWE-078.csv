@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/OpenColorIO/src/apps/ocioconvert/main.cpp","call function: 557:19-557:57","call in function: main@44-683","callee=std::system","basic block: 556:13-559:31"
+"Path: /home/sixsquare/codeQL/projects/OpenColorIO/src/apps/ocioconvert/main.cpp","call function: 574:23-574:61","call in function: main@44-683","callee=std::system","basic block: 572:13-581:37"
+"Path: /home/sixsquare/codeQL/projects/OpenColorIO/src/apputils/measure.h","call function: 55:14-55:52","call in function: pause@52-69","callee=std::system","basic block: 53:5-57:20"
+"Path: /home/sixsquare/codeQL/projects/OpenColorIO/src/apputils/measure.h","call function: 49:19-49:57","call in function: resume@41-50","callee=std::system","basic block: 48:9-50:5"
+"Path: /home/sixsquare/codeQL/projects/OpenColorIO/src/apps/ocioperf/main.cpp","call function: 83:14-83:52","call in function: pause@80-98","callee=std::system","basic block: 81:5-85:20"
+"Path: /home/sixsquare/codeQL/projects/OpenColorIO/src/apps/ocioperf/main.cpp","call function: 77:19-77:57","call in function: resume@69-78","callee=std::system","basic block: 76:9-78:5"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/models/markuplm/feature_extraction_markuplm.py","call function: 74:36-74:57","call in function: get_three_from_single@62-89","callee=html.unescape","basic block: 74:36-75:39"

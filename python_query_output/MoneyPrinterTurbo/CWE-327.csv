@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/utils/utils.py","call function: 204:12-204:44","call in function: md5@201-204","callee=hashlib.md5","basic block: 201:9-204:56"

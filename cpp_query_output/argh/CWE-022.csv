@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 6298:18-6298:21","call in function: run@6281-6542","callee=std::basic_fstream::basic_fstream","basic block: 6281:20-6299:18"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 6300:14-6300:17","call in function: run@6281-6542","callee=std::basic_fstream::open","basic block: 6299:23-6301:23"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 4072:26-4072:45","call in function: isDebuggerActive@4070-4080","callee=std::basic_ifstream::basic_ifstream","basic block: 4070:29-4073:28"

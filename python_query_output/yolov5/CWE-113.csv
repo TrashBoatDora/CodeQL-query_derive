@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/yolov5/utils/loggers/comet/comet_utils.py","call function: 40:20-40:40","call in function: download_model_checkpoint@21-66","callee=urllib.parse.urlparse","basic block: 33:24-43:26"
+"path: /home/sixsquare/codeQL/projects/yolov5/utils/loggers/comet/comet_utils.py","call function: 117:20-117:40","call in function: check_comet_weights@100-123","callee=urllib.parse.urlparse","basic block: 116:15-121:19"
+"path: /home/sixsquare/codeQL/projects/yolov5/utils/loggers/comet/comet_utils.py","call function: 143:20-143:39","call in function: check_comet_resume@126-151","callee=urllib.parse.urlparse","basic block: 142:15-149:19"
+"path: /home/sixsquare/codeQL/projects/yolov5/utils/downloads.py","call function: 17:18-17:43","call in function: is_url@13-21","callee=urllib.parse.urlparse","basic block: 17:40-17:43"
+"path: /home/sixsquare/codeQL/projects/yolov5/models/common.py","call function: 801:15-801:25","call in function: _model_type@788-805","callee=urllib.parse.urlparse","basic block: 801:15-804:31"
+"path: /home/sixsquare/codeQL/projects/yolov5/utils/dataloaders.py","call function: 452:16-452:26","call in function: __init__@436-482","callee=urllib.parse.urlparse","basic block: 449:13-452:85"
+"path: /home/sixsquare/codeQL/projects/yolov5/utils/triton.py","call function: 23:22-23:34","call in function: __init__@18-50","callee=urllib.parse.urlparse","basic block: 18:18-24:38"

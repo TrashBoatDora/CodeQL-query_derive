@@ -1,0 +1,383 @@
+{
+  "CWE-022": {
+    "std::basic_ifstream::basic_ifstream": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "isDebuggerActive",
+          10459,
+          10475,
+          10463,
+          30,
+          10463,
+          49,
+          10459,
+          32,
+          10464,
+          33
+        ],
+        [
+          "operator()",
+          9713,
+          9733,
+          9714,
+          33,
+          9714,
+          51,
+          9713,
+          79,
+          9715,
+          32
+        ]
+      ]
+    },
+    "std::basic_ofstream::open": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "FileStream",
+          13683,
+          13686,
+          13684,
+          23,
+          13684,
+          26,
+          13683,
+          46,
+          13685,
+          92
+        ]
+      ]
+    }
+  },
+  "CWE-078": {
+    "std::system": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getCurrentNanosecondsSinceEpoch",
+          14931,
+          14933,
+          14932,
+          70,
+          14932,
+          108,
+          14931,
+          56,
+          14931,
+          40
+        ]
+      ]
+    }
+  },
+  "CWE-079": {
+    "sprintf": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getFormattedDuration",
+          15763,
+          15779,
+          15776,
+          9,
+          15776,
+          20,
+          15763,
+          57,
+          15779,
+          5
+        ]
+      ]
+    }
+  },
+  "CWE-095": {
+    "std::system": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getCurrentNanosecondsSinceEpoch",
+          14931,
+          14933,
+          14932,
+          70,
+          14932,
+          108,
+          14931,
+          56,
+          14931,
+          40
+        ]
+      ]
+    }
+  },
+  "CWE-113": {
+    "sprintf": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getFormattedDuration",
+          15763,
+          15779,
+          15776,
+          9,
+          15776,
+          20,
+          15763,
+          57,
+          15779,
+          5
+        ]
+      ]
+    }
+  },
+  "CWE-117": {
+    "sprintf": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getFormattedDuration",
+          15763,
+          15779,
+          15776,
+          9,
+          15776,
+          20,
+          15763,
+          57,
+          15779,
+          5
+        ]
+      ]
+    }
+  },
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {
+    "time": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getCurrentTimestamp",
+          16796,
+          16820,
+          16800,
+          13,
+          16800,
+          21,
+          16796,
+          43,
+          16819,
+          42
+        ],
+        [
+          "operator()",
+          9745,
+          9750,
+          9748,
+          61,
+          9748,
+          69,
+          9748,
+          17,
+          9749,
+          39
+        ]
+      ]
+    },
+    "std::time": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getCurrentNanosecondsSinceEpoch",
+          14931,
+          14933,
+          14932,
+          112,
+          14932,
+          127,
+          14931,
+          56,
+          14931,
+          40
+        ]
+      ]
+    },
+    "srand": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "seedRng",
+          13143,
+          13148,
+          13145,
+          13,
+          13145,
+          22,
+          13144,
+          36,
+          13146,
+          22
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {
+    "std::basic_istream::operator>>": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "convertInto",
+          9061,
+          9069,
+          9064,
+          12,
+          9064,
+          12,
+          9061,
+          85,
+          9065,
+          19
+        ]
+      ]
+    },
+    "std::getline": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "isDebuggerActive",
+          10459,
+          10475,
+          10464,
+          36,
+          10464,
+          47,
+          10464,
+          49,
+          10464,
+          36
+        ],
+        [
+          "operator()",
+          9713,
+          9733,
+          9719,
+          24,
+          9719,
+          35,
+          9719,
+          38,
+          9719,
+          24
+        ]
+      ]
+    }
+  },
+  "CWE-643": {},
+  "CWE-760": {
+    "time": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getCurrentTimestamp",
+          16796,
+          16820,
+          16800,
+          13,
+          16800,
+          21,
+          16796,
+          43,
+          16819,
+          42
+        ],
+        [
+          "operator()",
+          9745,
+          9750,
+          9748,
+          61,
+          9748,
+          69,
+          9748,
+          17,
+          9749,
+          39
+        ]
+      ]
+    },
+    "std::time": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "getCurrentNanosecondsSinceEpoch",
+          14931,
+          14933,
+          14932,
+          112,
+          14932,
+          127,
+          14931,
+          56,
+          14931,
+          40
+        ]
+      ]
+    },
+    "srand": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "seedRng",
+          13143,
+          13148,
+          13145,
+          13,
+          13145,
+          22,
+          13144,
+          36,
+          13146,
+          22
+        ]
+      ]
+    }
+  },
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {
+    "std::regex": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "match",
+          11760,
+          11767,
+          11763,
+          23,
+          11763,
+          23,
+          11762,
+          65,
+          11763,
+          23
+        ],
+        [
+          "match",
+          11760,
+          11767,
+          11766,
+          20,
+          11766,
+          35,
+          11765,
+          13,
+          11760,
+          32
+        ]
+      ]
+    },
+    "std::regex_match": {
+      "scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp": [
+        [
+          "match",
+          11760,
+          11767,
+          11766,
+          20,
+          11766,
+          35,
+          11765,
+          13,
+          11760,
+          32
+        ]
+      ]
+    }
+  }
+}

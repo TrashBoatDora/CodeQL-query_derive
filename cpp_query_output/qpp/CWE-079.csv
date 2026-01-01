@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/qpp/build/CMakeFiles/CMakeScratch/TryCompile-Wl9Qte/OpenMPCheckVersion.cpp","call function: 15:3-15:6","call in function: main@13-17","callee=puts","basic block: 14:1-13:8"

@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/harfbuzz/src/hb-blob.cc","call function: 643:12-643:15","call in function: hb_blob_create_from_file_or_fail@635-792","callee=open","basic block: 643:3-644:25"
+"Path: /home/sixsquare/codeQL/projects/harfbuzz/src/hb-blob.cc","call function: 647:17-647:21","call in function: hb_blob_create_from_file_or_fail@635-792","callee=fstat","basic block: 646:3-647:38"
+"Path: /home/sixsquare/codeQL/projects/harfbuzz/src/hb-blob.cc","call function: 668:3-668:7","call in function: hb_blob_create_from_file_or_fail@635-792","callee=close","basic block: 668:3-670:31"
+"Path: /home/sixsquare/codeQL/projects/harfbuzz/src/hb-blob.cc","call function: 675:3-675:7","call in function: hb_blob_create_from_file_or_fail@635-792","callee=close","basic block: 674:1-675:7"
+"Path: /home/sixsquare/codeQL/projects/harfbuzz/src/hb-blob.cc","call function: 756:14-756:18","call in function: hb_blob_create_from_file_or_fail@635-792","callee=fopen","basic block: 756:3-757:20"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/protobuf/build/_deps/absl-src/absl/random/internal/seed_material.cc","call function: 154:18-154:27","call in function: ReadSeedMaterialFromGetEntropy@148-165","callee=getentropy","basic block: 151:27-155:18"

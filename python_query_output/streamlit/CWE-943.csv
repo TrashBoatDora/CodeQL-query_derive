@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/streamlit/lib/streamlit/connections/sql_connection.py","call function: 325:17-332:17","call in function: query@223-354","callee=pandas.read_sql","basic block: 314:13-333:13"
+"path: /home/sixsquare/codeQL/projects/streamlit/lib/streamlit/connections/sql_connection.py","call function: 325:17-332:17","call in function: _query@313-333","callee=pandas.read_sql","basic block: 314:13-333:13"
+"path: /home/sixsquare/codeQL/projects/streamlit/lib/streamlit/connections/sql_connection.py","call function: 326:21-326:29","call in function: query@223-354","callee=sqlalchemy.text","basic block: 314:13-333:13"
+"path: /home/sixsquare/codeQL/projects/streamlit/lib/streamlit/connections/sql_connection.py","call function: 326:21-326:29","call in function: _query@313-333","callee=sqlalchemy.text","basic block: 314:13-333:13"

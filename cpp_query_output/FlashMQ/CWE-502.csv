@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/http.cpp","call function: 103:32-103:43","call in function: parseHttpHeader@79-194","callee=std::getline","basic block: 103:45-103:32"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/configfileparser.cpp","call function: 321:27-321:33","call in function: readFileRecursively@303-359","callee=std::getline","basic block: 321:35-321:27"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/plugin.cpp","call function: 824:31-824:37","call in function: loadMosquittoAclFile@795-880","callee=std::getline","basic block: 824:39-824:31"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/plugin.cpp","call function: 720:31-720:37","call in function: loadMosquittoPasswordFile@693-793","callee=std::getline","basic block: 720:39-720:31"
+"Path: /home/sixsquare/codeQL/projects/FlashMQ/utils.cpp","call function: 703:12-703:23","call in function: exceptionOnNonMqtt@695-715","callee=std::getline","basic block: 703:25-703:12"

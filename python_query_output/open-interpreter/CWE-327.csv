@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/open-interpreter/interpreter/core/computer/display/point/point.py","call function: 407:27-407:62","call in function: find_icon@52-441","callee=hashlib.sha256","basic block: 392:9-415:26"

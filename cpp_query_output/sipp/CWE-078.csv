@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/sipp/src/call.cpp","call function: 6077:31-6077:36","call in function: executeAction@5617-6511","callee=system","basic block: 6075:37-6078:36"
+"Path: /home/sixsquare/codeQL/projects/sipp/src/sipp.cpp","call function: 848:5-848:10","call in function: begin_pager@771-853","callee=execv","basic block: 848:5-853:1"
+"Path: /home/sixsquare/codeQL/projects/sipp/src/sipp.cpp","call function: 848:5-848:10","call in function: begin_pager@771-853","callee=execve","basic block: 848:5-853:1"

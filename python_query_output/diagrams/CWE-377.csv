@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/diagrams/diagrams/cli.py","call function: 27:14-27:41","call in function: run@5-30","callee=open","basic block: 26:9-28:26"
+"path: /home/sixsquare/codeQL/projects/diagrams/scripts/generate.py","call function: 73:10-73:29","call in function: make_module@70-74","callee=open","basic block: 70:17-74:24"
+"path: /home/sixsquare/codeQL/projects/diagrams/scripts/generate.py","call function: 80:10-80:29","call in function: make_apidoc@77-81","callee=open","basic block: 77:17-81:24"
+"path: /home/sixsquare/codeQL/projects/diagrams/tests/test_cli.py","call function: 42:14-42:38","call in function: test_run_with_valid_file@40-50","callee=open","basic block: 40:34-48:14"
+"path: /home/sixsquare/codeQL/projects/diagrams/tests/test_cli.py","call function: 57:14-57:34","call in function: test_run_with_multiple_files@52-76","callee=open","basic block: 52:38-67:38"
+"path: /home/sixsquare/codeQL/projects/diagrams/tests/test_cli.py","call function: 59:14-59:34","call in function: test_run_with_multiple_files@52-76","callee=open","basic block: 52:38-67:38"

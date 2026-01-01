@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 10463:30-10463:49","call in function: isDebuggerActive@10459-10475","callee=std::basic_ifstream::basic_ifstream","basic block: 10459:32-10464:33"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 13684:23-13684:26","call in function: FileStream@13683-13686","callee=std::basic_ofstream::open","basic block: 13683:46-13685:92"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 9714:33-9714:51","call in function: operator()@9713-9733","callee=std::basic_ifstream::basic_ifstream","basic block: 9713:79-9715:32"

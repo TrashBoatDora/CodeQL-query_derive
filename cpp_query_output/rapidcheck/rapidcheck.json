@@ -1,0 +1,246 @@
+{
+  "CWE-022": {},
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {},
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {
+    "std::rand": {
+      "rapidcheck/src/detail/Configuration.cpp": [
+        [
+          "loadConfiguration",
+          204,
+          230,
+          212,
+          22,
+          212,
+          27,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          213,
+          57,
+          213,
+          57,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          213,
+          76,
+          213,
+          76,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          230,
+          1,
+          230,
+          1,
+          227,
+          3,
+          230,
+          1
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          230,
+          1,
+          230,
+          1,
+          230,
+          1,
+          230,
+          1
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {
+    "std::basic_istream::operator>>": {
+      "rapidcheck/src/detail/Configuration.cpp": [
+        [
+          "fromString",
+          48,
+          52,
+          50,
+          6,
+          50,
+          6,
+          48,
+          59,
+          48,
+          6
+        ]
+      ]
+    }
+  },
+  "CWE-643": {},
+  "CWE-760": {
+    "std::rand": {
+      "rapidcheck/src/detail/Configuration.cpp": [
+        [
+          "loadConfiguration",
+          204,
+          230,
+          212,
+          22,
+          212,
+          27,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          213,
+          57,
+          213,
+          57,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          213,
+          76,
+          213,
+          76,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          230,
+          1,
+          230,
+          1,
+          227,
+          3,
+          230,
+          1
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          230,
+          1,
+          230,
+          1,
+          230,
+          1,
+          230,
+          1
+        ]
+      ]
+    },
+    "std::random_device": {
+      "rapidcheck/src/detail/Configuration.cpp": [
+        [
+          "loadConfiguration",
+          204,
+          230,
+          212,
+          22,
+          212,
+          27,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          213,
+          57,
+          213,
+          57,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          213,
+          76,
+          213,
+          76,
+          204,
+          35,
+          217,
+          7
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          230,
+          1,
+          230,
+          1,
+          227,
+          3,
+          230,
+          1
+        ],
+        [
+          "loadConfiguration",
+          204,
+          230,
+          230,
+          1,
+          230,
+          1,
+          230,
+          1,
+          230,
+          1
+        ]
+      ]
+    }
+  },
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {}
+}

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/luau/Analysis/src/Frontend.cpp","call function: 437:46-437:71","call in function: getTimestamp@434-438","callee=std::system","basic block: 435:1-434:19"
+"Path: /home/sixsquare/codeQL/projects/luau/CLI/src/Reduce.cpp","call function: 165:19-165:23","call in function: run@142-183","callee=popen","basic block: 154:9-178:9"
+"Path: /home/sixsquare/codeQL/projects/luau/CLI/src/Reduce.cpp","call function: 180:9-180:14","call in function: run@142-183","callee=pclose","basic block: 178:9-142:18"

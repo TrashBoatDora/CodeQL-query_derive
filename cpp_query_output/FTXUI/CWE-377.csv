@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/FTXUI/src/ftxui/component/screen_interactive.cpp","call function: 697:13-697:16","call in function: InstallPipedInputHandling@681-710","callee=open","basic block: 697:3-698:17"

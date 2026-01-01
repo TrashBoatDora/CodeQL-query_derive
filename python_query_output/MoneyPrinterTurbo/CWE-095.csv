@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/controllers/manager/redis_manager.py","call function: 41:25-41:45","call in function: dequeue@38-53","callee=json.loads","basic block: 41:25-45:46"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/services/llm.py","call function: 405:28-405:47","call in function: generate_terms@368-429","callee=json.loads","basic block: 405:39-405:47"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/services/llm.py","call function: 418:40-418:64","call in function: generate_terms@368-429","callee=json.loads","basic block: 418:40-418:64"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/services/state.py","call function: 135:20-135:46","call in function: _convert_to_original_type@126-142","callee=ast.literal_eval","basic block: 135:37-135:46"
+"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/utils/utils.py","call function: 225:38-225:57","call in function: load_locales@218-226","callee=json.loads","basic block: 223:24-225:34"

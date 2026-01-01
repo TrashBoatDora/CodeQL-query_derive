@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/utils/blob_dump_utils.cc","call function: 96:16-96:20","call in function: DumpDeviceBlob@57-136","callee=fopen","basic block: 94:5-97:11"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/utils/cpu_info.cc","call function: 224:12-224:15","call in function: cpuinfo_linux_parse_multiline_file@218-284","callee=open","basic block: 219:56-225:18"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/utils/exclusive_file.cc","call function: 285:14-285:17","call in function: create_file@284-287","callee=open","basic block: 284:45-284:23"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/utils/exclusive_file.cc","call function: 276:14-276:17","call in function: file_exists@275-282","callee=open","basic block: 275:45-277:14"

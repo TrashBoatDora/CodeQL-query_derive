@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/Core/Logger.cpp","call function: 633:18-633:47","call in function: ResyncRdtscClock@629-639","callee=std::system","basic block: 630:2-634:33"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/Core/Logger.cpp","call function: 565:5-565:34","call in function: PopulateTransitEventsFromFrontendQueues@559-584","callee=std::system","basic block: 565:5-566:42"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/Core/Logger.cpp","call function: 145:54-145:83","call in function: resync@137-168","callee=std::system","basic block: 142:69-148:36"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/IO/FileSystem.cpp","call function: 2656:5-2656:12","call in function: LaunchDirectoryAsync@2600-2669","callee=execl","basic block: 2645:25-2657:9"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/nCine/Base/Random.cpp","call function: 121:79-121:108","call in function: Uuid@113-136","callee=std::system","basic block: 114:2-113:27"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/nCine/Base/Random.cpp","call function: 50:79-50:108","call in function: RandomGenerator@47-52","callee=std::system","basic block: 49:2-47:33"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tools/jikan_search.py","call function: 118:20-118:42","call in function: _format_anime_info@106-194","callee=html.unescape","basic block: 118:34-118:42"
+"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tools/wikipedia_search.py","call function: 44:23-48:13","call in function: wikipedia_search@4-62","callee=html.unescape","basic block: 44:23-48:13"

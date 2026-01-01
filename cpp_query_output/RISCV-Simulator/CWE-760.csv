@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/main.cpp","call function: 8:28-8:37","call in function: run_session@7-25","callee=clock","basic block: 7:85-11:22"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/main.cpp","call function: 19:36-19:45","call in function: run_session@7-25","callee=clock","basic block: 17:5-7:16"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/main_presentation.cpp","call function: 9:28-9:37","call in function: run_session@8-29","callee=clock","basic block: 8:85-11:22"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/main_presentation.cpp","call function: 23:36-23:45","call in function: run_session@8-29","callee=clock","basic block: 21:5-8:16"

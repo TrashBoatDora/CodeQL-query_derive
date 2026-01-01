@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/sol2/build/_deps/lua-vanilla-src/src/liolib.c","call function: 295:10-295:35","call in function: io_popen@290-298","callee=popen","basic block: 295:3-297:22"
+"Path: /home/sixsquare/codeQL/projects/sol2/build/_deps/lua-vanilla-src/src/loslib.c","call function: 146:10-146:15","call in function: os_execute@142-153","callee=system","basic block: 142:38-147:17"

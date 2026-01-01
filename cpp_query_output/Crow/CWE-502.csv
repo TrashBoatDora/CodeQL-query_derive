@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Crow/tests/unittest.cpp","call function: 760:25-760:25","call in function: operator()@739-763","callee=std::basic_istream::operator>>","basic block: 739:82-739:43"
+"Path: /home/sixsquare/codeQL/projects/Crow/build/_deps/catch2-src/src/catch2/internal/catch_clara.hpp","call function: 318:20-318:20","call in function: convertInto@316-326","callee=std::basic_istream::operator>>","basic block: 316:78-319:28"
+"Path: /home/sixsquare/codeQL/projects/Crow/include/crow/utility.h","call function: 841:20-841:20","call in function: lexical_cast@835-844","callee=std::basic_istream::operator>>","basic block: 836:9-835:25"
+"Path: /home/sixsquare/codeQL/projects/Crow/include/crow/utility.h","call function: 853:20-853:20","call in function: lexical_cast@847-856","callee=std::basic_istream::operator>>","basic block: 848:9-847:25"
+"Path: /home/sixsquare/codeQL/projects/Crow/include/crow/middlewares/session.h","call function: 477:31-477:31","call in function: FileStore@469-488","callee=std::basic_istream::operator>>","basic block: 477:34-477:20"
+"Path: /home/sixsquare/codeQL/projects/Crow/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp","call function: 89:36-89:47","call in function: isDebuggerActive@84-100","callee=std::getline","basic block: 89:49-89:36"
+"Path: /home/sixsquare/codeQL/projects/Crow/build/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp","call function: 46:24-46:35","call in function: operator()@40-60","callee=std::getline","basic block: 46:38-46:24"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/fmt/format-inl.h","call function: 95:20-95:30","call in function: fwrite_fully@93-97","callee=fwrite","basic block: 94:40-96:21"
+"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/fmt/format-inl.h","call function: 88:7-88:17","call in function: report_error@83-90","callee=fwrite","basic block: 84:62-88:74"
+"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/fmt/format-inl.h","call function: 37:3-37:14","call in function: assert_fail@34-41","callee=fprintf","basic block: 34:76-40:16"

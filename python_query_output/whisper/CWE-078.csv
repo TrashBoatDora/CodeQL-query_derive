@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/audio.py","call function: 58:15-58:55","call in function: load_audio@25-62","callee=subprocess.run","basic block: 58:19-58:55"

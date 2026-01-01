@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 859:3-859:7","call in function: MaybeReenterWithoutASLR@830-865","callee=execv","basic block: 859:3-865:1"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 618:17-618:27","call in function: RunSpecifiedBenchmarks@610-680","callee=std::basic_ofstream::basic_ofstream","basic block: 618:3-621:33"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 637:17-637:20","call in function: RunSpecifiedBenchmarks@610-680","callee=std::basic_ofstream::open","basic block: 636:23-638:30"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/sysinfo.cc","call function: 687:19-687:34","call in function: GetCPUCyclesPerSecond@653-859","callee=std::basic_ifstream::basic_ifstream","basic block: 684:3-688:18"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/sysinfo.cc","call function: 278:21-278:50","call in function: GetCacheSizesFromKVFS@271-313","callee=std::basic_ifstream::basic_ifstream","basic block: 275:16-279:20"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/sysinfo.cc","call function: 218:19-218:32","call in function: ReadFromFile@216-224","callee=std::basic_ifstream::basic_ifstream","basic block: 216:56-219:18"

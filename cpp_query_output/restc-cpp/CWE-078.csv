@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/restc-cpp/src/RequestBodyFileImpl.cpp","call function: 49:42-49:61","call in function: GetData@32-55","callee=std::system","basic block: 46:34-48:58"

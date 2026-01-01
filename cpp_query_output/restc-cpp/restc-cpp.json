@@ -1,0 +1,467 @@
+{
+  "CWE-022": {
+    "boost::filesystem::path": {
+      "restc-cpp/tests/functional/UploadTests.cpp": [
+        [
+          "main",
+          38,
+          55,
+          40,
+          15,
+          40,
+          15,
+          39,
+          1,
+          43,
+          21
+        ],
+        [
+          "main",
+          38,
+          55,
+          42,
+          33,
+          42,
+          38,
+          39,
+          1,
+          43,
+          21
+        ],
+        [
+          "main",
+          38,
+          55,
+          40,
+          17,
+          40,
+          48,
+          40,
+          17,
+          40,
+          48
+        ]
+      ],
+      "restc-cpp/tests/unit/Iostream2JsonTests.cpp": [
+        [
+          "TestBody",
+          115,
+          141,
+          123,
+          35,
+          123,
+          40,
+          115,
+          30,
+          129,
+          19
+        ],
+        [
+          "TestBody",
+          115,
+          141,
+          128,
+          26,
+          128,
+          30,
+          115,
+          30,
+          129,
+          19
+        ],
+        [
+          "TestBody",
+          115,
+          141,
+          135,
+          26,
+          135,
+          30,
+          135,
+          5,
+          115,
+          28
+        ],
+        [
+          "TestBody",
+          115,
+          141,
+          141,
+          1,
+          141,
+          1,
+          135,
+          5,
+          115,
+          28
+        ],
+        [
+          "TestBody",
+          78,
+          100,
+          85,
+          35,
+          85,
+          40,
+          78,
+          48,
+          97,
+          44
+        ],
+        [
+          "TestBody",
+          78,
+          100,
+          93,
+          26,
+          93,
+          31,
+          78,
+          48,
+          97,
+          44
+        ],
+        [
+          "TestBody",
+          78,
+          100,
+          100,
+          1,
+          100,
+          1,
+          99,
+          57,
+          78,
+          46
+        ]
+      ],
+      "restc-cpp/include/restc-cpp/RequestBuilder.h": [
+        [
+          "File",
+          277,
+          281,
+          279,
+          45,
+          279,
+          48,
+          279,
+          17,
+          279,
+          48
+        ],
+        [
+          "File",
+          277,
+          281,
+          279,
+          45,
+          279,
+          48,
+          277,
+          63,
+          277,
+          24
+        ]
+      ],
+      "restc-cpp/src/RequestBodyFileImpl.cpp": [
+        [
+          "RequestBodyFileImpl",
+          21,
+          26,
+          25,
+          45,
+          25,
+          50,
+          24,
+          5,
+          21,
+          23
+        ]
+      ]
+    },
+    "std::basic_ofstream::basic_ofstream": {
+      "restc-cpp/tests/functional/UploadTests.cpp": [
+        [
+          "main",
+          38,
+          55,
+          42,
+          23,
+          42,
+          41,
+          39,
+          1,
+          43,
+          21
+        ]
+      ],
+      "restc-cpp/tests/unit/Iostream2JsonTests.cpp": [
+        [
+          "TestBody",
+          115,
+          141,
+          123,
+          27,
+          123,
+          43,
+          115,
+          30,
+          129,
+          19
+        ],
+        [
+          "TestBody",
+          115,
+          141,
+          135,
+          18,
+          135,
+          33,
+          135,
+          5,
+          115,
+          28
+        ],
+        [
+          "TestBody",
+          78,
+          100,
+          85,
+          27,
+          85,
+          43,
+          78,
+          48,
+          97,
+          44
+        ]
+      ]
+    },
+    "boost::filesystem::remove": {
+      "restc-cpp/tests/functional/UploadTests.cpp": [
+        [
+          "main",
+          38,
+          55,
+          52,
+          5,
+          52,
+          29,
+          46,
+          5,
+          38,
+          8
+        ]
+      ],
+      "restc-cpp/tests/unit/Iostream2JsonTests.cpp": [
+        [
+          "boost_se_body",
+          118,
+          120,
+          119,
+          9,
+          119,
+          33,
+          118,
+          32,
+          118,
+          30
+        ],
+        [
+          "boost_se_body",
+          80,
+          82,
+          81,
+          9,
+          81,
+          33,
+          80,
+          32,
+          80,
+          30
+        ]
+      ]
+    },
+    "std::basic_ifstream::basic_ifstream": {
+      "restc-cpp/tests/unit/Iostream2JsonTests.cpp": [
+        [
+          "TestBody",
+          115,
+          141,
+          128,
+          18,
+          128,
+          33,
+          115,
+          30,
+          129,
+          19
+        ],
+        [
+          "TestBody",
+          78,
+          100,
+          93,
+          18,
+          93,
+          34,
+          78,
+          48,
+          97,
+          44
+        ]
+      ]
+    }
+  },
+  "CWE-078": {
+    "std::system": {
+      "restc-cpp/src/RequestBodyFileImpl.cpp": [
+        [
+          "GetData",
+          32,
+          55,
+          49,
+          42,
+          49,
+          61,
+          46,
+          34,
+          48,
+          58
+        ]
+      ]
+    }
+  },
+  "CWE-079": {},
+  "CWE-095": {
+    "std::system": {
+      "restc-cpp/src/RequestBodyFileImpl.cpp": [
+        [
+          "GetData",
+          32,
+          55,
+          49,
+          42,
+          49,
+          61,
+          46,
+          34,
+          48,
+          58
+        ]
+      ]
+    }
+  },
+  "CWE-113": {},
+  "CWE-117": {},
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {
+    "time": {
+      "restc-cpp/examples/logip/logip.cpp": [
+        [
+          "now",
+          43,
+          48,
+          45,
+          16,
+          45,
+          19,
+          43,
+          14,
+          43,
+          10
+        ]
+      ],
+      "restc-cpp/include/restc-cpp/logging.h": [
+        [
+          "operator()",
+          141,
+          151,
+          147,
+          56,
+          147,
+          59,
+          145,
+          9,
+          141,
+          48
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {},
+  "CWE-643": {},
+  "CWE-760": {
+    "time": {
+      "restc-cpp/examples/logip/logip.cpp": [
+        [
+          "now",
+          43,
+          48,
+          45,
+          16,
+          45,
+          19,
+          43,
+          14,
+          43,
+          10
+        ]
+      ],
+      "restc-cpp/include/restc-cpp/logging.h": [
+        [
+          "operator()",
+          141,
+          151,
+          147,
+          56,
+          147,
+          59,
+          145,
+          9,
+          141,
+          48
+        ]
+      ]
+    }
+  },
+  "CWE-918": {
+    "boost::asio::async_connect": {
+      "restc-cpp/src/SocketImpl.h": [
+        [
+          "operator()",
+          62,
+          66,
+          63,
+          21,
+          63,
+          33,
+          62,
+          40,
+          62,
+          40
+        ]
+      ],
+      "restc-cpp/src/TlsSocketImpl.h": [
+        [
+          "operator()",
+          72,
+          95,
+          81,
+          25,
+          81,
+          37,
+          72,
+          40,
+          72,
+          40
+        ]
+      ]
+    }
+  },
+  "CWE-943": {},
+  "CWE-1333": {}
+}

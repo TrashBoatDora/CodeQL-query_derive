@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/flask/src/flask/sessions.py","call function: 346:20-346:48","call in function: open_session@337-349","callee=itsdangerous.URLSafeTimedSerializer.loads","basic block: 346:28-346:48"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/cheat.sh/bin/app.py","call function: 229:12-236:5","call in function: _proxy@212-251","callee=requests.request","basic block: 226:5-251:19"
+"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/adapter/upstream.py","call function: 68:24-68:76","call in function: _get_page@55-72","callee=requests.get","basic block: 68:42-68:76"
+"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/standalone.py","call function: 52:14-52:65","call in function: parse_cmdline@41-61","callee=urllib.parse.urlparse","basic block: 51:20-58:16"

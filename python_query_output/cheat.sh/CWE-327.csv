@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/fmt/comments.py","call function: 320:30-320:46","call in function: beautify@295-333","callee=hashlib.md5","basic block: 320:14-324:50"

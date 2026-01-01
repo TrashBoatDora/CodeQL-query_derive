@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RenderPipelineShaders/external/catch2/single_include/catch2/catch.hpp","call function: 14943:70-14943:108","call in function: getCurrentNanosecondsSinceEpoch@14942-14944","callee=std::system","basic block: 14942:56-14942:40"

@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/span-lite/test/lest/lest_cpp03.hpp","call function: 1303:37-1303:40","call in function: seed@1298-1309","callee=time","basic block: 1303:9-1303:40"
+"Path: /home/sixsquare/codeQL/projects/span-lite/test/lest/lest_cpp03.hpp","call function: 1279:5-1279:15","call in function: shuffle@1274-1284","callee=srand","basic block: 1275:1-1274:19"
+"Path: /home/sixsquare/codeQL/projects/span-lite/test/lest/lest_cpp03.hpp","call function: 1282:5-1282:23","call in function: shuffle@1274-1284","callee=std::rand","basic block: 1275:1-1274:19"
+"Path: /home/sixsquare/codeQL/projects/span-lite/test/lest/lest_cpp03.hpp","call function: 1139:20-1139:31","call in function: current_ticks@1137-1141","callee=gettimeofday","basic block: 1138:5-1137:33"
+"Path: /home/sixsquare/codeQL/projects/span-lite/test/lest/lest_cpp03.hpp","call function: 1272:47-1272:56","call in function: operator()@1272-1272","callee=rand","basic block: 1272:38-1272:27"

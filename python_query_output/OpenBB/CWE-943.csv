@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/providers/sec/openbb_sec/utils/form4.py","call function: 629:10-629:43","call in function: get_cached_data@621-630","callee=pandas.read_sql","basic block: 621:21-630:76"

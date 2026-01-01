@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/__init__.py","call function: 73:10-73:36","call in function: _download@54-95","callee=urllib.request.urlopen","basic block: 73:10-80:17"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest.cc","call function: 1122:14-1122:43","call in function: GetTimeInMillis@1120-1125","callee=std::system","basic block: 1120:32-1120:28"
+"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest.cc","call function: 1123:14-1123:51","call in function: GetTimeInMillis@1120-1125","callee=std::system","basic block: 1120:32-1120:28"
+"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest-death-test.cc","call function: 1257:3-1257:7","call in function: ExecDeathTestChildMain@1236-1262","callee=execv","basic block: 1257:3-1258:16"

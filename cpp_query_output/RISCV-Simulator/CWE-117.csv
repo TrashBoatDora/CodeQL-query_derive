@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/ReorderBuffer.cpp","call function: 26:5-26:11","call in function: debug_header@24-29","callee=sprintf","basic block: 24:26-24:22"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/RegisterFile.hpp","call function: 41:17-41:23","call in function: debug@33-51","callee=sprintf","basic block: 39:53-39:50"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/ReservationStation.cpp","call function: 16:5-16:11","call in function: debug@9-26","callee=sprintf","basic block: 13:41-9:14"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/ReservationStation.cpp","call function: 18:5-18:11","call in function: debug@9-26","callee=sprintf","basic block: 13:41-9:14"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/ReservationStation.cpp","call function: 30:5-30:11","call in function: debug_header@28-33","callee=sprintf","basic block: 28:25-28:21"

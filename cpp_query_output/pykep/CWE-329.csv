@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/pykep/src/third_party/cspice/dtime_.c","call function: 122:4-122:8","call in function: dtime_@105-128","callee=time","basic block: 107:1-105:6"
+"Path: /home/sixsquare/codeQL/projects/pykep/src/third_party/cspice/etime_.c","call function: 118:4-118:8","call in function: etime_@105-121","callee=time","basic block: 107:1-105:6"
+"Path: /home/sixsquare/codeQL/projects/pykep/src/third_party/cspice/zzcputim.c","call function: 201:15-201:18","call in function: zzcputim_@48-241","callee=time","basic block: 168:1-203:28"
+"Path: /home/sixsquare/codeQL/projects/pykep/include/keplerian_toolbox/third_party/libsgp4/DateTime.h","call function: 146:15-146:27","call in function: Now@126-161","callee=clock_gettime","basic block: 127:5-150:20"
+"Path: /home/sixsquare/codeQL/projects/pykep/tests/anomalies_test.cpp","call function: 47:24-47:25","call in function: main@45-164","callee=std::rand","basic block: 46:1-55:20"
+"Path: /home/sixsquare/codeQL/projects/pykep/tests/anomalies_test.cpp","call function: 48:24-48:24","call in function: main@45-164","callee=std::rand","basic block: 46:1-55:20"
+"Path: /home/sixsquare/codeQL/projects/pykep/tests/anomalies_test.cpp","call function: 164:1-164:1","call in function: main@45-164","callee=std::rand","basic block: 163:5-45:8"

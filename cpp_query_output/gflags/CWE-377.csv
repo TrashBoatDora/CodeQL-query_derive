@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/gflags/src/util.h","call function: 363:8-363:12","call in function: SafeFOpen@357-367","callee=fopen","basic block: 358:1-365:21"

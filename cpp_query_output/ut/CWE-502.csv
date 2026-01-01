@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 3230:13-3230:13","call in function: lexical_cast@3223-3233","callee=std::basic_istream::operator>>","basic block: 3223:54-3230:13"

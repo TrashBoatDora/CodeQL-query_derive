@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 10480:36-10480:47","call in function: isDebuggerActive@10475-10491","callee=std::getline","basic block: 10480:49-10480:36"
+"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 9731:24-9731:35","call in function: operator()@9725-9745","callee=std::getline","basic block: 9731:38-9731:24"
+"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 9076:12-9076:12","call in function: convertInto@9073-9081","callee=std::basic_istream::operator>>","basic block: 9073:85-9077:19"
+"Path: /home/sixsquare/codeQL/projects/cxxopts/include/cxxopts.hpp","call function: 1114:22-1114:33","call in function: parse_value@1107-1117","callee=std::getline","basic block: 1114:35-1114:22"
+"Path: /home/sixsquare/codeQL/projects/cxxopts/include/cxxopts.hpp","call function: 1021:6-1021:6","call in function: stringstream_parser@1018-1025","callee=std::basic_istream::operator>>","basic block: 1019:1-1022:7"

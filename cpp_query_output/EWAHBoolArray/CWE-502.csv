@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/EWAHBoolArray/tests/unit.cpp","call function: 1395:10-1395:16","call in function: dataindexingtest@1378-1450","callee=std::getline","basic block: 1393:18-1395:9"
+"Path: /home/sixsquare/codeQL/projects/EWAHBoolArray/tests/unit.cpp","call function: 1403:12-1403:18","call in function: dataindexingtest@1378-1450","callee=std::getline","basic block: 1402:16-1403:11"
+"Path: /home/sixsquare/codeQL/projects/EWAHBoolArray/examples/example3.cpp","call function: 34:10-34:16","call in function: main@26-79","callee=std::getline","basic block: 32:18-34:9"
+"Path: /home/sixsquare/codeQL/projects/EWAHBoolArray/examples/example3.cpp","call function: 41:12-41:18","call in function: main@26-79","callee=std::getline","basic block: 40:16-41:11"

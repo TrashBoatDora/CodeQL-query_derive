@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 24:12-24:71","call in function: verify_auth@22-26","callee=secrets.compare_digest","basic block: 22:17-24:71"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 24:77-26:5","call in function: verify_auth@22-26","callee=secrets.compare_digest","basic block: 24:77-26:5"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 41:19-41:71","call in function: get_user_from_token@34-50","callee=jwt.decode","basic block: 41:60-41:71"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 68:33-68:81","call in function: validate_ws_token@56-86","callee=secrets.compare_digest","basic block: 68:33-68:29"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 71:18-71:60","call in function: validate_ws_token@56-86","callee=secrets.compare_digest","basic block: 71:66-71:60"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 71:18-71:60","call in function: listcomp@71-71","callee=secrets.compare_digest","basic block: 71:66-71:60"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/TTS/TTS/utils/download.py","call function: 122:21-122:36","call in function: validate_file@109-135","callee=hashlib.sha256","basic block: 122:21-122:17"
+"path: /home/sixsquare/codeQL/projects/TTS/TTS/utils/download.py","call function: 124:21-124:33","call in function: validate_file@109-135","callee=hashlib.md5","basic block: 124:21-124:17"
+"path: /home/sixsquare/codeQL/projects/TTS/TTS/tts/layers/bark/load_model.py","call function: 41:16-41:28","call in function: _md5@40-45","callee=hashlib.md5","basic block: 40:10-43:52"
+"path: /home/sixsquare/codeQL/projects/TTS/TTS/encoder/utils/prepare_voxceleb.py","call function: 98:19-98:43","call in function: download_and_extract@65-108","callee=hashlib.md5","basic block: 98:19-98:43"

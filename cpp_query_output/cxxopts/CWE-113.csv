@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 15796:9-15796:20","call in function: getFormattedDuration@15783-15799","callee=sprintf","basic block: 15783:57-15783:36"

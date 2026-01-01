@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/test/thirdparty/catch/catch.hpp","call function: 14945:70-14945:108","call in function: getCurrentNanosecondsSinceEpoch@14944-14946","callee=std::system","basic block: 14944:56-14944:40"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/test/jmespath/src/jmespath_custom_function_tests.cpp","call function: 41:28-41:57","call in function: operator()@37-44","callee=std::system","basic block: 40:13-37:15"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/include/jsoncons/utility/uri.hpp","call function: 216:25-216:80","call in function: uri@169-287","callee=std::system","basic block: 215:21-216:80"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/include/jsoncons/utility/uri.hpp","call function: 165:17-165:52","call in function: uri@159-167","callee=std::system","basic block: 164:13-165:52"

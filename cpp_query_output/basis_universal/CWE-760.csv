@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/basis_universal/zstd/zstd.c","call function: 38170:13-38170:80","call in function: ZDICT_trainBuffer_legacy@38109-38179","callee=clock","basic block: 38170:13-38170:80"
+"Path: /home/sixsquare/codeQL/projects/basis_universal/zstd/zstd.c","call function: 37666:60-37666:64","call in function: ZDICT_clockSpan@37666-37666","callee=clock","basic block: 37666:51-37666:30"
+"Path: /home/sixsquare/codeQL/projects/basis_universal/zstd/zstd.c","call function: 37560:9-37561:71","call in function: ZDICT_optimizeTrainFromBuffer_fastCover@37436-37584","callee=clock","basic block: 37560:9-37561:71"
+"Path: /home/sixsquare/codeQL/projects/basis_universal/zstd/zstd.c","call function: 37267:5-37269:77","call in function: FASTCOVER_buildDictionary@37218-37273","callee=clock","basic block: 37267:5-37269:77"
+"Path: /home/sixsquare/codeQL/projects/basis_universal/zstd/zstd.c","call function: 34818:7-34819:69","call in function: ZDICT_optimizeTrainFromBuffer_cover@34706-34841","callee=clock","basic block: 34818:7-34819:69"
+"Path: /home/sixsquare/codeQL/projects/basis_universal/zstd/zstd.c","call function: 34315:5-34317:77","call in function: COVER_buildDictionary@34271-34321","callee=clock","basic block: 34315:5-34317:77"

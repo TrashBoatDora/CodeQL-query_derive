@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/geos/tests/xmltester/tinyxml2/tinyxml2.cpp","call function: 2144:16-2144:20","call in function: callfopen@2133-2147","callee=fopen","basic block: 2134:1-2133:22"

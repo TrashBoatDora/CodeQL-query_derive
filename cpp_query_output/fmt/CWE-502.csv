@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/fmt/test/gtest/gmock-gtest-all.cc","call function: 10440:8-10440:8","call in function: ReadProcFileField@10433-10442","callee=std::basic_istream::operator>>","basic block: 10439:3-10433:3"

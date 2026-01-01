@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/hyperscan/unit/gtest/gtest-all.cc","call function: 2308:3-2308:14","call in function: GetTimeInMillis@2264-2313","callee=gettimeofday","basic block: 2264:32-2264:28"
+"Path: /home/sixsquare/codeQL/projects/hyperscan/examples/patbench.cc","call function: 739:13-739:26","call in function: main@614-784","callee=std::rand","basic block: 735:39-741:43"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/stable-diffusion-webui/modules/api/api.py","call function: 64:22-64:34","call in function: verify_url@58-74","callee=urllib.parse.urlparse","basic block: 58:16-64:34"
+"path: /home/sixsquare/codeQL/projects/stable-diffusion-webui/modules/modelloader.py","call function: 95:16-95:29","call in function: friendly_name@93-99","callee=urllib.parse.urlparse","basic block: 95:16-95:12"
+"path: /home/sixsquare/codeQL/projects/stable-diffusion-webui/modules/modelloader.py","call function: 34:17-34:29","call in function: load_file_from_url@20-41","callee=urllib.parse.urlparse","basic block: 34:17-35:17"
+"path: /home/sixsquare/codeQL/projects/stable-diffusion-webui/modules/ui_extra_networks.py","call function: 111:12-111:69","call in function: fetch_file@97-111","callee=starlette.responses.FileResponse","basic block: 111:12-111:69"

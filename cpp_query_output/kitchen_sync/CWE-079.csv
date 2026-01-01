@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/subdivision.cpp","call function: 58:2-58:9","call in function: format_uuid@55-69","callee=snprintf","basic block: 55:46-55:25"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/catch2/catch.hpp","call function: 15776:9-15776:20","call in function: getFormattedDuration@15763-15779","callee=sprintf","basic block: 15763:57-15763:36"

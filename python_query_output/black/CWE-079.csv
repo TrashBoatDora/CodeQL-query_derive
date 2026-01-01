@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/black/src/blackd/__init__.py","call function: 106:20-108:13","call in function: handle@102-170","callee=aiohttp.web.Response","basic block: 107:24-108:13"
+"path: /home/sixsquare/codeQL/projects/black/src/blackd/__init__.py","call function: 116:20-116:59","call in function: handle@102-170","callee=aiohttp.web.Response","basic block: 116:45-116:59"
+"path: /home/sixsquare/codeQL/projects/black/src/blackd/__init__.py","call function: 158:16-163:9","call in function: handle@102-170","callee=aiohttp.web.Response","basic block: 159:13-163:9"
+"path: /home/sixsquare/codeQL/projects/black/src/blackd/__init__.py","call function: 165:16-165:56","call in function: handle@102-170","callee=aiohttp.web.Response","basic block: 164:5-165:56"
+"path: /home/sixsquare/codeQL/projects/black/src/blackd/__init__.py","call function: 167:16-167:69","call in function: handle@102-170","callee=aiohttp.web.Response","basic block: 166:5-167:69"
+"path: /home/sixsquare/codeQL/projects/black/src/blackd/__init__.py","call function: 170:16-170:69","call in function: handle@102-170","callee=aiohttp.web.Response","basic block: 168:5-170:69"

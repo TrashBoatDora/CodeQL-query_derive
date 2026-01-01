@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/streamlit/lib/streamlit/config.py","call function: 733:12-733:30","call in function: _server_cookie_secret@726-733","callee=secrets.token_hex","basic block: 727:5-733:30"
+"path: /home/sixsquare/codeQL/projects/streamlit/lib/streamlit/web/server/server.py","call function: 209:19-209:69","call in function: _get_ssl_options@189-225","callee=ssl.create_default_context","basic block: 207:16-214:35"

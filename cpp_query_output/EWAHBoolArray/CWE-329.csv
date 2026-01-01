@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/EWAHBoolArray/benchmarks/benchmark.cpp","call function: 211:5-211:16","call in function: split@210-213","callee=gettimeofday","basic block: 210:15-210:11"
+"Path: /home/sixsquare/codeQL/projects/EWAHBoolArray/benchmarks/benchmark.cpp","call function: 203:5-203:16","call in function: reset@202-205","callee=gettimeofday","basic block: 202:16-202:12"
+"Path: /home/sixsquare/codeQL/projects/EWAHBoolArray/benchmarks/benchmark.cpp","call function: 199:5-199:16","call in function: WallClockTimer@198-201","callee=gettimeofday","basic block: 198:33-198:16"

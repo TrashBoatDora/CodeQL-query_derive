@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Mustache/tests/catch.hpp","call function: 14936:70-14936:108","call in function: getCurrentNanosecondsSinceEpoch@14935-14937","callee=std::system","basic block: 14935:56-14935:40"

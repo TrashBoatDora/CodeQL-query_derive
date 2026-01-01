@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/geos/include/geos/profiler.h","call function: 65:20-65:58","call in function: stop@63-84","callee=std::system","basic block: 64:5-71:30"
+"Path: /home/sixsquare/codeQL/projects/geos/include/geos/profiler.h","call function: 58:21-58:59","call in function: start@56-59","callee=std::system","basic block: 57:5-56:9"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/GPT-SoVITS/GPT_SoVITS/text/japanese.py","call function: 51:20-51:32","call in function: get_hash@50-55","callee=hashlib.md5","basic block: 50:18-53:56"
+"path: /home/sixsquare/codeQL/projects/GPT-SoVITS/GPT_SoVITS/process_ckpt.py","call function: 95:16-95:28","call in function: get_hash_from_file@92-97","callee=hashlib.md5","basic block: 92:24-97:31"
+"path: /home/sixsquare/codeQL/projects/GPT-SoVITS/tools/uvr5/lib/lib_v5/spec_utils.py","call function: 196:32-196:97","call in function: cache_or_load@192-272","callee=hashlib.sha1","basic block: 192:19-206:37"

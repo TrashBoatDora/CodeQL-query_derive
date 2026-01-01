@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/QSimpleUpdater/src/Updater.cpp","call function: 405:29-405:51","call in function: onReply@377-430","callee=QJsonDocument::fromJson","basic block: 405:4-408:22"

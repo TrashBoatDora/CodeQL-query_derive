@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/crawl4ai/crawl4ai/async_crawler_strategy.back.py","call function: 739:48-739:61","call in function: _crawl_web@496-1130","callee=os.urandom","basic block: 739:59-739:61"
+"path: /home/sixsquare/codeQL/projects/crawl4ai/crawl4ai/async_crawler_strategy.py","call function: 672:48-672:61","call in function: _crawl_web@504-1073","callee=os.urandom","basic block: 672:59-672:61"
+"path: /home/sixsquare/codeQL/projects/crawl4ai/crawl4ai/ssl_certificate.py","call function: 73:23-73:50","call in function: from_url@62-133","callee=ssl.create_default_context","basic block: 73:23-73:50"
+"path: /home/sixsquare/codeQL/projects/crawl4ai/tests/memory/test_stress_docker_api.py","call function: 24:22-24:41","call in function: make_fake_urls@22-24","callee=secrets.token_hex","basic block: 24:49-24:43"
+"path: /home/sixsquare/codeQL/projects/crawl4ai/tests/memory/test_stress_docker_api.py","call function: 24:22-24:41","call in function: listcomp@24-24","callee=secrets.token_hex","basic block: 24:49-24:43"
+"path: /home/sixsquare/codeQL/projects/crawl4ai/tests/memory/test_stress_sdk.py","call function: 79:72-79:91","call in function: generate_site@73-85","callee=secrets.token_hex","basic block: 79:148-79:142"
+"path: /home/sixsquare/codeQL/projects/crawl4ai/tests/memory/test_stress_sdk.py","call function: 79:72-79:91","call in function: genexpr@79-79","callee=secrets.token_hex","basic block: 79:148-79:142"

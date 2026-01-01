@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/components/embedding/custom/sagemaker.py","call function: 58:25-58:48","call in function: _embed@45-60","callee=json.loads","basic block: 45:16-60:39"
+"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/components/llm/custom/sagemaker.py","call function: 221:25-221:48","call in function: complete@200-225","callee=json.loads","basic block: 208:13-225:9"
+"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/components/llm/custom/sagemaker.py","call function: 250:28-250:84","call in function: stream_complete@228-262","callee=json.loads","basic block: 250:28-253:34"
+"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/components/llm/custom/sagemaker.py","call function: 250:28-250:84","call in function: get_stream@229-260","callee=json.loads","basic block: 250:28-253:34"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/primesieve/src/CpuInfo.cpp","call function: 554:10-554:21","call in function: split@547-558","callee=std::getline","basic block: 554:23-554:10"
+"Path: /home/sixsquare/codeQL/projects/primesieve/src/CpuInfo.cpp","call function: 532:12-532:23","call in function: getCpuName@522-545","callee=std::getline","basic block: 532:25-532:12"

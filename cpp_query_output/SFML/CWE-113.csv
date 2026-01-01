@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/SFML/extlibs/headers/miniaudio/miniaudio.h","call function: 13717:18-13717:26","call in function: ma_log_postv@13703-13807","callee=vsnprintf","basic block: 13710:5-13718:22"
+"Path: /home/sixsquare/codeQL/projects/SFML/extlibs/headers/miniaudio/miniaudio.h","call function: 13732:22-13732:30","call in function: ma_log_postv@13703-13807","callee=vsnprintf","basic block: 13732:13-13733:26"
+"Path: /home/sixsquare/codeQL/projects/SFML/extlibs/headers/stb_image/stb_image_write.h","call function: 776:13-776:19","call in function: stbi_write_hdr_core@761-785","callee=sprintf","basic block: 765:9-780:13"

@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 6:19-6:20","call in function: Model@5-54","callee=std::basic_ifstream::basic_ifstream","basic block: 5:42-8:15"
+"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 7:8-7:11","call in function: Model@5-54","callee=std::basic_ifstream::open","basic block: 5:42-8:15"
+"Path: /home/sixsquare/codeQL/projects/tinyrenderer/tgaimage.cpp","call function: 109:19-109:21","call in function: write_tga_file@105-137","callee=std::basic_ofstream::basic_ofstream","basic block: 105:99-111:22"
+"Path: /home/sixsquare/codeQL/projects/tinyrenderer/tgaimage.cpp","call function: 110:9-110:12","call in function: write_tga_file@105-137","callee=std::basic_ofstream::open","basic block: 105:99-111:22"
+"Path: /home/sixsquare/codeQL/projects/tinyrenderer/tgaimage.cpp","call function: 12:19-12:20","call in function: read_tga_file@11-54","callee=std::basic_ifstream::basic_ifstream","basic block: 11:58-14:21"
+"Path: /home/sixsquare/codeQL/projects/tinyrenderer/tgaimage.cpp","call function: 13:8-13:11","call in function: read_tga_file@11-54","callee=std::basic_ifstream::open","basic block: 11:58-14:21"

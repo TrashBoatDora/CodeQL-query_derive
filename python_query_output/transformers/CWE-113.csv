@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/video_utils.py","call function: 675:8-675:22","call in function: load_video@618-714","callee=urllib.parse.urlparse","basic block: 675:8-675:67"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/utils/hub.py","call function: 194:14-194:38","call in function: is_remote_url@193-195","callee=urllib.parse.urlparse","basic block: 193:19-195:45"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/models/idefics/processing_idefics.py","call function: 134:14-134:29","call in function: is_url@129-135","callee=urllib.parse.urlparse","basic block: 134:14-135:46"

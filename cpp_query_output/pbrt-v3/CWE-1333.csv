@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/tests/gtest/gtest-all.cc","call function: 8389:15-8389:21","call in function: Init@8380-8407","callee=regcomp","basic block: 8380:34-8398:15"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/tests/gtest/gtest-all.cc","call function: 8400:17-8400:23","call in function: Init@8380-8407","callee=regcomp","basic block: 8400:5-8400:74"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/tests/gtest/gtest-all.cc","call function: 8376:10-8376:16","call in function: PartialMatch@8372-8377","callee=regexec","basic block: 8375:3-8376:60"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/tests/gtest/gtest-all.cc","call function: 8367:10-8367:16","call in function: FullMatch@8363-8368","callee=regexec","basic block: 8366:3-8367:57"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/tests/gtest/gtest-all.cc","call function: 8356:5-8356:11","call in function: ~RE@8350-8360","callee=regfree","basic block: 8351:18-8357:11"
+"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/tests/gtest/gtest-all.cc","call function: 8357:5-8357:11","call in function: ~RE@8350-8360","callee=regfree","basic block: 8351:18-8357:11"

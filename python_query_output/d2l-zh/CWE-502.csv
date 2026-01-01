@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/d2l-zh/contrib/to-rm-mx-contrib-text/d2lzh/utils.py","call function: 176:12-176:74","call in function: get_data_ch7@174-178","callee=numpy.genfromtxt","basic block: 175:5-178:56"
+"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/tensorflow.py","call function: 1330:12-1331:58","call in function: get_data_ch11@1328-1335","callee=numpy.genfromtxt","basic block: 1328:19-1335:37"
+"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/torch.py","call function: 1399:12-1400:58","call in function: get_data_ch11@1397-1404","callee=numpy.genfromtxt","basic block: 1397:19-1404:37"
+"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/torch.py","call function: 1827:16-1827:37","call in function: read_data_bananas@1820-1837","callee=pandas.read_csv","basic block: 1825:40-1830:47"
+"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/paddle.py","call function: 1402:12-1403:58","call in function: get_data_ch11@1400-1407","callee=numpy.genfromtxt","basic block: 1400:19-1407:37"
+"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/paddle.py","call function: 1831:16-1831:37","call in function: read_data_bananas@1824-1841","callee=pandas.read_csv","basic block: 1829:40-1834:47"
+"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/mxnet.py","call function: 1724:16-1724:37","call in function: read_data_bananas@1717-1734","callee=pandas.read_csv","basic block: 1722:40-1727:47"

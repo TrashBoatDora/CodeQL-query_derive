@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/authenticator.cpp","call function: 84:9-84:19","call in function: record@80-87","callee=mysql_query","basic block: 84:5-84:19"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/authenticator.cpp","call function: 53:9-53:19","call in function: auth@49-78","callee=mysql_query","basic block: 53:5-53:19"

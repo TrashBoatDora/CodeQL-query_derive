@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/douyin/core.py","call function: 377:33-377:47","call in function: get_aweme_images@357-382","callee=random.random","basic block: 376:29-378:30"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/douyin/core.py","call function: 401:29-401:43","call in function: get_aweme_video@384-405","callee=random.random","basic block: 400:25-402:26"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/xhs/core.py","call function: 462:33-462:47","call in function: get_note_images@439-467","callee=random.random","basic block: 461:29-463:30"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/xhs/core.py","call function: 486:33-486:47","call in function: get_notice_video@469-491","callee=random.random","basic block: 484:13-487:30"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/douyin/help.py","call function: 34:38-34:52","call in function: e@32-38","callee=random.random","basic block: 34:20-34:67"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/douyin/help.py","call function: 34:38-34:52","call in function: get_web_id@25-43","callee=random.random","basic block: 34:20-34:67"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/xhs/help.py","call function: 57:17-57:41","call in function: get_b3_trace_id@52-58","callee=random.randint","basic block: 56:9-57:9"

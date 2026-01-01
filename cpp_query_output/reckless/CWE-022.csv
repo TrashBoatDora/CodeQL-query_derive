@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/reckless/reckless/src/file_writer.cpp","call function: 50:14-50:17","call in function: open_file@44-54","callee=open","basic block: 45:1-51:15"
+"Path: /home/sixsquare/codeQL/projects/reckless/reckless/src/file_writer.cpp","call function: 66:21-66:25","call in function: ~file_writer@63-71","callee=close","basic block: 66:16-66:30"
+"Path: /home/sixsquare/codeQL/projects/reckless/reckless/src/fd_writer.cpp","call function: 129:27-129:33","call in function: write@123-140","callee=write","basic block: 128:22-130:24"

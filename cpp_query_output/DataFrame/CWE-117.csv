@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/DataFrame/include/DataFrame/Utils/FixedSizeString.h","call function: 217:13-217:23","call in function: append_printf@210-221","callee=vsnprintf","basic block: 210:70-210:28"
+"Path: /home/sixsquare/codeQL/projects/DataFrame/include/DataFrame/Utils/FixedSizeString.h","call function: 201:27-201:37","call in function: printf@195-208","callee=vsnprintf","basic block: 195:63-195:21"
+"Path: /home/sixsquare/codeQL/projects/DataFrame/include/DataFrame/Utils/FixedSizeString.h","call function: 102:9-102:48","call in function: ncopy@100-104","callee=snprintf","basic block: 100:56-102:48"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/Parser.hpp","call function: 25:13-25:24","call in function: parse@20-38","callee=std::getline","basic block: 23:20-26:30"

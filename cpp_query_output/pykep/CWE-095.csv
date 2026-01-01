@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/pykep/src/third_party/cspice/system_.c","call function: 100:10-100:15","call in function: system_@79-122","callee=system","basic block: 99:4-102:20"

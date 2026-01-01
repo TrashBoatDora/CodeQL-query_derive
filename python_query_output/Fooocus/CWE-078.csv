@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Fooocus/modules/launch_util.py","call function: 50:14-50:41","call in function: run@35-64","callee=subprocess.run","basic block: 50:14-52:29"

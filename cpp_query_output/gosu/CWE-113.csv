@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/gosu/dependencies/stb/stb_image_write.h","call function: 776:13-776:19","call in function: stbi_write_hdr_core@761-785","callee=sprintf","basic block: 765:9-780:13"

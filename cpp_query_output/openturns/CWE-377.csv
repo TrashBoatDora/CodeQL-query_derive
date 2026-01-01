@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/openturns/build/CMakeFiles/CMakeScratch/TryCompile-5X5O5E/CheckFunctionExists.c","call function: 17:3-17:23","call in function: main@14-22","callee=open","basic block: 15:1-18:15"

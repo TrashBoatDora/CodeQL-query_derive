@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/__init__.py","call function: 151:22-151:66","call in function: load_model@103-161","callee=torch.load","basic block: 150:18-158:34"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/__init__.py","call function: 151:22-151:66","call in function: load_model@103-161","callee=torch.load","basic block: 150:18-161:27"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/audio.py","call function: 106:10-106:50","call in function: mel_filters@92-107","callee=numpy.load","basic block: 103:5-107:62"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/normalizers/english.py","call function: 459:24-459:52","call in function: __init__@457-459","callee=json.load","basic block: 457:18-459:20"

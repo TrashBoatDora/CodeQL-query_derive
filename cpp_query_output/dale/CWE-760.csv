@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/dale/src/dale/Unit/Unit.cpp","call function: 112:34-112:37","call in function: Unit@73-117","callee=rand","basic block: 111:33-111:30"
+"Path: /home/sixsquare/codeQL/projects/dale/src/dale/Unit/Unit.cpp","call function: 66:34-66:37","call in function: Unit@15-71","callee=rand","basic block: 65:33-65:30"
+"Path: /home/sixsquare/codeQL/projects/dale/src/dale/dalec.cpp","call function: 117:5-117:9","call in function: main@116-372","callee=srand","basic block: 116:33-165:22"
+"Path: /home/sixsquare/codeQL/projects/dale/src/dale/dalec.cpp","call function: 117:11-117:14","call in function: main@116-372","callee=time","basic block: 116:33-165:22"
+"Path: /home/sixsquare/codeQL/projects/dale/src/dale/daleci.cpp","call function: 34:5-34:9","call in function: main@33-94","callee=srand","basic block: 33:33-61:22"
+"Path: /home/sixsquare/codeQL/projects/dale/src/dale/daleci.cpp","call function: 34:11-34:14","call in function: main@33-94","callee=time","basic block: 33:33-61:22"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/OpenColorIO/build/ext/build/libexpat/src/expat_install/expat/lib/xmlparse.c","call function: 1051:14-1051:22","call in function: writeRandomBytes_getrandom_nonblock@1038-1065","callee=getrandom","basic block: 1043:6-1057:28"

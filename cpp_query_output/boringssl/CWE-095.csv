@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/boringssl/third_party/googletest/googletest/src/gtest-death-test.cc","call function: 1206:3-1206:7","call in function: ExecDeathTestChildMain@1185-1210","callee=execv","basic block: 1206:3-1207:16"
+"Path: /home/sixsquare/codeQL/projects/boringssl/third_party/googletest/googletest/src/gtest.cc","call function: 1213:14-1213:43","call in function: GetTimeInMillis@1211-1216","callee=std::system","basic block: 1211:32-1211:28"
+"Path: /home/sixsquare/codeQL/projects/boringssl/third_party/googletest/googletest/src/gtest.cc","call function: 1214:14-1214:51","call in function: GetTimeInMillis@1211-1216","callee=std::system","basic block: 1211:32-1211:28"

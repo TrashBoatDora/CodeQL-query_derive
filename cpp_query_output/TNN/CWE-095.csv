@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/optimizer/graph_matcher/logger.cc","call function: 122:16-122:45","call in function: get_time_str@121-134","callee=std::system","basic block: 121:42-121:38"
+"Path: /home/sixsquare/codeQL/projects/TNN/source/tnn/optimizer/graph_matcher/logger.cc","call function: 123:25-123:60","call in function: get_time_str@121-134","callee=std::system","basic block: 121:42-121:38"

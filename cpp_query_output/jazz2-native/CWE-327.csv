@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/IO/WebRequest.cpp","call function: 2552:19-2552:57","call in function: CURLSetOpt@2550-2556","callee=curl_easy_setopt","basic block: 2551:3-2553:22"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/IO/WebRequest.cpp","call function: 2538:19-2538:57","call in function: CURLSetOpt@2536-2542","callee=curl_easy_setopt","basic block: 2537:3-2539:22"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/IO/WebRequest.cpp","call function: 2525:19-2525:57","call in function: CURLSetOpt@2523-2529","callee=curl_easy_setopt","basic block: 2524:3-2526:22"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/IO/WebRequest.cpp","call function: 2517:19-2517:57","call in function: CURLSetOpt@2515-2521","callee=curl_easy_setopt","basic block: 2516:3-2518:22"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Shared/IO/WebRequest.cpp","call function: 2509:19-2509:57","call in function: CURLSetOpt@2507-2513","callee=curl_easy_setopt","basic block: 2508:3-2510:22"

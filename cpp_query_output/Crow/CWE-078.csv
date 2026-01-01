@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Crow/tests/unittest.cpp","call function: 2793:17-2793:41","call in function: operator()@2775-2800","callee=std::system","basic block: 2792:13-2800:5"
+"Path: /home/sixsquare/codeQL/projects/Crow/tests/unittest.cpp","call function: 1445:18-1445:56","call in function: CATCH2_INTERNAL_TEST_50@1429-1472","callee=std::system","basic block: 1430:1-1450:22"
+"Path: /home/sixsquare/codeQL/projects/Crow/tests/unittest.cpp","call function: 1466:16-1466:54","call in function: CATCH2_INTERNAL_TEST_50@1429-1472","callee=std::system","basic block: 1464:5-1469:50"

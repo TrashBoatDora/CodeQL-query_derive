@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/auto-unlocker/src/network.cpp","call function: 40:77-40:115","call in function: progress_callback@31-61","callee=std::system","basic block: 36:2-42:72"
+"Path: /home/sixsquare/codeQL/projects/auto-unlocker/src/network.cpp","call function: 105:98-105:136","call in function: curlDownload@70-118","callee=std::system","basic block: 102:3-113:21"

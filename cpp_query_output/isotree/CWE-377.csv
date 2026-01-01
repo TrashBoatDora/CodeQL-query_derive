@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/isotree/src/isotree.hpp","call function: 1946:24-1946:33","call in function: FileHandle@1944-1949","callee=fopen","basic block: 1945:5-1947:27"

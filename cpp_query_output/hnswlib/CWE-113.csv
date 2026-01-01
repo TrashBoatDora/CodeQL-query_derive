@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/updates_test.cpp","call function: 212:9-212:14","call in function: main@176-278","callee=printf","basic block: 210:9-226:14"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/updates_test.cpp","call function: 242:13-242:20","call in function: main@176-278","callee=snprintf","basic block: 239:57-239:54"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/sift_1b.cpp","call function: 255:5-255:12","call in function: sift_test1B@242-365","callee=snprintf","basic block: 242:20-264:18"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/sift_1b.cpp","call function: 257:5-257:12","call in function: sift_test1B@242-365","callee=snprintf","basic block: 242:20-264:18"

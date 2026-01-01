@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/persistence/custom_data.py","call function: 103:26-103:50","call in function: _convert_custom_data@93-104","callee=json.loads","basic block: 103:26-103:22"
+"path: /home/sixsquare/codeQL/projects/freqtrade/tests/commands/test_commands.py","call function: 1215:22-1215:45","call in function: test_start_test_pairlist@1166-1222","callee=json.loads","basic block: 1215:22-1215:45"
+"path: /home/sixsquare/codeQL/projects/freqtrade/tests/plugins/test_remotepairlist.py","call function: 34:17-34:55","call in function: test_gen_pairlist_with_local_file@26-58","callee=json.loads","basic block: 26:39-58:45"

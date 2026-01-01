@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/PaddleOCR/ppocr/utils/network.py","call function: 70:19-70:48","call in function: _download@49-103","callee=requests.get","basic block: 70:32-70:48"
+"path: /home/sixsquare/codeQL/projects/PaddleOCR/mcp_server/paddleocr_mcp/pipelines.py","call function: 68:14-68:24","call in function: _is_url@65-69","callee=urllib.parse.urlparse","basic block: 66:8-69:46"
+"path: /home/sixsquare/codeQL/projects/PaddleOCR/mcp_server/paddleocr_mcp/pipelines.py","call function: 489:24-489:57","call in function: _call_service@464-496","callee=httpx.AsyncClient","basic block: 489:50-489:57"
+"path: /home/sixsquare/codeQL/projects/PaddleOCR/mcp_server/paddleocr_mcp/pipelines.py","call function: 773:28-773:61","call in function: _process_image_data@769-789","callee=httpx.AsyncClient","basic block: 773:54-773:61"
+"path: /home/sixsquare/codeQL/projects/PaddleOCR/tools/test_hubserving.py","call function: 115:13-115:86","call in function: main@100-145","callee=requests.post","basic block: 111:20-122:25"
+"path: /home/sixsquare/codeQL/projects/PaddleOCR/ppocr/utils/utility.py","call function: 121:15-121:40","call in function: check_and_read@119-152","callee=cv2.VideoCapture","basic block: 121:15-123:18"

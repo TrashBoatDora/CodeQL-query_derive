@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/tileson/external_libs/catch.hpp","call function: 14943:70-14943:108","call in function: getCurrentNanosecondsSinceEpoch@14942-14944","callee=std::system","basic block: 14942:56-14942:40"
+"Path: /home/sixsquare/codeQL/projects/tileson/extras/pocketlzma.hpp","call function: 7265:58-7265:61","call in function: ToFile@7232-7267","callee=std::system","basic block: 7265:4-7267:2"
+"Path: /home/sixsquare/codeQL/projects/tileson/extras/pocketlzma.hpp","call function: 7265:86-7265:89","call in function: ToFile@7232-7267","callee=std::system","basic block: 7265:4-7267:2"
+"Path: /home/sixsquare/codeQL/projects/tileson/extras/pocketlzma.hpp","call function: 7265:114-7265:117","call in function: ToFile@7232-7267","callee=std::system","basic block: 7265:4-7267:2"
+"Path: /home/sixsquare/codeQL/projects/tileson/extras/pocketlzma.hpp","call function: 7228:57-7228:60","call in function: FromFile@7190-7230","callee=std::system","basic block: 7228:4-7230:2"
+"Path: /home/sixsquare/codeQL/projects/tileson/extras/pocketlzma.hpp","call function: 7228:85-7228:88","call in function: FromFile@7190-7230","callee=std::system","basic block: 7228:4-7230:2"
+"Path: /home/sixsquare/codeQL/projects/tileson/extras/pocketlzma.hpp","call function: 7228:113-7228:116","call in function: FromFile@7190-7230","callee=std::system","basic block: 7228:4-7230:2"

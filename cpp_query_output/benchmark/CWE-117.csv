@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 910:5-910:11","call in function: ReportUnrecognizedArguments@908-914","callee=fprintf","basic block: 909:34-909:31"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 876:3-876:9","call in function: PrintDefaultHelp@875-898","callee=fprintf","basic block: 875:25-875:21"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/colorprint.cc","call function: 92:14-92:22","call in function: FormatString@85-111","callee=vsnprintf","basic block: 85:57-99:14"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/colorprint.cc","call function: 108:9-108:17","call in function: FormatString@85-111","callee=vsnprintf","basic block: 106:3-111:1"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/string_util.cc","call function: 126:14-126:22","call in function: StrFormatImp@115-146","callee=vsnprintf","basic block: 115:57-131:14"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/string_util.cc","call function: 144:3-144:11","call in function: StrFormatImp@115-146","callee=vsnprintf","basic block: 140:3-146:1"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/timers.cc","call function: 261:9-261:18","call in function: LocalDateTimeString@213-286","callee=snprintf","basic block: 260:5-264:17"

@@ -1,0 +1,255 @@
+{
+  "CWE-022": {
+    "std::basic_ifstream::basic_ifstream": {
+      "tracking-with-Extended-Kalman-Filter/src/main.cpp": [
+        [
+          "main",
+          52,
+          184,
+          57,
+          21,
+          57,
+          56,
+          52,
+          34,
+          125,
+          3
+        ]
+      ]
+    },
+    "std::basic_ofstream::basic_ofstream": {
+      "tracking-with-Extended-Kalman-Filter/src/main.cpp": [
+        [
+          "main",
+          52,
+          184,
+          60,
+          22,
+          60,
+          59,
+          52,
+          34,
+          125,
+          3
+        ]
+      ]
+    }
+  },
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {},
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {
+    "rand": {
+      "tracking-with-Extended-Kalman-Filter/src/Eigen/src/Core/MathFunctions.h": [
+        [
+          "run",
+          510,
+          528,
+          525,
+          29,
+          525,
+          37,
+          524,
+          8,
+          526,
+          27
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {
+    "std::getline": {
+      "tracking-with-Extended-Kalman-Filter/src/main.cpp": [
+        [
+          "main",
+          52,
+          184,
+          71,
+          10,
+          71,
+          16,
+          71,
+          18,
+          71,
+          10
+        ]
+      ]
+    },
+    "std::basic_istream::operator>>": {
+      "tracking-with-Extended-Kalman-Filter/src/main.cpp": [
+        [
+          "main",
+          52,
+          184,
+          89,
+          11,
+          89,
+          11,
+          81,
+          40,
+          94,
+          37
+        ],
+        [
+          "main",
+          52,
+          184,
+          90,
+          11,
+          90,
+          11,
+          81,
+          40,
+          94,
+          37
+        ],
+        [
+          "main",
+          52,
+          184,
+          92,
+          11,
+          92,
+          11,
+          81,
+          40,
+          94,
+          37
+        ],
+        [
+          "main",
+          52,
+          184,
+          104,
+          11,
+          104,
+          11,
+          95,
+          47,
+          110,
+          37
+        ],
+        [
+          "main",
+          52,
+          184,
+          105,
+          11,
+          105,
+          11,
+          95,
+          47,
+          110,
+          37
+        ],
+        [
+          "main",
+          52,
+          184,
+          106,
+          11,
+          106,
+          11,
+          95,
+          47,
+          110,
+          37
+        ],
+        [
+          "main",
+          52,
+          184,
+          108,
+          11,
+          108,
+          11,
+          95,
+          47,
+          110,
+          37
+        ],
+        [
+          "main",
+          52,
+          184,
+          118,
+          9,
+          118,
+          9,
+          114,
+          5,
+          125,
+          3
+        ],
+        [
+          "main",
+          52,
+          184,
+          119,
+          9,
+          119,
+          9,
+          114,
+          5,
+          125,
+          3
+        ],
+        [
+          "main",
+          52,
+          184,
+          120,
+          9,
+          120,
+          9,
+          114,
+          5,
+          125,
+          3
+        ],
+        [
+          "main",
+          52,
+          184,
+          121,
+          9,
+          121,
+          9,
+          114,
+          5,
+          125,
+          3
+        ]
+      ]
+    }
+  },
+  "CWE-643": {},
+  "CWE-760": {
+    "rand": {
+      "tracking-with-Extended-Kalman-Filter/src/Eigen/src/Core/MathFunctions.h": [
+        [
+          "run",
+          510,
+          528,
+          525,
+          29,
+          525,
+          37,
+          524,
+          8,
+          526,
+          27
+        ]
+      ]
+    }
+  },
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {}
+}

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/text-generation-webui/modules/llama_cpp_server.py","call function: 409:24-414:9","call in function: _start_server@304-439","callee=subprocess.Popen","basic block: 407:9-419:18"
+"path: /home/sixsquare/codeQL/projects/text-generation-webui/modules/models_settings.py","call function: 422:18-427:9","call in function: get_nvidia_vram@408-465","callee=subprocess.run","basic block: 423:14-427:9"
+"path: /home/sixsquare/codeQL/projects/text-generation-webui/one_click.py","call function: 229:14-229:107","call in function: run_cmd@215-236","callee=subprocess.run","basic block: 226:18-232:21"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/auto-unlocker/src/patchversioner.cpp","call function: 42:17-42:20","call in function: writePatchData@33-55","callee=time","basic block: 42:2-55:1"
+"Path: /home/sixsquare/codeQL/projects/auto-unlocker/src/network.cpp","call function: 40:119-40:134","call in function: progress_callback@31-61","callee=std::time","basic block: 36:2-42:72"
+"Path: /home/sixsquare/codeQL/projects/auto-unlocker/src/network.cpp","call function: 105:140-105:155","call in function: curlDownload@70-118","callee=std::time","basic block: 102:3-113:21"

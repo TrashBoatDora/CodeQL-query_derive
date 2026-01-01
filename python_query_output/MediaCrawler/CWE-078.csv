@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/tools/browser_launcher.py","call function: 159:27-164:17","call in function: launch_browser@109-177","callee=subprocess.Popen","basic block: 163:21-164:17"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/tools/browser_launcher.py","call function: 166:27-171:17","call in function: launch_browser@109-177","callee=subprocess.Popen","basic block: 170:21-171:17"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/tools/browser_launcher.py","call function: 218:26-219:80","call in function: get_browser_info@202-227","callee=subprocess.run","basic block: 218:42-219:80"
+"path: /home/sixsquare/codeQL/projects/MediaCrawler/tools/browser_launcher.py","call function: 239:21-240:53","call in function: cleanup@229-249","callee=subprocess.run","basic block: 239:36-240:53"

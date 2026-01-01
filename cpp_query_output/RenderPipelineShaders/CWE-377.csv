@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RenderPipelineShaders/tools/app_framework/afx_common_helpers.hpp","call function: 265:10-265:14","call in function: WriteToFile@259-278","callee=fopen","basic block: 260:1-268:10"
+"Path: /home/sixsquare/codeQL/projects/RenderPipelineShaders/external/imgui/imgui.cpp","call function: 1819:12-1819:16","call in function: ImFileOpen@1806-1821","callee=fopen","basic block: 1807:1-1806:23"

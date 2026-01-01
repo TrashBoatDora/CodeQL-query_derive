@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/units/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h","call function: 2063:10-2063:16","call in function: FReopen@2062-2064","callee=freopen","basic block: 2062:72-2062:20"
+"Path: /home/sixsquare/codeQL/projects/units/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h","call function: 2058:10-2058:14","call in function: FOpen@2050-2060","callee=fopen","basic block: 2050:56-2050:18"
+"Path: /home/sixsquare/codeQL/projects/units/build/_deps/googletest-src/googletest/src/gtest-port.cc","call function: 1102:29-1102:37","call in function: CapturedStream@1037-1113","callee=mkstemp","basic block: 1037:70-1103:25"

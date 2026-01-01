@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Open-Assistant/backend/oasst_backend/api/v1/auth.py","call function: 31:19-31:33","call in function: get_current_user@24-40","callee=cryptography.hazmat.primitives.hashes.SHA256","basic block: 24:28-40:39"
+"path: /home/sixsquare/codeQL/projects/Open-Assistant/inference/server/oasst_inference_server/auth.py","call function: 114:19-114:33","call in function: derive_key@111-120","callee=cryptography.hazmat.primitives.hashes.SHA256","basic block: 112:5-120:14"
+"path: /home/sixsquare/codeQL/projects/Open-Assistant/inference/server/oasst_inference_server/auth.py","call function: 140:25-140:45","call in function: store_refresh_token@138-145","callee=hashlib.sha256","basic block: 138:31-145:30"
+"path: /home/sixsquare/codeQL/projects/Open-Assistant/inference/server/oasst_inference_server/auth.py","call function: 150:25-150:45","call in function: query_refresh_token@148-156","callee=hashlib.sha256","basic block: 148:31-156:22"
+"path: /home/sixsquare/codeQL/projects/Open-Assistant/oasst-shared/oasst_shared/utils.py","call function: 73:12-73:57","call in function: sha256_hash@72-73","callee=hashlib.sha256","basic block: 72:17-73:69"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Jazz2/ContentResolver.cpp","call function: 674:15-674:19","call in function: RequestGraphics@643-769","callee=Json::CharReader::parse","basic block: 667:3-674:19"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Jazz2/ContentResolver.cpp","call function: 499:15-499:19","call in function: RequestMetadata@456-641","callee=Json::CharReader::parse","basic block: 487:3-499:19"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/Jazz2/UI/DiscordRpcClient.cpp","call function: 261:15-261:19","call in function: ProcessInboundFrame@254-276","callee=Json::CharReader::parse","basic block: 258:3-261:19"
+"Path: /home/sixsquare/codeQL/projects/jazz2-native/Sources/jsoncpp/reader.cpp","call function: 1224:17-1224:21","call in function: parse@1223-1225","callee=Json::CharReader::parse","basic block: 1223:103-1223:23"

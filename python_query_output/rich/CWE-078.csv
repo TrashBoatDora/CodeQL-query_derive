@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/rich/tools/make_terminal_widths.py","call function: 85:5-85:63","call in function: run@73-85","callee=subprocess.run","basic block: 74:10-85:63"
+"path: /home/sixsquare/codeQL/projects/rich/tests/test_console.py","call function: 1006:17-1006:35","call in function: test_brokenpipeerror@1001-1017","callee=subprocess.run","basic block: 1005:9-1007:21"
+"path: /home/sixsquare/codeQL/projects/rich/tests/test_console.py","call function: 1010:13-1010:62","call in function: test_brokenpipeerror@1001-1017","callee=subprocess.Popen","basic block: 1009:16-1016:32"
+"path: /home/sixsquare/codeQL/projects/rich/tests/test_console.py","call function: 1011:13-1011:82","call in function: test_brokenpipeerror@1001-1017","callee=subprocess.Popen","basic block: 1009:16-1016:32"

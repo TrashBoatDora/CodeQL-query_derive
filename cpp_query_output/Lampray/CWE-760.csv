@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Lampray/Lampray/Control/lampControl.cpp","call function: 7:33-7:41","call in function: getFormattedTimeAndDate@6-16","callee=time","basic block: 6:75-6:71"

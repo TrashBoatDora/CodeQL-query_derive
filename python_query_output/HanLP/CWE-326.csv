@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/HanLP/plugins/hanlp_restful/hanlp_restful/__init__.py","call function: 31:19-31:46","call in function: _post@25-34","callee=ssl.create_default_context","basic block: 31:19-33:27"

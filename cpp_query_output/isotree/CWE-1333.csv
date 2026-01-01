@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/isotree/src/formatted_exporters.cpp","call function: 332:13-332:30","call in function: escape_strings@315-356","callee=std::regex_replace","basic block: 329:5-329:33"
+"Path: /home/sixsquare/codeQL/projects/isotree/src/formatted_exporters.cpp","call function: 332:13-332:30","call in function: escape_strings@315-356","callee=std::regex","basic block: 329:5-329:33"
+"Path: /home/sixsquare/codeQL/projects/isotree/src/formatted_exporters.cpp","call function: 339:13-339:30","call in function: escape_strings@315-356","callee=std::regex_replace","basic block: 336:5-336:33"
+"Path: /home/sixsquare/codeQL/projects/isotree/src/formatted_exporters.cpp","call function: 339:13-339:30","call in function: escape_strings@315-356","callee=std::regex","basic block: 336:5-336:33"
+"Path: /home/sixsquare/codeQL/projects/isotree/src/formatted_exporters.cpp","call function: 352:17-352:34","call in function: escape_strings@315-356","callee=std::regex_replace","basic block: 349:9-349:37"
+"Path: /home/sixsquare/codeQL/projects/isotree/src/formatted_exporters.cpp","call function: 352:17-352:34","call in function: escape_strings@315-356","callee=std::regex","basic block: 349:9-349:37"

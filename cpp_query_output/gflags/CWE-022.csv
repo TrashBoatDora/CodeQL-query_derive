@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/gflags/src/util.h","call function: 363:8-363:12","call in function: SafeFOpen@357-367","callee=fopen","basic block: 358:1-365:21"
+"Path: /home/sixsquare/codeQL/projects/gflags/src/util.h","call function: 264:12-264:16","call in function: MakeTmpdir@262-268","callee=mkdir","basic block: 263:23-265:13"
+"Path: /home/sixsquare/codeQL/projects/gflags/src/util.h","call function: 267:3-267:7","call in function: MakeTmpdir@262-268","callee=mkdir","basic block: 267:3-268:1"

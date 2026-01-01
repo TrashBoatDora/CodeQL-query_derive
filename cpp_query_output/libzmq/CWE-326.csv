@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/libzmq/build/CMakeFiles/CMakeTmp/src.c","call function: 7:14-7:22","call in function: main@4-1","callee=getrandom","basic block: 5:1-8:19"
+"Path: /home/sixsquare/codeQL/projects/libzmq/build/CMakeFiles/CMakeTmp/src.c","call function: 7:14-7:22","call in function: main@4-8","callee=getrandom","basic block: 5:1-8:19"
+"Path: /home/sixsquare/codeQL/projects/libzmq/build/CMakeFiles/CMakeTmp/src.c","call function: 7:14-7:22","call in function: main@4-9","callee=getrandom","basic block: 5:1-8:19"
+"Path: /home/sixsquare/codeQL/projects/libzmq/build/CMakeFiles/CMakeTmp/src.c","call function: 7:14-7:22","call in function: main@1-1","callee=getrandom","basic block: 5:1-8:19"
+"Path: /home/sixsquare/codeQL/projects/libzmq/build/CMakeFiles/CMakeTmp/src.c","call function: 7:14-7:22","call in function: main@1-8","callee=getrandom","basic block: 5:1-8:19"
+"Path: /home/sixsquare/codeQL/projects/libzmq/build/CMakeFiles/CMakeTmp/src.c","call function: 7:14-7:22","call in function: main@1-9","callee=getrandom","basic block: 5:1-8:19"

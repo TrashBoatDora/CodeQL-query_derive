@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/cuda_malloc.py","call function: 39:15-39:59","call in function: get_gpu_names@7-43","callee=subprocess.check_output","basic block: 38:21-40:33"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/tests/inference/test_inference.py","call function: 154:13-159:18","call in function: _server@152-162","callee=subprocess.Popen","basic block: 152:17-162:32"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/tests/execution/test_progress_isolation.py","call function: 98:13-98:35","call in function: _server@87-100","callee=subprocess.Popen","basic block: 87:17-100:16"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/tests/execution/test_async_nodes.py","call function: 33:13-33:35","call in function: _server@20-36","callee=subprocess.Popen","basic block: 33:13-36:32"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/tests/execution/test_execution.py","call function: 174:13-174:35","call in function: _server@160-177","callee=subprocess.Popen","basic block: 173:9-177:32"

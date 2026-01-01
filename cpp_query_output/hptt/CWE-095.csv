@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/hptt/src/transpose.cpp","call function: 1993:21-1993:59","call in function: estimateExecutionTime@1991-2015","callee=std::system","basic block: 1992:1-2005:14"
+"Path: /home/sixsquare/codeQL/projects/hptt/src/transpose.cpp","call function: 1996:8-1996:46","call in function: estimateExecutionTime@1991-2015","callee=std::system","basic block: 1992:1-2005:14"
+"Path: /home/sixsquare/codeQL/projects/hptt/src/transpose.cpp","call function: 2004:16-2004:54","call in function: estimateExecutionTime@1991-2015","callee=std::system","basic block: 1992:1-2005:14"
+"Path: /home/sixsquare/codeQL/projects/hptt/src/transpose.cpp","call function: 2008:8-2008:46","call in function: estimateExecutionTime@1991-2015","callee=std::system","basic block: 2007:4-1991:49"
+"Path: /home/sixsquare/codeQL/projects/hptt/src/transpose.cpp","call function: 2008:8-2008:46","call in function: estimateExecutionTime@1991-2015","callee=std::system","basic block: 2007:4-1991:29"
+"Path: /home/sixsquare/codeQL/projects/hptt/src/transpose.cpp","call function: 2058:24-2058:62","call in function: selectPlan@2036-2084","callee=std::system","basic block: 2056:4-2059:26"
+"Path: /home/sixsquare/codeQL/projects/hptt/src/transpose.cpp","call function: 2064:14-2064:52","call in function: selectPlan@2036-2084","callee=std::system","basic block: 2060:7-2065:37"

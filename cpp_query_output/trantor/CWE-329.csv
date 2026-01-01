@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/trantor/trantor/net/inner/TimerQueue.cc","call function: 62:15-62:31","call in function: resetTimerfd@54-67","callee=time","basic block: 55:1-63:11"
+"Path: /home/sixsquare/codeQL/projects/trantor/trantor/net/inner/TimerQueue.cc","call function: 32:19-32:34","call in function: createTimerfd@30-38","callee=time","basic block: 31:1-33:19"
+"Path: /home/sixsquare/codeQL/projects/trantor/trantor/utils/Date.cc","call function: 56:5-56:16","call in function: date@52-65","callee=gettimeofday","basic block: 53:1-52:21"
+"Path: /home/sixsquare/codeQL/projects/trantor/trantor/utils/Utilities.cc","call function: 467:14-467:23","call in function: secureRandomBytes@459-574","callee=RAND_bytes","basic block: 464:5-467:60"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 2762:19-2762:39","call in function: operator()@2757-2769","callee=boost::format","basic block: 2758:5-0:0"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 2762:19-2762:39","call in function: operator()@2757-2769","callee=boost::format","basic block: 2758:5-2758:45"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 2779:14-2779:34","call in function: operator()@2775-2784","callee=boost::format","basic block: 2778:34-2779:11"

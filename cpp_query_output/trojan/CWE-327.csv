@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/service.cpp","call function: 236:9-236:31","call in function: Service@47-276","callee=SSL_CTX_set_cipher_list","basic block: 235:37-236:31"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/config.cpp","call function: 148:10-148:26","call in function: SHA224@140-167","callee=EVP_DigestInit","basic block: 148:5-148:54"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/config.cpp","call function: 148:10-148:26","call in function: SHA224@140-167","callee=EVP_DigestInit_ex","basic block: 148:5-148:54"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/config.cpp","call function: 148:33-148:42","call in function: SHA224@140-167","callee=EVP_sha224","basic block: 148:5-148:54"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/config.cpp","call function: 152:10-152:25","call in function: SHA224@140-167","callee=EVP_DigestUpdate","basic block: 152:5-152:65"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/config.cpp","call function: 156:10-156:27","call in function: SHA224@140-167","callee=EVP_DigestFinal","basic block: 156:5-156:53"

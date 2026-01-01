@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/tesseract/src/viewer/svutil.cpp","call function: 111:5-111:10","call in function: StartProcess@65-114","callee=execvp","basic block: 110:5-112:3"
+"Path: /home/sixsquare/codeQL/projects/tesseract/src/viewer/svutil.cpp","call function: 111:5-111:10","call in function: StartProcess@65-114","callee=execv","basic block: 110:5-112:3"

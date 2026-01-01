@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/updates_test.cpp","call function: 210:68-210:68","call in function: main@176-278","callee=std::basic_istream::operator>>","basic block: 210:9-226:14"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/updates_test.cpp","call function: 210:63-210:63","call in function: main@176-278","callee=std::basic_istream::operator>>","basic block: 210:9-226:14"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/updates_test.cpp","call function: 210:50-210:50","call in function: main@176-278","callee=std::basic_istream::operator>>","basic block: 210:9-226:14"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/updates_test.cpp","call function: 210:25-210:25","call in function: main@176-278","callee=std::basic_istream::operator>>","basic block: 210:9-226:14"
+"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/updates_test.cpp","call function: 210:20-210:20","call in function: main@176-278","callee=std::basic_istream::operator>>","basic block: 210:9-226:14"

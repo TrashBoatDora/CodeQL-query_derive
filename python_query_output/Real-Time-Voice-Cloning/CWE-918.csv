@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/utils/default_models.py","call function: 30:13-30:84","call in function: download@23-32","callee=urllib.request.urlretrieve","basic block: 30:62-30:84"

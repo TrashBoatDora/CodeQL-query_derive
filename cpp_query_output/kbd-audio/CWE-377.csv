@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/kbd-audio/imgui/imgui.cpp","call function: 1578:12-1578:16","call in function: ImFileOpen@1565-1580","callee=fopen","basic block: 1566:1-1565:23"
+"Path: /home/sixsquare/codeQL/projects/kbd-audio/imgui/examples/libs/gl3w/GL/gl3w.c","call function: 113:2-113:11","call in function: gl3wInit@111-117","callee=open","basic block: 112:1-111:12"
+"Path: /home/sixsquare/codeQL/projects/kbd-audio/dr_wav.h","call function: 3085:19-3085:23","call in function: drwav_wfopen@3016-3096","callee=fopen","basic block: 3075:40-3090:23"
+"Path: /home/sixsquare/codeQL/projects/kbd-audio/dr_wav.h","call function: 2982:19-2982:23","call in function: drwav_fopen@2956-2996","callee=fopen","basic block: 2982:9-2985:23"

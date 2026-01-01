@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Silice/src/RISCVSynthesizer.cpp","call function: 504:5-504:10","call in function: RISCVSynthesizer@426-506","callee=system","basic block: 476:7-505:3"
+"Path: /home/sixsquare/codeQL/projects/Silice/antlr/antlr4-cpp-runtime-4.7.2-source/runtime/src/atn/ProfilingATNSimulator.cpp","call function: 38:45-38:70","call in function: adaptivePredict@30-63","callee=std::system","basic block: 30:117-46:74"
+"Path: /home/sixsquare/codeQL/projects/Silice/antlr/antlr4-cpp-runtime-4.7.2-source/runtime/src/atn/ProfilingATNSimulator.cpp","call function: 40:44-40:69","call in function: adaptivePredict@30-63","callee=std::system","basic block: 30:117-46:74"
+"Path: /home/sixsquare/codeQL/projects/Silice/src/libs/lua/src/liolib.c","call function: 280:10-280:35","call in function: io_popen@276-283","callee=popen","basic block: 276:36-282:22"
+"Path: /home/sixsquare/codeQL/projects/Silice/src/libs/lua/src/loslib.c","call function: 151:14-151:19","call in function: os_execute@149-158","callee=system","basic block: 149:38-152:17"

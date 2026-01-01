@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/ptuning/main.py","call function: 417:22-417:72","call in function: main@49-421","callee=open","basic block: 408:31-418:56"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/ptuning/trainer.py","call function: 2740:17-2740:73","call in function: save_model@2720-2782","callee=pathlib.Path.touch","basic block: 2740:17-2740:73"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/ptuning/trainer.py","call function: 3464:18-3464:94","call in function: init_git_repo@3426-3471","callee=open","basic block: 3464:18-3465:52"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/ptuning/trainer.py","call function: 3526:14-3526:71","call in function: create_model_card@3473-3527","callee=open","basic block: 3513:28-3527:31"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/ptuning/trainer.py","call function: 3803:18-3803:75","call in function: _add_sm_patterns_to_gitignore@3793-3830","callee=open","basic block: 3803:18-3804:31"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/ptuning/trainer.py","call function: 3819:18-3819:75","call in function: _add_sm_patterns_to_gitignore@3793-3830","callee=open","basic block: 3819:18-3821:32"

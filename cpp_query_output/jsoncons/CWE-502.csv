@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/test/thirdparty/catch/catch.hpp","call function: 10473:36-10473:47","call in function: isDebuggerActive@10468-10484","callee=std::getline","basic block: 10473:49-10473:36"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/test/thirdparty/catch/catch.hpp","call function: 9728:24-9728:35","call in function: operator()@9722-9742","callee=std::getline","basic block: 9728:38-9728:24"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/test/thirdparty/catch/catch.hpp","call function: 9073:12-9073:12","call in function: convertInto@9070-9078","callee=std::basic_istream::operator>>","basic block: 9070:85-9074:19"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/include/jsoncons_ext/csv/csv_parser.hpp","call function: 1886:29-1886:29","call in function: end_value@1827-2019","callee=std::basic_istream::operator>>","basic block: 1882:17-1887:39"
+"Path: /home/sixsquare/codeQL/projects/jsoncons/include/jsoncons_ext/csv/csv_parser.hpp","call function: 1920:33-1920:33","call in function: end_value@1827-2019","callee=std::basic_istream::operator>>","basic block: 1917:25-1921:43"

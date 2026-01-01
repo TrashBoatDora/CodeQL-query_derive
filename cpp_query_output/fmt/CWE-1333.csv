@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/fmt/test/gtest/gmock-gtest-all.cc","call function: 11078:15-11078:21","call in function: Init@11069-11096","callee=regcomp","basic block: 11069:34-11087:15"
+"Path: /home/sixsquare/codeQL/projects/fmt/test/gtest/gmock-gtest-all.cc","call function: 11089:17-11089:23","call in function: Init@11069-11096","callee=regcomp","basic block: 11089:5-11089:74"
+"Path: /home/sixsquare/codeQL/projects/fmt/test/gtest/gmock-gtest-all.cc","call function: 11065:10-11065:16","call in function: PartialMatch@11061-11066","callee=regexec","basic block: 11064:3-11065:60"
+"Path: /home/sixsquare/codeQL/projects/fmt/test/gtest/gmock-gtest-all.cc","call function: 11056:10-11056:16","call in function: FullMatch@11052-11057","callee=regexec","basic block: 11055:3-11056:57"
+"Path: /home/sixsquare/codeQL/projects/fmt/test/gtest/gmock-gtest-all.cc","call function: 11045:5-11045:11","call in function: ~RE@11039-11049","callee=regfree","basic block: 11040:18-11046:11"
+"Path: /home/sixsquare/codeQL/projects/fmt/test/gtest/gmock-gtest-all.cc","call function: 11046:5-11046:11","call in function: ~RE@11039-11049","callee=regfree","basic block: 11040:18-11046:11"

@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 1649:31-1649:44","call in function: pop_scope@1647-1681","callee=std::system","basic block: 1647:49-1650:30"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 1640:32-1640:45","call in function: check_for_scope@1630-1645","callee=std::system","basic block: 1640:5-1641:17"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 1603:27-1603:40","call in function: check_for_scope@1630-1645","callee=std::system","basic block: 1630:52-1637:32"
+"Path: /home/sixsquare/codeQL/projects/ut/include/boost/ut.hpp","call function: 1604:26-1604:39","call in function: check_for_scope@1630-1645","callee=std::system","basic block: 1630:52-1637:32"
+"Path: /home/sixsquare/codeQL/projects/ut/example/benchmark.cpp","call function: 22:26-22:64","call in function: operator()@21-28","callee=std::system","basic block: 21:67-21:67"
+"Path: /home/sixsquare/codeQL/projects/ut/example/benchmark.cpp","call function: 24:25-24:63","call in function: operator()@21-28","callee=std::system","basic block: 21:67-21:67"

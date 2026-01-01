@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 78:16-78:54","call in function: bench_classes@54-111","callee=std::system","basic block: 75:2-0:0"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 80:14-80:52","call in function: bench_classes@54-111","callee=std::system","basic block: 75:2-0:0"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 87:16-87:54","call in function: bench_classes@54-111","callee=std::system","basic block: 75:2-0:0"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 89:14-89:52","call in function: bench_classes@54-111","callee=std::system","basic block: 75:2-0:0"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 96:16-96:54","call in function: bench_classes@54-111","callee=std::system","basic block: 75:2-0:0"
+"Path: /home/sixsquare/codeQL/projects/signals/Bench.h","call function: 99:14-99:52","call in function: bench_classes@54-111","callee=std::system","basic block: 99:3-0:0"

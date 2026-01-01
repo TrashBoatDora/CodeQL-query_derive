@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/web/funcs.py","call function: 51:28-51:61","call in function: generate_seed@50-51","callee=random.randint","basic block: 51:12-51:62"
+"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/cmd/stream.py","call function: 19:16-19:30","call in function: _update_stream@15-29","callee=random.random","basic block: 17:29-19:36"

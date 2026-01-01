@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/quivr/examples/quivr-whisper/app.py","call function: 64:16-64:45","call in function: upload_file@53-83","callee=werkzeug.utils.secure_filename","basic block: 61:8-77:55"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/storage/file.py","call function: 22:24-22:59","call in function: get_file_extension@20-33","callee=mimetypes.guess_type","basic block: 22:24-22:59"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/files/file.py","call function: 55:24-55:59","call in function: get_file_extension@53-66","callee=mimetypes.guess_type","basic block: 55:24-55:59"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/llm/llm_endpoint.py","call function: 228:30-228:58","call in function: from_config@212-313","callee=urllib.parse.urlparse","basic block: 228:30-228:58"

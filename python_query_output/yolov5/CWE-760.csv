@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/yolov5/utils/dataloaders.py","call function: 78:9-78:42","call in function: get_hash@75-80","callee=hashlib.sha256","basic block: 75:14-80:24"

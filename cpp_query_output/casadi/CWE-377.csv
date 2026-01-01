@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/casadi/casadi/core/runtime/casadi_file_slurp.hpp","call function: 25:8-25:12","call in function: casadi_file_slurp@22-32","callee=fopen","basic block: 22:63-26:9"
+"Path: /home/sixsquare/codeQL/projects/casadi/build/simple_mkstemps_test.cxx","call function: 5:12-5:15","call in function: main@4-6","callee=open","basic block: 4:12-4:8"
+"Path: /home/sixsquare/codeQL/projects/casadi/build/mkstemps_test.cxx","call function: 5:14-5:21","call in function: main@3-7","callee=mkstemp","basic block: 3:12-3:8"
+"Path: /home/sixsquare/codeQL/projects/casadi/casadi/core/casadi_misc.cpp","call function: 374:9-374:16","call in function: temporary_file@359-390","callee=mkstemp","basic block: 373:5-374:64"
+"Path: /home/sixsquare/codeQL/projects/casadi/external_packages/tinyxml2-9.0.0/tinyxml2.cpp","call function: 2288:16-2288:20","call in function: callfopen@2277-2291","callee=fopen","basic block: 2278:1-2277:22"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/cheat.sh/bin/app.py","call function: 250:16-250:64","call in function: _proxy@212-251","callee=flask.Response","basic block: 226:5-251:19"
+"path: /home/sixsquare/codeQL/projects/cheat.sh/bin/app.py","call function: 333:12-333:50","call in function: answer@256-333","callee=flask.Response","basic block: 330:5-333:50"

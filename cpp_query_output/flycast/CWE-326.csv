@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/flycast/core/deps/breakpad/src/common/linux/guid_creator.cc","call function: 133:22-133:30","call in function: CreateGUIDFromGetrandom@131-136","callee=getrandom","basic block: 131:51-131:37"
+"Path: /home/sixsquare/codeQL/projects/flycast/core/deps/libjuice/src/random.c","call function: 24:16-24:24","call in function: random_bytes@23-34","callee=getrandom","basic block: 23:49-25:12"

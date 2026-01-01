@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/sysinfo.cc","call function: 704:10-704:21","call in function: GetCPUCyclesPerSecond@653-859","callee=std::getline","basic block: 704:23-704:10"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/sysinfo.cc","call function: 283:7-283:7","call in function: GetCacheSizesFromKVFS@271-313","callee=std::basic_istream::operator>>","basic block: 282:5-284:14"
+"Path: /home/sixsquare/codeQL/projects/benchmark/src/sysinfo.cc","call function: 222:5-222:5","call in function: ReadFromFile@216-224","callee=std::basic_istream::operator>>","basic block: 222:3-224:1"

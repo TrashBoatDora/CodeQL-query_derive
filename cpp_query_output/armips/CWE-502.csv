@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/armips/Archs/Architecture.cpp","call function: 57:10-57:21","call in function: writeTempData@50-63","callee=std::getline","basic block: 57:23-57:10"
+"Path: /home/sixsquare/codeQL/projects/armips/Main/Tests.cpp","call function: 18:10-18:21","call in function: splitString@12-26","callee=std::getline","basic block: 18:23-18:10"

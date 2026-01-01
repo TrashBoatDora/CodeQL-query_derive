@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/txtempus/src/txtempus.cc","call function: 162:33-162:36","call in function: main@161-255","callee=time","basic block: 161:34-197:3"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/quivr/examples/quivr-whisper/app.py","call function: 34:12-34:40","call in function: index@33-34","callee=flask.render_template","basic block: 34:12-34:40"

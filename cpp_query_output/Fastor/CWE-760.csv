@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Fastor/Fastor/tensor/TensorMethods.h","call function: 88:38-88:41","call in function: random@85-90","callee=rand","basic block: 87:43-87:40"

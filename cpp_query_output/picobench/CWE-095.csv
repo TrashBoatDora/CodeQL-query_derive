@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/picobench/include/picobench/picobench.hpp","call function: 207:25-207:43","call in function: stop_timer@205-209","callee=std::system","basic block: 206:5-205:19"
+"Path: /home/sixsquare/codeQL/projects/picobench/include/picobench/picobench.hpp","call function: 201:18-201:36","call in function: start_timer@199-202","callee=std::system","basic block: 200:5-199:20"
+"Path: /home/sixsquare/codeQL/projects/picobench/tools/picobench.cpp","call function: 88:22-88:40","call in function: calc_spawn_time@82-95","callee=std::system","basic block: 87:5-92:27"
+"Path: /home/sixsquare/codeQL/projects/picobench/tools/picobench.cpp","call function: 90:25-90:43","call in function: calc_spawn_time@82-95","callee=std::system","basic block: 87:5-92:27"
+"Path: /home/sixsquare/codeQL/projects/picobench/tools/picobench.cpp","call function: 62:14-62:18","call in function: exec@60-65","callee=popen","basic block: 61:1-63:10"

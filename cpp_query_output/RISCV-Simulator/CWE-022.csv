@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/Session.cpp","call function: 60:21-60:25","call in function: load_hex@59-62","callee=std::basic_fstream::basic_fstream","basic block: 59:42-59:22"
+"Path: /home/sixsquare/codeQL/projects/RISCV-Simulator/src/Common/Session.cpp","call function: 45:21-45:25","call in function: load_memory@44-47","callee=std::basic_fstream::basic_fstream","basic block: 44:45-44:25"

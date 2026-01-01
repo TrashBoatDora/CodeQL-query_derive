@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/row_serialization.h","call function: 140:5-140:13","call in function: finish@132-157","callee=MD5_Final","basic block: 138:4-141:15"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/row_serialization.h","call function: 140:5-140:13","call in function: finish@132-157","callee=MD5","basic block: 138:4-141:15"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/row_serialization.h","call function: 115:5-115:14","call in function: write@110-130","callee=MD5","basic block: 114:4-116:10"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/row_serialization.h","call function: 115:5-115:14","call in function: write@110-130","callee=MD5_Update","basic block: 114:4-116:10"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/row_serialization.h","call function: 88:5-88:12","call in function: RowHasher@85-103","callee=MD5","basic block: 87:4-89:10"
+"Path: /home/sixsquare/codeQL/projects/kitchen_sync/src/row_serialization.h","call function: 88:5-88:12","call in function: RowHasher@85-103","callee=MD5_Init","basic block: 87:4-89:10"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/daScript/modules/dasGlfw/libglfw/src/linux_joystick.c","call function: 363:13-363:19","call in function: _glfwDetectJoystickConnectionLinux@347-383","callee=regexec","basic block: 0:0-363:67"
+"Path: /home/sixsquare/codeQL/projects/daScript/modules/dasGlfw/libglfw/src/linux_joystick.c","call function: 336:5-336:11","call in function: _glfwTerminateJoysticksLinux@325-345","callee=regfree","basic block: 336:5-338:31"
+"Path: /home/sixsquare/codeQL/projects/daScript/modules/dasGlfw/libglfw/src/linux_joystick.c","call function: 286:9-286:15","call in function: _glfwInitJoysticksLinux@269-321","callee=regcomp","basic block: 286:5-286:62"
+"Path: /home/sixsquare/codeQL/projects/daScript/modules/dasGlfw/libglfw/src/linux_joystick.c","call function: 303:17-303:23","call in function: _glfwInitJoysticksLinux@269-321","callee=regexec","basic block: 0:0-303:77"

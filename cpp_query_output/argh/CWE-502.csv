@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/argh/argh.h","call function: 308:12-308:12","call in function: is_number@303-310","callee=std::basic_istream::operator>>","basic block: 304:4-309:24"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 4073:31-4073:42","call in function: isDebuggerActive@4070-4080","callee=std::getline","basic block: 4073:44-4073:31"

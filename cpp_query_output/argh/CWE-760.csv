@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 6368:13-6368:22","call in function: run@6281-6542","callee=srand","basic block: 6367:59-6372:47"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 6373:33-6373:41","call in function: run@6281-6542","callee=rand","basic block: 6372:62-6372:59"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 5280:17-5280:25","call in function: getCurrentTimestamp@5276-5295","callee=time","basic block: 5276:54-5276:50"
+"Path: /home/sixsquare/codeQL/projects/argh/doctest.h","call function: 3021:9-3021:20","call in function: getCurrentTicks@3019-3023","callee=gettimeofday","basic block: 3019:31-3019:27"

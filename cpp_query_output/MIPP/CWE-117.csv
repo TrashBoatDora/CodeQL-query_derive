@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/MIPP/tests/lib/Catch2/include/catch.hpp","call function: 15789:9-15789:20","call in function: getFormattedDuration@15776-15792","callee=sprintf","basic block: 15776:57-15776:36"

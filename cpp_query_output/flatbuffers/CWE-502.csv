@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/flatbuffers/include/codegen/python.cc","call function: 13:38-13:38","call in function: Version@10-14","callee=std::basic_istream::operator>>","basic block: 10:46-10:16"
+"Path: /home/sixsquare/codeQL/projects/flatbuffers/include/codegen/python.cc","call function: 13:22-13:22","call in function: Version@10-14","callee=std::basic_istream::operator>>","basic block: 10:46-10:16"
+"Path: /home/sixsquare/codeQL/projects/flatbuffers/include/codegen/python.cc","call function: 13:6-13:6","call in function: Version@10-14","callee=std::basic_istream::operator>>","basic block: 10:46-10:16"
+"Path: /home/sixsquare/codeQL/projects/flatbuffers/src/idl_gen_go.cpp","call function: 98:12-98:23","call in function: GoGenerator@89-101","callee=std::getline","basic block: 98:25-98:12"
+"Path: /home/sixsquare/codeQL/projects/flatbuffers/src/idl_gen_java.cpp","call function: 101:14-101:25","call in function: JavaGenerator@92-106","callee=std::getline","basic block: 101:27-101:14"

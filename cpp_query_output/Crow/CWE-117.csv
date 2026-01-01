@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Crow/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp","call function: 66:13-66:25","call in function: getFormattedDuration@51-69","callee=snprintf","basic block: 51:57-51:36"
+"Path: /home/sixsquare/codeQL/projects/Crow/include/crow/json.h","call function: 1881:33-1881:40","call in function: dump_internal@1852-2028","callee=snprintf","basic block: 1877:29-1881:40"
+"Path: /home/sixsquare/codeQL/projects/Crow/include/crow/json.h","call function: 1889:33-1889:40","call in function: dump_internal@1852-2028","callee=snprintf","basic block: 1885:29-1889:40"

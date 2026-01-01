@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/wirehair/test/SiameseTools.cpp","call function: 100:5-100:16","call in function: GetTimeUsec@81-103","callee=gettimeofday","basic block: 82:1-81:20"

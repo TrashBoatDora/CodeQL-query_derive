@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/restc-cpp/src/SocketImpl.h","call function: 63:21-63:33","call in function: operator()@62-66","callee=boost::asio::async_connect","basic block: 62:40-62:40"
+"Path: /home/sixsquare/codeQL/projects/restc-cpp/src/TlsSocketImpl.h","call function: 81:25-81:37","call in function: operator()@72-95","callee=boost::asio::async_connect","basic block: 72:40-72:40"

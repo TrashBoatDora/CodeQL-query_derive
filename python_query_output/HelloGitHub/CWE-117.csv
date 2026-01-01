@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/make_content/make_content.py","call function: 30:16-30:33","call in function: __str__@29-30","callee=repr","basic block: 29:17-30:33"
+"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/make_content/make_content.py","call function: 38:9-38:52","call in function: check_path@33-41","callee=print","basic block: 38:9-39:20"
+"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/make_content/make_content.py","call function: 68:5-68:61","call in function: make_content@54-68","callee=print","basic block: 58:8-68:61"
+"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/github_bot/github_bot.py","call function: 86:9-86:54","call in function: get_data@70-87","callee=logging.error","basic block: 86:9-87:17"

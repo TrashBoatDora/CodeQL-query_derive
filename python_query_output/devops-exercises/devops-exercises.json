@@ -1,0 +1,541 @@
+{
+  "CWE-022": {
+    "open": {
+      "devops-exercises/scripts/random_question.py": [
+        [
+          "main",
+          6,
+          54,
+          17,
+          10,
+          17,
+          31,
+          7,
+          5,
+          20,
+          13
+        ]
+      ],
+      "devops-exercises/tests/syntax_checker_unittest.py": [
+        [
+          "open_test_case_file",
+          12,
+          17,
+          15,
+          10,
+          15,
+          61,
+          12,
+          25,
+          17,
+          20
+        ]
+      ],
+      "devops-exercises/tests/scripts_question_utils_unittest.py": [
+        [
+          "open_test_case_file",
+          7,
+          12,
+          10,
+          10,
+          10,
+          61,
+          7,
+          25,
+          12,
+          20
+        ]
+      ],
+      "devops-exercises/tests/syntax_lint.py": [
+        [
+          "check_md_file",
+          136,
+          140,
+          137,
+          10,
+          137,
+          22,
+          136,
+          19,
+          140,
+          32
+        ]
+      ]
+    },
+    "os.path.join": {
+      "devops-exercises/topics/flask_container_ci/app/tests.py": [
+        [
+          "setUp",
+          14,
+          20,
+          17,
+          64,
+          18,
+          31,
+          14,
+          15,
+          20,
+          23
+        ]
+      ],
+      "devops-exercises/topics/flask_container_ci2/app/tests.py": [
+        [
+          "setUp",
+          14,
+          20,
+          17,
+          64,
+          18,
+          31,
+          14,
+          15,
+          20,
+          23
+        ]
+      ]
+    }
+  },
+  "CWE-078": {
+    "os.system": {
+      "devops-exercises/scripts/random_question.py": [
+        [
+          "main",
+          6,
+          54,
+          43,
+          13,
+          43,
+          30,
+          43,
+          23,
+          43,
+          30
+        ]
+      ]
+    }
+  },
+  "CWE-079": {
+    "flask.make_response": {
+      "devops-exercises/topics/flask_container_ci2/app/main.py": [
+        [
+          "pretty_json",
+          47,
+          50,
+          48,
+          16,
+          48,
+          71,
+          47,
+          17,
+          50,
+          19
+        ]
+      ],
+      "devops-exercises/topics/flask_container_ci/app/main.py": [
+        [
+          "pretty_json",
+          49,
+          52,
+          50,
+          16,
+          50,
+          71,
+          49,
+          17,
+          52,
+          19
+        ]
+      ]
+    }
+  },
+  "CWE-095": {
+    "input": {
+      "devops-exercises/scripts/random_question.py": [
+        [
+          "main",
+          6,
+          54,
+          46,
+          13,
+          46,
+          19,
+          46,
+          13,
+          46,
+          19
+        ],
+        [
+          "main",
+          6,
+          54,
+          49,
+          13,
+          49,
+          19,
+          49,
+          13,
+          49,
+          19
+        ]
+      ]
+    }
+  },
+  "CWE-113": {
+    "flask.make_response": {
+      "devops-exercises/topics/flask_container_ci2/app/main.py": [
+        [
+          "pretty_json",
+          47,
+          50,
+          48,
+          16,
+          48,
+          71,
+          47,
+          17,
+          50,
+          19
+        ]
+      ],
+      "devops-exercises/topics/flask_container_ci/app/main.py": [
+        [
+          "pretty_json",
+          49,
+          52,
+          50,
+          16,
+          50,
+          71,
+          49,
+          17,
+          52,
+          19
+        ]
+      ]
+    }
+  },
+  "CWE-117": {
+    "print": {
+      "devops-exercises/coding/python/binary_search.py": [
+        [
+          "main",
+          30,
+          38,
+          38,
+          5,
+          38,
+          67,
+          31,
+          5,
+          38,
+          67
+        ]
+      ],
+      "devops-exercises/coding/python/merge_sort.py": [
+        [
+          "main",
+          35,
+          43,
+          41,
+          5,
+          41,
+          42,
+          36,
+          5,
+          43,
+          40
+        ],
+        [
+          "main",
+          35,
+          43,
+          43,
+          5,
+          43,
+          40,
+          36,
+          5,
+          43,
+          40
+        ]
+      ],
+      "devops-exercises/scripts/random_question.py": [
+        [
+          "main",
+          6,
+          54,
+          44,
+          13,
+          44,
+          27,
+          44,
+          13,
+          44,
+          27
+        ],
+        [
+          "main",
+          6,
+          54,
+          45,
+          13,
+          45,
+          53,
+          45,
+          13,
+          45,
+          53
+        ],
+        [
+          "main",
+          6,
+          54,
+          47,
+          13,
+          47,
+          32,
+          47,
+          13,
+          47,
+          32
+        ],
+        [
+          "main",
+          6,
+          54,
+          48,
+          13,
+          48,
+          64,
+          48,
+          13,
+          48,
+          64
+        ],
+        [
+          "main",
+          6,
+          54,
+          54,
+          5,
+          54,
+          42,
+          51,
+          9,
+          54,
+          42
+        ]
+      ],
+      "devops-exercises/scripts/aws s3 event triggering/s3-lambda/s3-lambda.py": [
+        [
+          "lambda_handler",
+          5,
+          38,
+          7,
+          5,
+          7,
+          16,
+          5,
+          20,
+          38,
+          5
+        ],
+        [
+          "lambda_handler",
+          5,
+          38,
+          14,
+          5,
+          14,
+          72,
+          5,
+          20,
+          38,
+          5
+        ]
+      ]
+    },
+    "json.dumps": {
+      "devops-exercises/topics/flask_container_ci2/app/main.py": [
+        [
+          "pretty_json",
+          47,
+          50,
+          48,
+          30,
+          48,
+          70,
+          47,
+          17,
+          50,
+          19
+        ]
+      ],
+      "devops-exercises/topics/flask_container_ci/app/main.py": [
+        [
+          "pretty_json",
+          49,
+          52,
+          50,
+          30,
+          50,
+          70,
+          49,
+          17,
+          52,
+          19
+        ]
+      ],
+      "devops-exercises/scripts/aws s3 event triggering/s3-lambda/s3-lambda.py": [
+        [
+          "lambda_handler",
+          5,
+          38,
+          37,
+          17,
+          37,
+          70,
+          5,
+          20,
+          38,
+          5
+        ]
+      ]
+    }
+  },
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {
+    "random.randint": {
+      "devops-exercises/coding/python/binary_search.py": [
+        [
+          "genexpr",
+          23,
+          23,
+          23,
+          19,
+          23,
+          46,
+          23,
+          52,
+          23,
+          46
+        ],
+        [
+          "main",
+          30,
+          38,
+          36,
+          14,
+          36,
+          34,
+          31,
+          5,
+          38,
+          67
+        ]
+      ],
+      "devops-exercises/coding/python/merge_sort.py": [
+        [
+          "listcomp",
+          32,
+          32,
+          32,
+          13,
+          32,
+          40,
+          32,
+          46,
+          32,
+          40
+        ]
+      ],
+      "devops-exercises/scripts/random_question.py": [
+        [
+          "main",
+          6,
+          54,
+          39,
+          42,
+          39,
+          73,
+          39,
+          57,
+          39,
+          73
+        ]
+      ]
+    }
+  },
+  "CWE-347": {},
+  "CWE-377": {
+    "open": {
+      "devops-exercises/scripts/random_question.py": [
+        [
+          "main",
+          6,
+          54,
+          17,
+          10,
+          17,
+          31,
+          7,
+          5,
+          20,
+          13
+        ]
+      ],
+      "devops-exercises/tests/syntax_checker_unittest.py": [
+        [
+          "open_test_case_file",
+          12,
+          17,
+          15,
+          10,
+          15,
+          61,
+          12,
+          25,
+          17,
+          20
+        ]
+      ],
+      "devops-exercises/tests/scripts_question_utils_unittest.py": [
+        [
+          "open_test_case_file",
+          7,
+          12,
+          10,
+          10,
+          10,
+          61,
+          7,
+          25,
+          12,
+          20
+        ]
+      ],
+      "devops-exercises/tests/syntax_lint.py": [
+        [
+          "check_md_file",
+          136,
+          140,
+          137,
+          10,
+          137,
+          22,
+          136,
+          19,
+          140,
+          32
+        ]
+      ]
+    }
+  },
+  "CWE-502": {},
+  "CWE-643": {},
+  "CWE-760": {},
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {}
+}

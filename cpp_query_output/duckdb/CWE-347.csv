@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/mbedtls/library/pk_wrap.cpp","call function: 147:16-147:39","call in function: rsa_verify_wrap@129-163","callee=mbedtls_rsa_pkcs1_verify","basic block: 147:5-149:56"
+"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/mbedtls/library/pk.cpp","call function: 1122:16-1122:32","call in function: mbedtls_pk_verify_ext@1099-1224","callee=mbedtls_pk_verify","basic block: 1122:9-1122:32"
+"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/mbedtls/library/pk.cpp","call function: 1092:12-1092:40","call in function: mbedtls_pk_verify@1088-1094","callee=mbedtls_pk_verify","basic block: 1091:1-1088:21"
+"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/mbedtls/mbedtls_wrapper.cpp","call function: 73:15-73:31","call in function: IsValidSha256Signature@55-79","callee=mbedtls_pk_verify","basic block: 73:2-78:13"

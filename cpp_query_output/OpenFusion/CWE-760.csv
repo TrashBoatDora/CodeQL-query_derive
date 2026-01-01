@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/Email.cpp","call function: 37:31-37:47","call in function: emailReceivePageList@22-46","callee=time","basic block: 29:45-29:42"
+"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/Email.cpp","call function: 38:33-38:49","call in function: emailReceivePageList@22-46","callee=time","basic block: 29:45-29:42"
+"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/main.cpp","call function: 220:92-220:107","call in function: getTimestamp@217-223","callee=std::time","basic block: 217:23-217:19"
+"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/main.cpp","call function: 220:45-220:68","call in function: getTimestamp@217-223","callee=std::time","basic block: 217:23-217:19"
+"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/main.cpp","call function: 211:107-211:122","call in function: getTime@208-214","callee=std::time","basic block: 208:18-208:14"
+"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/main.cpp","call function: 211:55-211:83","call in function: getTime@208-214","callee=std::time","basic block: 208:18-208:14"

@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/rich/rich/json.py","call function: 37:16-37:26","call in function: __init__@25-51","callee=json.loads","basic block: 26:9-48:52"
+"path: /home/sixsquare/codeQL/projects/rich/rich/markup.py","call function: 190:43-190:66","call in function: render@106-231","callee=ast.literal_eval","basic block: 190:56-190:66"
+"path: /home/sixsquare/codeQL/projects/rich/rich/style.py","call function: 475:67-475:83","call in function: meta@473-475","callee=marshal.loads","basic block: 475:46-475:84"
+"path: /home/sixsquare/codeQL/projects/rich/tests/test_rich_print.py","call function: 49:19-49:36","call in function: test_rich_print_json_round_trip@42-50","callee=json.loads","basic block: 43:13-50:30"
+"path: /home/sixsquare/codeQL/projects/rich/rich/theme.py","call function: 53:9-53:52","call in function: from_file@39-56","callee=configparser.ConfigParser.read_file","basic block: 40:9-56:20"

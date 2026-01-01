@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/fatcat/src/FatUtils.h","call function: 54:11-54:17","call in function: split@51-58","callee=std::getline","basic block: 54:19-54:11"

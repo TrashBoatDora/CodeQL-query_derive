@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 14932:70-14932:108","call in function: getCurrentNanosecondsSinceEpoch@14931-14933","callee=std::system","basic block: 14931:56-14931:40"

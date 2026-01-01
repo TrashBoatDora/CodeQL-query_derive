@@ -1,0 +1,216 @@
+//number of apis 179
+import python
+import semmle.python.ApiGraphs
+
+predicate targetApi(API::Node api, string qn) {
+  api = API::builtin("open") and qn = "open" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("extract") and qn = "zipfile.ZipFile.extract" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("extractall") and qn = "zipfile.ZipFile.extractall" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("open") and qn = "zipfile.ZipFile.open" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("namelist") and qn = "zipfile.ZipFile.namelist" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("infolist") and qn = "zipfile.ZipFile.infolist" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("write") and qn = "zipfile.ZipFile.write" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAnInstance().getMember("writestr") and qn = "zipfile.ZipFile.writestr" or
+  api = API::moduleImport("zipfile").getMember("ZipFile").getAMember() and qn = "zipfile.ZipFile" or
+  api = API::moduleImport("zipfile").getMember("Path").getAMember() and qn = "zipfile.Path" or
+  api = API::moduleImport("zipfile").getMember("Path").getAnInstance().getMember("open") and qn = "zipfile.Path.open" or
+  api = API::moduleImport("zipfile").getMember("ZipInfo").getMember("from_file") and qn = "zipfile.ZipInfo.from_file" or
+  api = API::moduleImport("zipfile").getMember("ZipInfo").getMember("filename") and qn = "zipfile.ZipInfo.filename" or
+  api = API::moduleImport("tarfile").getMember("open") and qn = "tarfile.open" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("extract") and qn = "tarfile.TarFile.extract" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("extractall") and qn = "tarfile.TarFile.extractall" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("extractfile") and qn = "tarfile.TarFile.extractfile" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("getmembers") and qn = "tarfile.TarFile.getmembers" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("getmember") and qn = "tarfile.TarFile.getmember" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("getnames") and qn = "tarfile.TarFile.getnames" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("gettarinfo") and qn = "tarfile.TarFile.gettarinfo" or
+  api = API::moduleImport("tarfile").getMember("TarInfo").getMember("name") and qn = "tarfile.TarInfo.name" or
+  api = API::moduleImport("tarfile").getMember("TarInfo").getMember("linkname") and qn = "tarfile.TarInfo.linkname" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("add") and qn = "tarfile.TarFile.add" or
+  api = API::moduleImport("tarfile").getMember("TarFile").getAnInstance().getMember("addfile") and qn = "tarfile.TarFile.addfile" or
+  api = API::moduleImport("tarfile").getMember("data_filter") and qn = "tarfile.data_filter" or
+  api = API::moduleImport("flask").getMember("send_file") and qn = "flask.send_file" or
+  api = API::moduleImport("flask").getMember("send_from_directory") and qn = "flask.send_from_directory" or
+  api = API::moduleImport("flask").getMember("Flask").getAnInstance().getMember("send_static_file") and qn = "flask.Flask.send_static_file" or
+  api = API::moduleImport("werkzeug").getMember("utils").getMember("send_file") and qn = "werkzeug.utils.send_file" or
+  api = API::moduleImport("werkzeug").getMember("utils").getMember("send_from_directory") and qn = "werkzeug.utils.send_from_directory" or
+  api = API::moduleImport("werkzeug").getMember("datastructures").getMember("FileStorage").getAnInstance().getMember("save") and qn = "werkzeug.datastructures.FileStorage.save" or
+  api = API::moduleImport("werkzeug").getMember("utils").getMember("secure_filename") and qn = "werkzeug.utils.secure_filename" or
+  api = API::moduleImport("werkzeug").getMember("utils").getMember("safe_join") and qn = "werkzeug.utils.safe_join" or
+  api = API::moduleImport("werkzeug").getMember("middleware").getMember("shared_data").getMember("SharedDataMiddleware") and qn = "werkzeug.middleware.shared_data.SharedDataMiddleware" or
+  api = API::moduleImport("starlette").getMember("responses").getMember("FileResponse") and qn = "starlette.responses.FileResponse" or
+  api = API::moduleImport("starlette").getMember("staticfiles").getMember("StaticFiles") and qn = "starlette.staticfiles.StaticFiles" or
+  api = API::moduleImport("fastapi").getMember("responses").getMember("FileResponse") and qn = "fastapi.responses.FileResponse" or
+  api = API::moduleImport("fastapi").getMember("staticfiles").getMember("StaticFiles") and qn = "fastapi.staticfiles.StaticFiles" or
+  api = API::moduleImport("quart").getMember("send_file") and qn = "quart.send_file" or
+  api = API::moduleImport("quart").getMember("send_from_directory") and qn = "quart.send_from_directory" or
+  api = API::moduleImport("aiohttp").getMember("web").getMember("FileResponse") and qn = "aiohttp.web.FileResponse" or
+  api = API::moduleImport("tornado").getMember("web").getMember("StaticFileHandler") and qn = "tornado.web.StaticFileHandler" or
+  api = API::moduleImport("bottle").getMember("static_file") and qn = "bottle.static_file" or
+  api = API::moduleImport("pyramid").getMember("response").getMember("FileResponse") and qn = "pyramid.response.FileResponse" or
+  api = API::moduleImport("pyramid").getMember("static").getMember("static_view") and qn = "pyramid.static.static_view" or
+  api = API::moduleImport("django").getMember("http").getMember("FileResponse") and qn = "django.http.FileResponse" or
+  api = API::moduleImport("django").getMember("views").getMember("static").getMember("serve") and qn = "django.views.static.serve" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("storage").getMember("Storage").getAnInstance().getMember("open") and qn = "django.core.files.storage.Storage.open" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("storage").getMember("Storage").getAnInstance().getMember("delete") and qn = "django.core.files.storage.Storage.delete" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("storage").getMember("Storage").getAnInstance().getMember("listdir") and qn = "django.core.files.storage.Storage.listdir" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("storage").getMember("Storage").getAnInstance().getMember("save") and qn = "django.core.files.storage.Storage.save" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("storage").getMember("Storage").getAnInstance().getMember("path") and qn = "django.core.files.storage.Storage.path" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("storage").getMember("FileSystemStorage").getAnInstance().getMember("path") and qn = "django.core.files.storage.FileSystemStorage.path" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("storage").getMember("FileSystemStorage").getAnInstance().getMember("save") and qn = "django.core.files.storage.FileSystemStorage.save" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("uploadedfile").getMember("UploadedFile").getMember("name") and qn = "django.core.files.uploadedfile.UploadedFile.name" or
+  api = API::moduleImport("django").getMember("core").getMember("files").getMember("uploadedfile").getMember("TemporaryUploadedFile").getAnInstance().getMember("temporary_file_path") and qn = "django.core.files.uploadedfile.TemporaryUploadedFile.temporary_file_path" or
+  api = API::moduleImport("django").getMember("utils").getMember("_os").getMember("safe_join") and qn = "django.utils._os.safe_join" or
+  api = API::moduleImport("django").getMember("utils").getMember("text").getMember("get_valid_filename") and qn = "django.utils.text.get_valid_filename" or
+  api = API::moduleImport("http").getMember("server").getMember("SimpleHTTPRequestHandler") and qn = "http.server.SimpleHTTPRequestHandler" or
+  api = API::moduleImport("http").getMember("server").getMember("SimpleHTTPRequestHandler").getAnInstance().getMember("translate_path") and qn = "http.server.SimpleHTTPRequestHandler.translate_path" or
+  api = API::moduleImport("twisted").getMember("web").getMember("static").getMember("File") and qn = "twisted.web.static.File" or
+  api = API::moduleImport("sanic").getMember("response").getMember("file") and qn = "sanic.response.file" or
+  api = API::moduleImport("sanic").getMember("response").getMember("file_stream") and qn = "sanic.response.file_stream" or
+  api = API::moduleImport("sanic").getMember("Sanic").getAnInstance().getMember("static") and qn = "sanic.Sanic.static" or
+  api = API::moduleImport("logging").getMember("FileHandler") and qn = "logging.FileHandler" or
+  api = API::moduleImport("logging").getMember("handlers").getMember("RotatingFileHandler") and qn = "logging.handlers.RotatingFileHandler" or
+  api = API::moduleImport("logging").getMember("handlers").getMember("TimedRotatingFileHandler") and qn = "logging.handlers.TimedRotatingFileHandler" or
+  api = API::moduleImport("logging").getMember("handlers").getMember("WatchedFileHandler") and qn = "logging.handlers.WatchedFileHandler" or
+  api = API::moduleImport("sqlite3").getMember("connect") and qn = "sqlite3.connect" or
+  api = API::moduleImport("dbm").getMember("open") and qn = "dbm.open" or
+  api = API::moduleImport("shelve").getMember("open") and qn = "shelve.open" or
+  api = API::moduleImport("shutil").getMember("unpack_archive") and qn = "shutil.unpack_archive" or
+  api = API::moduleImport("shutil").getMember("make_archive") and qn = "shutil.make_archive" or
+  api = API::moduleImport("shutil").getMember("move") and qn = "shutil.move" or
+  api = API::moduleImport("shutil").getMember("rmtree") and qn = "shutil.rmtree" or
+  api = API::moduleImport("shutil").getMember("copy") and qn = "shutil.copy" or
+  api = API::moduleImport("shutil").getMember("copy2") and qn = "shutil.copy2" or
+  api = API::moduleImport("shutil").getMember("copyfile") and qn = "shutil.copyfile" or
+  api = API::moduleImport("shutil").getMember("copytree") and qn = "shutil.copytree" or
+  api = API::moduleImport("shutil").getMember("chown") and qn = "shutil.chown" or
+  api = API::moduleImport("glob").getMember("glob") and qn = "glob.glob" or
+  api = API::moduleImport("glob").getMember("iglob") and qn = "glob.iglob" or
+  api = API::moduleImport("glob").getMember("escape") and qn = "glob.escape" or
+  api = API::moduleImport("io").getMember("open") and qn = "io.open" or
+  api = API::moduleImport("os").getMember("chmod") and qn = "os.chmod" or
+  api = API::moduleImport("os").getMember("walk") and qn = "os.walk" or
+  api = API::moduleImport("os").getMember("fwalk") and qn = "os.fwalk" or
+  api = API::moduleImport("os").getMember("open") and qn = "os.open" or
+  api = API::moduleImport("os").getMember("rmdir") and qn = "os.rmdir" or
+  api = API::moduleImport("os").getMember("removedirs") and qn = "os.removedirs" or
+  api = API::moduleImport("os").getMember("rename") and qn = "os.rename" or
+  api = API::moduleImport("os").getMember("renames") and qn = "os.renames" or
+  api = API::moduleImport("os").getMember("replace") and qn = "os.replace" or
+  api = API::moduleImport("os").getMember("mkdir") and qn = "os.mkdir" or
+  api = API::moduleImport("os").getMember("makedirs") and qn = "os.makedirs" or
+  api = API::moduleImport("os").getMember("readlink") and qn = "os.readlink" or
+  api = API::moduleImport("os").getMember("symlink") and qn = "os.symlink" or
+  api = API::moduleImport("os").getMember("link") and qn = "os.link" or
+  api = API::moduleImport("os").getMember("remove") and qn = "os.remove" or
+  api = API::moduleImport("os").getMember("unlink") and qn = "os.unlink" or
+  api = API::moduleImport("os").getMember("stat") and qn = "os.stat" or
+  api = API::moduleImport("os").getMember("lstat") and qn = "os.lstat" or
+  api = API::moduleImport("os").getMember("access") and qn = "os.access" or
+  api = API::moduleImport("os").getMember("listdir") and qn = "os.listdir" or
+  api = API::moduleImport("os").getMember("scandir") and qn = "os.scandir" or
+  api = API::moduleImport("os").getMember("chdir") and qn = "os.chdir" or
+  api = API::moduleImport("os").getMember("fchdir") and qn = "os.fchdir" or
+  api = API::moduleImport("os").getMember("chroot") and qn = "os.chroot" or
+  api = API::moduleImport("os").getMember("path").getMember("join") and qn = "os.path.join" or
+  api = API::moduleImport("os").getMember("path").getMember("isabs") and qn = "os.path.isabs" or
+  api = API::moduleImport("os").getMember("path").getMember("normpath") and qn = "os.path.normpath" or
+  api = API::moduleImport("os").getMember("path").getMember("realpath") and qn = "os.path.realpath" or
+  api = API::moduleImport("os").getMember("path").getMember("abspath") and qn = "os.path.abspath" or
+  api = API::moduleImport("os").getMember("path").getMember("relpath") and qn = "os.path.relpath" or
+  api = API::moduleImport("os").getMember("path").getMember("basename") and qn = "os.path.basename" or
+  api = API::moduleImport("os").getMember("path").getMember("dirname") and qn = "os.path.dirname" or
+  api = API::moduleImport("os").getMember("path").getMember("split") and qn = "os.path.split" or
+  api = API::moduleImport("os").getMember("path").getMember("splitdrive") and qn = "os.path.splitdrive" or
+  api = API::moduleImport("os").getMember("path").getMember("splitext") and qn = "os.path.splitext" or
+  api = API::moduleImport("os").getMember("path").getMember("normcase") and qn = "os.path.normcase" or
+  api = API::moduleImport("os").getMember("path").getMember("expanduser") and qn = "os.path.expanduser" or
+  api = API::moduleImport("os").getMember("path").getMember("expandvars") and qn = "os.path.expandvars" or
+  api = API::moduleImport("os").getMember("path").getMember("commonprefix") and qn = "os.path.commonprefix" or
+  api = API::moduleImport("os").getMember("path").getMember("commonpath") and qn = "os.path.commonpath" or
+  api = API::moduleImport("os").getMember("path").getMember("samefile") and qn = "os.path.samefile" or
+  api = API::moduleImport("os").getMember("path").getMember("sameopenfile") and qn = "os.path.sameopenfile" or
+  api = API::moduleImport("os").getMember("path").getMember("samestat") and qn = "os.path.samestat" or
+  api = API::moduleImport("os").getMember("path").getMember("exists") and qn = "os.path.exists" or
+  api = API::moduleImport("os").getMember("path").getMember("lexists") and qn = "os.path.lexists" or
+  api = API::moduleImport("os").getMember("path").getMember("islink") and qn = "os.path.islink" or
+  api = API::moduleImport("os").getMember("path").getMember("isdir") and qn = "os.path.isdir" or
+  api = API::moduleImport("os").getMember("path").getMember("isfile") and qn = "os.path.isfile" or
+  api = API::moduleImport("os").getMember("path").getMember("ismount") and qn = "os.path.ismount" or
+  api = API::moduleImport("pathlib").getMember("PurePath").getAnInstance().getMember("joinpath") and qn = "pathlib.PurePath.joinpath" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("resolve") and qn = "pathlib.Path.resolve" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("is_relative_to") and qn = "pathlib.Path.is_relative_to" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("chmod") and qn = "pathlib.Path.chmod" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("iterdir") and qn = "pathlib.Path.iterdir" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("rmdir") and qn = "pathlib.Path.rmdir" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("open") and qn = "pathlib.Path.open" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("unlink") and qn = "pathlib.Path.unlink" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("rename") and qn = "pathlib.Path.rename" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("glob") and qn = "pathlib.Path.glob" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("rglob") and qn = "pathlib.Path.rglob" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("read_text") and qn = "pathlib.Path.read_text" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("read_bytes") and qn = "pathlib.Path.read_bytes" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("write_text") and qn = "pathlib.Path.write_text" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("write_bytes") and qn = "pathlib.Path.write_bytes" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("touch") and qn = "pathlib.Path.touch" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("exists") and qn = "pathlib.Path.exists" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("is_dir") and qn = "pathlib.Path.is_dir" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("is_file") and qn = "pathlib.Path.is_file" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("is_symlink") and qn = "pathlib.Path.is_symlink" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("is_absolute") and qn = "pathlib.Path.is_absolute" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("mkdir") and qn = "pathlib.Path.mkdir" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("expanduser") and qn = "pathlib.Path.expanduser" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("relative_to") and qn = "pathlib.Path.relative_to" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("hardlink_to") and qn = "pathlib.Path.hardlink_to" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("symlink_to") and qn = "pathlib.Path.symlink_to" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("replace") and qn = "pathlib.Path.replace" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("readlink") and qn = "pathlib.Path.readlink" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("samefile") and qn = "pathlib.Path.samefile" or
+  api = API::moduleImport("tempfile").getMember("mkstemp") and qn = "tempfile.mkstemp" or
+  api = API::moduleImport("tempfile").getMember("mkdtemp") and qn = "tempfile.mkdtemp" or
+  api = API::moduleImport("tempfile").getMember("mktemp") and qn = "tempfile.mktemp" or
+  api = API::moduleImport("tempfile").getMember("TemporaryFile") and qn = "tempfile.TemporaryFile" or
+  api = API::moduleImport("tempfile").getMember("SpooledTemporaryFile") and qn = "tempfile.SpooledTemporaryFile" or
+  api = API::moduleImport("tempfile").getMember("gettempdir") and qn = "tempfile.gettempdir" or
+  api = API::moduleImport("tempfile").getMember("gettempprefix") and qn = "tempfile.gettempprefix" or
+  api = API::moduleImport("tempfile").getMember("gettempprefixb") and qn = "tempfile.gettempprefixb" or
+  api = API::moduleImport("tempfile").getMember("NamedTemporaryFile") and qn = "tempfile.NamedTemporaryFile" or
+  api = API::moduleImport("tempfile").getMember("TemporaryDirectory") and qn = "tempfile.TemporaryDirectory" or
+  api = API::moduleImport("aiofiles").getMember("open") and qn = "aiofiles.open" or
+  api = API::moduleImport("aiofiles").getMember("tempfile").getMember("NamedTemporaryFile") and qn = "aiofiles.tempfile.NamedTemporaryFile" or
+  api = API::moduleImport("aiofiles").getMember("tempfile").getMember("TemporaryDirectory") and qn = "aiofiles.tempfile.TemporaryDirectory" or
+  api = API::moduleImport("zipfile").getMember("is_zipfile") and qn = "zipfile.is_zipfile" or
+  api = API::moduleImport("pathvalidate").getMember("sanitize_filename") and qn = "pathvalidate.sanitize_filename" or
+  api = API::moduleImport("pathvalidate").getMember("sanitize_filepath") and qn = "pathvalidate.sanitize_filepath" or
+  api = API::moduleImport("fastapi").getMember("UploadFile").getAnInstance().getMember("filename") and qn = "fastapi.UploadFile.filename" or
+  api = API::moduleImport("werkzeug").getMember("datastructures").getMember("FileStorage").getAnInstance().getMember("filename") and qn = "werkzeug.datastructures.FileStorage.filename" or 
+  api = API::moduleImport("werkzeug").getMember("datastructures").getMember("FileStorage").getAnInstance().getMember("filename") and qn = "werkzeug.datastructures.FileStorage.filename" or
+  api = API::moduleImport("werkzeug").getMember("wsgi").getMember("SharedDataMiddleware") and qn = "werkzeug.wsgi.SharedDataMiddleware" or
+  api = API::moduleImport("werkzeug").getMember("middleware").getMember("shared_data").getMember("SharedDataMiddleware") and qn = "werkzeug.middleware.shared_data.SharedDataMiddleware" or
+  api = API::moduleImport("fastapi").getMember("UploadFile").getAnInstance().getMember("file") and qn = "fastapi.UploadFile.file" or
+  api = API::moduleImport("fastapi").getMember("UploadFile").getAnInstance().getMember("filename") and qn = "fastapi.UploadFile.filename" or
+  api = API::moduleImport("starlette").getMember("datastructures").getMember("UploadFile").getAnInstance().getMember("file") and qn = "starlette.datastructures.UploadFile.file" or
+  api = API::moduleImport("starlette").getMember("datastructures").getMember("UploadFile").getAnInstance().getMember("filename") and qn = "starlette.datastructures.UploadFile.filename" or
+  api = API::moduleImport("aiohttp").getMember("web_static").getMember("StaticResource") and qn = "aiohttp.web_static.StaticResource" or
+  api = API::moduleImport("pyramid").getMember("static").getMember("add_static_view") and qn = "pyramid.static.add_static_view" or
+  api = API::moduleImport("os").getMember("openat") and qn = "os.openat" or
+  api = API::moduleImport("os").getMember("unlinkat") and qn = "os.unlinkat" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("__truediv__") and qn = "pathlib.Path.__truediv__" or
+  api = API::moduleImport("pathlib").getMember("Path").getAnInstance().getMember("link_to") and qn = "pathlib.Path.link_to" or
+  api = API::moduleImport("django").getMember("db").getMember("backends").getMember("utils").getMember("CursorWrapper").getAnInstance().getMember("execute") and qn = "django.db.backends.utils.CursorWrapper.execute" or
+  api = API::moduleImport("django").getMember("db").getMember("connection").getMember("cursor") and qn = "django.db.connection.cursor"
+}
+from API::Node api, DataFlow::CallCfgNode n, Call c, Function f,
+    BasicBlock bb, string qn, string path, int sl, int sc, int el, int ec
+where
+  targetApi(api, qn) and
+  n = api.getACall() and
+  c = n.asExpr() and
+  bb = n.asCfgNode().getBasicBlock() and
+  bb.hasLocationInfo(path, sl, sc, el, ec) and
+  f.getBody().contains(c)
+select "path: "+ path,"call function: " + c.getLocation().getStartLine()+":"+c.getLocation().getStartColumn()+
+"-"+c.getLocation().getEndLine()+":"+c.getLocation().getEndColumn()
+,"call in function: " + f.getName()+"@" +f.getLocation().getStartLine()+"-"+f.getLastStatement().getLocation().getEndLine()
+, "callee=" + qn, "basic block: "+sl+":"+sc+"-"+el+":"+ec
+        

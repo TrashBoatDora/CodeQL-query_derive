@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/rag/entities/config.py","call function: 26:25-26:59","call in function: normalize_to_env_variable_name@24-34","callee=re.sub","basic block: 24:36-29:37"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/rag/entities/config.py","call function: 286:20-286:52","call in function: get_supplier_by_model_name@281-289","callee=str.startswith","basic block: 285:17-286:52"
+"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/rag/entities/config.py","call function: 302:16-302:41","call in function: get_llm_model_config@292-305","callee=str.startswith","basic block: 301:13-302:41"

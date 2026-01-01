@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/spdlog/include/spdlog/sinks/syslog_sink.h","call function: 33:9-33:17","call in function: syslog_sink@22-34","callee=open","basic block: 33:62-22:5"
+"Path: /home/sixsquare/codeQL/projects/spdlog/include/spdlog/sinks/syslog_sink.h","call function: 33:9-33:17","call in function: syslog_sink@22-34","callee=open","basic block: 33:62-22:15"
+"Path: /home/sixsquare/codeQL/projects/spdlog/include/spdlog/details/os-inl.h","call function: 149:11-149:17","call in function: fopen_s@120-154","callee=fopen","basic block: 120:91-120:26"

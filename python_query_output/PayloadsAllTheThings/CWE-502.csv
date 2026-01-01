@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Telerik CVE-2019-18935.py","call function: 36:18-36:37","call in function: send_request@26-40","callee=json.loads","basic block: 36:18-36:37"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Telerik CVE-2019-18935.py","call function: 37:30-37:73","call in function: send_request@26-40","callee=json.loads","basic block: 37:30-37:73"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/WebLogic CVE-2018-2894.py","call function: 29:20-29:49","call in function: get_current_work_path@16-41","callee=xml.etree.ElementTree.fromstring","basic block: 29:20-29:49"

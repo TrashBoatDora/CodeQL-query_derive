@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Location/test/utils/DataFormat.cpp","call function: 21:23-21:29","call in function: getAllfiles@17-34","callee=open","basic block: 17:68-21:51"

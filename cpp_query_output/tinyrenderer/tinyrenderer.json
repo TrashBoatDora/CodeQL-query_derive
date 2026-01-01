@@ -1,0 +1,272 @@
+{
+  "CWE-022": {
+    "std::basic_ifstream::basic_ifstream": {
+      "tinyrenderer/model.cpp": [
+        [
+          "Model",
+          5,
+          54,
+          6,
+          19,
+          6,
+          20,
+          5,
+          42,
+          8,
+          15
+        ]
+      ],
+      "tinyrenderer/tgaimage.cpp": [
+        [
+          "read_tga_file",
+          11,
+          54,
+          12,
+          19,
+          12,
+          20,
+          11,
+          58,
+          14,
+          21
+        ]
+      ]
+    },
+    "std::basic_ifstream::open": {
+      "tinyrenderer/model.cpp": [
+        [
+          "Model",
+          5,
+          54,
+          7,
+          8,
+          7,
+          11,
+          5,
+          42,
+          8,
+          15
+        ]
+      ],
+      "tinyrenderer/tgaimage.cpp": [
+        [
+          "read_tga_file",
+          11,
+          54,
+          13,
+          8,
+          13,
+          11,
+          11,
+          58,
+          14,
+          21
+        ]
+      ]
+    },
+    "std::basic_ofstream::basic_ofstream": {
+      "tinyrenderer/tgaimage.cpp": [
+        [
+          "write_tga_file",
+          105,
+          137,
+          109,
+          19,
+          109,
+          21,
+          105,
+          99,
+          111,
+          22
+        ]
+      ]
+    },
+    "std::basic_ofstream::open": {
+      "tinyrenderer/tgaimage.cpp": [
+        [
+          "write_tga_file",
+          105,
+          137,
+          110,
+          9,
+          110,
+          12,
+          105,
+          99,
+          111,
+          22
+        ]
+      ]
+    }
+  },
+  "CWE-078": {},
+  "CWE-079": {
+    "puts": {
+      "tinyrenderer/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp": [
+        [
+          "main",
+          13,
+          17,
+          15,
+          3,
+          15,
+          6,
+          14,
+          1,
+          13,
+          8
+        ]
+      ]
+    }
+  },
+  "CWE-095": {},
+  "CWE-113": {
+    "puts": {
+      "tinyrenderer/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp": [
+        [
+          "main",
+          13,
+          17,
+          15,
+          3,
+          15,
+          6,
+          14,
+          1,
+          13,
+          8
+        ]
+      ]
+    }
+  },
+  "CWE-117": {
+    "puts": {
+      "tinyrenderer/build/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp": [
+        [
+          "main",
+          13,
+          17,
+          15,
+          3,
+          15,
+          6,
+          14,
+          1,
+          13,
+          8
+        ]
+      ]
+    }
+  },
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {},
+  "CWE-347": {},
+  "CWE-377": {},
+  "CWE-502": {
+    "std::getline": {
+      "tinyrenderer/model.cpp": [
+        [
+          "Model",
+          5,
+          54,
+          11,
+          9,
+          11,
+          20,
+          10,
+          23,
+          14,
+          37
+        ]
+      ]
+    },
+    "std::basic_istream::operator>>": {
+      "tinyrenderer/model.cpp": [
+        [
+          "Model",
+          5,
+          54,
+          17,
+          39,
+          17,
+          39,
+          17,
+          13,
+          0,
+          0
+        ],
+        [
+          "Model",
+          5,
+          54,
+          22,
+          39,
+          22,
+          39,
+          22,
+          13,
+          0,
+          0
+        ],
+        [
+          "Model",
+          5,
+          54,
+          27,
+          37,
+          27,
+          37,
+          27,
+          13,
+          0,
+          0
+        ],
+        [
+          "Model",
+          5,
+          54,
+          32,
+          52,
+          32,
+          52,
+          32,
+          55,
+          32,
+          20
+        ],
+        [
+          "Model",
+          5,
+          54,
+          32,
+          38,
+          32,
+          38,
+          32,
+          55,
+          32,
+          20
+        ],
+        [
+          "Model",
+          5,
+          54,
+          32,
+          24,
+          32,
+          24,
+          32,
+          55,
+          32,
+          20
+        ]
+      ]
+    }
+  },
+  "CWE-643": {},
+  "CWE-760": {},
+  "CWE-918": {},
+  "CWE-943": {},
+  "CWE-1333": {}
+}

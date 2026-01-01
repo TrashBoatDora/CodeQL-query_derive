@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/rich/examples/downloader.py","call function: 50:16-50:27","call in function: copy_url@47-60","callee=urllib.request.urlopen","basic block: 47:14-55:60"

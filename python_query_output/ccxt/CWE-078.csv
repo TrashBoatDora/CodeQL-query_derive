@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/toolz/_version.py","call function: 79:17-82:52","call in function: run_command@70-104","callee=subprocess.Popen","basic block: 81:42-82:52"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/ecdsa/_version.py","call function: 79:17-82:52","call in function: run_command@70-104","callee=subprocess.Popen","basic block: 81:42-82:52"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/ethereum/utils/debug.py","call function: 7:14-7:83","call in function: pip_freeze@6-8","callee=subprocess.run","basic block: 7:14-8:68"

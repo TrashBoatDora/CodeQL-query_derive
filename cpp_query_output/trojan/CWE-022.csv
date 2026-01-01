@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/service.cpp","call function: 113:26-113:69","call in function: Service@47-276","callee=std::basic_ifstream::basic_ifstream","basic block: 112:54-114:30"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/log.cpp","call function: 80:16-80:20","call in function: redirect_keylog@79-88","callee=fopen","basic block: 79:51-81:21"
+"Path: /home/sixsquare/codeQL/projects/trojan/src/core/log.cpp","call function: 69:16-69:20","call in function: redirect@68-77","callee=fopen","basic block: 68:44-70:21"

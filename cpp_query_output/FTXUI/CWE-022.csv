@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/FTXUI/src/ftxui/component/screen_interactive.cpp","call function: 1157:14-1157:17","call in function: FetchTerminalEvents@1063-1164","callee=read","basic block: 1153:3-1160:19"
+"Path: /home/sixsquare/codeQL/projects/FTXUI/src/ftxui/component/screen_interactive.cpp","call function: 697:13-697:16","call in function: InstallPipedInputHandling@681-710","callee=open","basic block: 697:3-698:17"
+"Path: /home/sixsquare/codeQL/projects/FTXUI/src/ftxui/component/screen_interactive.cpp","call function: 706:5-706:9","call in function: operator()@705-708","callee=close","basic block: 705:36-705:36"

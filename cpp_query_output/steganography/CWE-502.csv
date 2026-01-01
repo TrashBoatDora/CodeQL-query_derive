@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/steganography/src/main.cpp","call function: 332:13-332:24","call in function: operator()@324-343","callee=std::getline","basic block: 330:14-332:24"

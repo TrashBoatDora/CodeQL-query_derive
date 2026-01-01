@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 16800:13-16800:21","call in function: getCurrentTimestamp@16796-16820","callee=time","basic block: 16796:43-16819:42"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 14932:112-14932:127","call in function: getCurrentNanosecondsSinceEpoch@14931-14933","callee=std::time","basic block: 14931:56-14931:40"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 13145:13-13145:22","call in function: seedRng@13143-13148","callee=srand","basic block: 13144:36-13146:22"
+"Path: /home/sixsquare/codeQL/projects/scope_guard/build/_deps/catch2-src/single_include/catch2/catch.hpp","call function: 9748:61-9748:69","call in function: operator()@9745-9750","callee=time","basic block: 9748:17-9749:39"

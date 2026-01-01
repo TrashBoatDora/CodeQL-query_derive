@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/entrypoints/not_configured.py","call function: 64:20-64:37","call in function: _is_second_run@55-72","callee=json.load","basic block: 64:30-64:37"
+"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/output_readers/shell_logger.py","call function: 38:16-38:35","call in function: _get_last_n@29-38","callee=json.loads","basic block: 29:17-38:47"
+"path: /home/sixsquare/codeQL/projects/thefuck/tests/entrypoints/test_not_configured.py","call function: 34:12-34:38","call in function: _assert_tracker_updated@32-35","callee=json.load","basic block: 32:29-35:29"
+"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/utils.py","call function: 217:24-217:46","call in function: _setup_db@212-224","callee=shelve.open","basic block: 217:36-217:46"
+"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/utils.py","call function: 222:24-222:46","call in function: _setup_db@212-224","callee=shelve.open","basic block: 218:9-222:20"

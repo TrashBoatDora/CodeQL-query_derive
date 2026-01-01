@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/fp8_cast_bf16.py","call function: 35:10-35:36","call in function: main@12-103","callee=open","basic block: 12:10-65:49"
+"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/fp8_cast_bf16.py","call function: 102:10-102:40","call in function: main@12-103","callee=open","basic block: 102:10-103:74"
+"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/generate.py","call function: 112:10-112:21","call in function: main@81-158","callee=open","basic block: 107:17-121:18"
+"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/generate.py","call function: 112:10-112:21","call in function: main@81-158","callee=open","basic block: 108:5-121:18"
+"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/generate.py","call function: 146:14-146:29","call in function: main@81-158","callee=open","basic block: 146:14-148:50"

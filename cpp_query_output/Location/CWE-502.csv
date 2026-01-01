@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/Location/models/XgboostDetector.cpp","call function: 22:5-22:16","call in function: XgboostDetector@16-49","callee=std::getline","basic block: 16:59-46:5"
+"Path: /home/sixsquare/codeQL/projects/Location/models/XgboostDetector.cpp","call function: 25:12-25:23","call in function: XgboostDetector@16-49","callee=std::getline","basic block: 25:25-25:12"
+"Path: /home/sixsquare/codeQL/projects/Location/test/utils/DataFormat.cpp","call function: 236:16-236:22","call in function: readCaliData@216-261","callee=std::getline","basic block: 236:24-236:16"
+"Path: /home/sixsquare/codeQL/projects/Location/test/utils/DataFormat.cpp","call function: 128:12-128:18","call in function: readCSV@118-199","callee=std::getline","basic block: 128:20-128:12"
+"Path: /home/sixsquare/codeQL/projects/Location/test/TestXgboostDetector.cpp","call function: 33:12-33:23","call in function: TestDetector@16-57","callee=std::getline","basic block: 33:25-33:12"

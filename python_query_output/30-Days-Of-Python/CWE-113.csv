@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/30-Days-Of-Python/python_for_web/app.py","call function: 33:16-33:42","call in function: post@27-33","callee=flask.redirect","basic block: 32:19-33:42"
+"path: /home/sixsquare/codeQL/projects/30-Days-Of-Python/python_for_web/app.py","call function: 33:25-33:41","call in function: post@27-33","callee=flask.url_for","basic block: 32:19-33:42"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/QuEST/quest/src/core/parser.cpp","call function: 510:23-510:29","call in function: parser_validateAndParsePauliStrSum@500-531","callee=std::getline","basic block: 510:31-510:23"
+"Path: /home/sixsquare/codeQL/projects/QuEST/quest/src/core/parser.cpp","call function: 405:23-405:29","call in function: assertStringIsValidPauliStrSum@396-430","callee=std::getline","basic block: 405:31-405:23"

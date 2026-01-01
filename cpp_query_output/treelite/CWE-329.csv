@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"Path: /home/sixsquare/codeQL/projects/treelite/include/treelite/logging.h","call function: 97:25-97:33","call in function: HumanDate@93-109","callee=time","basic block: 93:27-93:23"

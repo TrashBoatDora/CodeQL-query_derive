@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/configuration/directory_operations.py","call function: 42:13-42:97","call in function: chown_user_directory@33-44","callee=subprocess.check_output","basic block: 42:37-42:97"
+"path: /home/sixsquare/codeQL/projects/freqtrade/tests/commands/test_startup_time.py","call function: 12:5-12:39","call in function: test_startup_time@10-20","callee=subprocess.run","basic block: 12:5-17:41"
+"path: /home/sixsquare/codeQL/projects/freqtrade/tests/commands/test_startup_time.py","call function: 15:5-15:39","call in function: test_startup_time@10-20","callee=subprocess.run","basic block: 12:5-17:41"
