@@ -187,11 +187,13 @@ def select_lines():
     below = get_input("Lines to remove BELOW", "0")
     return above, below
 
-def select_first_only():
-    """選擇是否只移除每個檔案的第一個函數"""
-    print(f"\n{YELLOW}5. First Function Only{RESET}")
-    print("  If enabled, only the first function per file will be removed.")
-    choice = get_input("Only remove first function per file? (y/n)", "n")
+def select_single_fn_only():
+    """選擇是否只輸出僅有一個漏洞函數的檔案到 prompt"""
+    print(f"\n{YELLOW}5. Single Function Filter (for Prompt){RESET}")
+    print("  All vulnerable functions will ALWAYS be removed.")
+    print("  If enabled, only files with EXACTLY ONE vulnerable function")
+    print("  will be included in the prompt output.")
+    choice = get_input("Filter prompt to single-function files only? (y/n)", "n")
     return choice.lower() == 'y'
 
 def remove_gitignore_files(output_dir):
@@ -416,8 +418,15 @@ def remove_targets_and_report(
     below: int,
     cwe_filters,
     callee_filters,
-    first_only: bool = False,
+    single_fn_only: bool = False,
 ) -> Dict[str, List[Tuple[int, int, str]]]:
+    """
+    移除所有有漏洞的 function，並產出報告。
+    
+    參數:
+        single_fn_only: 如果為 True，prompt 只會包含「僅有一個漏洞函數」的檔案
+                        （但所有漏洞函數仍然會被移除）
+    """
     cp_root = cp_root.expanduser().resolve()
     json_file = json_file.expanduser().resolve()
 
@@ -427,8 +436,8 @@ def remove_targets_and_report(
     per_file_regions: Dict[Path, List[Tuple[int, int, int, int, bool]]] = {}
     per_file_line_ranges: Dict[Path, List[Tuple[int, int, str]]] = {}
     
-    # 用於追蹤每個檔案已處理的第一個 function（當 first_only=True 時使用）
-    per_file_first_fn: Dict[Path, str] = {}
+    # 用於統計每個檔案有多少個不同的漏洞 function（用於 single_fn_only 過濾）
+    per_file_fn_set: Dict[Path, set] = {}
 
     for cwe_key, callee, json_path, blk in _iter_entries_strict(data):
         if not _cwe_pass(cwe_key, cwe_filters):
@@ -441,17 +450,11 @@ def remove_targets_and_report(
 
         fn, fs, fe, csl, csc, cel, cec, bbsl, bbsc, bbel, bbec = blk
         
-        # 如果啟用 first_only 模式，只處理每個檔案的第一個 function
-        if first_only:
-            if abs_path in per_file_first_fn:
-                # 該檔案已經有第一個 function 了
-                existing_fn = per_file_first_fn[abs_path]
-                if fn != existing_fn:
-                    # 不同的 function，跳過
-                    continue
-            else:
-                # 這是該檔案的第一個 function，記錄下來
-                per_file_first_fn[abs_path] = fn
+        # 記錄每個檔案中的漏洞函數（用於之後過濾 prompt）
+        if abs_path not in per_file_fn_set:
+            per_file_fn_set[abs_path] = set()
+        if fn:
+            per_file_fn_set[abs_path].add(fn)
 
         if mode == "call":
             if above > 0 or below > 0:
@@ -503,10 +506,21 @@ def remove_targets_and_report(
     
     if mode == "call":
         prompt_lines: List[str] = []
+        filtered_count = 0
+        total_count = 0
+        
         for rel, ranges in sorted(report.items(), key=lambda kv: kv[0]):
             fn_set = {fn for (_, _, fn) in ranges if fn}
             if not fn_set:
                 continue
+            
+            total_count += 1
+            
+            # 如果啟用 single_fn_only，只輸出「僅有一個漏洞函數」的檔案
+            if single_fn_only and len(fn_set) > 1:
+                filtered_count += 1
+                continue
+            
             fn_list = sorted(fn_set, key=lambda s: s.lower())
             fn_part = "、".join(f"{name}()" for name in fn_list)
             prompt_lines.append(f"{rel}|{fn_part}")
@@ -516,10 +530,19 @@ def remove_targets_and_report(
             for line in prompt_lines:
                 pf.write(line + "\n")
         print(f"[prompt] {prompt_path}")
+        
+        if single_fn_only and filtered_count > 0:
+            print(f"[filter] 過濾掉 {filtered_count}/{total_count} 個含有多個漏洞函數的檔案")
+            print(f"[filter] 保留 {total_count - filtered_count} 個僅含單一漏洞函數的檔案")
+    
     return report
 
-def process_single_project(project_dir, project_name, json_file, output_base_dir, cwe, mode, above, below, first_only=False):
-    """處理單一專案的單一 CWE"""
+def process_single_project(project_dir, project_name, json_file, output_base_dir, cwe, mode, above, below, single_fn_only=False):
+    """處理單一專案的單一 CWE
+    
+    參數:
+        single_fn_only: 如果為 True，prompt 只會包含「僅有一個漏洞函數」的檔案
+    """
     p_root = Path(project_dir).expanduser().resolve()
     json_file_path = Path(json_file).expanduser().resolve()
     output_dir = Path(output_base_dir).expanduser().resolve()
@@ -576,7 +599,7 @@ def process_single_project(project_dir, project_name, json_file, output_base_dir
         below=below,
         cwe_filters=cwes,
         callee_filters=None,
-        first_only=first_only
+        single_fn_only=single_fn_only
     )
     
     return report
@@ -649,8 +672,12 @@ def cleanup_empty_output(cwe_output_dir, project_name):
         except Exception:
             pass
 
-def process_project_batch(project_dir, project_name, json_file, output_base_dir, cwes_list, mode, above, below, first_only=False):
-    """處理單一專案的所有 CWE"""
+def process_project_batch(project_dir, project_name, json_file, output_base_dir, cwes_list, mode, above, below, single_fn_only=False):
+    """處理單一專案的所有 CWE
+    
+    參數:
+        single_fn_only: 如果為 True，prompt 只會包含「僅有一個漏洞函數」的檔案
+    """
     print_colored(f"處理專案: {project_name}", "yellow")
     
     if not json_file.exists():
@@ -677,7 +704,7 @@ def process_project_batch(project_dir, project_name, json_file, output_base_dir,
                 mode=mode,
                 above=above,
                 below=below,
-                first_only=first_only
+                single_fn_only=single_fn_only
             )
             
             has_vulnerabilities = check_vulnerabilities_found(cwe_output_dir, project_name)
@@ -835,8 +862,12 @@ def generate_csv_report(projects_dir, json_dir, output_dir, cwes_list):
 
 # ==================== 主程式 ====================
 
-def batch_process(projects_dir, json_dir, output_base_dir, language, cwes_list, mode, above, below, dry_run=False, first_only=False):
-    """批次處理所有專案"""
+def batch_process(projects_dir, json_dir, output_base_dir, language, cwes_list, mode, above, below, dry_run=False, single_fn_only=False):
+    """批次處理所有專案
+    
+    參數:
+        single_fn_only: 如果為 True，prompt 只會包含「僅有一個漏洞函數」的檔案
+    """
     global logger
     
     projects_dir = Path(projects_dir).expanduser().resolve()
@@ -848,7 +879,7 @@ def batch_process(projects_dir, json_dir, output_base_dir, language, cwes_list, 
     print(f"向上刪除行數: {above}")
     print(f"向下刪除行數: {below}")
     print(f"處理模式: {mode}")
-    print(f"只處理第一個函數: {'是' if first_only else '否'}")
+    print(f"Prompt 只輸出單一漏洞函數檔案: {'是' if single_fn_only else '否'}")
     print(f"專案目錄: {projects_dir}")
     print(f"JSON 目錄: {json_dir}")
     print(f"輸出目錄: {output_base_dir}")
@@ -911,7 +942,7 @@ def batch_process(projects_dir, json_dir, output_base_dir, language, cwes_list, 
         processed_projects += 1
         
         success_count, op_count = process_project_batch(
-            project_dir, project_name, json_file, output_base_dir, cwes_list, mode, above, below, first_only
+            project_dir, project_name, json_file, output_base_dir, cwes_list, mode, above, below, single_fn_only
         )
         
         successful_operations += success_count
@@ -990,8 +1021,8 @@ def interactive_main():
     above = int(above)
     below = int(below)
     
-    # 5. First Only
-    first_only = select_first_only()
+    # 5. Single Function Only Filter
+    single_fn_only = select_single_fn_only()
     
     # Construct paths
     projects_dir = Path(f"./projects/{language}")
@@ -1019,7 +1050,7 @@ def interactive_main():
     print(f"  CWEs:         {GREEN}{', '.join(cwes)}{RESET}")
     print(f"  Mode:         {GREEN}{mode}{RESET}")
     print(f"  Context:      Above: {above}, Below: {below}")
-    print(f"  First Only:   {GREEN}{'Yes' if first_only else 'No'}{RESET}")
+    print(f"  Single Fn:    {GREEN}{'Yes' if single_fn_only else 'No'}{RESET} (prompt output filter)")
     print(f"  Output Dir:   {GREEN}{output_dir}{RESET}")
     
     confirm = get_input("\nProceed? (y/n)", "y")
@@ -1040,7 +1071,7 @@ def interactive_main():
             above=above,
             below=below,
             dry_run=False,
-            first_only=first_only
+            single_fn_only=single_fn_only
         )
         
         # 處理完成後，移除輸出目錄中所有的 .gitignore 檔案
@@ -1065,7 +1096,7 @@ def cli_main():
     parser.add_argument("--above", type=int, default=0, help="向上額外刪除的行數")
     parser.add_argument("--below", type=int, default=0, help="向下額外刪除的行數")
     parser.add_argument("--dry-run", action="store_true", help="只顯示將要處理的專案")
-    parser.add_argument("--first-only", action="store_true", help="每個檔案只處理第一個函數的漏洞")
+    parser.add_argument("--single-fn-only", action="store_true", help="Prompt 只輸出僅有一個漏洞函數的檔案（所有漏洞仍會被移除）")
     parser.add_argument("--interactive", "-i", action="store_true", help="使用互動式模式")
     args = parser.parse_args()
     
@@ -1099,7 +1130,7 @@ def cli_main():
             above=args.above,
             below=args.below,
             dry_run=args.dry_run,
-            first_only=args.first_only
+            single_fn_only=args.single_fn_only
         )
         
         if not args.dry_run:
