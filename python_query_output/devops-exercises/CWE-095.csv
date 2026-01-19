@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/scripts/random_question.py","call function: 46:13-46:19","call in function: main@6-54","callee=input","basic block: 46:13-46:19"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/scripts/random_question.py","call function: 49:13-49:19","call in function: main@6-54","callee=input","basic block: 49:13-49:19"

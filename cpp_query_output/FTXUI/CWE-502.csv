@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/FTXUI/src/ftxui/component/input.cpp","call function: 34:10-34:21","call in function: Split@30-41","callee=std::getline","basic block: 34:23-34:10"
-"Path: /home/sixsquare/codeQL/projects/FTXUI/src/ftxui/dom/paragraph.cpp","call function: 30:10-30:21","call in function: Split@25-34","callee=std::getline","basic block: 30:23-30:10"
-"Path: /home/sixsquare/codeQL/projects/FTXUI/src/ftxui/dom/paragraph.cpp","call function: 19:10-19:21","call in function: Split@15-23","callee=std::getline","basic block: 19:23-19:10"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/flask/examples/tutorial/flaskr/auth.py","call function: 68:32-68:63","call in function: register@47-81","callee=werkzeug.security.generate_password_hash","basic block: 68:55-68:63"
-"path: /home/sixsquare/codeQL/projects/flask/examples/tutorial/flaskr/auth.py","call function: 98:18-98:64","call in function: login@85-109","callee=werkzeug.security.check_password_hash","basic block: 98:18-98:64"
-"path: /home/sixsquare/codeQL/projects/flask/src/flask/sessions.py","call function: 295:12-295:31","call in function: _lazy_sha1@290-295","callee=hashlib.sha1","basic block: 290:16-295:31"

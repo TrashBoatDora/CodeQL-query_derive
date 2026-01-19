@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/black/src/black/cache.py","call function: 92:16-92:35","call in function: hash_digest@88-92","callee=hashlib.sha256","basic block: 88:21-92:47"
-"path: /home/sixsquare/codeQL/projects/black/src/black/mode.py","call function: 295:27-295:54","call in function: get_cache_key@286-319","callee=hashlib.sha256","basic block: 295:27-295:23"
-"path: /home/sixsquare/codeQL/projects/black/src/black/mode.py","call function: 304:35-304:70","call in function: get_cache_key@286-319","callee=hashlib.sha256","basic block: 304:35-304:31"

@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/onnxruntime-extensions/build/_deps/dlib-src/dlib/matrix/matrix_utilities.h","call function: 4275:26-4275:34","call in function: randm@4253-4280","callee=rand","basic block: 4274:13-4273:44"
-"Path: /home/sixsquare/codeQL/projects/onnxruntime-extensions/build/_deps/protobuf-src/src/google/protobuf/stubs/time.cc","call function: 267:14-267:17","call in function: GetCurrentTime@264-269","callee=time","basic block: 264:55-264:19"
-"Path: /home/sixsquare/codeQL/projects/onnxruntime-extensions/build/_deps/spm-src/src/util.cc","call function: 32:55-32:55","call in function: GetRandomGeneratorSeed@31-33","callee=std::rand","basic block: 32:35-32:55"
-"Path: /home/sixsquare/codeQL/projects/onnxruntime-extensions/build/_deps/spm-src/src/util.cc","call function: 32:35-32:54","call in function: GetRandomGeneratorSeed@31-33","callee=std::rand","basic block: 32:35-32:55"
-"Path: /home/sixsquare/codeQL/projects/onnxruntime-extensions/build/_deps/spm-src/src/util.cc","call function: 32:35-32:54","call in function: GetRandomGeneratorSeed@31-33","callee=std::rand","basic block: 32:35-32:54"
-"Path: /home/sixsquare/codeQL/projects/onnxruntime-extensions/build/_deps/dlib-src/dlib/threads/threads_kernel_2.h","call function: 115:13-115:24","call in function: wait_or_timeout@108-134","callee=gettimeofday","basic block: 111:9-126:90"

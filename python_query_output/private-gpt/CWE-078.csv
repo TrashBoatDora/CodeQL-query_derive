@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/private-gpt/tests/server/ingest/test_local_ingest.py","call function: 45:14-50:5","call in function: test_ingest_one_file_in_allowed_folder@35-56","callee=subprocess.run","basic block: 36:5-52:33"
-"path: /home/sixsquare/codeQL/projects/private-gpt/tests/server/ingest/test_local_ingest.py","call function: 67:14-72:5","call in function: test_ingest_disabled@59-74","callee=subprocess.run","basic block: 59:26-74:33"

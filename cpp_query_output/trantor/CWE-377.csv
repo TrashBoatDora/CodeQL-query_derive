@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/trantor/trantor/net/inner/Acceptor.cc","call function: 97:23-97:28","call in function: readCallback@63-101","callee=open","basic block: 93:9-97:63"
-"Path: /home/sixsquare/codeQL/projects/trantor/trantor/net/inner/FileBufferNodeUnix.cc","call function: 22:19-22:22","call in function: FileBufferNode@13-68","callee=open","basic block: 22:9-24:23"
-"Path: /home/sixsquare/codeQL/projects/trantor/trantor/net/inner/TimerQueue.cc","call function: 159:20-159:32","call in function: operator()@155-170","callee=creat","basic block: 155:31-165:28"
-"Path: /home/sixsquare/codeQL/projects/trantor/trantor/utils/AsyncFileLogger.cc","call function: 317:15-317:21","call in function: initFilenameQueue@304-372","callee=open","basic block: 313:5-317:52"
-"Path: /home/sixsquare/codeQL/projects/trantor/trantor/utils/AsyncFileLogger.cc","call function: 213:11-213:15","call in function: open@209-223","callee=fopen","basic block: 210:1-219:22"

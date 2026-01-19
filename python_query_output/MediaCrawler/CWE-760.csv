@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/bilibili/help.py","call function: 64:20-64:47","call in function: sign@46-66","callee=hashlib.md5","basic block: 46:14-66:23"

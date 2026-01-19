@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/bitcoin/src/bitcoin-cli.cpp","call function: 902:13-902:31","call in function: CallRPC@794-943","callee=evhttp_make_request","basic block: 902:5-904:14"
-"Path: /home/sixsquare/codeQL/projects/bitcoin/src/httpserver.cpp","call function: 734:28-734:43","call in function: GetQueryParameterFromUri@732-757","callee=evhttp_uri_parse","basic block: 733:1-735:19"
-"Path: /home/sixsquare/codeQL/projects/bitcoin/src/support/events.h","call function: 50:42-50:67","call in function: obtain_evhttp_connection_base@49-54","callee=evhttp_connection_base_new","basic block: 49:119-51:21"
-"Path: /home/sixsquare/codeQL/projects/bitcoin/src/support/events.h","call function: 46:32-46:49","call in function: obtain_evhttp_request@45-47","callee=evhttp_request_new","basic block: 45:105-45:48"

@@ -1,0 +1,240 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:31:22Z",
+  "metrics": {
+    "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py": {
+      "CONFIDENCE.HIGH": 8,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 8,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 86,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 8,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 8,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 86,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "9         try:\n10             result = subprocess.run(\n11                 [\n12                     \"docker\",\n13                     \"compose\",\n14                     \"-f\",\n15                     \"docker-compose.test.yaml\",\n16                     \"--env-file\",\n17                     \"../.env\",\n18                     \"exec\",\n19                     \"db\",\n20                     \"pg_isready\",\n21                     \"-U\",\n22                     \"postgres\",\n23                     \"-d\",\n24                     \"postgres\",\n25                 ],\n26                 check=True,\n27                 capture_output=True,\n28                 text=True,\n29             )\n30             if \"accepting connections\" in result.stdout:\n",
+      "col_offset": 21,
+      "end_col_offset": 13,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 10,
+      "line_range": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "9         try:\n10             result = subprocess.run(\n11                 [\n12                     \"docker\",\n13                     \"compose\",\n14                     \"-f\",\n15                     \"docker-compose.test.yaml\",\n16                     \"--env-file\",\n17                     \"../.env\",\n18                     \"exec\",\n19                     \"db\",\n20                     \"pg_isready\",\n21                     \"-U\",\n22                     \"postgres\",\n23                     \"-d\",\n24                     \"postgres\",\n25                 ],\n26                 check=True,\n27                 capture_output=True,\n28                 text=True,\n29             )\n30             if \"accepting connections\" in result.stdout:\n",
+      "col_offset": 21,
+      "end_col_offset": 13,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 10,
+      "line_range": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "41     try:\n42         subprocess.run(command, check=check)\n43     except subprocess.CalledProcessError as e:\n",
+      "col_offset": 8,
+      "end_col_offset": 44,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 42,
+      "line_range": [
+        42
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "109     # This is safe because we've explicitly set DATABASE_URL to the test database above\n110     subprocess.run(\n111         [\"prisma\", \"migrate\", \"reset\", \"--force\", \"--skip-seed\"],\n112         env=test_env,\n113         check=False,\n114     )\n115     # Then apply migrations to get the test database schema up to date\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 110,
+      "line_range": [
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "109     # This is safe because we've explicitly set DATABASE_URL to the test database above\n110     subprocess.run(\n111         [\"prisma\", \"migrate\", \"reset\", \"--force\", \"--skip-seed\"],\n112         env=test_env,\n113         check=False,\n114     )\n115     # Then apply migrations to get the test database schema up to date\n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 110,
+      "line_range": [
+        110,
+        111,
+        112,
+        113,
+        114
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "115     # Then apply migrations to get the test database schema up to date\n116     subprocess.run([\"prisma\", \"migrate\", \"deploy\"], env=test_env, check=True)\n117 \n",
+      "col_offset": 4,
+      "end_col_offset": 77,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 116,
+      "line_range": [
+        116
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "115     # Then apply migrations to get the test database schema up to date\n116     subprocess.run([\"prisma\", \"migrate\", \"deploy\"], env=test_env, check=True)\n117 \n",
+      "col_offset": 4,
+      "end_col_offset": 77,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 116,
+      "line_range": [
+        116
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "120     # not any database that might be configured in the developer's environment\n121     result = subprocess.run([\"pytest\"] + sys.argv[1:], env=test_env, check=False)\n122 \n",
+      "col_offset": 13,
+      "end_col_offset": 81,
+      "filename": "./projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 121,
+      "line_range": [
+        121
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

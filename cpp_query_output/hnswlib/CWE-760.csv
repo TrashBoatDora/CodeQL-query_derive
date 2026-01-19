@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/hnswlib/hnswlib/hnswalg.h","call function: 117:26-117:29","call in function: HierarchicalNSW@89-144","callee=std::linear_congruential_engine","basic block: 112:9-127:42"
-"Path: /home/sixsquare/codeQL/projects/hnswlib/hnswlib/hnswalg.h","call function: 118:39-118:42","call in function: HierarchicalNSW@89-144","callee=std::linear_congruential_engine","basic block: 112:9-127:42"

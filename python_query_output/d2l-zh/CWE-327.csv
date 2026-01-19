@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/tensorflow.py","call function: 368:16-368:29","call in function: download@359-381","callee=hashlib.sha1","basic block: 368:16-369:35"
-"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/torch.py","call function: 379:16-379:29","call in function: download@370-392","callee=hashlib.sha1","basic block: 379:16-380:35"
-"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/paddle.py","call function: 390:16-390:29","call in function: download@381-403","callee=hashlib.sha1","basic block: 390:16-391:35"
-"path: /home/sixsquare/codeQL/projects/d2l-zh/d2l/mxnet.py","call function: 352:16-352:29","call in function: download@343-365","callee=hashlib.sha1","basic block: 352:16-353:35"

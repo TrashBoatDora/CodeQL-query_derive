@@ -1,0 +1,97 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:29:10Z",
+  "metrics": {
+    "./projects/python/django/tests/model_fields/test_jsonfield.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 3,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 3,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1306,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 3,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 3,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1306,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "471     def test_key_transform_raw_expression(self):\n472         expr = RawSQL(self.raw_sql, ['{\"x\": \"bar\"}'])\n473         self.assertSequenceEqual(\n",
+      "col_offset": 15,
+      "end_col_offset": 53,
+      "filename": "./projects/python/django/tests/model_fields/test_jsonfield.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 472,
+      "line_range": [
+        472
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    },
+    {
+      "code": "478     def test_nested_key_transform_raw_expression(self):\n479         expr = RawSQL(self.raw_sql, ['{\"x\": {\"y\": \"bar\"}}'])\n480         self.assertSequenceEqual(\n",
+      "col_offset": 15,
+      "end_col_offset": 60,
+      "filename": "./projects/python/django/tests/model_fields/test_jsonfield.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 479,
+      "line_range": [
+        479
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    },
+    {
+      "code": "1229                     \"x\",\n1230                     RawSQL(\n1231                         self.raw_sql,\n1232                         ['{\"x\": {\"a\": \"b\", \"c\": 1, \"d\": \"e\"}}'],\n1233                     ),\n1234                 ),\n",
+      "col_offset": 20,
+      "end_col_offset": 21,
+      "filename": "./projects/python/django/tests/model_fields/test_jsonfield.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 1230,
+      "line_range": [
+        1230,
+        1231,
+        1232,
+        1233
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    }
+  ]
+}

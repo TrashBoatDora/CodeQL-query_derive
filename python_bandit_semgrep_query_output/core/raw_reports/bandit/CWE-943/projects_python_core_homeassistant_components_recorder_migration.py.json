@@ -1,0 +1,248 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:25:52Z",
+  "metrics": {
+    "./projects/python/core/homeassistant/components/recorder/migration.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 8,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 8,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2521,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 8,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 8,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2521,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "953                         text(\n954                             f\"UPDATE {table} as t1 \"  # noqa: S608\n955                             f\"SET {column} = NULL \"\n956                             \"WHERE (\"\n957                             f\"t1.{column} IS NOT NULL AND \"\n958                             \"NOT EXISTS \"\n959                             \"(SELECT 1 \"\n960                             f\"FROM (SELECT {foreign_column} from {foreign_table}) AS t2 \"\n961                             f\"WHERE t2.{foreign_column} = t1.{column})) \"\n962                             \"LIMIT 100000;\"\n963                         )\n",
+      "col_offset": 28,
+      "end_col_offset": 43,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 954,
+      "line_range": [
+        954,
+        955,
+        956,
+        957,
+        958,
+        959,
+        960,
+        961,
+        962
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "971                         text(\n972                             f\"UPDATE {table} \"  # noqa: S608\n973                             f\"SET {column} = NULL \"\n974                             f\"WHERE {column} in \"\n975                             f\"(SELECT {column} from {table} as t1 \"\n976                             \"WHERE (\"\n977                             f\"t1.{column} IS NOT NULL AND \"\n978                             \"NOT EXISTS \"\n979                             \"(SELECT 1 \"\n980                             f\"FROM {foreign_table} AS t2 \"\n981                             f\"WHERE t2.{foreign_column} = t1.{column})) \"\n982                             \"LIMIT 100000);\"\n983                         )\n",
+      "col_offset": 28,
+      "end_col_offset": 44,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 972,
+      "line_range": [
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980,
+        981,
+        982
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "996                     text(\n997                         f\"DELETE FROM {table} \"  # noqa: S608\n998                         \"WHERE (\"\n999                         f\"{table}.{column} IS NOT NULL AND \"\n1000                         \"NOT EXISTS \"\n1001                         \"(SELECT 1 \"\n1002                         f\"FROM {foreign_table} AS t2 \"\n1003                         f\"WHERE t2.{foreign_column} = {table}.{column})) \"\n1004                         \"LIMIT 100000;\"\n1005                     )\n",
+      "col_offset": 24,
+      "end_col_offset": 39,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 997,
+      "line_range": [
+        997,
+        998,
+        999,
+        1000,
+        1001,
+        1002,
+        1003,
+        1004
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "1013                     text(\n1014                         f\"DELETE FROM {table} \"  # noqa: S608\n1015                         f\"WHERE {column} in \"\n1016                         f\"(SELECT {column} from {table} as t1 \"\n1017                         \"WHERE (\"\n1018                         f\"t1.{column} IS NOT NULL AND \"\n1019                         \"NOT EXISTS \"\n1020                         \"(SELECT 1 \"\n1021                         f\"FROM {foreign_table} AS t2 \"\n1022                         f\"WHERE t2.{foreign_column} = t1.{column})) \"\n1023                         \"LIMIT 100000);\"\n1024                     )\n",
+      "col_offset": 24,
+      "end_col_offset": 40,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 1014,
+      "line_range": [
+        1014,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1020,
+        1021,
+        1022,
+        1023
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "2422                     text(\n2423                         f\"UPDATE {table} set start_ts=strftime('%s',start) + \"  # noqa: S608\n2424                         \"cast(substr(start,-7) AS FLOAT), \"\n2425                         f\"created_ts=strftime('%s',created) + \"\n2426                         \"cast(substr(created,-7) AS FLOAT), \"\n2427                         f\"last_reset_ts=strftime('%s',last_reset) + \"\n2428                         \"cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;\"\n2429                     )\n",
+      "col_offset": 24,
+      "end_col_offset": 86,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 2423,
+      "line_range": [
+        2423,
+        2424,
+        2425,
+        2426,
+        2427,
+        2428
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "2440                         text(\n2441                             f\"UPDATE {table} set start_ts=\"  # noqa: S608\n2442                             \"IF(start is NULL or UNIX_TIMESTAMP(start) is NULL,0,\"\n2443                             \"UNIX_TIMESTAMP(start) \"\n2444                             \"), \"\n2445                             \"created_ts=\"\n2446                             \"UNIX_TIMESTAMP(created), \"\n2447                             \"last_reset_ts=\"\n2448                             \"UNIX_TIMESTAMP(last_reset) \"\n2449                             \"where start_ts is NULL \"\n2450                             \"LIMIT 100000;\"\n2451                         )\n",
+      "col_offset": 28,
+      "end_col_offset": 43,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 2441,
+      "line_range": [
+        2441,
+        2442,
+        2443,
+        2444,
+        2445,
+        2446,
+        2447,
+        2448,
+        2449,
+        2450
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "2462                         text(\n2463                             f\"UPDATE {table} set start_ts=\"  # noqa: S608\n2464                             \"(case when start is NULL then 0 else EXTRACT(EPOCH FROM start::timestamptz) end), \"\n2465                             \"created_ts=EXTRACT(EPOCH FROM created::timestamptz), \"\n2466                             \"last_reset_ts=EXTRACT(EPOCH FROM last_reset::timestamptz) \"\n2467                             \"where id IN (\"\n2468                             f\"SELECT id FROM {table} where start_ts is NULL LIMIT 100000\"\n2469                             \");\"\n2470                         )\n",
+      "col_offset": 28,
+      "end_col_offset": 32,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 2463,
+      "line_range": [
+        2463,
+        2464,
+        2465,
+        2466,
+        2467,
+        2468,
+        2469
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "3200             # Step 5 - Transfer content\n3201             sql = f\"INSERT INTO {temp_name} SELECT {column_names} FROM {orig_name};\"  # noqa: S608\n3202             session.execute(text(sql))\n",
+      "col_offset": 18,
+      "end_col_offset": 84,
+      "filename": "./projects/python/core/homeassistant/components/recorder/migration.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 3201,
+      "line_range": [
+        3201
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

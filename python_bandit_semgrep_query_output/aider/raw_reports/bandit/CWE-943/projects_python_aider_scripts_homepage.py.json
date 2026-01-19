@@ -1,0 +1,71 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:22:07Z",
+  "metrics": {
+    "./projects/python/aider/scripts/homepage.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 448,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 448,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "112         # Query to get total downloads for the package, excluding CI/CD systems\n113         query = f\"\"\"\n114             SELECT COUNT(*) as total_downloads\n115             FROM `bigquery-public-data.pypi.file_downloads`\n116             WHERE file.project = '{package_name}'\n117             AND NOT (\n118                 -- Exclude common CI/CD systems based on installer name patterns\n119                 LOWER(details.installer.name) LIKE '%github%' OR\n120                 LOWER(details.installer.name) LIKE '%travis%' OR\n121                 LOWER(details.installer.name) LIKE '%circle%' OR\n122                 LOWER(details.installer.name) LIKE '%jenkins%' OR\n123                 LOWER(details.installer.name) LIKE '%gitlab%' OR\n124                 LOWER(details.installer.name) LIKE '%azure%' OR\n125                 LOWER(details.installer.name) LIKE '%ci%' OR\n126                 LOWER(details.installer.name) LIKE '%cd%' OR\n127                 LOWER(details.installer.name) LIKE '%bot%' OR\n128                 LOWER(details.installer.name) LIKE '%build%'\n129             )\n130         \"\"\"\n131 \n",
+      "col_offset": 16,
+      "end_col_offset": 11,
+      "filename": "./projects/python/aider/scripts/homepage.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 113,
+      "line_range": [
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

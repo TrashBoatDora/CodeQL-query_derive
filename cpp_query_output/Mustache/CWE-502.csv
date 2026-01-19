@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/Mustache/tests/catch.hpp","call function: 10468:36-10468:47","call in function: isDebuggerActive@10463-10479","callee=std::getline","basic block: 10468:49-10468:36"
-"Path: /home/sixsquare/codeQL/projects/Mustache/tests/catch.hpp","call function: 9723:24-9723:35","call in function: operator()@9717-9737","callee=std::getline","basic block: 9723:38-9723:24"
-"Path: /home/sixsquare/codeQL/projects/Mustache/tests/catch.hpp","call function: 9068:12-9068:12","call in function: convertInto@9065-9073","callee=std::basic_istream::operator>>","basic block: 9065:85-9069:19"
-"Path: /home/sixsquare/codeQL/projects/Mustache/mustache.hpp","call function: 96:12-96:23","call in function: split@92-100","callee=std::getline","basic block: 96:25-96:12"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/llama/llama/generation.py","call function: 109:22-109:41","call in function: build@53-123","callee=json.loads","basic block: 103:9-123:38"

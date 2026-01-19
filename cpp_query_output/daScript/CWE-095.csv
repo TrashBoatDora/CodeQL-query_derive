@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/daScript/src/builtin/module_jit.cpp","call function: 423:21-423:25","call in function: create_shared_library@397-454","callee=popen","basic block: 414:13-424:23"
-"Path: /home/sixsquare/codeQL/projects/daScript/3rdparty/fmt/include/fmt/format-inl.h","call function: 79:15-79:69","call in function: fwrite_fully@76-80","callee=std::system","basic block: 79:15-79:69"
-"Path: /home/sixsquare/codeQL/projects/daScript/3rdparty/fmt/include/fmt/format-inl.h","call function: 1414:36-1414:65","call in function: format_system_error@1410-1419","callee=std::system","basic block: 1414:36-1414:65"
-"Path: /home/sixsquare/codeQL/projects/daScript/3rdparty/fmt/include/fmt/format-inl.h","call function: 1414:36-1414:65","call in function: format_system_error@1410-1419","callee=std::system","basic block: 1411:65-1415:11"
-"Path: /home/sixsquare/codeQL/projects/daScript/3rdparty/fmt/include/fmt/format-inl.h","call function: 150:3-150:51","call in function: vsystem_error@147-151","callee=std::system","basic block: 148:26-147:27"
-"Path: /home/sixsquare/codeQL/projects/daScript/src/builtin/module_builtin_fio.cpp","call function: 511:20-511:24","call in function: builtin_popen_impl@503-539","callee=popen","basic block: 511:9-537:27"

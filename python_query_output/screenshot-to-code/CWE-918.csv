@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/image_generation/replicate.py","call function: 13:16-13:34","call in function: call_replicate@5-65","callee=httpx.AsyncClient","basic block: 5:26-15:40"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/run_image_generation_evals.py","call function: 63:28-63:49","call in function: generate_and_save_images@42-76","callee=aiohttp.ClientSession.get","basic block: 63:28-67:56"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/routes/screenshot.py","call function: 18:14-18:26","call in function: normalize_url@10-37","callee=urllib.parse.urlparse","basic block: 10:19-21:24"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/routes/screenshot.py","call function: 68:16-68:44","call in function: capture_screenshot@45-73","callee=httpx.AsyncClient","basic block: 68:16-70:38"

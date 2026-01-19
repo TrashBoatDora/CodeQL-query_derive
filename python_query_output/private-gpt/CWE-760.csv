@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/open_ai/openai_models.py","call function: 63:20-63:31","call in function: from_text@56-74","callee=uuid.uuid4","basic block: 57:9-74:9"
-"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/open_ai/openai_models.py","call function: 85:20-85:31","call in function: json_from_delta@77-98","callee=uuid.uuid4","basic block: 78:9-98:38"

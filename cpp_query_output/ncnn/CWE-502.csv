@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/ncnn/tools/darknet/darknet2ncnn.cpp","call function: 214:9-214:20","call in function: load_cfg@198-237","callee=std::getline","basic block: 0:0-216:30"
-"Path: /home/sixsquare/codeQL/projects/ncnn/tools/darknet/darknet2ncnn.cpp","call function: 109:12-109:23","call in function: split@104-114","callee=std::getline","basic block: 109:25-109:12"
-"Path: /home/sixsquare/codeQL/projects/ncnn/tools/quantize/npy.hpp","call function: 285:27-285:38","call in function: parse_tuple@272-290","callee=std::getline","basic block: 285:40-285:27"

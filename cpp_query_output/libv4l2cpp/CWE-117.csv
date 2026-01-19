@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/main.cpp","call function: 112:7-112:12","call in function: main@34-130","callee=fwrite","basic block: 108:48-114:17"
-"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2ReadWriteDevice.cpp","call function: 21:9-21:15","call in function: writeInternal@20-22","callee=write","basic block: 20:76-20:41"

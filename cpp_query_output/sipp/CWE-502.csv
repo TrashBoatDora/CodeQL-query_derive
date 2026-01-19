@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/sipp/src/call.cpp","call function: 71:12-71:23","call in function: split@67-74","callee=std::getline","basic block: 71:25-71:12"
-"Path: /home/sixsquare/codeQL/projects/sipp/src/infile.cpp","call function: 51:5-51:16","call in function: FileContents@32-141","callee=std::getline","basic block: 41:5-52:24"
-"Path: /home/sixsquare/codeQL/projects/sipp/src/infile.cpp","call function: 115:9-115:20","call in function: FileContents@32-141","callee=std::getline","basic block: 113:27-116:28"

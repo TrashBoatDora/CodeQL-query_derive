@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/4.NaiveBayes/bayes.py","call function: 370:10-370:72","call in function: test_rss@368-372","callee=feedparser.parse","basic block: 369:12-372:26"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/4.NaiveBayes/bayes.py","call function: 371:10-371:70","call in function: test_rss@368-372","callee=feedparser.parse","basic block: 369:12-372:26"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/4.NaiveBayes/bayes.py","call function: 378:10-378:72","call in function: get_top_words@376-395","callee=feedparser.parse","basic block: 377:12-383:29"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/4.NaiveBayes/bayes.py","call function: 379:10-379:70","call in function: get_top_words@376-395","callee=feedparser.parse","basic block: 377:12-383:29"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/8.Regression/regression.py","call function: 314:10-314:42","call in function: searchForSet@310-329","callee=urllib.request.urlopen","basic block: 310:18-316:41"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/16.RecommenderSystems/sklearn-RS-demo-cf-item-test.py","call function: 53:14-53:58","call in function: splitData@50-66","callee=pandas.read_csv","basic block: 50:19-66:78"
-"path: /home/sixsquare/codeQL/projects/ailearning/tutorials/RecommenderSystems/rs_rating_demo.py","call function: 26:10-26:54","call in function: splitData@23-34","callee=pandas.read_csv","basic block: 23:15-34:54"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2Device.cpp","call function: 89:10-89:13","call in function: init@76-92","callee=open","basic block: 87:2-89:80"
-"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/src/V4l2Device.cpp","call function: 97:9-97:12","call in function: initdevice@95-121","callee=open","basic block: 96:1-98:13"
-"Path: /home/sixsquare/codeQL/projects/libv4l2cpp/main.cpp","call function: 111:18-111:22","call in function: main@34-130","callee=fopen","basic block: 108:48-114:17"

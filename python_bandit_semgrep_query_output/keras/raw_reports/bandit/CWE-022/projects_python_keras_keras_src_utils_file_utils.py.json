@@ -1,0 +1,80 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T03:12:42Z",
+  "metrics": {
+    "./projects/python/keras/keras/src/utils/file_utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 2,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 456,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 2,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 456,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "100         # Zip archive.\n101         archive.extractall(\n102             path, members=filter_safe_zipinfos(archive.infolist())\n103         )\n104     else:\n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "./projects/python/keras/keras/src/utils/file_utils.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Usage of tarfile.extractall(members=function(tarfile)). Make sure your function properly discards dangerous members {'Function': 'filter_safe_zipinfos'}).",
+      "line_number": 101,
+      "line_range": [
+        101,
+        102,
+        103
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "111             extractall_kwargs = {\"filter\": \"data\"}\n112         archive.extractall(\n113             path,\n114             members=filter_safe_tarinfos(archive),\n115             **extractall_kwargs,\n116         )\n117 \n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "./projects/python/keras/keras/src/utils/file_utils.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Usage of tarfile.extractall(members=function(tarfile)). Make sure your function properly discards dangerous members {'Function': 'filter_safe_tarinfos'}).",
+      "line_number": 112,
+      "line_range": [
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    }
+  ]
+}

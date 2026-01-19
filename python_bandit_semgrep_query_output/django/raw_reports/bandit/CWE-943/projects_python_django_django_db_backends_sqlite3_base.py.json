@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:27:06Z",
+  "metrics": {
+    "./projects/python/django/django/db/backends/sqlite3/base.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 289,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 289,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "294                 primary_key_value, bad_value = cursor.execute(\n295                     \"SELECT %s, %s FROM %s WHERE rowid = %%s\"\n296                     % (\n297                         self.ops.quote_name(primary_key_column_name),\n298                         self.ops.quote_name(column_name),\n299                         self.ops.quote_name(table_name),\n300                     ),\n301                     (rowid,),\n",
+      "col_offset": 20,
+      "end_col_offset": 61,
+      "filename": "./projects/python/django/django/db/backends/sqlite3/base.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 295,
+      "line_range": [
+        295,
+        296,
+        297,
+        298,
+        299,
+        300
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

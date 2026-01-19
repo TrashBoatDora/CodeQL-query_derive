@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/fastapi/scripts/contributors.py","call function: 129:16-134:5","call in function: get_graphql_response@121-145","callee=httpx.post","basic block: 123:5-135:34"
-"path: /home/sixsquare/codeQL/projects/fastapi/scripts/notify_translations.py","call function: 218:16-223:5","call in function: get_graphql_response@198-236","callee=httpx.post","basic block: 200:5-224:34"
-"path: /home/sixsquare/codeQL/projects/fastapi/scripts/people.py","call function: 134:16-139:5","call in function: get_graphql_response@125-152","callee=httpx.post","basic block: 127:5-140:34"
-"path: /home/sixsquare/codeQL/projects/fastapi/scripts/sponsors.py","call function: 100:16-105:5","call in function: get_graphql_response@92-116","callee=httpx.post","basic block: 94:5-106:34"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/async_tests/test_main.py","call function: 9:16-11:5","call in function: test_root@8-14","callee=httpx.AsyncClient","basic block: 9:16-13:38"

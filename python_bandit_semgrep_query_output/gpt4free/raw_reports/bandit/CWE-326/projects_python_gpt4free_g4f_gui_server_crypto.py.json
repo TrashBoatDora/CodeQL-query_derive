@@ -1,0 +1,54 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T08:27:15Z",
+  "metrics": {
+    "./projects/python/gpt4free/g4f/gui/server/crypto.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 57,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 57,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "41     # Generate keys\n42     private_key_obj = rsa.generate_private_key(public_exponent=65537, key_size=1024)\n43     public_key_obj = private_key_obj.public_key()\n",
+      "col_offset": 22,
+      "end_col_offset": 84,
+      "filename": "./projects/python/gpt4free/g4f/gui/server/crypto.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 326,
+        "link": "https://cwe.mitre.org/data/definitions/326.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "RSA key sizes below 2048 bits are considered breakable. ",
+      "line_number": 42,
+      "line_range": [
+        42
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b505_weak_cryptographic_key.html",
+      "test_id": "B505",
+      "test_name": "weak_cryptographic_key"
+    }
+  ]
+}

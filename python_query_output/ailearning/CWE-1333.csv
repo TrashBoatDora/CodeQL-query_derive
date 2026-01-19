@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py2.x/ml/4.NaiveBayes/bayes.py","call function: 216:20-216:46","call in function: textParse@205-217","callee=re.split","basic block: 205:15-217:64"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py2.x/ml/4.NaiveBayes/bayes.py","call function: 287:18-287:44","call in function: textParse@285-288","callee=re.split","basic block: 285:15-288:62"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/4.NaiveBayes/bayes.py","call function: 225:18-225:42","call in function: text_parse@216-228","callee=re.split","basic block: 216:16-226:27"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/tensorflow2.x/text_PoetryModel.py","call function: 26:20-26:65","call in function: preprocess_file@20-48","callee=re.sub","basic block: 24:13-27:25"

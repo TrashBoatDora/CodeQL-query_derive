@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:03:30Z",
+  "metrics": {
+    "./projects/python/airflow/dev/assign_cherry_picked_prs_with_milestone.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 320,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 320,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "158     template_loader = jinja2.FileSystemLoader(searchpath=MY_DIR_PATH)\n159     template_env = jinja2.Environment(\n160         loader=template_loader,\n161         undefined=jinja2.StrictUndefined,\n162         autoescape=autoescape,\n163         keep_trailing_newline=keep_trailing_newline,\n164     )\n165     template = template_env.get_template(f\"{template_name}.jinja2\")\n",
+      "col_offset": 19,
+      "end_col_offset": 5,
+      "filename": "./projects/python/airflow/dev/assign_cherry_picked_prs_with_milestone.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 94,
+        "link": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",
+      "line_number": 159,
+      "line_range": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b701_jinja2_autoescape_false.html",
+      "test_id": "B701",
+      "test_name": "jinja2_autoescape_false"
+    }
+  ]
+}

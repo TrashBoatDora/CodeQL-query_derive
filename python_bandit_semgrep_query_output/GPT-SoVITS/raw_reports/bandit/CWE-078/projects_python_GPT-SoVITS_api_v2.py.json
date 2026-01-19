@@ -1,0 +1,140 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:35:06Z",
+  "metrics": {
+    "./projects/python/GPT-SoVITS/api_v2.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 431,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 431,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "238 def pack_aac(io_buffer: BytesIO, data: np.ndarray, rate: int):\n239     process = subprocess.Popen(\n240         [\n241             \"ffmpeg\",\n242             \"-f\",\n243             \"s16le\",  # \u8f93\u516516\u4f4d\u6709\u7b26\u53f7\u5c0f\u7aef\u6574\u6570PCM\n244             \"-ar\",\n245             str(rate),  # \u8bbe\u7f6e\u91c7\u6837\u7387\n246             \"-ac\",\n247             \"1\",  # \u5355\u58f0\u9053\n248             \"-i\",\n249             \"pipe:0\",  # \u4ece\u7ba1\u9053\u8bfb\u53d6\u8f93\u5165\n250             \"-c:a\",\n251             \"aac\",  # \u97f3\u9891\u7f16\u7801\u5668\u4e3aAAC\n252             \"-b:a\",\n253             \"192k\",  # \u6bd4\u7279\u7387\n254             \"-vn\",  # \u4e0d\u5305\u542b\u89c6\u9891\n255             \"-f\",\n256             \"adts\",  # \u8f93\u51faAAC\u6570\u636e\u6d41\u683c\u5f0f\n257             \"pipe:1\",  # \u5c06\u8f93\u51fa\u5199\u5165\u7ba1\u9053\n258         ],\n259         stdin=subprocess.PIPE,\n260         stdout=subprocess.PIPE,\n261         stderr=subprocess.PIPE,\n262     )\n263     out, _ = process.communicate(input=data.tobytes())\n",
+      "col_offset": 14,
+      "end_col_offset": 5,
+      "filename": "./projects/python/GPT-SoVITS/api_v2.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 239,
+      "line_range": [
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "238 def pack_aac(io_buffer: BytesIO, data: np.ndarray, rate: int):\n239     process = subprocess.Popen(\n240         [\n241             \"ffmpeg\",\n242             \"-f\",\n243             \"s16le\",  # \u8f93\u516516\u4f4d\u6709\u7b26\u53f7\u5c0f\u7aef\u6574\u6570PCM\n244             \"-ar\",\n245             str(rate),  # \u8bbe\u7f6e\u91c7\u6837\u7387\n246             \"-ac\",\n247             \"1\",  # \u5355\u58f0\u9053\n248             \"-i\",\n249             \"pipe:0\",  # \u4ece\u7ba1\u9053\u8bfb\u53d6\u8f93\u5165\n250             \"-c:a\",\n251             \"aac\",  # \u97f3\u9891\u7f16\u7801\u5668\u4e3aAAC\n252             \"-b:a\",\n253             \"192k\",  # \u6bd4\u7279\u7387\n254             \"-vn\",  # \u4e0d\u5305\u542b\u89c6\u9891\n255             \"-f\",\n256             \"adts\",  # \u8f93\u51faAAC\u6570\u636e\u6d41\u683c\u5f0f\n257             \"pipe:1\",  # \u5c06\u8f93\u51fa\u5199\u5165\u7ba1\u9053\n258         ],\n259         stdin=subprocess.PIPE,\n260         stdout=subprocess.PIPE,\n261         stderr=subprocess.PIPE,\n262     )\n263     out, _ = process.communicate(input=data.tobytes())\n",
+      "col_offset": 14,
+      "end_col_offset": 5,
+      "filename": "./projects/python/GPT-SoVITS/api_v2.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 239,
+      "line_range": [
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "298     if command == \"restart\":\n299         os.execl(sys.executable, sys.executable, *argv)\n300     elif command == \"exit\":\n",
+      "col_offset": 8,
+      "end_col_offset": 55,
+      "filename": "./projects/python/GPT-SoVITS/api_v2.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process without a shell.",
+      "line_number": 299,
+      "line_range": [
+        299
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b606_start_process_with_no_shell.html",
+      "test_id": "B606",
+      "test_name": "start_process_with_no_shell"
+    }
+  ]
+}

@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/public-apis/scripts/validate/links.py","call function: 15:20-15:211","call in function: find_links_in_text@12-23","callee=re.compile","basic block: 12:24-23:16"
-"path: /home/sixsquare/codeQL/projects/public-apis/scripts/validate/links.py","call function: 17:17-17:46","call in function: find_links_in_text@12-23","callee=re.findall","basic block: 12:24-23:16"
-"path: /home/sixsquare/codeQL/projects/public-apis/scripts/validate/format.py","call function: 134:30-134:54","call in function: check_auth@129-142","callee=str.startswith","basic block: 134:26-134:54"
-"path: /home/sixsquare/codeQL/projects/public-apis/scripts/validate/format.py","call function: 134:63-134:85","call in function: check_auth@129-142","callee=str.endswith","basic block: 134:63-134:85"

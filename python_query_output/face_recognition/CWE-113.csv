@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/web_service_example_Simplified_Chinese.py","call function: 34:20-34:40","call in function: upload_image@30-54","callee=flask.redirect","basic block: 34:20-34:40"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/web_service_example_Simplified_Chinese.py","call function: 39:20-39:40","call in function: upload_image@30-54","callee=flask.redirect","basic block: 39:20-39:40"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/web_service_example.py","call function: 38:20-38:40","call in function: upload_image@34-58","callee=flask.redirect","basic block: 38:20-38:40"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/web_service_example.py","call function: 43:20-43:40","call in function: upload_image@34-58","callee=flask.redirect","basic block: 43:20-43:40"

@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/analysis/FatExtract.cpp","call function: 45:24-45:28","call in function: onEntry@33-73","callee=fopen","basic block: 43:9-51:31"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/table/FatBackup.cpp","call function: 58:20-58:24","call in function: patch@53-92","callee=fopen","basic block: 54:1-59:22"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/table/FatBackup.cpp","call function: 23:20-23:24","call in function: backup@17-51","callee=fopen","basic block: 18:1-25:16"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/core/FatSystem.cpp","call function: 67:10-67:13","call in function: enableWrite@64-77","callee=open","basic block: 65:1-69:14"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/core/FatSystem.cpp","call function: 41:10-41:13","call in function: FatSystem@28-50","callee=open","basic block: 39:1-44:14"

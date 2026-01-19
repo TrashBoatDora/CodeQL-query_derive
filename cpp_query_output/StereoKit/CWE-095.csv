@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/reactphysics3d-src/include/reactphysics3d/utils/DefaultLogger.h","call function: 179:32-179:61","call in function: getHeader@176-199","callee=std::system","basic block: 176:64-176:45"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/reactphysics3d-src/include/reactphysics3d/utils/DefaultLogger.h","call function: 180:33-180:68","call in function: getHeader@176-199","callee=std::system","basic block: 176:64-176:45"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/reactphysics3d-src/include/reactphysics3d/utils/DefaultLogger.h","call function: 125:32-125:61","call in function: getHeader@122-137","callee=std::system","basic block: 122:64-122:45"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/reactphysics3d-src/include/reactphysics3d/utils/DefaultLogger.h","call function: 126:40-126:75","call in function: getHeader@122-137","callee=std::system","basic block: 122:64-122:45"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/reactphysics3d-src/src/utils/DefaultLogger.cpp","call function: 98:16-98:45","call in function: log@95-110","callee=std::system","basic block: 95:160-104:38"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/reactphysics3d-src/src/utils/DefaultLogger.cpp","call function: 99:17-99:52","call in function: log@95-110","callee=std::system","basic block: 95:160-104:38"

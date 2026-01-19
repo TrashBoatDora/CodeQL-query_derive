@@ -1,0 +1,140 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:35:03Z",
+  "metrics": {
+    "./projects/python/GPT-SoVITS/api.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1119,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1119,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "752         bit_rate = \"128k\"\n753     process = subprocess.Popen(\n754         [\n755             \"ffmpeg\",\n756             \"-f\",\n757             pcm,  # \u8f93\u516516\u4f4d\u6709\u7b26\u53f7\u5c0f\u7aef\u6574\u6570PCM\n758             \"-ar\",\n759             str(rate),  # \u8bbe\u7f6e\u91c7\u6837\u7387\n760             \"-ac\",\n761             \"1\",  # \u5355\u58f0\u9053\n762             \"-i\",\n763             \"pipe:0\",  # \u4ece\u7ba1\u9053\u8bfb\u53d6\u8f93\u5165\n764             \"-c:a\",\n765             \"aac\",  # \u97f3\u9891\u7f16\u7801\u5668\u4e3aAAC\n766             \"-b:a\",\n767             bit_rate,  # \u6bd4\u7279\u7387\n768             \"-vn\",  # \u4e0d\u5305\u542b\u89c6\u9891\n769             \"-f\",\n770             \"adts\",  # \u8f93\u51faAAC\u6570\u636e\u6d41\u683c\u5f0f\n771             \"pipe:1\",  # \u5c06\u8f93\u51fa\u5199\u5165\u7ba1\u9053\n772         ],\n773         stdin=subprocess.PIPE,\n774         stdout=subprocess.PIPE,\n775         stderr=subprocess.PIPE,\n776     )\n777     out, _ = process.communicate(input=data.tobytes())\n",
+      "col_offset": 14,
+      "end_col_offset": 5,
+      "filename": "./projects/python/GPT-SoVITS/api.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 753,
+      "line_range": [
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "752         bit_rate = \"128k\"\n753     process = subprocess.Popen(\n754         [\n755             \"ffmpeg\",\n756             \"-f\",\n757             pcm,  # \u8f93\u516516\u4f4d\u6709\u7b26\u53f7\u5c0f\u7aef\u6574\u6570PCM\n758             \"-ar\",\n759             str(rate),  # \u8bbe\u7f6e\u91c7\u6837\u7387\n760             \"-ac\",\n761             \"1\",  # \u5355\u58f0\u9053\n762             \"-i\",\n763             \"pipe:0\",  # \u4ece\u7ba1\u9053\u8bfb\u53d6\u8f93\u5165\n764             \"-c:a\",\n765             \"aac\",  # \u97f3\u9891\u7f16\u7801\u5668\u4e3aAAC\n766             \"-b:a\",\n767             bit_rate,  # \u6bd4\u7279\u7387\n768             \"-vn\",  # \u4e0d\u5305\u542b\u89c6\u9891\n769             \"-f\",\n770             \"adts\",  # \u8f93\u51faAAC\u6570\u636e\u6d41\u683c\u5f0f\n771             \"pipe:1\",  # \u5c06\u8f93\u51fa\u5199\u5165\u7ba1\u9053\n772         ],\n773         stdin=subprocess.PIPE,\n774         stdout=subprocess.PIPE,\n775         stderr=subprocess.PIPE,\n776     )\n777     out, _ = process.communicate(input=data.tobytes())\n",
+      "col_offset": 14,
+      "end_col_offset": 5,
+      "filename": "./projects/python/GPT-SoVITS/api.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 753,
+      "line_range": [
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "1072     if command == \"restart\":\n1073         os.execl(g_config.python_exec, g_config.python_exec, *sys.argv)\n1074     elif command == \"exit\":\n",
+      "col_offset": 8,
+      "end_col_offset": 71,
+      "filename": "./projects/python/GPT-SoVITS/api.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process without a shell.",
+      "line_number": 1073,
+      "line_range": [
+        1073
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b606_start_process_with_no_shell.html",
+      "test_id": "B606",
+      "test_name": "start_process_with_no_shell"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "odoo/addons/l10n_hu_edi/models/l10n_hu_edi_connection.py": [
+    {
+      "file_path": "projects/python/odoo/addons/l10n_hu_edi/models/l10n_hu_edi_connection.py",
+      "line_start": 45,
+      "line_end": 45,
+      "scanner": "bandit",
+      "rule_id": "B305",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of insecure cipher mode cryptography.hazmat.primitives.ciphers.modes.ECB."
+    }
+  ]
+}

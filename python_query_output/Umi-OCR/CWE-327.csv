@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Umi-OCR/UmiOCR-data/py_src/server/bottle.py","call function: 2867:28-2867:73","call in function: cookie_encode@2864-2868","callee=hmac.new","basic block: 2864:19-2868:42"
-"path: /home/sixsquare/codeQL/projects/Umi-OCR/UmiOCR-data/py_src/server/bottle.py","call function: 2878:30-2878:75","call in function: cookie_decode@2871-2881","callee=hmac.new","basic block: 2875:20-2879:9"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/co_async/examples/diagnostics.cpp","call function: 58:9-58:14","call in function: main@54-86","callee=printf","basic block: 57:18-59:17"
-"Path: /home/sixsquare/codeQL/projects/co_async/examples/diagnostics.cpp","call function: 75:17-75:22","call in function: main@54-86","callee=printf","basic block: 75:17-77:55"
-"Path: /home/sixsquare/codeQL/projects/co_async/examples/frame_size.cpp","call function: 12:5-12:10","call in function: my_malloc_hook@10-14","callee=printf","basic block: 10:53-10:27"

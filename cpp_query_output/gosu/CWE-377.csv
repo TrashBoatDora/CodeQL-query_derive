@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/gosu/test/BufferTests.cpp","call function: 71:39-71:74","call in function: TestBody@64-78","callee=std::filesystem::temp_directory_path","basic block: 69:5-74:44"
-"Path: /home/sixsquare/codeQL/projects/gosu/test/BitmapTests.cpp","call function: 297:27-297:62","call in function: TestBody@295-320","callee=std::filesystem::temp_directory_path","basic block: 296:1-0:0"
-"Path: /home/sixsquare/codeQL/projects/gosu/dependencies/stb/stb_image_write.h","call function: 327:8-327:12","call in function: stbiw__fopen@304-330","callee=fopen","basic block: 305:1-304:25"

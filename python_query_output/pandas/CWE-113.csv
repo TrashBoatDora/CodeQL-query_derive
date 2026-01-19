@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/pandas/pandas/io/common.py","call function: 172:12-172:25","call in function: is_url@157-172","callee=urllib.parse.urlparse","basic block: 172:12-172:47"

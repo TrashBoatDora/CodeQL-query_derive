@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/Rand.cpp","call function: 64:10-64:13","call in function: cryptoRand@42-87","callee=open","basic block: 42:29-65:14"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/db/init.cpp","call function: 268:5-268:16","call in function: open@252-285","callee=creat","basic block: 262:5-274:20"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/db/init.cpp","call function: 123:16-123:30","call in function: checkMetaTable@94-204","callee=creat","basic block: 122:9-123:30"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/vendor/bcrypt/bcrypt.c","call function: 144:7-144:10","call in function: bcrypt_gensalt@118-163","callee=open","basic block: 119:1-145:13"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/src/sandbox/seccomp.cpp","call function: 368:30-368:33","call in function: landlock_path@363-380","callee=open","basic block: 363:61-369:34"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/vendor/INIReader.hpp","call function: 292:12-292:16","call in function: ini_parse@287-298","callee=fopen","basic block: 288:1-293:13"

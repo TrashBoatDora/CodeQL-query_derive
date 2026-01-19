@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/hyperscan/unit/gtest/gtest-all.cc","call function: 7459:3-7459:8","call in function: ExecDeathTestChildMain@7438-7464","callee=execv","basic block: 7459:3-7460:16"
-"Path: /home/sixsquare/codeQL/projects/hyperscan/unit/gtest/gtest-all.cc","call function: 7459:3-7459:8","call in function: ExecDeathTestChildMain@7438-7464","callee=execve","basic block: 7459:3-7460:16"
-"Path: /home/sixsquare/codeQL/projects/hyperscan/examples/patbench.cc","call function: 247:20-247:49","call in function: stop@246-248","callee=std::system","basic block: 246:17-246:13"
-"Path: /home/sixsquare/codeQL/projects/hyperscan/examples/patbench.cc","call function: 243:22-243:51","call in function: start@242-244","callee=std::system","basic block: 242:18-242:14"
-"Path: /home/sixsquare/codeQL/projects/hyperscan/examples/pcapscan.cc","call function: 147:20-147:49","call in function: stop@146-148","callee=std::system","basic block: 146:17-146:13"
-"Path: /home/sixsquare/codeQL/projects/hyperscan/examples/pcapscan.cc","call function: 143:22-143:51","call in function: start@142-144","callee=std::system","basic block: 142:18-142:14"

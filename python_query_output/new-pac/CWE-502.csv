@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/new-pac/update_v2ray_wiki.py","call function: 42:18-42:77","call in function: update_vmess@40-48","callee=json.loads","basic block: 40:18-44:27"

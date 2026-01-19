@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/mio.hpp","call function: 941:23-941:42","call in function: last_error@935-944","callee=std::system","basic block: 936:1-935:33"
-"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/mio.hpp","call function: 210:7-210:36","call in function: basic_mmap@203-212","callee=std::system","basic block: 209:16-210:36"
-"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/fmt/format-inl.h","call function: 2561:36-2561:65","call in function: format_system_error@2557-2566","callee=std::system","basic block: 2561:36-2561:65"
-"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/fmt/format-inl.h","call function: 2561:36-2561:65","call in function: format_system_error@2557-2566","callee=std::system","basic block: 2558:69-2562:11"
-"Path: /home/sixsquare/codeQL/projects/binary_log/tools/unpacker/fmt/format-inl.h","call function: 139:3-139:58","call in function: vsystem_error@136-140","callee=std::system","basic block: 137:60-136:40"

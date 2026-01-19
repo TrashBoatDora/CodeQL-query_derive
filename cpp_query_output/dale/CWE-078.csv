@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/dale/src/dale/Module/Writer/Writer.cpp","call function: 88:15-88:20","call in function: writeLibraries@73-125","callee=system","basic block: 73:49-89:15"
-"Path: /home/sixsquare/codeQL/projects/dale/src/dale/Module/Writer/Writer.cpp","call function: 107:11-107:16","call in function: writeLibraries@73-125","callee=system","basic block: 105:5-108:15"
-"Path: /home/sixsquare/codeQL/projects/dale/src/dale/Module/Writer/Writer.cpp","call function: 118:11-118:16","call in function: writeLibraries@73-125","callee=system","basic block: 110:5-119:15"
-"Path: /home/sixsquare/codeQL/projects/dale/src/dale/dalec.cpp","call function: 355:18-355:23","call in function: main@116-372","callee=system","basic block: 355:5-356:19"
-"Path: /home/sixsquare/codeQL/projects/dale/src/dale/dalec.cpp","call function: 69:14-69:18","call in function: copyRuntimeToCompileTime@58-86","callee=popen","basic block: 62:23-70:22"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Deep-Live-Cam/modules/core.py","call function: 167:12-167:33","call in function: pre_check@163-170","callee=shutil.which","basic block: 167:12-167:33"
-"path: /home/sixsquare/codeQL/projects/Deep-Live-Cam/modules/utilities.py","call function: 34:9-34:67","call in function: run_ffmpeg@23-38","callee=subprocess.check_output","basic block: 34:43-34:67"
-"path: /home/sixsquare/codeQL/projects/Deep-Live-Cam/modules/utilities.py","call function: 54:14-54:45","call in function: detect_fps@41-60","callee=subprocess.check_output","basic block: 41:16-56:49"

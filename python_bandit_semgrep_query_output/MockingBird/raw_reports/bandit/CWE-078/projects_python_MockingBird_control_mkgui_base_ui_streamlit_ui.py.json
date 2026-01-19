@@ -1,0 +1,80 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:37:02Z",
+  "metrics": {
+    "./projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 697,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 697,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "54                 f\"\"\"set STREAMLIT_GLOBAL_SHOW_WARNING_ON_DIRECT_EXECUTION=false\"\"\",\n55                 shell=True,\n56             )\n57 \n58         subprocess.run(\n59             f\"\"\"{python_path} \"{sys.executable}\" -m streamlit run --server.port={port} --server.headless=True --runner.magicEnabled=False --server.maxUploadSize=50  --browser.gatherUsageStats=False {f.name}\"\"\",\n",
+      "col_offset": 12,
+      "end_col_offset": 13,
+      "filename": "./projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 55,
+      "line_range": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "59             f\"\"\"{python_path} \"{sys.executable}\" -m streamlit run --server.port={port} --server.headless=True --runner.magicEnabled=False --server.maxUploadSize=50  --browser.gatherUsageStats=False {f.name}\"\"\",\n60             shell=True,\n61         )\n62 \n63         f.close()\n64         unlink(f.name)\n",
+      "col_offset": 8,
+      "end_col_offset": 9,
+      "filename": "./projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 60,
+      "line_range": [
+        58,
+        59,
+        60,
+        61
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    }
+  ]
+}

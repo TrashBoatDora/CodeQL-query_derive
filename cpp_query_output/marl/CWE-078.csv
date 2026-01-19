@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/marl/src/scheduler.cpp","call function: 620:14-620:43","call in function: enqueueFiberTimeouts@619-627","callee=std::system","basic block: 619:48-626:3"
-"Path: /home/sixsquare/codeQL/projects/marl/src/scheduler.cpp","call function: 650:16-650:54","call in function: spinForWorkAndLock@645-683","callee=std::system","basic block: 645:46-681:3"
-"Path: /home/sixsquare/codeQL/projects/marl/src/scheduler.cpp","call function: 651:10-651:48","call in function: spinForWorkAndLock@645-683","callee=std::system","basic block: 651:10-651:60"
-"Path: /home/sixsquare/codeQL/projects/marl/src/scheduler.cpp","call function: 434:32-434:61","call in function: wait@428-435","callee=std::system","basic block: 434:32-434:65"
-"Path: /home/sixsquare/codeQL/projects/marl/src/scheduler.cpp","call function: 462:31-462:60","call in function: wait@437-469","callee=std::system","basic block: 462:31-462:64"

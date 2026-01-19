@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/routes/home.py","call function: 10:12-12:5","call in function: get_status@9-12","callee=fastapi.responses.HTMLResponse","basic block: 10:12-12:5"

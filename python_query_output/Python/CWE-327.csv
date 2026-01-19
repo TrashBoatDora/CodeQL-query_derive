@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Python/ciphers/diffie_hellman.py","call function: 241:16-241:47","call in function: generate_shared_key@236-241","callee=hashlib.sha256","basic block: 240:22-241:59"
-"path: /home/sixsquare/codeQL/projects/Python/ciphers/diffie_hellman.py","call function: 261:16-261:47","call in function: generate_shared_key_static@252-261","callee=hashlib.sha256","basic block: 260:22-261:59"
-"path: /home/sixsquare/codeQL/projects/Python/hashes/sha1.py","call function: 135:42-135:58","call in function: test_sha1_hash@133-135","callee=hashlib.sha1","basic block: 134:11-135:70"
-"path: /home/sixsquare/codeQL/projects/Python/hashes/sha256.py","call function: 206:36-206:54","call in function: test_match_hashes@202-206","callee=hashlib.sha256","basic block: 202:27-206:66"
-"path: /home/sixsquare/codeQL/projects/Python/scripts/validate_solutions.py","call function: 105:14-105:44","call in function: test_project_euler@98-108","callee=hashlib.sha256","basic block: 98:24-106:29"

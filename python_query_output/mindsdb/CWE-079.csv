@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/api/http/namespaces/agents.py","call function: 353:20-353:62","call in function: post@325-359","callee=flask.Response","basic block: 353:29-353:62"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/interfaces/knowledge_base/preprocessing/document_preprocessor.py","call function: 153:20-153:35","call in function: _prepare_prompts@148-164","callee=html.escape","basic block: 153:20-153:35"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/interfaces/knowledge_base/preprocessing/document_preprocessor.py","call function: 153:20-153:35","call in function: tag_replacer@149-153","callee=html.escape","basic block: 153:20-153:35"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/api/http/initialize.py","call function: 93:12-93:67","call in function: custom_output_json@92-95","callee=flask.make_response","basic block: 92:24-94:31"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/metrics/server.py","call function: 26:16-26:81","call in function: init_metrics@12-26","callee=flask.Response","basic block: 26:16-26:81"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/metrics/server.py","call function: 26:16-26:81","call in function: metrics@25-26","callee=flask.Response","basic block: 26:16-26:81"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/api/http/utils.py","call function: 27:12-37:5","call in function: http_error@8-37","callee=flask.Response","basic block: 27:12-37:5"

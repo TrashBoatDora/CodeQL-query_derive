@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/core/service.cpp","call function: 269:13-269:19","call in function: operator()@268-271","callee=fprintf","basic block: 268:86-268:55"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/core/config.cpp","call function: 162:9-162:15","call in function: SHA224@140-167","callee=sprintf","basic block: 161:51-161:48"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/proto/socks5address.cpp","call function: 60:17-60:23","call in function: parse@25-74","callee=sprintf","basic block: 58:41-68:27"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/core/log.cpp","call function: 45:9-45:15","call in function: log@39-52","callee=fprintf","basic block: 40:30-48:13"

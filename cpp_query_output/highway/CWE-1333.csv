@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest-port.cc","call function: 730:15-730:21","call in function: Init@721-748","callee=regcomp","basic block: 721:34-739:15"
-"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest-port.cc","call function: 741:17-741:23","call in function: Init@721-748","callee=regcomp","basic block: 741:5-741:74"
-"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest-port.cc","call function: 717:10-717:16","call in function: PartialMatch@713-718","callee=regexec","basic block: 716:3-717:60"
-"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest-port.cc","call function: 708:10-708:16","call in function: FullMatch@704-709","callee=regexec","basic block: 707:3-708:57"
-"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest-port.cc","call function: 697:5-697:11","call in function: ~RE@691-701","callee=regfree","basic block: 692:18-698:11"
-"Path: /home/sixsquare/codeQL/projects/highway/build/googletest-src/googletest/src/gtest-port.cc","call function: 698:5-698:11","call in function: ~RE@691-701","callee=regfree","basic block: 692:18-698:11"

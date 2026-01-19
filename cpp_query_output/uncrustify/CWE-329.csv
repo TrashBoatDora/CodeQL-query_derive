@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/uncrustify/src/uncrustify.cpp","call function: 1676:26-1676:29","call in function: do_source_file@1516-1681","callee=time","basic block: 1673:7-1677:21"
-"Path: /home/sixsquare/codeQL/projects/uncrustify/src/output.cpp","call function: 3263:17-3263:20","call in function: kw_fcn_year@3260-3267","callee=time","basic block: 3261:1-3260:23"

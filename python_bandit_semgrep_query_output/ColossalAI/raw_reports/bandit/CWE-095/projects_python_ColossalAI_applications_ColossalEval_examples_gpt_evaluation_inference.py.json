@@ -1,0 +1,74 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:21:15Z",
+  "metrics": {
+    "./projects/python/ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 202,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 202,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "147         dataset_classes[dataset_name] = dataset_parameter[\"dataset_class\"]\n148         dataset_class = eval(f\"dataset.{dataset_parameter['dataset_class']}\")\n149         if not issubclass(dataset_class, dataset.BaseDataset):\n",
+      "col_offset": 24,
+      "end_col_offset": 77,
+      "filename": "./projects/python/ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 148,
+      "line_range": [
+        148
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "182         model_name = model_parameter[\"name\"]\n183         model_class = eval(f\"models.{model_parameter['model_class']}\")\n184         paramerters = model_parameter[\"parameters\"]\n",
+      "col_offset": 22,
+      "end_col_offset": 70,
+      "filename": "./projects/python/ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 183,
+      "line_range": [
+        183
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    }
+  ]
+}

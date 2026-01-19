@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/aider/aider/onboarding.py","call function: 167:21-167:45","call in function: generate_pkce_codes@166-171","callee=secrets.token_urlsafe","basic block: 167:21-171:40"

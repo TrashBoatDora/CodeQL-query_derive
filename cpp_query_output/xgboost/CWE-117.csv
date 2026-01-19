@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/src/io/local_filesys.cc","call function: 38:11-38:21","call in function: Write@37-41","callee=fwrite","basic block: 37:63-38:49"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/include/dmlc/logging.h","call function: 309:5-309:12","call in function: HumanDate@296-316","callee=snprintf","basic block: 296:27-296:23"
-"Path: /home/sixsquare/codeQL/projects/xgboost/build/CMakeFiles/CMakeScratch/TryCompile-HibZEx/OpenMPCheckVersion.c","call function: 15:3-15:6","call in function: main@13-17","callee=puts","basic block: 14:1-13:8"
-"Path: /home/sixsquare/codeQL/projects/xgboost/build/CMakeFiles/CMakeScratch/TryCompile-662fVy/OpenMPCheckVersion.cpp","call function: 15:3-15:6","call in function: main@13-17","callee=puts","basic block: 14:1-13:8"
-"Path: /home/sixsquare/codeQL/projects/xgboost/src/common/timer.h","call function: 32:5-32:12","call in function: PrintElapsed@30-36","callee=snprintf","basic block: 30:40-30:19"
-"Path: /home/sixsquare/codeQL/projects/xgboost/src/common/common.cc","call function: 52:7-52:14","call in function: EscapeU8@27-58","callee=snprintf","basic block: 49:50-53:14"

@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/TTS/TTS/server/server.py","call function: 152:12-160:5","call in function: index@151-160","callee=flask.render_template","basic block: 158:22-160:5"
-"path: /home/sixsquare/codeQL/projects/TTS/TTS/server/server.py","call function: 179:12-185:5","call in function: details@164-185","callee=flask.render_template","basic block: 179:12-185:5"
-"path: /home/sixsquare/codeQL/projects/TTS/TTS/server/server.py","call function: 220:12-220:76","call in function: mary_tts_api_locales@213-220","callee=flask.render_template_string","basic block: 220:12-220:76"
-"path: /home/sixsquare/codeQL/projects/TTS/TTS/server/server.py","call function: 231:12-233:5","call in function: mary_tts_api_voices@224-233","callee=flask.render_template_string","basic block: 231:12-233:5"

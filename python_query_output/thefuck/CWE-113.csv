@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/rules/git_clone_missing.py","call function: 28:11-28:54","call in function: match@17-38","callee=urllib.parse.urlparse","basic block: 22:42-30:21"
-"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/rules/whois.py","call function: 33:16-33:28","call in function: get_new_command@27-34","callee=urllib.parse.urlparse","basic block: 33:16-34:75"
-"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/rules/whois.py","call function: 31:27-31:39","call in function: get_new_command@27-34","callee=urllib.parse.urlparse","basic block: 31:16-31:46"

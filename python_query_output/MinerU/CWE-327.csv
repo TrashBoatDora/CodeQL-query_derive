@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MinerU/mineru/utils/hash_utils.py","call function: 7:14-7:26","call in function: bytes_md5@6-9","callee=hashlib.md5","basic block: 6:15-9:37"
-"path: /home/sixsquare/codeQL/projects/MinerU/mineru/utils/hash_utils.py","call function: 13:14-13:26","call in function: str_md5@12-17","callee=hashlib.md5","basic block: 12:13-17:29"
-"path: /home/sixsquare/codeQL/projects/MinerU/mineru/utils/hash_utils.py","call function: 21:14-21:29","call in function: str_sha256@20-25","callee=hashlib.sha256","basic block: 20:16-25:29"
-"path: /home/sixsquare/codeQL/projects/MinerU/mineru/utils/hash_utils.py","call function: 30:12-30:48","call in function: dict_md5@28-30","callee=hashlib.md5","basic block: 28:14-30:60"

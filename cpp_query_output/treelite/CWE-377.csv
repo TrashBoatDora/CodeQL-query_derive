@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/treelite/include/treelite/detail/file_utils.h","call function: 66:8-66:17","call in function: OpenFileForReadAsFilePtr@59-70","callee=fopen","basic block: 62:3-68:20"

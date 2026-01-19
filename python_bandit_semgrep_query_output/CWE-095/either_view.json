@@ -1,0 +1,3452 @@
+{
+  "ColossalAI/applications/ColossalChat/examples/training_scripts/train_ppo.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalChat/examples/training_scripts/train_ppo.py",
+      "line_start": 348,
+      "line_end": 348,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalChat/examples/training_scripts/train_ppo.py",
+      "line_start": 348,
+      "line_end": 348,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/dataset_evaluator.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/dataset_evaluator.py",
+      "line_start": 128,
+      "line_end": 128,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/dataset_evaluator.py",
+      "line_start": 158,
+      "line_end": 158,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/dataset_evaluator.py",
+      "line_start": 178,
+      "line_end": 178,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/dataset_evaluator.py",
+      "line_start": 128,
+      "line_end": 128,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/dataset_evaluator.py",
+      "line_start": 158,
+      "line_end": 158,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/dataset_evaluator.py",
+      "line_start": 178,
+      "line_end": 178,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/metrics.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/metrics.py",
+      "line_start": 659,
+      "line_end": 659,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/metrics.py",
+      "line_start": 690,
+      "line_end": 690,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/metrics.py",
+      "line_start": 659,
+      "line_end": 659,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/evaluate/dataset_evaluator/metrics.py",
+      "line_start": 690,
+      "line_end": 690,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ColossalAI/applications/ColossalEval/colossal_eval/models/huggingface.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/models/huggingface.py",
+      "line_start": 129,
+      "line_end": 129,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/models/huggingface.py",
+      "line_start": 601,
+      "line_end": 601,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/models/huggingface.py",
+      "line_start": 129,
+      "line_end": 129,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/models/huggingface.py",
+      "line_start": 601,
+      "line_end": 601,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ColossalAI/applications/ColossalEval/colossal_eval/models/vllm.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/models/vllm.py",
+      "line_start": 128,
+      "line_end": 128,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/colossal_eval/models/vllm.py",
+      "line_start": 128,
+      "line_end": 128,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ColossalAI/applications/ColossalEval/examples/dataset_evaluation/inference.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/dataset_evaluation/inference.py",
+      "line_start": 158,
+      "line_end": 158,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/dataset_evaluation/inference.py",
+      "line_start": 193,
+      "line_end": 193,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/dataset_evaluation/inference.py",
+      "line_start": 158,
+      "line_end": 158,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/dataset_evaluation/inference.py",
+      "line_start": 193,
+      "line_end": 193,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py",
+      "line_start": 148,
+      "line_end": 148,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py",
+      "line_start": 183,
+      "line_end": 183,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py",
+      "line_start": 148,
+      "line_end": 148,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalEval/examples/gpt_evaluation/inference.py",
+      "line_start": 183,
+      "line_end": 183,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "DeepSpeed/deepspeed/comm/ccl.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/comm/ccl.py",
+      "line_start": 72,
+      "line_end": 72,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/comm/ccl.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/comm/ccl.py",
+      "line_start": 72,
+      "line_end": 72,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/comm/ccl.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "DragGAN/stylegan_human/dnnlib/tflib/network.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/dnnlib/tflib/network.py",
+      "line_start": 292,
+      "line_end": 292,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/dnnlib/tflib/network.py",
+      "line_start": 292,
+      "line_end": 292,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "DragGAN/stylegan_human/torch_utils/persistence.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/persistence.py",
+      "line_start": 228,
+      "line_end": 228,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/persistence.py",
+      "line_start": 228,
+      "line_end": 228,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "DragGAN/torch_utils/persistence.py": [
+    {
+      "file_path": "projects/python/DragGAN/torch_utils/persistence.py",
+      "line_start": 226,
+      "line_end": 226,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/DragGAN/torch_utils/persistence.py",
+      "line_start": 226,
+      "line_end": 226,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "Fooocus/modules/meta_parser.py": [
+    {
+      "file_path": "projects/python/Fooocus/modules/meta_parser.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/Fooocus/modules/meta_parser.py",
+      "line_start": 136,
+      "line_end": 136,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/Fooocus/modules/meta_parser.py",
+      "line_start": 197,
+      "line_end": 197,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/Fooocus/modules/meta_parser.py",
+      "line_start": 210,
+      "line_end": 210,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/Fooocus/modules/meta_parser.py",
+      "line_start": 462,
+      "line_end": 462,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    }
+  ],
+  "GFPGAN/setup.py": [
+    {
+      "file_path": "projects/python/GFPGAN/setup.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/GFPGAN/setup.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/inference_webui.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui.py",
+      "line_start": 87,
+      "line_end": 87,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui.py",
+      "line_start": 87,
+      "line_end": 87,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/inference_webui_fast.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui_fast.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui_fast.py",
+      "line_start": 52,
+      "line_end": 52,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui_fast.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/inference_webui_fast.py",
+      "line_start": 52,
+      "line_end": 52,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py",
+      "line_start": 134,
+      "line_end": 134,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py",
+      "line_start": 141,
+      "line_end": 141,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py",
+      "line_start": 134,
+      "line_end": 134,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py",
+      "line_start": 141,
+      "line_end": 141,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "GPT-SoVITS/tools/subfix_webui.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/subfix_webui.py",
+      "line_start": 423,
+      "line_end": 423,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/subfix_webui.py",
+      "line_start": 423,
+      "line_end": 423,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "HanLP/hanlp/components/amr/amrbart/common/postprocessing.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/amrbart/common/postprocessing.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/amrbart/common/postprocessing.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "HanLP/hanlp/components/amr/amrbart/preprocess/amr_io.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/amrbart/preprocess/amr_io.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/amrbart/preprocess/amr_io.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "HanLP/hanlp/components/amr/seq2seq/dataset/IO.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/seq2seq/dataset/IO.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/seq2seq/dataset/IO.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "HanLP/hanlp/components/amr/seq2seq/dataset/postprocessing.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/seq2seq/dataset/postprocessing.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/seq2seq/dataset/postprocessing.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "HanLP/hanlp/transform/table_tf.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/transform/table_tf.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/HanLP/hanlp/transform/table_tf.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/metagpt/actions/action_node.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/action_node.py",
+      "line_start": 581,
+      "line_end": 581,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/action_node.py",
+      "line_start": 588,
+      "line_end": 588,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/action_node.py",
+      "line_start": 581,
+      "line_end": 581,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/action_node.py",
+      "line_start": 588,
+      "line_end": 588,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/metagpt/actions/run_code.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/run_code.py",
+      "line_start": 87,
+      "line_end": 87,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/run_code.py",
+      "line_start": 87,
+      "line_end": 87,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/metagpt/ext/aflow/benchmark/humaneval.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/humaneval.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/humaneval.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/humaneval.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/humaneval.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/metagpt/ext/aflow/benchmark/mbpp.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/mbpp.py",
+      "line_start": 58,
+      "line_end": 58,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/mbpp.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/mbpp.py",
+      "line_start": 58,
+      "line_end": 58,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/benchmark/mbpp.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/metagpt/ext/aflow/scripts/operator.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/scripts/operator.py",
+      "line_start": 148,
+      "line_end": 148,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/scripts/operator.py",
+      "line_start": 228,
+      "line_end": 228,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/scripts/operator.py",
+      "line_start": 148,
+      "line_end": 148,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/scripts/operator.py",
+      "line_start": 228,
+      "line_end": 228,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/metagpt/strategy/tot.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/strategy/tot.py",
+      "line_start": 66,
+      "line_end": 66,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/strategy/tot.py",
+      "line_start": 66,
+      "line_end": 66,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/metagpt/utils/serialize.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/utils/serialize.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/utils/serialize.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MetaGPT/tests/mock/mock_aiohttp.py": [
+    {
+      "file_path": "projects/python/MetaGPT/tests/mock/mock_aiohttp.py",
+      "line_start": 52,
+      "line_end": 52,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/mock/mock_aiohttp.py",
+      "line_start": 52,
+      "line_end": 52,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "MinerU/mineru/model/table/rec/slanet_plus/table_structure_utils.py": [
+    {
+      "file_path": "projects/python/MinerU/mineru/model/table/rec/slanet_plus/table_structure_utils.py",
+      "line_start": 414,
+      "line_end": 414,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/MinerU/mineru/model/table/rec/slanet_plus/table_structure_utils.py",
+      "line_start": 521,
+      "line_end": 521,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/MinerU/mineru/model/table/rec/slanet_plus/table_structure_utils.py",
+      "line_start": 414,
+      "line_end": 414,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/MinerU/mineru/model/table/rec/slanet_plus/table_structure_utils.py",
+      "line_start": 521,
+      "line_end": 521,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenBB/cli/openbb_cli/controllers/script_parser.py": [
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 251,
+      "line_end": 251,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 257,
+      "line_end": 257,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 269,
+      "line_end": 269,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 317,
+      "line_end": 317,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 355,
+      "line_end": 355,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 251,
+      "line_end": 253,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 257,
+      "line_end": 257,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 269,
+      "line_end": 271,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 317,
+      "line_end": 319,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "line_start": 355,
+      "line_end": 357,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenBB/cli/openbb_cli/controllers/utils.py": [
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/utils.py",
+      "line_start": 924,
+      "line_end": 924,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/cli/openbb_cli/controllers/utils.py",
+      "line_start": 923,
+      "line_end": 927,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenBB/openbb_platform/core/openbb_core/app/static/package_builder.py": [
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/core/openbb_core/app/static/package_builder.py",
+      "line_start": 1865,
+      "line_end": 1865,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/core/openbb_core/app/static/package_builder.py",
+      "line_start": 1876,
+      "line_end": 1876,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/core/openbb_core/app/static/package_builder.py",
+      "line_start": 1864,
+      "line_end": 1868,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/core/openbb_core/app/static/package_builder.py",
+      "line_start": 1876,
+      "line_end": 1878,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenBB/openbb_platform/extensions/tests/utils/helpers.py": [
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/extensions/tests/utils/helpers.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/extensions/tests/utils/helpers.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenHands/evaluation/benchmarks/mint/utils.py": [
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/mint/utils.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/mint/utils.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenHands/evaluation/benchmarks/testgeneval/scripts/eval/build_outputs_ablation.py": [
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/testgeneval/scripts/eval/build_outputs_ablation.py",
+      "line_start": 80,
+      "line_end": 80,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/testgeneval/scripts/eval/build_outputs_ablation.py",
+      "line_start": 80,
+      "line_end": 82,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenHands/evaluation/benchmarks/versicode/metric/compute_ism_pm_score.py": [
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_ism_pm_score.py",
+      "line_start": 284,
+      "line_end": 284,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_ism_pm_score.py",
+      "line_start": 284,
+      "line_end": 284,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_cdc_score.py": [
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_cdc_score.py",
+      "line_start": 190,
+      "line_end": 190,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_cdc_score.py",
+      "line_start": 204,
+      "line_end": 204,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_cdc_score.py",
+      "line_start": 205,
+      "line_end": 205,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_cdc_score.py",
+      "line_start": 190,
+      "line_end": 190,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_cdc_score.py",
+      "line_start": 204,
+      "line_end": 204,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_cdc_score.py",
+      "line_start": 205,
+      "line_end": 205,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_em_score.py": [
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_em_score.py",
+      "line_start": 174,
+      "line_end": 174,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_em_score.py",
+      "line_start": 188,
+      "line_end": 188,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_em_score.py",
+      "line_start": 189,
+      "line_end": 189,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_em_score.py",
+      "line_start": 174,
+      "line_end": 174,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_em_score.py",
+      "line_start": 188,
+      "line_end": 188,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/versicode/metric/compute_versicode_em_score.py",
+      "line_start": 189,
+      "line_end": 189,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "OpenManus/app/tool/python_execute.py": [
+    {
+      "file_path": "projects/python/OpenManus/app/tool/python_execute.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/OpenManus/app/tool/python_execute.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/base/base_dataset.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/base/base_dataset.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/base/base_dataset.py",
+      "line_start": 45,
+      "line_end": 45,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/base/base_dataset.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/base/base_dataset.py",
+      "line_start": 45,
+      "line_end": 45,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/data_loader/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/data_loader/__init__.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/data_loader/__init__.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/models/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/__init__.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/__init__.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/models/backbone/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/backbone/__init__.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/backbone/__init__.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/models/head/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/head/__init__.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/head/__init__.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/models/losses/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/losses/__init__.py",
+      "line_start": 15,
+      "line_end": 15,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/losses/__init__.py",
+      "line_start": 15,
+      "line_end": 15,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/models/neck/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/neck/__init__.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/models/neck/__init__.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/post_processing/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/post_processing/__init__.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/post_processing/__init__.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/utils/ocr_metric/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/ocr_metric/__init__.py",
+      "line_start": 14,
+      "line_end": 14,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/ocr_metric/__init__.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/ocr_metric/__init__.py",
+      "line_start": 14,
+      "line_end": 14,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/ocr_metric/__init__.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/data/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/__init__.py",
+      "line_start": 107,
+      "line_end": 107,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/__init__.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/__init__.py",
+      "line_start": 107,
+      "line_end": 107,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/__init__.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/data/imaug/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/__init__.py",
+      "line_start": 94,
+      "line_end": 94,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/__init__.py",
+      "line_start": 94,
+      "line_end": 94,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/data/imaug/label_ops.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/label_ops.py",
+      "line_start": 1294,
+      "line_end": 1294,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/label_ops.py",
+      "line_start": 1294,
+      "line_end": 1294,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/data/imaug/operators.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/operators.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/operators.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/data/imaug/rec_img_aug.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/rec_img_aug.py",
+      "line_start": 502,
+      "line_end": 502,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/imaug/rec_img_aug.py",
+      "line_start": 502,
+      "line_end": 502,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/losses/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/__init__.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/__init__.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/losses/combined_loss.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/combined_loss.py",
+      "line_start": 64,
+      "line_end": 64,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/combined_loss.py",
+      "line_start": 64,
+      "line_end": 64,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/losses/rec_multi_loss.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/rec_multi_loss.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/rec_multi_loss.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/metrics/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/metrics/__init__.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/metrics/__init__.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/backbones/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/__init__.py",
+      "line_start": 151,
+      "line_end": 151,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/__init__.py",
+      "line_start": 151,
+      "line_end": 151,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/backbones/rec_micronet.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_micronet.py",
+      "line_start": 79,
+      "line_end": 79,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_micronet.py",
+      "line_start": 79,
+      "line_end": 79,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/backbones/rec_pphgnetv2.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_pphgnetv2.py",
+      "line_start": 1168,
+      "line_end": 1168,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_pphgnetv2.py",
+      "line_start": 1168,
+      "line_end": 1168,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 236,
+      "line_end": 236,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 258,
+      "line_end": 258,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 397,
+      "line_end": 397,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 473,
+      "line_end": 473,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 488,
+      "line_end": 488,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 522,
+      "line_end": 522,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 555,
+      "line_end": 555,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 579,
+      "line_end": 579,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 236,
+      "line_end": 236,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 258,
+      "line_end": 258,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 397,
+      "line_end": 397,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 473,
+      "line_end": 473,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 488,
+      "line_end": 488,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 522,
+      "line_end": 522,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 555,
+      "line_end": 555,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "line_start": 579,
+      "line_end": 579,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/backbones/rec_vit.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 143,
+      "line_end": 143,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 157,
+      "line_end": 157,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 223,
+      "line_end": 223,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 234,
+      "line_end": 234,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 143,
+      "line_end": 143,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 157,
+      "line_end": 157,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 223,
+      "line_end": 223,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit.py",
+      "line_start": 234,
+      "line_end": 234,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/backbones/rec_vit_parseq.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit_parseq.py",
+      "line_start": 155,
+      "line_end": 155,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit_parseq.py",
+      "line_start": 171,
+      "line_end": 171,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit_parseq.py",
+      "line_start": 283,
+      "line_end": 283,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit_parseq.py",
+      "line_start": 155,
+      "line_end": 155,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit_parseq.py",
+      "line_start": 171,
+      "line_end": 171,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vit_parseq.py",
+      "line_start": 283,
+      "line_end": 283,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/backbones/rec_vitstr.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vitstr.py",
+      "line_start": 94,
+      "line_end": 94,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vitstr.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vitstr.py",
+      "line_start": 94,
+      "line_end": 94,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/backbones/rec_vitstr.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/heads/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/__init__.py",
+      "line_start": 107,
+      "line_end": 107,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/__init__.py",
+      "line_start": 107,
+      "line_end": 107,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 104,
+      "line_end": 104,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 170,
+      "line_end": 170,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 171,
+      "line_end": 171,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 189,
+      "line_end": 189,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 104,
+      "line_end": 104,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 170,
+      "line_end": 170,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 171,
+      "line_end": 171,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_cppd_head.py",
+      "line_start": 189,
+      "line_end": 189,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/heads/rec_multi_head.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_multi_head.py",
+      "line_start": 83,
+      "line_end": 83,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_multi_head.py",
+      "line_start": 124,
+      "line_end": 124,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_multi_head.py",
+      "line_start": 83,
+      "line_end": 83,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/heads/rec_multi_head.py",
+      "line_start": 124,
+      "line_end": 124,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/necks/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/necks/__init__.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/necks/__init__.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/modeling/transforms/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/transforms/__init__.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/modeling/transforms/__init__.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/ppocr/postprocess/__init__.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/postprocess/__init__.py",
+      "line_start": 120,
+      "line_end": 120,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/postprocess/__init__.py",
+      "line_start": 120,
+      "line_end": 120,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "PaddleOCR/test_tipc/supplementary/data.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/data.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/data.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/data.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/data.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "TTS/TTS/vc/modules/freevc/wavlm/wavlm.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/vc/modules/freevc/wavlm/wavlm.py",
+      "line_start": 227,
+      "line_end": 227,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/TTS/TTS/vc/modules/freevc/wavlm/wavlm.py",
+      "line_start": 227,
+      "line_end": 227,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "Umi-OCR/UmiOCR-data/py_src/server/bottle.py": [
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 151,
+      "line_end": 151,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 3388,
+      "line_end": 3388,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 3804,
+      "line_end": 3804,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 151,
+      "line_end": 151,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 3388,
+      "line_end": 3388,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 3804,
+      "line_end": 3804,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "airflow/airflow-core/src/airflow/policies.py": [
+    {
+      "file_path": "projects/python/airflow/airflow-core/src/airflow/policies.py",
+      "line_start": 179,
+      "line_end": 179,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/src/airflow/policies.py",
+      "line_start": 179,
+      "line_end": 179,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/lib/ansible/module_utils/_internal/_dataclass_validation.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/_internal/_dataclass_validation.py",
+      "line_start": 174,
+      "line_end": 174,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/_internal/_dataclass_validation.py",
+      "line_start": 174,
+      "line_end": 174,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/lib/ansible/module_utils/six/__init__.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/six/__init__.py",
+      "line_start": 753,
+      "line_end": 753,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    }
+  ],
+  "ansible/lib/ansible/plugins/strategy/__init__.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/strategy/__init__.py",
+      "line_start": 1164,
+      "line_end": 1164,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/strategy/__init__.py",
+      "line_start": 1187,
+      "line_end": 1187,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/strategy/__init__.py",
+      "line_start": 1164,
+      "line_end": 1164,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/strategy/__init__.py",
+      "line_start": 1187,
+      "line_end": 1187,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/lib/ansible/utils/collection_loader/_collection_finder.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/utils/collection_loader/_collection_finder.py",
+      "line_start": 541,
+      "line_end": 541,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/utils/collection_loader/_collection_finder.py",
+      "line_start": 572,
+      "line_end": 572,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/utils/collection_loader/_collection_finder.py",
+      "line_start": 541,
+      "line_end": 541,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/utils/collection_loader/_collection_finder.py",
+      "line_start": 572,
+      "line_end": 572,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/test/lib/ansible_test/_util/target/pytest/plugins/ansible_pytest_collections.py": [
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_util/target/pytest/plugins/ansible_pytest_collections.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_util/target/pytest/plugins/ansible_pytest_collections.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/test/units/_internal/templating/test_jinja_bits.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_jinja_bits.py",
+      "line_start": 344,
+      "line_end": 344,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_jinja_bits.py",
+      "line_start": 344,
+      "line_end": 344,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/test/units/_internal/templating/test_lazy_containers.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 254,
+      "line_end": 254,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 257,
+      "line_end": 257,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 418,
+      "line_end": 418,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 421,
+      "line_end": 421,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 571,
+      "line_end": 571,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 572,
+      "line_end": 572,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 602,
+      "line_end": 602,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 604,
+      "line_end": 604,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 254,
+      "line_end": 254,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 257,
+      "line_end": 257,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 418,
+      "line_end": 418,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 421,
+      "line_end": 421,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 571,
+      "line_end": 571,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 572,
+      "line_end": 572,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 602,
+      "line_end": 602,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_lazy_containers.py",
+      "line_start": 604,
+      "line_end": 604,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/test/units/inventory/test_data.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/inventory/test_data.py",
+      "line_start": 27,
+      "line_end": 27,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/inventory/test_data.py",
+      "line_start": 27,
+      "line_end": 27,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/test/units/parsing/vault/test_vault.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/vault/test_vault.py",
+      "line_start": 986,
+      "line_end": 986,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/vault/test_vault.py",
+      "line_start": 987,
+      "line_end": 987,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/vault/test_vault.py",
+      "line_start": 986,
+      "line_end": 986,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/vault/test_vault.py",
+      "line_start": 987,
+      "line_end": 987,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/test/units/utils/test_datatag.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/utils/test_datatag.py",
+      "line_start": 172,
+      "line_end": 172,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/utils/test_datatag.py",
+      "line_start": 172,
+      "line_end": 172,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ansible/test/units/utils/test_serialization_profiles.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/utils/test_serialization_profiles.py",
+      "line_start": 229,
+      "line_end": 229,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/utils/test_serialization_profiles.py",
+      "line_start": 229,
+      "line_end": 229,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "autogen/python/packages/autogen-core/src/autogen_core/tools/_function_tool.py": [
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-core/src/autogen_core/tools/_function_tool.py",
+      "line_start": 159,
+      "line_end": 159,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-core/src/autogen_core/tools/_function_tool.py",
+      "line_start": 171,
+      "line_end": 171,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-core/src/autogen_core/tools/_function_tool.py",
+      "line_start": 159,
+      "line_end": 159,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-core/src/autogen_core/tools/_function_tool.py",
+      "line_start": 171,
+      "line_end": 171,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "awesome-llm-apps/ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_2_function_tools/calculator_agent/tools.py": [
+    {
+      "file_path": "projects/python/awesome-llm-apps/ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_2_function_tools/calculator_agent/tools.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/awesome-llm-apps/ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_2_function_tools/calculator_agent/tools.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "black/src/blib2to3/pgen2/conv.py": [
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/conv.py",
+      "line_start": 186,
+      "line_end": 186,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/conv.py",
+      "line_start": 212,
+      "line_end": 212,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/conv.py",
+      "line_start": 186,
+      "line_end": 186,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/conv.py",
+      "line_start": 212,
+      "line_end": 212,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "black/src/blib2to3/pgen2/pgen.py": [
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/pgen.py",
+      "line_start": 100,
+      "line_end": 100,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/pgen.py",
+      "line_start": 100,
+      "line_end": 100,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "ccxt/python/ccxt/static_dependencies/sympy/external/importtools.py": [
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/sympy/external/importtools.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/sympy/external/importtools.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "chatgpt-on-wechat/config.py": [
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/config.py",
+      "line_start": 290,
+      "line_end": 290,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/config.py",
+      "line_start": 290,
+      "line_end": 290,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "core/homeassistant/components/python_script/__init__.py": [
+    {
+      "file_path": "projects/python/core/homeassistant/components/python_script/__init__.py",
+      "line_start": 290,
+      "line_end": 290,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/core/homeassistant/components/python_script/__init__.py",
+      "line_start": 290,
+      "line_end": 290,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "cpython/Lib/_pyrepl/console.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/_pyrepl/console.py",
+      "line_start": 182,
+      "line_end": 182,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/_pyrepl/console.py",
+      "line_start": 182,
+      "line_end": 182,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "cpython/Lib/_pyrepl/main.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/_pyrepl/main.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/_pyrepl/main.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "cpython/Lib/asyncio/__main__.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/asyncio/__main__.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    }
+  ],
+  "cpython/Lib/bdb.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/bdb.py",
+      "line_start": 904,
+      "line_end": 904,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/bdb.py",
+      "line_start": 924,
+      "line_end": 924,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/bdb.py",
+      "line_start": 1149,
+      "line_end": 1149,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/bdb.py",
+      "line_start": 904,
+      "line_end": 904,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/bdb.py",
+      "line_start": 924,
+      "line_end": 924,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/bdb.py",
+      "line_start": 1149,
+      "line_end": 1149,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "cpython/Lib/code.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/code.py",
+      "line_start": 91,
+      "line_end": 91,
+      "scanner": "bandit",
+      "rule_id": "B102",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of exec detected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/code.py",
+      "line_start": 91,
+      "line_end": 91,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.exec-detected.exec-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of exec(). exec() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ],
+  "cpython/Lib/collections/__init__.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/collections/__init__.py",
+      "line_start": 447,
+      "line_end": 447,
+      "scanner": "bandit",
+      "rule_id": "B307",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of possibly insecure function - consider using safer ast.literal_eval."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/collections/__init__.py",
+      "line_start": 447,
+      "line_end": 447,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.eval-detected.eval-detected",
+      "severity": "HIGH",
+      "confidence": "LOW",
+      "description": "Detected the use of eval(). eval() can be dangerous if used to evaluate dynamic content. If this content can be input from outside the program, this may be a code injection vulnerability. Ensure evaluated content is not definable by external sources."
+    }
+  ]
+}

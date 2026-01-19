@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/bert/extract_features.py","call function: 410:20-410:42","call in function: main@343-410","callee=json.dumps","basic block: 409:33-410:50"
-"path: /home/sixsquare/codeQL/projects/bert/modeling.py","call function: 104:12-104:63","call in function: to_json_string@102-104","callee=json.dumps","basic block: 102:22-104:70"
-"path: /home/sixsquare/codeQL/projects/bert/run_squad.py","call function: 917:18-917:54","call in function: write_predictions@741-924","callee=json.dumps","basic block: 916:8-922:34"
-"path: /home/sixsquare/codeQL/projects/bert/run_squad.py","call function: 920:18-920:53","call in function: write_predictions@741-924","callee=json.dumps","basic block: 916:8-922:34"
-"path: /home/sixsquare/codeQL/projects/bert/run_squad.py","call function: 924:20-924:57","call in function: write_predictions@741-924","callee=json.dumps","basic block: 923:10-924:65"

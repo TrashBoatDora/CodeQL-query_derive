@@ -1,0 +1,84 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:31:25Z",
+  "metrics": {
+    "./projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/builtin.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 379,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 379,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "331                 if ground.eval.type == \"python\":\n332                     result = subprocess.run(\n333                         [sys.executable, file_path],\n334                         cwd=os.path.abspath(workspace),\n335                         capture_output=True,\n336                         text=True,\n337                     )\n338                     if \"error\" in result.stderr or result.returncode != 0:\n",
+      "col_offset": 29,
+      "end_col_offset": 21,
+      "filename": "./projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/builtin.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 332,
+      "line_range": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "346             if ground.eval.type == \"pytest\":\n347                 result = subprocess.run(\n348                     [sys.executable, \"-m\", \"pytest\"],\n349                     cwd=os.path.abspath(workspace),\n350                     capture_output=True,\n351                     text=True,\n352                 )\n353                 logger.debug(f\"EXIT CODE: {result.returncode}\")\n",
+      "col_offset": 25,
+      "end_col_offset": 17,
+      "filename": "./projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/builtin.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 347,
+      "line_range": [
+        347,
+        348,
+        349,
+        350,
+        351,
+        352
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

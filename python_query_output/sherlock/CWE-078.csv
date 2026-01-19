@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/sherlock/tests/sherlock_interactives.py","call function: 17:24-17:93","call in function: run_cli@7-20","callee=subprocess.check_output","basic block: 17:69-17:93"

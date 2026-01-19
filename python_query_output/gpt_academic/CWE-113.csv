@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/crazy_functions/Google_Scholar_Assistant_Legacy.py","call function: 106:56-106:68","call in function: get_meta_information@11-132","callee=urllib.parse.urlparse","basic block: 105:43-107:44"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/request_llms/com_sparkapi.py","call function: 25:21-25:37","call in function: __init__@21-27","callee=urllib.parse.urlparse","basic block: 21:18-27:20"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/request_llms/com_sparkapi.py","call function: 26:21-26:37","call in function: __init__@21-27","callee=urllib.parse.urlparse","basic block: 21:18-27:20"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/shared_utils/doc_loader_dynamic.py","call function: 17:18-17:31","call in function: start_with_url@5-20","callee=urllib.parse.urlparse","basic block: 16:34-17:31"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/crazy_functions/doc_fns/text_content_loader.py","call function: 238:27-238:62","call in function: _format_content_with_fold@229-257","callee=mimetypes.guess_type","basic block: 238:27-238:62"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/crazy_functions/doc_fns/read_fns/web_reader.py","call function: 79:22-79:34","call in function: _validate_url@69-82","callee=urllib.parse.urlparse","basic block: 79:31-79:34"

@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/hackingtool/generate_readme.py","call function: 40:10-40:35","call in function: generate_readme@36-47","callee=open","basic block: 37:11-47:33"
-"path: /home/sixsquare/codeQL/projects/hackingtool/generate_readme.py","call function: 46:10-46:31","call in function: generate_readme@36-47","callee=open","basic block: 37:11-47:33"

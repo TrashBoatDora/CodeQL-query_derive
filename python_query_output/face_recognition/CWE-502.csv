@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/face_recognition/face_recognition/api.py","call function: 86:10-86:29","call in function: load_image_file@78-89","callee=PIL.Image.open","basic block: 78:21-87:11"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/face_recognition_knn.py","call function: 132:23-132:36","call in function: predict@111-150","callee=pickle.load","basic block: 130:8-139:33"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/face_recognition_knn.py","call function: 161:17-161:36","call in function: show_prediction_labels_on_image@153-181","callee=PIL.Image.open","basic block: 153:37-164:55"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/facerec_ipcamera_knn.py","call function: 134:23-134:36","call in function: predict@116-150","callee=pickle.load","basic block: 132:8-139:33"

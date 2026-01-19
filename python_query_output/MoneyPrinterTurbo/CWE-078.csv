@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/webui/Main.py","call function: 136:17-136:42","call in function: open_task_folder@130-140","callee=os.system","basic block: 136:17-136:42"
-"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/webui/Main.py","call function: 138:17-138:41","call in function: open_task_folder@130-140","callee=os.system","basic block: 138:17-138:41"

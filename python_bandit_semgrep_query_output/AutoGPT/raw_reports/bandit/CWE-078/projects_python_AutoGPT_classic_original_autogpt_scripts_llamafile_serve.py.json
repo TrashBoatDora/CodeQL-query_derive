@@ -1,0 +1,105 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:31:51Z",
+  "metrics": {
+    "./projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 134,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 134,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "104             llamafile.chmod(0o755)\n105             subprocess.run([llamafile, \"--version\"], check=True)\n106 \n",
+      "col_offset": 12,
+      "end_col_offset": 64,
+      "filename": "./projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 105,
+      "line_range": [
+        105
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "114             LLAMAFILE_EXE.chmod(0o755)\n115             subprocess.run([f\".\\\\{LLAMAFILE_EXE}\", \"--version\"], check=True)\n116 \n",
+      "col_offset": 12,
+      "end_col_offset": 76,
+      "filename": "./projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 115,
+      "line_range": [
+        115
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "125 \n126     subprocess.run(\n127         [\n128             *base_command,\n129             \"--server\",\n130             \"--nobrowser\",\n131             \"--ctx-size\",\n132             \"0\",\n133             \"--n-predict\",\n134             \"1024\",\n135         ],\n136         check=True,\n137     )\n138 \n",
+      "col_offset": 4,
+      "end_col_offset": 5,
+      "filename": "./projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 126,
+      "line_range": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

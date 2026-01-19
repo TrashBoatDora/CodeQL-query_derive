@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 8815:3-8815:52","call in function: convert_number_to_mantissa_exponent@8812-8838","callee=snprintf","basic block: 8813:2-8824:35"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 5184:19-5184:24","call in function: write@5182-5186","callee=fwrite","basic block: 5183:2-5182:41"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 4762:3-4762:51","call in function: set_value_convert@4759-4765","callee=snprintf","basic block: 4760:2-4759:20"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 4762:3-4762:51","call in function: set_value_convert@4759-4765","callee=snprintf","basic block: 4760:2-4759:36"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 4753:3-4753:59","call in function: set_value_convert@4750-4756","callee=snprintf","basic block: 4751:2-4750:20"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 4753:3-4753:59","call in function: set_value_convert@4750-4756","callee=snprintf","basic block: 4751:2-4750:36"

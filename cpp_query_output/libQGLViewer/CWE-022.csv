@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/libQGLViewer/QGLViewer/VRender/gpc.cpp","call function: 995:11-995:31","call in function: minimax_test@990-1040","callee=creat","basic block: 991:1-999:33"
-"Path: /home/sixsquare/codeQL/projects/libQGLViewer/QGLViewer/VRender/gpc.cpp","call function: 996:11-996:31","call in function: minimax_test@990-1040","callee=creat","basic block: 991:1-999:33"

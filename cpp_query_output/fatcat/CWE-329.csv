@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/core/FatSystem.cpp","call function: 872:5-872:9","call in function: rewriteUnallocated@869-902","callee=srand","basic block: 870:1-873:22"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/core/FatSystem.cpp","call function: 872:11-872:14","call in function: rewriteUnallocated@869-902","callee=time","basic block: 870:1-873:22"
-"Path: /home/sixsquare/codeQL/projects/fatcat/src/core/FatSystem.cpp","call function: 884:33-884:36","call in function: rewriteUnallocated@869-902","callee=rand","basic block: 883:29-884:43"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/wtfpython/irrelevant/notebook_generator.py","call function: 341:10-341:33","call in function: convert_to_notebook@311-342","callee=open","basic block: 338:5-342:38"

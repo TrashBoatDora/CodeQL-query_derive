@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/gpt4free/g4f/api/__init__.py","call function: 218:31-220:9","call in function: get_username@215-227","callee=secrets.compare_digest","basic block: 215:28-221:34"
-"path: /home/sixsquare/codeQL/projects/gpt4free/g4f/api/__init__.py","call function: 250:81-250:143","call in function: register_authorization@229-289","callee=secrets.compare_digest","basic block: 250:81-250:143"
-"path: /home/sixsquare/codeQL/projects/gpt4free/g4f/api/__init__.py","call function: 250:81-250:143","call in function: authorization@236-289","callee=secrets.compare_digest","basic block: 250:81-250:143"

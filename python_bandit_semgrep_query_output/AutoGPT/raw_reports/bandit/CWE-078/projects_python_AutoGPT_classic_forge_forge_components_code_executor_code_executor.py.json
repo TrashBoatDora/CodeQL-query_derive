@@ -1,0 +1,109 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:31:46Z",
+  "metrics": {
+    "./projects/python/AutoGPT/classic/forge/forge/components/code_executor/code_executor.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 355,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 1,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 355,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "208             with self.workspace.mount() as local_path:\n209                 result = subprocess.run(\n210                     [\"python\", \"-B\", str(file_path.relative_to(self.workspace.root))]\n211                     + args,\n212                     capture_output=True,\n213                     encoding=\"utf8\",\n214                     cwd=str(local_path),\n215                 )\n216                 if result.returncode == 0:\n",
+      "col_offset": 25,
+      "end_col_offset": 17,
+      "filename": "./projects/python/AutoGPT/classic/forge/forge/components/code_executor/code_executor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 209,
+      "line_range": [
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "286             capture_output=True,\n287             shell=allow_shell,\n288         )\n289         output = f\"STDOUT:\\n{result.stdout.decode()}\\nSTDERR:\\n{result.stderr.decode()}\"\n290 \n291         # Change back to whatever the prior working dir was\n292         os.chdir(current_dir)\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": "./projects/python/AutoGPT/classic/forge/forge/components/code_executor/code_executor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 287,
+      "line_range": [
+        284,
+        285,
+        286,
+        287,
+        288
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "333             command_line if allow_shell else shlex.split(command_line),\n334             shell=allow_shell,\n335             stdout=do_not_show_output,\n336             stderr=do_not_show_output,\n337         )\n338 \n339         # Change back to whatever the prior working dir was\n340         os.chdir(current_dir)\n",
+      "col_offset": 18,
+      "end_col_offset": 9,
+      "filename": "./projects/python/AutoGPT/classic/forge/forge/components/code_executor/code_executor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 334,
+      "line_range": [
+        332,
+        333,
+        334,
+        335,
+        336,
+        337
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    }
+  ]
+}

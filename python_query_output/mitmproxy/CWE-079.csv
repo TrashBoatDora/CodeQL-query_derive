@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/mitmproxy/mitmproxy/addons/onboardingapp/__init__.py","call function: 17:12-17:40","call in function: index@16-17","callee=flask.render_template","basic block: 17:12-17:40"
-"path: /home/sixsquare/codeQL/projects/mitmproxy/mitmproxy/proxy/layers/http/_base.py","call function: 54:13-54:32","call in function: format_error@43-61","callee=html.escape","basic block: 43:18-61:5"
-"path: /home/sixsquare/codeQL/projects/mitmproxy/examples/contrib/webscanner_helper/urlinjection.py","call function: 123:43-123:58","call in function: sitemap@116-125","callee=html.escape","basic block: 121:17-123:73"

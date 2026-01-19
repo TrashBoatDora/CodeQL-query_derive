@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/blink_detection.py","call function: 23:21-23:39","call in function: main@21-84","callee=cv2.VideoCapture","basic block: 22:20-31:11"
-"path: /home/sixsquare/codeQL/projects/face_recognition/examples/facerec_from_webcam_multiprocessing.py","call function: 37:21-37:39","call in function: capture@35-54","callee=cv2.VideoCapture","basic block: 35:13-41:112"

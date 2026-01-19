@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/image_processing/utils.py","call function: 18:11-18:45","call in function: process_image@11-80","callee=PIL.Image.open","basic block: 11:19-22:46"

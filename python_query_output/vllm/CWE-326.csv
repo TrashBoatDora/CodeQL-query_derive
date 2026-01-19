@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/vllm/vllm/v1/core/kv_cache_utils.py","call function: 91:31-91:44","call in function: init_none_hash@79-93","callee=os.urandom","basic block: 90:8-91:17"

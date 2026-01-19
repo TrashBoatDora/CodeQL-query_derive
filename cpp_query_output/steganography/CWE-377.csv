@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/zlib/gzlib.c","call function: 245:9-245:12","call in function: gz_open@91-267","callee=open","basic block: 245:28-245:12"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/stb/stb_image.h","call function: 1340:8-1340:12","call in function: stbi__fopen@1317-1343","callee=fopen","basic block: 1318:1-1317:24"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/stb/stb_image_write.h","call function: 324:8-324:12","call in function: stbiw__fopen@301-327","callee=fopen","basic block: 302:1-301:25"
-"Path: /home/sixsquare/codeQL/projects/steganography/src/random.hpp","call function: 21:16-21:20","call in function: Random@20-22","callee=fopen","basic block: 20:14-20:10"

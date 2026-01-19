@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googletest/src/gtest-death-test.cc","call function: 1206:3-1206:7","call in function: ExecDeathTestChildMain@1185-1210","callee=execv","basic block: 1206:3-1207:16"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googletest/src/gtest.cc","call function: 1202:14-1202:43","call in function: GetTimeInMillis@1200-1205","callee=std::system","basic block: 1200:32-1200:28"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googletest/src/gtest.cc","call function: 1203:14-1203:51","call in function: GetTimeInMillis@1200-1205","callee=std::system","basic block: 1200:32-1200:28"

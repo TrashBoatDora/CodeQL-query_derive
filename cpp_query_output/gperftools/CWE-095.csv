@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/gperftools/src/tests/sampling_test.cc","call function: 88:13-88:17","call in function: VerifyWithPProf@85-129","callee=popen","basic block: 85:76-89:8"
-"Path: /home/sixsquare/codeQL/projects/gperftools/vendor/googletest/googletest/src/gtest-death-test.cc","call function: 1206:3-1206:7","call in function: ExecDeathTestChildMain@1185-1210","callee=execv","basic block: 1206:3-1207:16"
-"Path: /home/sixsquare/codeQL/projects/gperftools/vendor/googletest/googletest/src/gtest.cc","call function: 1220:14-1220:43","call in function: GetTimeInMillis@1218-1223","callee=std::system","basic block: 1218:32-1218:28"
-"Path: /home/sixsquare/codeQL/projects/gperftools/vendor/googletest/googletest/src/gtest.cc","call function: 1221:14-1221:51","call in function: GetTimeInMillis@1218-1223","callee=std::system","basic block: 1218:32-1218:28"
-"Path: /home/sixsquare/codeQL/projects/gperftools/src/tests/heap-profiler_unittest.cc","call function: 165:16-165:20","call in function: main@129-174","callee=execl","basic block: 164:7-165:20"
-"Path: /home/sixsquare/codeQL/projects/gperftools/src/tests/profiler_unittest.cc","call function: 164:18-164:22","call in function: main@116-181","callee=execl","basic block: 163:9-164:22"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MoneyPrinterTurbo/app/services/voice.py","call function: 1453:19-1453:31","call in function: create_subtitle@1399-1486","callee=xml.sax.saxutils.unescape","basic block: 1453:28-1453:31"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ray/python/ray/data/_internal/datasource/bigquery_datasource.py","call function: 81:25-81:55","call in function: get_read_tasks@71-131","callee=google.cloud.bigquery.Client.query","basic block: 80:28-85:20"

@@ -1,0 +1,222 @@
+{
+  "ColossalAI/examples/images/dreambooth/train_dreambooth.py": [
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/dreambooth/train_dreambooth.py",
+      "line_start": 399,
+      "line_end": 399,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/dreambooth/train_dreambooth.py",
+      "line_start": 399,
+      "line_end": 399,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "ColossalAI/examples/images/dreambooth/train_dreambooth_inpaint.py": [
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/dreambooth/train_dreambooth_inpaint.py",
+      "line_start": 425,
+      "line_end": 425,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/dreambooth/train_dreambooth_inpaint.py",
+      "line_start": 425,
+      "line_end": 425,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "DeepSpeed/deepspeed/runtime/engine.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/runtime/engine.py",
+      "line_start": 3594,
+      "line_end": 3594,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/runtime/engine.py",
+      "line_start": 3594,
+      "line_end": 3594,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "GPT-SoVITS/tools/uvr5/lib/lib_v5/spec_utils.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/lib/lib_v5/spec_utils.py",
+      "line_start": 196,
+      "line_end": 196,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/lib/lib_v5/spec_utils.py",
+      "line_start": 196,
+      "line_end": 196,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "Python/hashes/sha1.py": [
+    {
+      "file_path": "projects/python/Python/hashes/sha1.py",
+      "line_start": 135,
+      "line_end": 135,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/Python/hashes/sha1.py",
+      "line_start": 135,
+      "line_end": 135,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "aider/aider/coders/base_coder.py": [
+    {
+      "file_path": "projects/python/aider/aider/coders/base_coder.py",
+      "line_start": 1874,
+      "line_end": 1874,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/aider/aider/coders/base_coder.py",
+      "line_start": 1874,
+      "line_end": 1874,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "aider/aider/models.py": [
+    {
+      "file_path": "projects/python/aider/aider/models.py",
+      "line_start": 984,
+      "line_end": 984,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/aider/aider/models.py",
+      "line_start": 984,
+      "line_end": 984,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "ansible/lib/ansible/plugins/lookup/password.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/lookup/password.py",
+      "line_start": 270,
+      "line_end": 270,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/lookup/password.py",
+      "line_start": 270,
+      "line_end": 270,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "ccxt/python/ccxt/static_dependencies/ecdsa/ecdsa.py": [
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/ecdsa/ecdsa.py",
+      "line_start": 222,
+      "line_end": 222,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/ecdsa/ecdsa.py",
+      "line_start": 222,
+      "line_end": 222,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ],
+  "core/homeassistant/components/backup/manager.py": [
+    {
+      "file_path": "projects/python/core/homeassistant/components/backup/manager.py",
+      "line_start": 2116,
+      "line_end": 2116,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/core/homeassistant/components/backup/manager.py",
+      "line_start": 2116,
+      "line_end": 2116,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected SHA1 hash algorithm which is considered insecure. SHA1 is not collision resistant and is therefore not suitable as a cryptographic signature. Use SHA256 or SHA3 instead."
+    }
+  ]
+}

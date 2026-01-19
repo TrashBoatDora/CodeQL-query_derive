@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/uncrustify/src/option.cpp","call function: 1218:11-1218:22","call in function: load_option_file@1193-1255","callee=std::getline","basic block: 1218:24-1218:11"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/faceswap/lib/align/detected_face.py","call function: 530:15-530:28","call in function: update_legacy_png_header@498-562","callee=hashlib.sha1","basic block: 527:19-534:20"

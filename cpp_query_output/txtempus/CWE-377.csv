@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/txtempus/src/rpi-control.cc","call function: 285:16-285:19","call in function: mmap_bcm_register@267-307","callee=open","basic block: 282:3-285:60"
-"Path: /home/sixsquare/codeQL/projects/txtempus/src/rpi-control.cc","call function: 207:18-207:21","call in function: ReadFileToBuffer@206-213","callee=open","basic block: 206:78-208:12"

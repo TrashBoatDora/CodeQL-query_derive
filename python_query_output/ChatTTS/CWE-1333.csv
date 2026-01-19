@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/core.py","call function: 229:24-229:58","call in function: infer@208-270","callee=re.split","basic block: 229:24-231:41"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/web/funcs.py","call function: 178:43-178:71","call in function: generate_audio@164-209","callee=str.startswith","basic block: 178:43-178:71"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/norm.py","call function: 94:31-94:74","call in function: __init__@72-161","callee=re.compile","basic block: 93:23-126:34"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/norm.py","call function: 95:28-95:52","call in function: __init__@72-161","callee=re.compile","basic block: 93:23-126:34"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/norm.py","call function: 96:37-96:66","call in function: __init__@72-161","callee=re.compile","basic block: 93:23-126:34"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/norm.py","call function: 97:37-97:64","call in function: __init__@72-161","callee=re.compile","basic block: 93:23-126:34"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/model/cuda/te_llama.py","call function: 139:13-139:49","call in function: _replace_params@134-192","callee=re.match","basic block: 137:9-140:24"

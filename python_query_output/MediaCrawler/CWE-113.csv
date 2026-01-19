@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MediaCrawler/tools/crawler_util.py","call function: 210:18-210:43","call in function: extract_url_params_to_dict@205-212","callee=urllib.parse.urlparse","basic block: 210:18-212:26"
-"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/zhihu/help.py","call function: 296:22-296:39","call in function: extract_offset@282-299","callee=urllib.parse.urlparse","basic block: 296:22-299:21"
-"path: /home/sixsquare/codeQL/projects/MediaCrawler/tools/slider_util.py","call function: 55:25-55:37","call in function: check_is_img_path@46-72","callee=urllib.parse.urlparse","basic block: 49:17-61:41"

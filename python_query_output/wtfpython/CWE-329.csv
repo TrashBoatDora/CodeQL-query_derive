@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/wtfpython/irrelevant/insert_ids.py","call function: 10:17-10:28","call in function: generate_random_id_comment@9-11","callee=uuid.uuid4","basic block: 10:17-11:47"

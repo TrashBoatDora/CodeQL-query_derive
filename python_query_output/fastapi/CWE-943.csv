@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/sql_databases/tutorial001.py","call function: 52:14-52:67","call in function: read_heroes@47-53","callee=sqlmodel.Session.exec","basic block: 48:5-53:17"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/sql_databases/tutorial001_py310.py","call function: 50:14-50:67","call in function: read_heroes@45-51","callee=sqlmodel.Session.exec","basic block: 46:5-51:17"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/sql_databases/tutorial001_py39.py","call function: 52:14-52:67","call in function: read_heroes@47-53","callee=sqlmodel.Session.exec","basic block: 48:5-53:17"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/sql_databases/tutorial002.py","call function: 70:14-70:67","call in function: read_heroes@65-71","callee=sqlmodel.Session.exec","basic block: 66:5-71:17"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/sql_databases/tutorial002_py310.py","call function: 68:14-68:67","call in function: read_heroes@63-69","callee=sqlmodel.Session.exec","basic block: 64:5-69:17"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/sql_databases/tutorial002_py39.py","call function: 70:14-70:67","call in function: read_heroes@65-71","callee=sqlmodel.Session.exec","basic block: 66:5-71:17"

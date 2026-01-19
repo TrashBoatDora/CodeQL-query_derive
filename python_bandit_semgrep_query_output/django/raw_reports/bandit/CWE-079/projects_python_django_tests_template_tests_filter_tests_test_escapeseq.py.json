@@ -1,0 +1,114 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:16:26Z",
+  "metrics": {
+    "./projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 52,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 52,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "22             \"escapeseq_basic\",\n23             {\"a\": [\"x&y\", \"<p>\"], \"b\": [mark_safe(\"x&y\"), mark_safe(\"<p>\")]},\n24         )\n",
+      "col_offset": 40,
+      "end_col_offset": 56,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "22             \"escapeseq_basic\",\n23             {\"a\": [\"x&y\", \"<p>\"], \"b\": [mark_safe(\"x&y\"), mark_safe(\"<p>\")]},\n24         )\n",
+      "col_offset": 58,
+      "end_col_offset": 74,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "38             \"escapeseq_autoescape_off\",\n39             {\"a\": [\"x&y\", \"<p>\"], \"b\": [mark_safe(\"x&y\"), mark_safe(\"<p>\")]},\n40         )\n",
+      "col_offset": 40,
+      "end_col_offset": 56,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 39,
+      "line_range": [
+        39
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "38             \"escapeseq_autoescape_off\",\n39             {\"a\": [\"x&y\", \"<p>\"], \"b\": [mark_safe(\"x&y\"), mark_safe(\"<p>\")]},\n40         )\n",
+      "col_offset": 58,
+      "end_col_offset": 74,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 39,
+      "line_range": [
+        39
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    }
+  ]
+}

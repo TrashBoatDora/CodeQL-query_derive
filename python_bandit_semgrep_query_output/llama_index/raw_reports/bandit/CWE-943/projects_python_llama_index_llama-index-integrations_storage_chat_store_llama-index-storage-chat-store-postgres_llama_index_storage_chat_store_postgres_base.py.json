@@ -1,0 +1,260 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:31:41Z",
+  "metrics": {
+    "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 9,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 9,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 393,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 9,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 9,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 393,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "202             check_schema_statement = text(\n203                 f\"SELECT schema_name FROM information_schema.schemata WHERE schema_name = '{self.schema_name}'\"\n204             )\n",
+      "col_offset": 16,
+      "end_col_offset": 111,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 203,
+      "line_range": [
+        203
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "227             stmt = text(\n228                 f\"\"\"\n229                 INSERT INTO {self.schema_name}.{self._table_class.__tablename__} (key, value)\n230                 VALUES (:key, :value)\n231                 ON CONFLICT (key)\n232                 DO UPDATE SET\n233                 value = EXCLUDED.value;\n234                 \"\"\"\n235             )\n",
+      "col_offset": 16,
+      "end_col_offset": 19,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 228,
+      "line_range": [
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "249             stmt = text(\n250                 f\"\"\"\n251                 INSERT INTO {self.schema_name}.{self._table_class.__tablename__} (key, value)\n252                 VALUES (:key, :value)\n253                 ON CONFLICT (key)\n254                 DO UPDATE SET\n255                 value = EXCLUDED.value;\n256                 \"\"\"\n257             )\n",
+      "col_offset": 16,
+      "end_col_offset": 19,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 250,
+      "line_range": [
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "295             stmt = text(\n296                 f\"\"\"\n297                 INSERT INTO {self.schema_name}.{self._table_class.__tablename__} (key, value)\n298                 VALUES (:key, :value)\n299                 ON CONFLICT (key)\n300                 DO UPDATE SET\n301                     value = array_cat({self._table_class.__tablename__}.value, :value);\n302                 \"\"\"\n303             )\n",
+      "col_offset": 16,
+      "end_col_offset": 19,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 296,
+      "line_range": [
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "311             stmt = text(\n312                 f\"\"\"\n313                 INSERT INTO {self.schema_name}.{self._table_class.__tablename__} (key, value)\n314                 VALUES (:key, :value)\n315                 ON CONFLICT (key)\n316                 DO UPDATE SET\n317                     value = array_cat({self._table_class.__tablename__}.value, :value);\n318                 \"\"\"\n319             )\n",
+      "col_offset": 16,
+      "end_col_offset": 19,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 312,
+      "line_range": [
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "352             stmt = text(\n353                 f\"\"\"\n354                 UPDATE {self._table_class.__tablename__}\n355                 SET value = array_cat(\n356                                {self._table_class.__tablename__}.value[: :idx],\n357                                {self._table_class.__tablename__}.value[:idx+2:]\n358                            )\n359                 WHERE key = :key;\n360                 \"\"\"\n361             )\n",
+      "col_offset": 16,
+      "end_col_offset": 19,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 353,
+      "line_range": [
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "383             stmt = text(\n384                 f\"\"\"\n385                 UPDATE {self._table_class.__tablename__}\n386                 SET value = array_cat(\n387                                {self._table_class.__tablename__}.value[: :idx],\n388                                {self._table_class.__tablename__}.value[:idx+2:]\n389                            )\n390                 WHERE key = :key;\n391                 \"\"\"\n392             )\n",
+      "col_offset": 16,
+      "end_col_offset": 19,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 384,
+      "line_range": [
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "414             stmt = text(\n415                 f\"\"\"\n416                 UPDATE {self._table_class.__tablename__}\n417                 SET value = value[1:array_length(value, 1) - 1]\n418                 WHERE key = :key;\n419                 \"\"\"\n420             )\n",
+      "col_offset": 16,
+      "end_col_offset": 19,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 415,
+      "line_range": [
+        415,
+        416,
+        417,
+        418,
+        419
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "441             stmt = text(\n442                 f\"\"\"\n443                         UPDATE {self._table_class.__tablename__}\n444                         SET value = value[1:array_length(value, 1) - 1]\n445                         WHERE key = :key;\n446                         \"\"\"\n447             )\n",
+      "col_offset": 16,
+      "end_col_offset": 27,
+      "filename": "./projects/python/llama_index/llama-index-integrations/storage/chat_store/llama-index-storage-chat-store-postgres/llama_index/storage/chat_store/postgres/base.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 442,
+      "line_range": [
+        442,
+        443,
+        444,
+        445,
+        446
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

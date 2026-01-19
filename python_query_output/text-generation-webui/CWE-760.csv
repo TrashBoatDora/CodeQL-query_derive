@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/text-generation-webui/download-model.py","call function: 362:29-362:49","call in function: check_model_files@349-372","callee=hashlib.sha256","basic block: 360:18-363:44"
-"path: /home/sixsquare/codeQL/projects/text-generation-webui/extensions/superboogav2/optimize.py","call function: 67:12-67:46","call in function: _get_params_hash@65-67","callee=hashlib.sha256","basic block: 65:22-67:58"
-"path: /home/sixsquare/codeQL/projects/text-generation-webui/one_click.py","call function: 253:20-253:43","call in function: calculate_file_hash@249-255","callee=hashlib.sha256","basic block: 252:14-253:55"

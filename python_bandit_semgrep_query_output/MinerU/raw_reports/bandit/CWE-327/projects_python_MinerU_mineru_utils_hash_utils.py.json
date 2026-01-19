@@ -1,0 +1,94 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T21:19:34Z",
+  "metrics": {
+    "./projects/python/MinerU/mineru/utils/hash_utils.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 19,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "6 def bytes_md5(file_bytes):\n7     hasher = hashlib.md5()\n8     hasher.update(file_bytes)\n",
+      "col_offset": 13,
+      "end_col_offset": 26,
+      "filename": "./projects/python/MinerU/mineru/utils/hash_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 7,
+      "line_range": [
+        7
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    },
+    {
+      "code": "12 def str_md5(input_string):\n13     hasher = hashlib.md5()\n14     # \u5728Python3\u4e2d\uff0c\u9700\u8981\u5c06\u5b57\u7b26\u4e32\u8f6c\u5316\u4e3a\u5b57\u8282\u5bf9\u8c61\u624d\u80fd\u88ab\u54c8\u5e0c\u51fd\u6570\u5904\u7406\n",
+      "col_offset": 13,
+      "end_col_offset": 26,
+      "filename": "./projects/python/MinerU/mineru/utils/hash_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 13,
+      "line_range": [
+        13
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    },
+    {
+      "code": "29     json_str = json.dumps(d, sort_keys=True, ensure_ascii=False)\n30     return hashlib.md5(json_str.encode('utf-8')).hexdigest()\n",
+      "col_offset": 11,
+      "end_col_offset": 48,
+      "filename": "./projects/python/MinerU/mineru/utils/hash_utils.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 30,
+      "line_range": [
+        30
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    }
+  ]
+}

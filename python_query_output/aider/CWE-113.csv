@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/aider/aider/coders/base_coder.py","call function: 834:28-834:54","call in function: get_images_message@817-857","callee=mimetypes.guess_type","basic block: 834:28-835:28"
-"path: /home/sixsquare/codeQL/projects/aider/aider/onboarding.py","call function: 232:27-232:45","call in function: start_openrouter_oauth_flow@214-383","callee=urllib.parse.urlparse","basic block: 230:20-233:52"
-"path: /home/sixsquare/codeQL/projects/aider/aider/onboarding.py","call function: 232:27-232:45","call in function: do_GET@230-260","callee=urllib.parse.urlparse","basic block: 230:20-233:52"

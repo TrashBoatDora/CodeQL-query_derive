@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Tomcat CVE-2017-12617.py","call function: 86:14-86:32","call in function: removetags@85-88","callee=re.compile","basic block: 85:16-88:37"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Tomcat CVE-2017-12617.py","call function: 87:11-87:36","call in function: removetags@85-88","callee=re.sub","basic block: 85:16-88:37"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Telerik CVE-2017-9248.py","call function: 45:13-45:73","call in function: get_result@30-49","callee=re.search","basic block: 35:12-47:28"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Telerik CVE-2017-9248.py","call function: 285:25-288:21","call in function: mode_brutekey@204-295","callee=re.search","basic block: 285:25-289:32"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/WebLogic CVE-2018-2894.py","call function: 90:13-90:50","call in function: upload_webshell@79-100","callee=re.findall","basic block: 79:21-91:12"

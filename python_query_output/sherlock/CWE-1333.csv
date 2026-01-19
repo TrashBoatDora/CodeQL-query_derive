@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/sherlock/tests/sherlock_interactives.py","call function: 25:30-25:48","call in function: walk_sherlock_for_files_with@23-35","callee=re.compile","basic block: 23:38-27:60"
-"path: /home/sixsquare/codeQL/projects/sherlock/tests/test_probes.py","call function: 101:15-101:56","call in function: test_username_illegal_regex@98-104","callee=re.compile","basic block: 98:33-103:48"
-"path: /home/sixsquare/codeQL/projects/sherlock/tests/test_validate_targets.py","call function: 22:15-22:72","call in function: set_pattern_upper_bound@15-26","callee=re.sub","basic block: 15:29-26:18"
-"path: /home/sixsquare/codeQL/projects/sherlock/tests/test_validate_targets.py","call function: 23:15-23:67","call in function: set_pattern_upper_bound@15-26","callee=re.sub","basic block: 15:29-26:18"
-"path: /home/sixsquare/codeQL/projects/sherlock/tests/test_validate_targets.py","call function: 24:15-24:67","call in function: set_pattern_upper_bound@15-26","callee=re.sub","basic block: 15:29-26:18"
-"path: /home/sixsquare/codeQL/projects/sherlock/sherlock_project/sherlock.py","call function: 277:28-277:59","call in function: sherlock@170-530","callee=re.search","basic block: 277:28-277:67"

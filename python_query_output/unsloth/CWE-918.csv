@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/unsloth/tests/utils/aime_eval.py","call function: 44:24-44:40","call in function: download_and_combine_aime_datasets@18-83","callee=requests.get","basic block: 44:37-44:40"
-"path: /home/sixsquare/codeQL/projects/unsloth/unsloth/models/loader_utils.py","call function: 90:14-90:50","call in function: _get_new_mapper@86-101","callee=requests.get","basic block: 90:27-90:50"
-"path: /home/sixsquare/codeQL/projects/unsloth/unsloth/dataprep/synthetic.py","call function: 292:24-292:68","call in function: check_vllm_status@290-297","callee=requests.get","basic block: 292:37-292:68"

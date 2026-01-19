@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Umi-OCR/UmiOCR-data/py_src/server/bottle.py","call function: 3708:20-3708:76","call in function: prepare@3700-3718","callee=jinja2.Environment","basic block: 3708:20-3709:18"
-"path: /home/sixsquare/codeQL/projects/Umi-OCR/UmiOCR-data/py_src/server/bottle.py","call function: 3718:24-3718:59","call in function: prepare@3700-3718","callee=jinja2.Environment.get_template","basic block: 3718:24-3718:20"

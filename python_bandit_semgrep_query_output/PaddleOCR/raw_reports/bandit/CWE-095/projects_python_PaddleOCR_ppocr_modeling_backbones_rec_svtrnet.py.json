@@ -1,0 +1,194 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:40:13Z",
+  "metrics": {
+    "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py": {
+      "CONFIDENCE.HIGH": 8,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 8,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 584,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 8,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 8,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 584,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "235         if isinstance(norm_layer, str):\n236             self.norm1 = eval(norm_layer)(dim, epsilon=epsilon)\n237         else:\n",
+      "col_offset": 25,
+      "end_col_offset": 41,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 236,
+      "line_range": [
+        236
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "257         if isinstance(norm_layer, str):\n258             self.norm2 = eval(norm_layer)(dim, epsilon=epsilon)\n259         else:\n",
+      "col_offset": 25,
+      "end_col_offset": 41,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 258,
+      "line_range": [
+        258
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "396             )\n397         self.norm = eval(sub_norm)(out_channels)\n398         if act is not None:\n",
+      "col_offset": 20,
+      "end_col_offset": 34,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 397,
+      "line_range": [
+        397
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "472         self.pos_drop = nn.Dropout(p=drop_rate)\n473         Block_unit = eval(block_unit)\n474 \n",
+      "col_offset": 21,
+      "end_col_offset": 37,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 473,
+      "line_range": [
+        473
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "487                     drop=drop_rate,\n488                     act_layer=eval(act),\n489                     attn_drop=attn_drop_rate,\n",
+      "col_offset": 30,
+      "end_col_offset": 39,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 488,
+      "line_range": [
+        488
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "521                     drop=drop_rate,\n522                     act_layer=eval(act),\n523                     attn_drop=attn_drop_rate,\n",
+      "col_offset": 30,
+      "end_col_offset": 39,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 522,
+      "line_range": [
+        522
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "554                     drop=drop_rate,\n555                     act_layer=eval(act),\n556                     attn_drop=attn_drop_rate,\n",
+      "col_offset": 30,
+      "end_col_offset": 39,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 555,
+      "line_range": [
+        555
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "578         if not prenorm:\n579             self.norm = eval(norm_layer)(embed_dim[-1], epsilon=epsilon)\n580         self.use_lenhead = use_lenhead\n",
+      "col_offset": 24,
+      "end_col_offset": 40,
+      "filename": "./projects/python/PaddleOCR/ppocr/modeling/backbones/rec_svtrnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 579,
+      "line_range": [
+        579
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/bedrock.py","call function: 163:31-163:42","call in function: _convert_bedrock_response_to_openai_format@134-193","callee=uuid.uuid4","basic block: 163:13-177:50"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/sandbox/core/manager.py","call function: 141:30-141:41","call in function: create_sandbox@114-157","callee=uuid.uuid4","basic block: 141:26-143:39"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/sandbox/sb_shell_tool.py","call function: 95:30-95:36","call in function: _ensure_session@92-102","callee=uuid.uuid4","basic block: 95:26-97:42"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/sandbox/sb_shell_tool.py","call function: 158:47-158:53","call in function: _execute_command@138-256","callee=uuid.uuid4","basic block: 158:47-158:53"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/sandbox/core/sandbox.py","call function: 70:41-70:52","call in function: create@49-103","callee=uuid.uuid4","basic block: 70:41-70:52"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/sandbox/core/sandbox.py","call function: 135:49-135:61","call in function: _ensure_host_dir@124-138","callee=os.urandom","basic block: 124:26-138:24"

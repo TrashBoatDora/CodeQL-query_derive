@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/daScript/modules/dasGlfw/libglfw/src/posix_time.c","call function: 71:9-71:21","call in function: _glfwPlatformGetTimerValue@65-81","callee=clock_gettime","basic block: 69:5-72:83"
-"Path: /home/sixsquare/codeQL/projects/daScript/modules/dasGlfw/libglfw/src/posix_time.c","call function: 78:9-78:20","call in function: _glfwPlatformGetTimerValue@65-81","callee=gettimeofday","basic block: 76:5-79:80"
-"Path: /home/sixsquare/codeQL/projects/daScript/modules/dasGlfw/libglfw/src/posix_time.c","call function: 47:9-47:21","call in function: _glfwInitTimerPOSIX@42-58","callee=clock_gettime","basic block: 43:1-47:48"
-"Path: /home/sixsquare/codeQL/projects/daScript/src/builtin/module_builtin_fio.cpp","call function: 60:18-60:21","call in function: builtin_clock@58-62","callee=time","basic block: 58:26-58:22"
-"Path: /home/sixsquare/codeQL/projects/daScript/src/hal/performance_time.cpp","call function: 58:9-58:21","call in function: ref_time_ticks@56-64","callee=clock_gettime","basic block: 56:38-58:48"

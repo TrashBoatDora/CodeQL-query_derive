@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/PaddleOCR/ppstructure/table/matcher.py","call function: 138:35-138:54","call in function: get_pred_html@104-149","callee=html.escape","basic block: 138:35-139:48"

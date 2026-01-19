@@ -1,0 +1,96 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:03:15Z",
+  "metrics": {
+    "./projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3321,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 2,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3321,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "3662         if self.source:\n3663             self.tpl = Template(self.source, lookup=lookup, **options)\n3664         else:\n",
+      "col_offset": 23,
+      "end_col_offset": 70,
+      "filename": "./projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Mako templates allow HTML/JS rendering by default and are inherently open to XSS attacks. Ensure variables in all templates are properly sanitized via the 'n', 'h' or 'x' flags (depending on context). For example, to HTML escape the variable 'data' do ${ data |h }.",
+      "line_number": 3663,
+      "line_range": [
+        3663
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b702_use_of_mako_templates.html",
+      "test_id": "B702",
+      "test_name": "use_of_mako_templates"
+    },
+    {
+      "code": "3664         else:\n3665             self.tpl = Template(\n3666                 uri=self.name, filename=self.filename, lookup=lookup, **options\n3667             )\n3668 \n",
+      "col_offset": 23,
+      "end_col_offset": 13,
+      "filename": "./projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Mako templates allow HTML/JS rendering by default and are inherently open to XSS attacks. Ensure variables in all templates are properly sanitized via the 'n', 'h' or 'x' flags (depending on context). For example, to HTML escape the variable 'data' do ${ data |h }.",
+      "line_number": 3665,
+      "line_range": [
+        3665,
+        3666,
+        3667
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b702_use_of_mako_templates.html",
+      "test_id": "B702",
+      "test_name": "use_of_mako_templates"
+    },
+    {
+      "code": "3707             )\n3708         self.env = Environment(loader=FunctionLoader(self.loader), **kwargs)\n3709         if filters:\n",
+      "col_offset": 19,
+      "end_col_offset": 76,
+      "filename": "./projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 94,
+        "link": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",
+      "line_number": 3708,
+      "line_range": [
+        3708
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b701_jinja2_autoescape_false.html",
+      "test_id": "B701",
+      "test_name": "jinja2_autoescape_false"
+    }
+  ]
+}

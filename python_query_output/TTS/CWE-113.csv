@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/TTS/TTS/server/server.py","call function: 206:12-206:47","call in function: tts@192-206","callee=flask.send_file","basic block: 197:9-206:47"
-"path: /home/sixsquare/codeQL/projects/TTS/TTS/server/server.py","call function: 250:12-250:47","call in function: mary_tts_api_process@237-250","callee=flask.send_file","basic block: 246:9-250:47"

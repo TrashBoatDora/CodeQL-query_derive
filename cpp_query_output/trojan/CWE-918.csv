@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/session/clientsession.cpp","call function: 252:41-252:53","call in function: operator()@225-289","callee=boost::asio::async_connect","basic block: 252:17-289:13"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/session/natsession.cpp","call function: 136:33-136:45","call in function: operator()@109-166","callee=boost::asio::async_connect","basic block: 136:9-166:5"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/session/forwardsession.cpp","call function: 87:33-87:45","call in function: operator()@60-117","callee=boost::asio::async_connect","basic block: 87:9-117:5"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/session/serversession.cpp","call function: 222:24-222:36","call in function: operator()@186-237","callee=boost::asio::async_connect","basic block: 222:13-237:9"
-"Path: /home/sixsquare/codeQL/projects/trojan/src/session/udpforwardsession.cpp","call function: 87:33-87:45","call in function: operator()@60-114","callee=boost::asio::async_connect","basic block: 87:9-114:5"

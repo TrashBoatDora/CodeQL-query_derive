@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/youtube-dl/youtube_dl/compat.py","call function: 2767:28-2767:42","call in function: _etree_iter@2764-2768","callee=xml.etree.ElementTree.Element.iter","basic block: 2765:17-2767:42"
-"path: /home/sixsquare/codeQL/projects/youtube-dl/youtube_dl/compat.py","call function: 2787:19-2787:34","call in function: compat_etree_fromstring@2785-2790","callee=xml.etree.ElementTree.Element.iter","basic block: 2785:33-2787:34"

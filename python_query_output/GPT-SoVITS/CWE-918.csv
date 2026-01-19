@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/GPT-SoVITS/GPT_SoVITS/AR/data/dataset.py","call function: 57:30-61:9","call in function: __init__@43-111","callee=pandas.read_csv","basic block: 44:9-70:41"
-"path: /home/sixsquare/codeQL/projects/GPT-SoVITS/tools/my_utils.py","call function: 133:14-133:73","call in function: check_details@90-137","callee=pandas.read_csv","basic block: 133:14-134:23"
-"path: /home/sixsquare/codeQL/projects/GPT-SoVITS/GPT_SoVITS/text/g2pw/onnx_api.py","call function: 66:14-66:54","call in function: download_and_decompress@58-79","callee=requests.get","basic block: 60:28-69:60"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googlemock/src/gmock-matchers.cc","call function: 264:29-264:32","call in function: Randomize@260-267","callee=rand","basic block: 262:53-262:50"

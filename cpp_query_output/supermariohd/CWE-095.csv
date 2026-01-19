@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/supermariohd/source/game_framework/Logger.cpp","call function: 43:22-43:51","call in function: getTimestamp@41-52","callee=std::system","basic block: 41:36-41:32"
-"Path: /home/sixsquare/codeQL/projects/supermariohd/source/game_framework/Logger.cpp","call function: 44:29-44:64","call in function: getTimestamp@41-52","callee=std::system","basic block: 41:36-41:32"

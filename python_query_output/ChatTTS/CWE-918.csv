@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 120:16-120:79","call in function: download_and_extract_tar_gz@114-127","callee=requests.get","basic block: 115:5-127:60"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 136:16-136:79","call in function: download_and_extract_zip@130-143","callee=requests.get","basic block: 131:5-143:60"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 148:16-148:80","call in function: download_dns_yaml@146-151","callee=requests.get","basic block: 146:23-151:61"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/api/postScript.py","call function: 228:20-228:56","call in function: main@179-238","callee=requests.post","basic block: 228:52-228:56"

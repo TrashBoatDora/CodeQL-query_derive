@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/crewAI/src/crewai/knowledge/source/crew_docling_source.py","call function: 125:22-125:34","call in function: _validate_url@123-134","callee=urllib.parse.urlparse","basic block: 125:31-125:34"

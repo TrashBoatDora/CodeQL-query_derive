@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/cli/docs/contributors/generate.py","call function: 36:14-36:72","call in function: generate_snippets@26-38","callee=jinja2.Template.render","basic block: 26:23-38:12"
-"path: /home/sixsquare/codeQL/projects/cli/docs/installation/generate.py","call function: 30:14-30:49","call in function: generate_documentation@26-32","callee=jinja2.Template.render","basic block: 27:16-32:17"

@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/core.py","call function: 46:47-46:53","call in function: __init__@33-48","callee=json.load","basic block: 33:18-48:20"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/onnx/gpt.py","call function: 77:13-77:63","call in function: from_pretrained@75-78","callee=torch.load","basic block: 75:25-78:9"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/onnx/exporter.py","call function: 355:9-359:9","call in function: export_decoder@349-370","callee=torch.load","basic block: 350:15-362:37"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/onnx/exporter.py","call function: 383:9-385:9","call in function: export_vocos@373-414","callee=torch.load","basic block: 374:25-388:35"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/api/openai_api.py","call function: 85:44-87:13","call in function: startup_event@63-91","callee=torch.load","basic block: 85:44-88:79"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/norm.py","call function: 228:46-228:57","call in function: _load_homophones_map@226-233","callee=json.load","basic block: 226:30-230:52"

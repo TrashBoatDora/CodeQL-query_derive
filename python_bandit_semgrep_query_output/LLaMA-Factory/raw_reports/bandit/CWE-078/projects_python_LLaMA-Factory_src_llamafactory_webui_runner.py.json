@@ -1,0 +1,74 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:35:54Z",
+  "metrics": {
+    "./projects/python/LLaMA-Factory/src/llamafactory/webui/runner.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 401,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 401,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "377             # NOTE: DO NOT USE shell=True to avoid security risk\n378             self.trainer = Popen([\"llamafactory-cli\", \"train\", save_cmd(args)], env=env, stderr=PIPE, text=True)\n379             yield from self.monitor()\n",
+      "col_offset": 27,
+      "end_col_offset": 112,
+      "filename": "./projects/python/LLaMA-Factory/src/llamafactory/webui/runner.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 378,
+      "line_range": [
+        378
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "377             # NOTE: DO NOT USE shell=True to avoid security risk\n378             self.trainer = Popen([\"llamafactory-cli\", \"train\", save_cmd(args)], env=env, stderr=PIPE, text=True)\n379             yield from self.monitor()\n",
+      "col_offset": 27,
+      "end_col_offset": 112,
+      "filename": "./projects/python/LLaMA-Factory/src/llamafactory/webui/runner.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 378,
+      "line_range": [
+        378
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

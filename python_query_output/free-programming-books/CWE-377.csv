@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/free-programming-books/scripts/rtl_ltr_linter.py","call function: 66:18-66:45","call in function: load_config@29-74","callee=open","basic block: 65:9-66:45"
-"path: /home/sixsquare/codeQL/projects/free-programming-books/scripts/rtl_ltr_linter.py","call function: 213:17-213:44","call in function: lint_file@196-393","callee=open","basic block: 196:15-213:44"
-"path: /home/sixsquare/codeQL/projects/free-programming-books/scripts/rtl_ltr_linter.py","call function: 507:10-507:51","call in function: main@437-594","callee=open","basic block: 504:18-510:44"

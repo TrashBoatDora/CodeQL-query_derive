@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/openxr_loader-src/src/external/jsoncpp/src/lib_json/json_reader.cpp","call function: 1979:18-1979:22","call in function: parseFromStream@1970-1980","callee=Json::CharReader::parse","basic block: 1971:36-1970:20"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/openxr_loader-src/src/external/jsoncpp/src/lib_json/json_reader.cpp","call function: 108:10-108:14","call in function: parse@99-109","callee=Json::Reader::parse","basic block: 99:73-99:18"
-"Path: /home/sixsquare/codeQL/projects/StereoKit/build/_deps/openxr_loader-src/src/external/jsoncpp/src/lib_json/json_reader.cpp","call function: 96:10-96:14","call in function: parse@91-97","callee=Json::Reader::parse","basic block: 92:42-91:18"

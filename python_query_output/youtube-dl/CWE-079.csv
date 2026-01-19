@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/youtube-dl/youtube_dl/extractor/cbc.py","call function: 291:17-291:33","call in function: _register_device@281-303","callee=xml.sax.saxutils.escape","basic block: 289:25-296:30"
-"path: /home/sixsquare/codeQL/projects/youtube-dl/youtube_dl/extractor/cbc.py","call function: 291:36-291:58","call in function: _register_device@281-303","callee=xml.sax.saxutils.escape","basic block: 289:25-296:30"

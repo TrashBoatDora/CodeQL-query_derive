@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/corrade/src/Corrade/TestSuite/Tester.cpp","call function: 388:103-388:103","call in function: exec@245-720","callee=std::rand","basic block: 388:9-388:20"
-"Path: /home/sixsquare/codeQL/projects/corrade/src/Corrade/TestSuite/Tester.cpp","call function: 388:83-388:102","call in function: exec@245-720","callee=std::rand","basic block: 388:9-388:20"
-"Path: /home/sixsquare/codeQL/projects/corrade/src/Corrade/TestSuite/Tester.cpp","call function: 388:83-388:102","call in function: exec@245-720","callee=std::rand","basic block: 388:83-388:102"
-"Path: /home/sixsquare/codeQL/projects/corrade/src/Corrade/TestSuite/Implementation/BenchmarkCounters.h","call function: 57:108-57:123","call in function: wallTime@55-58","callee=std::time","basic block: 55:33-55:29"

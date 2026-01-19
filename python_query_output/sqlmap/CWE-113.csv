@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/sqlmap/thirdparty/bottle/bottle.py","call function: 3278:34-3278:63","call in function: static_file@3227-3333","callee=mimetypes.guess_type","basic block: 3278:34-3278:30"
-"path: /home/sixsquare/codeQL/projects/sqlmap/thirdparty/bottle/bottle.py","call function: 3280:34-3280:63","call in function: static_file@3227-3333","callee=mimetypes.guess_type","basic block: 3280:34-3280:30"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/utils/httpd.py","call function: 74:56-74:81","call in function: do_GET@45-104","callee=mimetypes.guess_type","basic block: 71:23-74:84"
-"path: /home/sixsquare/codeQL/projects/sqlmap/thirdparty/multipart/multipartpost.py","call function: 97:31-97:60","call in function: multipart_encode@80-112","callee=mimetypes.guess_type","basic block: 97:52-97:60"

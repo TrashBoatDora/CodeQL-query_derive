@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/black/scripts/diff_shades_gha_helper.py","call function: 55:35-55:48","call in function: set_output@46-61","callee=os.urandom","basic block: 55:25-57:19"
-"path: /home/sixsquare/codeQL/projects/black/src/black/handle_ipynb_magics.py","call function: 198:13-198:38","call in function: create_token@194-203","callee=secrets.token_hex","basic block: 196:5-199:31"

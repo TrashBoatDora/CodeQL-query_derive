@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/grok-1/checkpoint.py","call function: 44:8-44:35","call in function: copy_to_shm@43-56","callee=str.startswith","basic block: 43:17-44:35"
-"path: /home/sixsquare/codeQL/projects/grok-1/checkpoint.py","call function: 130:16-130:55","call in function: get_load_path_str@122-141","callee=re.search","basic block: 129:13-130:55"
-"path: /home/sixsquare/codeQL/projects/grok-1/checkpoint.py","call function: 137:16-137:55","call in function: get_load_path_str@122-141","callee=re.search","basic block: 136:13-137:55"
-"path: /home/sixsquare/codeQL/projects/grok-1/checkpoint.py","call function: 138:33-138:90","call in function: get_load_path_str@122-141","callee=re.sub","basic block: 138:33-139:21"
-"path: /home/sixsquare/codeQL/projects/grok-1/runners.py","call function: 592:23-592:80","call in function: make_mesh@580-593","callee=re.sub","basic block: 584:5-593:60"
-"path: /home/sixsquare/codeQL/projects/grok-1/model.py","call function: 63:31-63:49","call in function: _match@60-68","callee=re.compile","basic block: 63:28-63:49"
-"path: /home/sixsquare/codeQL/projects/grok-1/model.py","call function: 63:31-63:49","call in function: lambda@63-63","callee=re.compile","basic block: 63:28-63:49"

@@ -1,0 +1,154 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:16:18Z",
+  "metrics": {
+    "./projects/python/django/tests/template_tests/filter_tests/test_cut.py": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 70,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 70,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "17         output = self.engine.render_to_string(\n18             \"cut01\", {\"a\": \"x&y\", \"b\": mark_safe(\"x&amp;y\")}\n19         )\n",
+      "col_offset": 39,
+      "end_col_offset": 59,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 18,
+      "line_range": [
+        18
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "24         output = self.engine.render_to_string(\n25             \"cut02\", {\"a\": \"x&y\", \"b\": mark_safe(\"x&amp;y\")}\n26         )\n",
+      "col_offset": 39,
+      "end_col_offset": 59,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 25,
+      "line_range": [
+        25
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "37         output = self.engine.render_to_string(\n38             \"cut03\", {\"a\": \"x&y\", \"b\": mark_safe(\"x&amp;y\")}\n39         )\n",
+      "col_offset": 39,
+      "end_col_offset": 59,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 38,
+      "line_range": [
+        38
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "44         output = self.engine.render_to_string(\n45             \"cut04\", {\"a\": \"x&y\", \"b\": mark_safe(\"x&amp;y\")}\n46         )\n",
+      "col_offset": 39,
+      "end_col_offset": 59,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 45,
+      "line_range": [
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "59         output = self.engine.render_to_string(\n60             \"cut05\", {\"a\": \"x&y\", \"b\": mark_safe(\"x&amp;y\")}\n61         )\n",
+      "col_offset": 39,
+      "end_col_offset": 59,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 60,
+      "line_range": [
+        60
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "66         output = self.engine.render_to_string(\n67             \"cut06\", {\"a\": \"x&y\", \"b\": mark_safe(\"x&amp;y\")}\n68         )\n",
+      "col_offset": 39,
+      "end_col_offset": 59,
+      "filename": "./projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    }
+  ]
+}

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Open-Assistant/inference/server/oasst_inference_server/plugins/web_retriever/main.py","call function: 225:12-225:49","call in function: api_icon@224-225","callee=starlette.responses.FileResponse","basic block: 225:12-225:49"

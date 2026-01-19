@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:03:33Z",
+  "metrics": {
+    "./projects/python/airflow/dev/breeze/src/airflow_breeze/commands/release_management_commands.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4045,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4045,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "2792     template_loader = jinja2.FileSystemLoader(searchpath=MY_DIR_PATH)\n2793     template_env = jinja2.Environment(\n2794         loader=template_loader,\n2795         undefined=jinja2.StrictUndefined,\n2796         autoescape=autoescape,\n2797         keep_trailing_newline=keep_trailing_newline,\n2798     )\n2799     template = template_env.get_template(f\"{template_name}_TEMPLATE.md.jinja2\")\n",
+      "col_offset": 19,
+      "end_col_offset": 5,
+      "filename": "./projects/python/airflow/dev/breeze/src/airflow_breeze/commands/release_management_commands.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 94,
+        "link": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",
+      "line_number": 2793,
+      "line_range": [
+        2793,
+        2794,
+        2795,
+        2796,
+        2797,
+        2798
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b701_jinja2_autoescape_false.html",
+      "test_id": "B701",
+      "test_name": "jinja2_autoescape_false"
+    }
+  ]
+}

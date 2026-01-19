@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/fp8_cast_bf16.py","call function: 36:23-36:34","call in function: main@12-103","callee=json.load","basic block: 12:10-65:49"
-"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/generate.py","call function: 113:28-113:39","call in function: main@81-158","callee=json.load","basic block: 107:17-121:18"
-"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/generate.py","call function: 113:28-113:39","call in function: main@81-158","callee=json.load","basic block: 108:5-121:18"

@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/txtempus/src/rpi-control.cc","call function: 285:16-285:19","call in function: mmap_bcm_register@267-307","callee=open","basic block: 282:3-285:60"
-"Path: /home/sixsquare/codeQL/projects/txtempus/src/rpi-control.cc","call function: 298:3-298:7","call in function: mmap_bcm_register@267-307","callee=close","basic block: 290:3-300:26"
-"Path: /home/sixsquare/codeQL/projects/txtempus/src/rpi-control.cc","call function: 207:18-207:21","call in function: ReadFileToBuffer@206-213","callee=open","basic block: 206:78-208:12"
-"Path: /home/sixsquare/codeQL/projects/txtempus/src/rpi-control.cc","call function: 209:15-209:18","call in function: ReadFileToBuffer@206-213","callee=read","basic block: 209:3-210:15"
-"Path: /home/sixsquare/codeQL/projects/txtempus/src/rpi-control.cc","call function: 211:3-211:7","call in function: ReadFileToBuffer@206-213","callee=close","basic block: 210:3-212:10"

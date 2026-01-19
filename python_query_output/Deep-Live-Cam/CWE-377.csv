@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Deep-Live-Cam/modules/gettext.py","call function: 16:18-16:55","call in function: load_language@10-22","callee=open","basic block: 15:13-16:55"
-"path: /home/sixsquare/codeQL/projects/Deep-Live-Cam/modules/ui.py","call function: 109:10-109:40","call in function: save_switch_states@93-110","callee=open","basic block: 95:9-110:35"
-"path: /home/sixsquare/codeQL/projects/Deep-Live-Cam/modules/ui.py","call function: 115:14-115:44","call in function: load_switch_states@113-134","callee=open","basic block: 114:5-115:44"

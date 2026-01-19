@@ -1,0 +1,94 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T21:25:08Z",
+  "metrics": {
+    "./projects/python/browser-use/examples/apps/news-use/news_monitor.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 231,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 231,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "190 \tpayload = {\n191 \t\t'hash': hashlib.md5(article['url'].encode()).hexdigest(),\n192 \t\t'pulled_at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),\n",
+      "col_offset": 10,
+      "end_col_offset": 46,
+      "filename": "./projects/python/browser-use/examples/apps/news-use/news_monitor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 191,
+      "line_range": [
+        191
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    },
+    {
+      "code": "231 \t\turl_val = art.get('url', '')\n232 \t\thash_ = hashlib.md5(url_val.encode()).hexdigest() if url_val else None\n233 \t\tif url_val:\n",
+      "col_offset": 10,
+      "end_col_offset": 39,
+      "filename": "./projects/python/browser-use/examples/apps/news-use/news_monitor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 232,
+      "line_range": [
+        232
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    },
+    {
+      "code": "263 \t\t\t\turl_val = art.get('url', '')\n264 \t\t\t\thash_ = hashlib.md5(url_val.encode()).hexdigest() if url_val else None\n265 \t\t\t\tif hash_ and hash_ not in seen:\n",
+      "col_offset": 12,
+      "end_col_offset": 41,
+      "filename": "./projects/python/browser-use/examples/apps/news-use/news_monitor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 264,
+      "line_range": [
+        264
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    }
+  ]
+}

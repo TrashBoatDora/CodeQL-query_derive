@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/langflow/src/backend/base/langflow/services/auth/utils.py","call function: 183:23-183:106","call in function: get_current_user_by_jwt@161-219","callee=jose.jwt.decode","basic block: 183:64-183:106"
-"path: /home/sixsquare/codeQL/projects/langflow/src/backend/base/langflow/services/auth/utils.py","call function: 429:19-429:50","call in function: get_user_id_from_token@427-432","callee=jose.jwt.get_unverified_claims","basic block: 429:45-429:50"
-"path: /home/sixsquare/codeQL/projects/langflow/src/backend/base/langflow/services/auth/utils.py","call function: 468:23-472:13","call in function: create_refresh_token@461-491","callee=jose.jwt.decode","basic block: 471:28-472:13"

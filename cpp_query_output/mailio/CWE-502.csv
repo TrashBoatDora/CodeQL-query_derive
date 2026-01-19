@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/mailio/src/dialog.cpp","call function: 186:17-186:23","call in function: operator()@182-194","callee=std::getline","basic block: 185:13-187:24"
-"Path: /home/sixsquare/codeQL/projects/mailio/src/dialog.cpp","call function: 122:9-122:15","call in function: receive_sync@116-131","callee=std::getline","basic block: 117:1-123:16"

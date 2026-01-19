@@ -1,0 +1,586 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:10:42Z",
+  "metrics": {
+    "./projects/python/django/django/template/defaultfilters.py": {
+      "CONFIDENCE.HIGH": 26,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 26,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 776,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 26,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 26,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 776,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "48         if isinstance(first, SafeData) and getattr(unwrap(func), \"is_safe\", False):\n49             result = mark_safe(result)\n50         return result\n",
+      "col_offset": 21,
+      "end_col_offset": 38,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "48         if isinstance(first, SafeData) and getattr(unwrap(func), \"is_safe\", False):\n49             result = mark_safe(result)\n50         return result\n",
+      "col_offset": 21,
+      "end_col_offset": 38,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 49,
+      "line_range": [
+        49
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "184     if not m and p <= 0:\n185         return mark_safe(\n186             formats.number_format(\n187                 \"%d\" % (int(d)),\n188                 0,\n189                 use_l10n=use_l10n,\n190                 force_grouping=force_grouping,\n191             )\n192         )\n193 \n",
+      "col_offset": 15,
+      "end_col_offset": 9,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 185,
+      "line_range": [
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "184     if not m and p <= 0:\n185         return mark_safe(\n186             formats.number_format(\n187                 \"%d\" % (int(d)),\n188                 0,\n189                 use_l10n=use_l10n,\n190                 force_grouping=force_grouping,\n191             )\n192         )\n193 \n",
+      "col_offset": 15,
+      "end_col_offset": 9,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 185,
+      "line_range": [
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "212     number = \"\".join(reversed(digits))\n213     return mark_safe(\n214         formats.number_format(\n215             number,\n216             abs(p),\n217             use_l10n=use_l10n,\n218             force_grouping=force_grouping,\n219         )\n220     )\n221 \n",
+      "col_offset": 11,
+      "end_col_offset": 5,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 213,
+      "line_range": [
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "212     number = \"\".join(reversed(digits))\n213     return mark_safe(\n214         formats.number_format(\n215             number,\n216             abs(p),\n217             use_l10n=use_l10n,\n218             force_grouping=force_grouping,\n219         )\n220     )\n221 \n",
+      "col_offset": 11,
+      "end_col_offset": 5,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 213,
+      "line_range": [
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "243             lines[i] = (\"%0\" + width + \"d. %s\") % (i + 1, escape(line))\n244     return mark_safe(\"\\n\".join(lines))\n245 \n",
+      "col_offset": 11,
+      "end_col_offset": 38,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 244,
+      "line_range": [
+        244
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "243             lines[i] = (\"%0\" + width + \"d. %s\") % (i + 1, escape(line))\n244     return mark_safe(\"\\n\".join(lines))\n245 \n",
+      "col_offset": 11,
+      "end_col_offset": 38,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 244,
+      "line_range": [
+        244
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "385     \"\"\"Convert URLs in plain text into clickable links.\"\"\"\n386     return mark_safe(_urlize(value, nofollow=True, autoescape=autoescape))\n387 \n",
+      "col_offset": 11,
+      "end_col_offset": 74,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 386,
+      "line_range": [
+        386
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "385     \"\"\"Convert URLs in plain text into clickable links.\"\"\"\n386     return mark_safe(_urlize(value, nofollow=True, autoescape=autoescape))\n387 \n",
+      "col_offset": 11,
+      "end_col_offset": 74,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 386,
+      "line_range": [
+        386
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "397     \"\"\"\n398     return mark_safe(\n399         _urlize(value, trim_url_limit=int(limit), nofollow=True, autoescape=autoescape)\n400     )\n401 \n",
+      "col_offset": 11,
+      "end_col_offset": 5,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 398,
+      "line_range": [
+        398,
+        399,
+        400
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "397     \"\"\"\n398     return mark_safe(\n399         _urlize(value, trim_url_limit=int(limit), nofollow=True, autoescape=autoescape)\n400     )\n401 \n",
+      "col_offset": 11,
+      "end_col_offset": 5,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 398,
+      "line_range": [
+        398,
+        399,
+        400
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "447     if safe and arg != \";\":\n448         return mark_safe(value)\n449     return value\n",
+      "col_offset": 15,
+      "end_col_offset": 31,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 448,
+      "line_range": [
+        448
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "447     if safe and arg != \";\":\n448         return mark_safe(value)\n449     return value\n",
+      "col_offset": 15,
+      "end_col_offset": 31,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 448,
+      "line_range": [
+        448
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "493     autoescape = autoescape and not isinstance(value, SafeData)\n494     return mark_safe(linebreaks(value, autoescape))\n495 \n",
+      "col_offset": 11,
+      "end_col_offset": 51,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 494,
+      "line_range": [
+        494
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "493     autoescape = autoescape and not isinstance(value, SafeData)\n494     return mark_safe(linebreaks(value, autoescape))\n495 \n",
+      "col_offset": 11,
+      "end_col_offset": 51,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 494,
+      "line_range": [
+        494
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "507         value = escape(value)\n508     return mark_safe(value.replace(\"\\n\", \"<br>\"))\n509 \n",
+      "col_offset": 11,
+      "end_col_offset": 49,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 508,
+      "line_range": [
+        508
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "507         value = escape(value)\n508     return mark_safe(value.replace(\"\\n\", \"<br>\"))\n509 \n",
+      "col_offset": 11,
+      "end_col_offset": 49,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 508,
+      "line_range": [
+        508
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "514     \"\"\"Mark the value as a string that should not be auto-escaped.\"\"\"\n515     return mark_safe(value)\n516 \n",
+      "col_offset": 11,
+      "end_col_offset": 27,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 515,
+      "line_range": [
+        515
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "514     \"\"\"Mark the value as a string that should not be auto-escaped.\"\"\"\n515     return mark_safe(value)\n516 \n",
+      "col_offset": 11,
+      "end_col_offset": 27,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 515,
+      "line_range": [
+        515
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "524     \"\"\"\n525     return [mark_safe(obj) for obj in value]\n526 \n",
+      "col_offset": 12,
+      "end_col_offset": 26,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 525,
+      "line_range": [
+        525
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "524     \"\"\"\n525     return [mark_safe(obj) for obj in value]\n526 \n",
+      "col_offset": 12,
+      "end_col_offset": 26,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 525,
+      "line_range": [
+        525
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "620         return value\n621     return mark_safe(data)\n622 \n",
+      "col_offset": 11,
+      "end_col_offset": 26,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 621,
+      "line_range": [
+        621
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "620         return value\n621     return mark_safe(data)\n622 \n",
+      "col_offset": 11,
+      "end_col_offset": 26,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 621,
+      "line_range": [
+        621
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "736 \n737     return mark_safe(list_formatter(value))\n738 \n",
+      "col_offset": 11,
+      "end_col_offset": 43,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 737,
+      "line_range": [
+        737
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "736 \n737     return mark_safe(list_formatter(value))\n738 \n",
+      "col_offset": 11,
+      "end_col_offset": 43,
+      "filename": "./projects/python/django/django/template/defaultfilters.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 737,
+      "line_range": [
+        737
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    }
+  ]
+}

@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/backend/services/db_service.py","call function: 63:35-63:50","call in function: initialize_db_pool@33-68","callee=sqlalchemy.text","basic block: 63:40-63:50"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/backend/services/db_service.py","call function: 123:44-123:54","call in function: execute_query@103-131","callee=sqlalchemy.text","basic block: 123:49-123:54"

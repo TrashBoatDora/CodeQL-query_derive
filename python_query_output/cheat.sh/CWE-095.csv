@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/cache.py","call function: 60:21-60:37","call in function: get@49-64","callee=json.loads","basic block: 60:32-60:37"

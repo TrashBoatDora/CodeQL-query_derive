@@ -1,0 +1,57 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:14:27Z",
+  "metrics": {
+    "./projects/python/pytorch/torch/cuda/_memory_viz.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 666,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 666,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "100         with tempfile.NamedTemporaryFile(mode=\"wb\", suffix=\".pl\") as f:\n101             urllib.request.urlretrieve(\n102                 \"https://raw.githubusercontent.com/brendangregg/FlameGraph/master/flamegraph.pl\",\n103                 f.name,\n104             )\n105             try:\n",
+      "col_offset": 12,
+      "end_col_offset": 13,
+      "filename": "./projects/python/pytorch/torch/cuda/_memory_viz.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 101,
+      "line_range": [
+        101,
+        102,
+        103,
+        104
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    }
+  ]
+}

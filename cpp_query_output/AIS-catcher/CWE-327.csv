@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/AIS-catcher/Protocol/Protocol.cpp","call function: 685:120-685:138","call in function: performHandshake@672-716","callee=SSL_CIPHER_get_name","basic block: 680:3-688:14"

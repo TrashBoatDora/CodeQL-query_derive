@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/tetgen/tetgen.cxx","call function: 24602:7-24602:11","call in function: collectremovepoints@24507-24631","callee=srand","basic block: 24598:34-24603:16"
-"Path: /home/sixsquare/codeQL/projects/tetgen/tetgen.cxx","call function: 24604:21-24604:24","call in function: collectremovepoints@24507-24631","callee=rand","basic block: 24603:48-24603:45"
-"Path: /home/sixsquare/codeQL/projects/tetgen/tetgen.cxx","call function: 24292:5-24292:9","call in function: insertconstrainedpoints@24266-24425","callee=srand","basic block: 24290:5-24293:14"
-"Path: /home/sixsquare/codeQL/projects/tetgen/tetgen.cxx","call function: 24294:19-24294:22","call in function: insertconstrainedpoints@24266-24425","callee=rand","basic block: 24293:34-24293:31"
-"Path: /home/sixsquare/codeQL/projects/tetgen/tetgen.cxx","call function: 12292:5-12292:9","call in function: incrementaldelaunay@12263-12472","callee=srand","basic block: 12292:5-12293:14"
-"Path: /home/sixsquare/codeQL/projects/tetgen/tetgen.cxx","call function: 12294:19-12294:22","call in function: incrementaldelaunay@12263-12472","callee=rand","basic block: 12293:46-12293:43"

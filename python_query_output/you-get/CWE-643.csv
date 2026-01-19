@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/bokecc.py","call function: 50:12-50:35","call in function: prepare@41-69","callee=xml.etree.ElementTree.ElementTree.find","basic block: 42:9-50:47"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/bokecc.py","call function: 55:52-55:108","call in function: prepare@41-69","callee=xml.etree.ElementTree.ElementTree.iterfind","basic block: 55:26-62:52"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/bokecc.py","call function: 62:18-62:52","call in function: prepare@41-69","callee=xml.etree.ElementTree.ElementTree.iterfind","basic block: 55:26-62:52"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/bokecc.py","call function: 62:18-62:52","call in function: prepare@41-69","callee=xml.etree.ElementTree.ElementTree.iterfind","basic block: 62:18-62:52"

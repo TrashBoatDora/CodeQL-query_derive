@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/aider/aider/analytics.py","call function: 152:28-152:39","call in function: get_or_create_uuid@147-153","callee=uuid.uuid4","basic block: 152:24-153:24"
-"path: /home/sixsquare/codeQL/projects/aider/aider/coders/base_coder.py","call function: 1874:21-1874:80","call in function: show_send_output@1836-1898","callee=hashlib.sha1","basic block: 1870:21-1877:24"
-"path: /home/sixsquare/codeQL/projects/aider/aider/models.py","call function: 983:23-983:39","call in function: send_completion@949-1001","callee=hashlib.sha1","basic block: 979:15-984:34"
-"path: /home/sixsquare/codeQL/projects/aider/aider/onboarding.py","call function: 167:21-167:45","call in function: generate_pkce_codes@166-171","callee=secrets.token_urlsafe","basic block: 167:21-171:40"
-"path: /home/sixsquare/codeQL/projects/aider/aider/onboarding.py","call function: 168:14-168:29","call in function: generate_pkce_codes@166-171","callee=hashlib.sha256","basic block: 167:21-171:40"
-"path: /home/sixsquare/codeQL/projects/aider/tests/basic/test_onboarding.py","call function: 193:18-193:33","call in function: test_generate_pkce_codes@185-196","callee=hashlib.sha256","basic block: 185:34-196:55"

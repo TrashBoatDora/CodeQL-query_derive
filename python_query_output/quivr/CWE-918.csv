@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/llm/llm_endpoint.py","call function: 228:30-228:58","call in function: from_config@212-313","callee=urllib.parse.urlparse","basic block: 228:30-228:58"
-"path: /home/sixsquare/codeQL/projects/quivr/core/quivr_core/processor/implementations/tika_processor.py","call function: 41:24-41:57","call in function: __init__@31-52","callee=httpx.AsyncClient","basic block: 32:9-46:19"

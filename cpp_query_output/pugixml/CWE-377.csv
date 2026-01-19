@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 5141:10-5141:14","call in function: open_file@5135-5143","callee=fopen","basic block: 5136:2-5135:29"
-"Path: /home/sixsquare/codeQL/projects/pugixml/src/pugixml.cpp","call function: 5126:18-5126:22","call in function: open_file_wide@5115-5132","callee=fopen","basic block: 5126:3-5131:15"

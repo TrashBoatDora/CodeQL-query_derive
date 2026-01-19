@@ -1,0 +1,54 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:27:21Z",
+  "metrics": {
+    "./projects/python/django/tests/annotations/tests.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1397,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1397,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "712                     DepartmentStore.objects.annotate(\n713                         annotation=RawSQL(sql, ()),\n714                     ).values_list(\"annotation\", flat=True),\n",
+      "col_offset": 35,
+      "end_col_offset": 50,
+      "filename": "./projects/python/django/tests/annotations/tests.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 713,
+      "line_range": [
+        713
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    }
+  ]
+}

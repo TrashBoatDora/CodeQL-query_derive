@@ -1,0 +1,24 @@
+{
+  "gpt4free/g4f/gui/server/crypto.py": [
+    {
+      "file_path": "projects/python/gpt4free/g4f/gui/server/crypto.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B505",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "RSA key sizes below 2048 bits are considered breakable. "
+    },
+    {
+      "file_path": "projects/python/gpt4free/g4f/gui/server/crypto.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "semgrep",
+      "rule_id": "python.cryptography.security.insufficient-rsa-key-size.insufficient-rsa-key-size",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected an insufficient key size for RSA. NIST recommends a key size of 2048 or higher."
+    }
+  ]
+}

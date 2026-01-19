@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/annotated_deep_learning_paper_implementations/labml_nn/transformers/retro/dataset.py","call function: 114:28-114:47","call in function: __init__@105-114","callee=json.loads","basic block: 105:18-114:24"
-"path: /home/sixsquare/codeQL/projects/annotated_deep_learning_paper_implementations/labml_nn/cfr/infoset_saver.py","call function: 24:20-24:39","call in function: load@22-27","callee=json.loads","basic block: 22:14-26:34"

@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/ethereum/utils/humanize.py","call function: 106:14-106:32","call in function: humanize_ipfs_uri@99-110","callee=urllib.parse.urlparse","basic block: 106:14-110:35"
-"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/ethereum/utils/humanize.py","call function: 117:14-117:34","call in function: is_ipfs_uri@113-121","callee=urllib.parse.urlparse","basic block: 117:14-118:30"

@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/odoo/addons/l10n_sa_edi/models/account_edi_xml_ubl_21_zatca.py","call function: 591:25-591:47","call in function: _l10n_sa_generate_invoice_xml_sha@572-598","callee=lxml.etree.XSLT","basic block: 588:45-592:56"
-"path: /home/sixsquare/codeQL/projects/odoo/addons/l10n_sa_edi/models/account_edi_xml_ubl_21_zatca.py","call function: 591:25-591:47","call in function: _transform_and_canonicalize_xml@588-592","callee=lxml.etree.XSLT","basic block: 588:45-592:56"
-"path: /home/sixsquare/codeQL/projects/odoo/odoo/tools/template_inheritance.py","call function: 87:21-87:39","call in function: locate_node@71-104","callee=lxml.etree.ETXPath","basic block: 87:35-87:39"
-"path: /home/sixsquare/codeQL/projects/odoo/addons/account_edi_ubl_cii/tests/test_autopost_bills.py","call function: 21:17-21:57","call in function: import_facturx@15-26","callee=xml.etree.ElementTree.ElementTree.find","basic block: 21:66-21:62"

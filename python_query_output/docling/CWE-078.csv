@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/docling/docling/models/tesseract_ocr_cli_model.py","call function: 78:16-78:51","call in function: _get_name_and_version@72-100","callee=subprocess.Popen","basic block: 76:16-86:42"
-"path: /home/sixsquare/codeQL/projects/docling/docling/models/tesseract_ocr_cli_model.py","call function: 123:18-123:77","call in function: _run_tesseract@102-144","callee=subprocess.run","basic block: 120:9-144:26"
-"path: /home/sixsquare/codeQL/projects/docling/docling/models/tesseract_ocr_cli_model.py","call function: 154:18-154:69","call in function: _perform_osd@146-159","callee=subprocess.run","basic block: 146:22-159:26"
-"path: /home/sixsquare/codeQL/projects/docling/docling/models/tesseract_ocr_cli_model.py","call function: 191:18-191:77","call in function: _set_languages_and_prefix@183-202","callee=subprocess.run","basic block: 183:35-197:80"

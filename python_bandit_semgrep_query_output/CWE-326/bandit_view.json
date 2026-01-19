@@ -1,0 +1,26 @@
+{
+  "ansible/test/integration/targets/ssh_agent/action_plugins/ssh_keygen.py": [
+    {
+      "file_path": "projects/python/ansible/test/integration/targets/ssh_agent/action_plugins/ssh_keygen.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B505",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "DSA key sizes below 2048 bits are considered breakable. "
+    }
+  ],
+  "gpt4free/g4f/gui/server/crypto.py": [
+    {
+      "file_path": "projects/python/gpt4free/g4f/gui/server/crypto.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B505",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "RSA key sizes below 2048 bits are considered breakable. "
+    }
+  ]
+}

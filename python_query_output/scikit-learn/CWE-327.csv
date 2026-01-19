@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/scikit-learn/sklearn/datasets/_base.py","call function: 1422:18-1422:33","call in function: _sha256@1420-1430","callee=hashlib.sha256","basic block: 1420:13-1424:30"
-"path: /home/sixsquare/codeQL/projects/scikit-learn/sklearn/datasets/_openml.py","call function: 526:15-526:27","call in function: _load_arff_response@441-574","callee=hashlib.md5","basic block: 442:5-527:60"
-"path: /home/sixsquare/codeQL/projects/scikit-learn/examples/applications/plot_out_of_core_classification.py","call function: 171:16-171:48","call in function: stream_reuters_documents@134-181","callee=hashlib.sha256","basic block: 171:16-171:78"
-"path: /home/sixsquare/codeQL/projects/scikit-learn/sklearn/datasets/tests/test_base.py","call function: 581:23-581:60","call in function: test_fetch_file_with_sha256@576-659","callee=hashlib.sha256","basic block: 576:33-592:58"

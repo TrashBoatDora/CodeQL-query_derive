@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/NRI/Source/Creation/Creation.cpp","call function: 55:5-55:12","call in function: MessageCallback@51-61","callee=snprintf","basic block: 51:120-51:36"
-"Path: /home/sixsquare/codeQL/projects/NRI/Source/Creation/Creation.cpp","call function: 57:5-57:11","call in function: MessageCallback@51-61","callee=fprintf","basic block: 51:120-51:36"
-"Path: /home/sixsquare/codeQL/projects/NRI/build/_deps/vma-src/include/vk_mem_alloc.h","call function: 3320:9-3320:16","call in function: VmaPtrToStr@3318-3321","callee=snprintf","basic block: 3319:5-3318:34"
-"Path: /home/sixsquare/codeQL/projects/NRI/build/_deps/vma-src/include/vk_mem_alloc.h","call function: 3316:9-3316:16","call in function: VmaUint64ToStr@3314-3317","callee=snprintf","basic block: 3315:5-3314:37"
-"Path: /home/sixsquare/codeQL/projects/NRI/build/_deps/vma-src/include/vk_mem_alloc.h","call function: 3312:9-3312:16","call in function: VmaUint32ToStr@3310-3313","callee=snprintf","basic block: 3311:5-3310:37"
-"Path: /home/sixsquare/codeQL/projects/NRI/Source/Shared/SharedExternal.hpp","call function: 832:27-832:34","call in function: ReportMessage@822-845","callee=snprintf","basic block: 832:27-839:102"
-"Path: /home/sixsquare/codeQL/projects/NRI/Source/Shared/SharedExternal.hpp","call function: 836:20-836:28","call in function: ReportMessage@822-845","callee=vsnprintf","basic block: 832:27-839:102"

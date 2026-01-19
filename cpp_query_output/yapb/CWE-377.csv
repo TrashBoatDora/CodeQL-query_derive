@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/yapb/ext/crlib/crlib/platform.h","call function: 511:16-511:20","call in function: openStdioFile@505-514","callee=fopen","basic block: 505:61-505:22"
-"Path: /home/sixsquare/codeQL/projects/yapb/ext/crlib/crlib/platform.h","call function: 481:7-481:13","call in function: tmpfname@466-484","callee=mkstemp","basic block: 466:51-466:37"
-"Path: /home/sixsquare/codeQL/projects/yapb/ext/crlib/crlib/files.h","call function: 433:23-433:29","call in function: start@414-440","callee=open","basic block: 427:7-436:34"

@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/jwt.hpp","call function: 609:36-609:51","call in function: add_claim@604-612","callee=std::time","basic block: 605:3-604:16"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/jwt.hpp","call function: 576:36-576:51","call in function: add_claim@571-579","callee=std::time","basic block: 572:3-571:16"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/impl/jwt.ipp","call function: 376:34-376:49","call in function: add_claim@371-378","callee=std::time","basic block: 372:1-371:40"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/impl/jwt.ipp","call function: 437:73-437:88","call in function: verify@413-539","callee=std::time","basic block: 434:49-442:88"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/impl/jwt.ipp","call function: 506:70-506:85","call in function: verify@413-539","callee=std::time","basic block: 503:3-511:88"

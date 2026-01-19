@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/DragGAN/stylegan_human/dnnlib/tflib/network.py","call function: 292:9-292:53","call in function: __setstate__@269-301","callee=exec","basic block: 280:9-296:41"
-"path: /home/sixsquare/codeQL/projects/DragGAN/torch_utils/persistence.py","call function: 226:9-226:34","call in function: _src_to_module@216-227","callee=exec","basic block: 221:23-226:34"
-"path: /home/sixsquare/codeQL/projects/DragGAN/stylegan_human/torch_utils/persistence.py","call function: 228:9-228:34","call in function: _src_to_module@218-229","callee=exec","basic block: 223:23-228:34"
-"path: /home/sixsquare/codeQL/projects/DragGAN/stylegan_human/dnnlib/util.py","call function: 159:30-159:36","call in function: ask_yes_no@154-161","callee=input","basic block: 159:30-159:36"
-"path: /home/sixsquare/codeQL/projects/DragGAN/dnnlib/util.py","call function: 172:30-172:36","call in function: ask_yes_no@167-174","callee=input","basic block: 172:30-172:36"

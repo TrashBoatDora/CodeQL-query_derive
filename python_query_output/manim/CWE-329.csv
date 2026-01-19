@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/manim/manimlib/utils/color.py","call function: 132:33-132:47","call in function: random_bright_color@126-135","callee=random.random","basic block: 127:5-135:6"
-"path: /home/sixsquare/codeQL/projects/manim/manimlib/utils/color.py","call function: 133:40-133:54","call in function: random_bright_color@126-135","callee=random.random","basic block: 127:5-135:6"
-"path: /home/sixsquare/codeQL/projects/manim/manimlib/utils/color.py","call function: 134:39-134:53","call in function: random_bright_color@126-135","callee=random.random","basic block: 127:5-135:6"
-"path: /home/sixsquare/codeQL/projects/manim/manimlib/mobject/svg/drawings.py","call function: 526:63-526:77","call in function: get_body@514-548","callee=random.random","basic block: 524:17-527:18"
-"path: /home/sixsquare/codeQL/projects/manim/manimlib/mobject/svg/drawings.py","call function: 531:46-531:60","call in function: get_body@514-548","callee=random.random","basic block: 532:17-531:77"
-"path: /home/sixsquare/codeQL/projects/manim/manimlib/mobject/svg/drawings.py","call function: 531:46-531:60","call in function: genexpr@531-531","callee=random.random","basic block: 532:17-531:77"

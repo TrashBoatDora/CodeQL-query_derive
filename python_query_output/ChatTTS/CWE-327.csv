@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 14:9-14:28","call in function: sha256@12-16","callee=hashlib.sha256","basic block: 12:12-16:12"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/gym/tests/spaces/test_spaces.py","call function: 43:27-43:61","call in function: test_roundtripping@36-52","callee=json.loads","basic block: 36:24-49:5"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/docling/docling/pipeline/extraction_vlm_pipeline.py","call function: 88:46-88:71","call in function: _extract_data@48-126","callee=json.loads","basic block: 88:57-88:71"
-"path: /home/sixsquare/codeQL/projects/docling/docs/examples/vlm_pipeline_api_model.py","call function: 126:34-126:49","call in function: lms_olmocr_vlm_options@86-149","callee=json.loads","basic block: 126:45-126:49"
-"path: /home/sixsquare/codeQL/projects/docling/docs/examples/vlm_pipeline_api_model.py","call function: 126:34-126:49","call in function: decode_response@123-130","callee=json.loads","basic block: 126:45-126:49"

@@ -1,0 +1,718 @@
+{
+  "AutoGPT/classic/forge/forge/components/image_gen/test_image_gen.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/components/image_gen/test_image_gen.py",
+      "line_start": 103,
+      "line_end": 103,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/components/image_gen/test_image_gen.py",
+      "line_start": 108,
+      "line_end": 108,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "ColossalAI/examples/images/dreambooth/train_dreambooth.py": [
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/dreambooth/train_dreambooth.py",
+      "line_start": 399,
+      "line_end": 399,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "ColossalAI/examples/images/dreambooth/train_dreambooth_inpaint.py": [
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/dreambooth/train_dreambooth_inpaint.py",
+      "line_start": 425,
+      "line_end": 425,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "DeepSpeed/deepspeed/runtime/engine.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/runtime/engine.py",
+      "line_start": 3594,
+      "line_end": 3594,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "DragGAN/dnnlib/util.py": [
+    {
+      "file_path": "projects/python/DragGAN/dnnlib/util.py",
+      "line_start": 431,
+      "line_end": 431,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "DragGAN/stylegan_human/dnnlib/tflib/custom_ops.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/dnnlib/tflib/custom_ops.py",
+      "line_start": 102,
+      "line_end": 102,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "DragGAN/stylegan_human/dnnlib/util.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/dnnlib/util.py",
+      "line_start": 419,
+      "line_end": 419,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "DragGAN/stylegan_human/torch_utils/custom_ops.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/custom_ops.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/custom_ops.py",
+      "line_start": 195,
+      "line_end": 195,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "DragGAN/torch_utils/custom_ops.py": [
+    {
+      "file_path": "projects/python/DragGAN/torch_utils/custom_ops.py",
+      "line_start": 112,
+      "line_end": 112,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "FastChat/fastchat/conversation.py": [
+    {
+      "file_path": "projects/python/FastChat/fastchat/conversation.py",
+      "line_start": 625,
+      "line_end": 625,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/conversation.py",
+      "line_start": 658,
+      "line_end": 658,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "FastChat/fastchat/serve/monitor/clean_chat_data.py": [
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/monitor/clean_chat_data.py",
+      "line_start": 120,
+      "line_end": 120,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/process_ckpt.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/process_ckpt.py",
+      "line_start": 95,
+      "line_end": 95,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/text/japanese.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/japanese.py",
+      "line_start": 51,
+      "line_end": 51,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "GPT-SoVITS/tools/uvr5/lib/lib_v5/spec_utils.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/lib/lib_v5/spec_utils.py",
+      "line_start": 196,
+      "line_end": 196,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "HanLP/hanlp/utils/io_util.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/utils/io_util.py",
+      "line_start": 96,
+      "line_end": 96,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "MediaCrawler/media_platform/bilibili/help.py": [
+    {
+      "file_path": "projects/python/MediaCrawler/media_platform/bilibili/help.py",
+      "line_start": 75,
+      "line_end": 75,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "MinerU/mineru/utils/hash_utils.py": [
+    {
+      "file_path": "projects/python/MinerU/mineru/utils/hash_utils.py",
+      "line_start": 7,
+      "line_end": 7,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/MinerU/mineru/utils/hash_utils.py",
+      "line_start": 13,
+      "line_end": 13,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/MinerU/mineru/utils/hash_utils.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "MoneyPrinterTurbo/app/utils/utils.py": [
+    {
+      "file_path": "projects/python/MoneyPrinterTurbo/app/utils/utils.py",
+      "line_start": 204,
+      "line_end": 204,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "OpenHands/openhands/runtime/utils/runtime_build.py": [
+    {
+      "file_path": "projects/python/OpenHands/openhands/runtime/utils/runtime_build.py",
+      "line_start": 95,
+      "line_end": 95,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/OpenHands/openhands/runtime/utils/runtime_build.py",
+      "line_start": 104,
+      "line_end": 104,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/OpenHands/openhands/runtime/utils/runtime_build.py",
+      "line_start": 326,
+      "line_end": 326,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "OpenHands/tests/unit/runtime/builder/test_runtime_build.py": [
+    {
+      "file_path": "projects/python/OpenHands/tests/unit/runtime/builder/test_runtime_build.py",
+      "line_start": 107,
+      "line_end": 107,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/OpenHands/tests/unit/runtime/builder/test_runtime_build.py",
+      "line_start": 120,
+      "line_end": 120,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/OpenHands/tests/unit/runtime/builder/test_runtime_build.py",
+      "line_start": 127,
+      "line_end": 127,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "Python/hashes/sha1.py": [
+    {
+      "file_path": "projects/python/Python/hashes/sha1.py",
+      "line_start": 135,
+      "line_end": 135,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "TTS/TTS/encoder/utils/prepare_voxceleb.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/encoder/utils/prepare_voxceleb.py",
+      "line_start": 98,
+      "line_end": 98,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "TTS/TTS/tts/layers/bark/load_model.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/tts/layers/bark/load_model.py",
+      "line_start": 41,
+      "line_end": 41,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "TTS/TTS/utils/download.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/utils/download.py",
+      "line_start": 124,
+      "line_end": 124,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "aider/aider/coders/base_coder.py": [
+    {
+      "file_path": "projects/python/aider/aider/coders/base_coder.py",
+      "line_start": 1874,
+      "line_end": 1874,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "aider/aider/models.py": [
+    {
+      "file_path": "projects/python/aider/aider/models.py",
+      "line_start": 984,
+      "line_end": 984,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/airflow-core/src/airflow/lineage/hook.py": [
+    {
+      "file_path": "projects/python/airflow/airflow-core/src/airflow/lineage/hook.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/airflow-core/src/airflow/models/dagbag.py": [
+    {
+      "file_path": "projects/python/airflow/airflow-core/src/airflow/models/dagbag.py",
+      "line_start": 108,
+      "line_end": 108,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/dev/breeze/src/airflow_breeze/commands/setup_commands.py": [
+    {
+      "file_path": "projects/python/airflow/dev/breeze/src/airflow_breeze/commands/setup_commands.py",
+      "line_start": 307,
+      "line_end": 307,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/dev/breeze/src/airflow_breeze/utils/md5_build_check.py": [
+    {
+      "file_path": "projects/python/airflow/dev/breeze/src/airflow_breeze/utils/md5_build_check.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/providers/databricks/src/airflow/providers/databricks/operators/databricks.py": [
+    {
+      "file_path": "projects/python/airflow/providers/databricks/src/airflow/providers/databricks/operators/databricks.py",
+      "line_start": 1247,
+      "line_end": 1247,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/airflow/providers/databricks/src/airflow/providers/databricks/operators/databricks.py",
+      "line_start": 1254,
+      "line_end": 1254,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/providers/databricks/tests/unit/databricks/operators/test_databricks.py": [
+    {
+      "file_path": "projects/python/airflow/providers/databricks/tests/unit/databricks/operators/test_databricks.py",
+      "line_start": 2506,
+      "line_end": 2506,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/airflow/providers/databricks/tests/unit/databricks/operators/test_databricks.py",
+      "line_start": 2620,
+      "line_end": 2620,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/scripts/ci/prek/generate_airflow_diagrams.py": [
+    {
+      "file_path": "projects/python/airflow/scripts/ci/prek/generate_airflow_diagrams.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/scripts/ci/prek/update_source_date_epoch.py": [
+    {
+      "file_path": "projects/python/airflow/scripts/ci/prek/update_source_date_epoch.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "airflow/scripts/in_container/run_capture_airflowctl_help.py": [
+    {
+      "file_path": "projects/python/airflow/scripts/in_container/run_capture_airflowctl_help.py",
+      "line_start": 78,
+      "line_end": 78,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "ansible/lib/ansible/plugins/lookup/password.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/lookup/password.py",
+      "line_start": 270,
+      "line_end": 270,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "autogen/python/packages/agbench/src/agbench/linter/_base.py": [
+    {
+      "file_path": "projects/python/autogen/python/packages/agbench/src/agbench/linter/_base.py",
+      "line_start": 14,
+      "line_end": 14,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/autogen/python/packages/agbench/src/agbench/linter/_base.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "autogen/python/packages/autogen-core/src/autogen_core/utils/_json_to_pydantic.py": [
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-core/src/autogen_core/utils/_json_to_pydantic.py",
+      "line_start": 137,
+      "line_end": 137,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "autogen/python/packages/autogen-ext/src/autogen_ext/agents/web_surfer/_multimodal_web_surfer.py": [
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-ext/src/autogen_ext/agents/web_surfer/_multimodal_web_surfer.py",
+      "line_start": 785,
+      "line_end": 785,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/utils/rss_feed_parser.py": [
+    {
+      "file_path": "projects/python/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/utils/rss_feed_parser.py",
+      "line_start": 15,
+      "line_end": 15,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "browser-use/browser_use/agent/service.py": [
+    {
+      "file_path": "projects/python/browser-use/browser_use/agent/service.py",
+      "line_start": 1480,
+      "line_end": 1480,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "browser-use/examples/apps/news-use/news_monitor.py": [
+    {
+      "file_path": "projects/python/browser-use/examples/apps/news-use/news_monitor.py",
+      "line_start": 191,
+      "line_end": 191,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/browser-use/examples/apps/news-use/news_monitor.py",
+      "line_start": 232,
+      "line_end": 232,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    },
+    {
+      "file_path": "projects/python/browser-use/examples/apps/news-use/news_monitor.py",
+      "line_start": 264,
+      "line_end": 264,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "ccxt/python/ccxt/static_dependencies/ecdsa/ecdsa.py": [
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/ecdsa/ecdsa.py",
+      "line_start": 222,
+      "line_end": 222,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "chatgpt-on-wechat/lib/itchat/async_components/messages.py": [
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/lib/itchat/async_components/messages.py",
+      "line_start": 302,
+      "line_end": 302,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "chatgpt-on-wechat/lib/itchat/components/messages.py": [
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/lib/itchat/components/messages.py",
+      "line_start": 303,
+      "line_end": 303,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "chatgpt-on-wechat/translate/baidu/baidu_translate.py": [
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/translate/baidu/baidu_translate.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "cheat.sh/lib/fmt/comments.py": [
+    {
+      "file_path": "projects/python/cheat.sh/lib/fmt/comments.py",
+      "line_start": 320,
+      "line_end": 320,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak MD5 hash for security. Consider usedforsecurity=False"
+    }
+  ],
+  "core/homeassistant/components/backup/manager.py": [
+    {
+      "file_path": "projects/python/core/homeassistant/components/backup/manager.py",
+      "line_start": 2116,
+      "line_end": 2116,
+      "scanner": "bandit",
+      "rule_id": "B324",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Use of weak SHA1 hash for security. Consider usedforsecurity=False"
+    }
+  ]
+}

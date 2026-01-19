@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/providers/oecd/openbb_oecd/utils/helpers.py","call function: 84:12-84:33","call in function: oecd_xml_to_df@71-112","callee=defusedxml.ElementTree.fromstring","basic block: 71:20-95:74"

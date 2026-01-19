@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/face_recognition/face_recognition/face_detection_cli.py","call function: 26:68-26:113","call in function: image_files_in_folder@25-26","callee=re.match","basic block: 26:41-26:113"
-"path: /home/sixsquare/codeQL/projects/face_recognition/face_recognition/face_detection_cli.py","call function: 26:68-26:113","call in function: listcomp@26-26","callee=re.match","basic block: 26:41-26:113"
-"path: /home/sixsquare/codeQL/projects/face_recognition/face_recognition/face_recognition_cli.py","call function: 68:68-68:113","call in function: listcomp@68-68","callee=re.match","basic block: 68:41-68:113"
-"path: /home/sixsquare/codeQL/projects/face_recognition/face_recognition/face_recognition_cli.py","call function: 68:68-68:113","call in function: image_files_in_folder@67-68","callee=re.match","basic block: 68:41-68:113"

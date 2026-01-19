@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/app/stressTest.cpp","call function: 199:29-199:37","call in function: getDateTime@178-208","callee=time","basic block: 179:1-201:22"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/app/test.cpp","call function: 141:22-141:23","call in function: countPrimesRandom@132-157","callee=std::rand","basic block: 133:1-153:3"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/app/test.cpp","call function: 141:22-141:23","call in function: countPrimesRandom@132-157","callee=std::random_device","basic block: 133:1-153:3"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/app/test.cpp","call function: 142:22-142:22","call in function: countPrimesRandom@132-157","callee=std::rand","basic block: 133:1-153:3"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/app/test.cpp","call function: 142:22-142:22","call in function: countPrimesRandom@132-157","callee=std::random_device","basic block: 133:1-153:3"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/app/test.cpp","call function: 157:1-157:1","call in function: countPrimesRandom@132-157","callee=std::rand","basic block: 155:3-132:22"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/app/test.cpp","call function: 157:1-157:1","call in function: countPrimesRandom@132-157","callee=std::random_device","basic block: 155:3-132:22"

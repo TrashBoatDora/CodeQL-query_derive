@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/paths.py","call function: 8:8-8:27","call in function: _absolute_or_from_project_root@7-10","callee=str.startswith","basic block: 7:36-8:27"

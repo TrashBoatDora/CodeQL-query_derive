@@ -1,0 +1,2492 @@
+{
+  "AutoGPT/classic/benchmark/reports/match_records.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/reports/match_records.py",
+      "line_start": 270,
+      "line_end": 270,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/reports/match_records.py",
+      "line_start": 271,
+      "line_end": 271,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "AutoGPT/classic/forge/tests/vcr_cassettes/format_cassettes.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/tests/vcr_cassettes/format_cassettes.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ColossalAI/colossalai/legacy/communication/p2p_v2.py": [
+    {
+      "file_path": "projects/python/ColossalAI/colossalai/legacy/communication/p2p_v2.py",
+      "line_start": 5,
+      "line_end": 5,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    }
+  ],
+  "ColossalAI/colossalai/pipeline/p2p.py": [
+    {
+      "file_path": "projects/python/ColossalAI/colossalai/pipeline/p2p.py",
+      "line_start": 5,
+      "line_end": 5,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/colossalai/pipeline/p2p.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ColossalAI/examples/images/diffusion/ldm/data/imagenet.py": [
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/diffusion/ldm/data/imagenet.py",
+      "line_start": 3,
+      "line_end": 3,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/diffusion/ldm/data/imagenet.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/diffusion/ldm/data/imagenet.py",
+      "line_start": 384,
+      "line_end": 384,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/diffusion/ldm/data/imagenet.py",
+      "line_start": 397,
+      "line_end": 397,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "DeepSpeed/deepspeed/inference/v2/engine_factory.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/inference/v2/engine_factory.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/inference/v2/engine_factory.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "DeepSpeed/deepspeed/ops/transformer/inference/triton/matmul_ext.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/ops/transformer/inference/triton/matmul_ext.py",
+      "line_start": 11,
+      "line_end": 11,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/ops/transformer/inference/triton/matmul_ext.py",
+      "line_start": 110,
+      "line_end": 110,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "DeepSpeed/tests/unit/inference/test_inference.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/inference/test_inference.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/inference/test_inference.py",
+      "line_start": 100,
+      "line_end": 100,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "DragGAN/stylegan_human/PP_HumanSeg/deploy/infer.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/PP_HumanSeg/deploy/infer.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "DragGAN/stylegan_human/legacy.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/legacy.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/legacy.py",
+      "line_start": 102,
+      "line_end": 102,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "DragGAN/stylegan_human/pti/training/coaches/base_coach.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/pti/training/coaches/base_coach.py",
+      "line_start": 3,
+      "line_end": 3,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    }
+  ],
+  "DragGAN/stylegan_human/utils/models_utils.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/utils/models_utils.py",
+      "line_start": 4,
+      "line_end": 4,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/utils/models_utils.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "FastChat/fastchat/serve/monitor/monitor.py": [
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/monitor/monitor.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/monitor/monitor.py",
+      "line_start": 929,
+      "line_end": 929,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "FastChat/fastchat/serve/monitor/topic_clustering.py": [
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/monitor/topic_clustering.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    }
+  ],
+  "GFPGAN/tests/test_ffhq_degradation_dataset.py": [
+    {
+      "file_path": "projects/python/GFPGAN/tests/test_ffhq_degradation_dataset.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "GFPGAN/tests/test_gfpgan_model.py": [
+    {
+      "file_path": "projects/python/GFPGAN/tests/test_gfpgan_model.py",
+      "line_start": 15,
+      "line_end": 15,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/TTS_infer_pack/TTS.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/TTS_infer_pack/TTS.py",
+      "line_start": 373,
+      "line_end": 373,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/text/english.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/english.py",
+      "line_start": 1,
+      "line_end": 1,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/english.py",
+      "line_start": 213,
+      "line_end": 213,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/english.py",
+      "line_start": 226,
+      "line_end": 226,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py",
+      "line_start": 3,
+      "line_end": 3,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/text/g2pw/g2pw.py",
+      "line_start": 120,
+      "line_end": 120,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "GPT-SoVITS/tools/uvr5/bsroformer.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/bsroformer.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "GPT-SoVITS/webui.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 608,
+      "line_end": 608,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "HanLP/hanlp/components/amr/amrbart/preprocess/read_and_process.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/components/amr/amrbart/preprocess/read_and_process.py",
+      "line_start": 98,
+      "line_end": 98,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "HanLP/plugins/hanlp_common/hanlp_common/io.py": [
+    {
+      "file_path": "projects/python/HanLP/plugins/hanlp_common/hanlp_common/io.py",
+      "line_start": 6,
+      "line_end": 6,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/HanLP/plugins/hanlp_common/hanlp_common/io.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "MediaCrawler/cache/redis_cache.py": [
+    {
+      "file_path": "projects/python/MediaCrawler/cache/redis_cache.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/MediaCrawler/cache/redis_cache.py",
+      "line_start": 64,
+      "line_end": 64,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "MetaGPT/metagpt/ext/sela/search/tree_search.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/sela/search/tree_search.py",
+      "line_start": 3,
+      "line_end": 3,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/sela/search/tree_search.py",
+      "line_start": 154,
+      "line_end": 154,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/sela/search/tree_search.py",
+      "line_start": 486,
+      "line_end": 486,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "MetaGPT/metagpt/utils/serialize.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/utils/serialize.py",
+      "line_start": 6,
+      "line_end": 6,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/utils/serialize.py",
+      "line_start": 75,
+      "line_end": 75,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "Open-Assistant/backend/oasst_backend/utils/language_classification.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/backend/oasst_backend/utils/language_classification.py",
+      "line_start": 2,
+      "line_end": 2,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/Open-Assistant/backend/oasst_backend/utils/language_classification.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "Open-Assistant/data/datasets/youtube_subs_howto100M/prepare.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/data/datasets/youtube_subs_howto100M/prepare.py",
+      "line_start": 5,
+      "line_end": 5,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/Open-Assistant/data/datasets/youtube_subs_howto100M/prepare.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "Open-Assistant/scripts/data-collection/twitter/twitter_process_json.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/scripts/data-collection/twitter/twitter_process_json.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/Open-Assistant/scripts/data-collection/twitter/twitter_process_json.py",
+      "line_start": 91,
+      "line_end": 91,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/Open-Assistant/scripts/data-collection/twitter/twitter_process_json.py",
+      "line_start": 103,
+      "line_end": 103,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "OpenHands/enterprise/integrations/solvability/models/classifier.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/solvability/models/classifier.py",
+      "line_start": 4,
+      "line_end": 4,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/solvability/models/classifier.py",
+      "line_start": 373,
+      "line_end": 373,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "OpenHands/enterprise/server/utils/conversation_callback_utils.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/server/utils/conversation_callback_utils.py",
+      "line_start": 3,
+      "line_end": 3,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/OpenHands/enterprise/server/utils/conversation_callback_utils.py",
+      "line_start": 290,
+      "line_end": 290,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "OpenHands/openhands/controller/state/state.py": [
+    {
+      "file_path": "projects/python/OpenHands/openhands/controller/state/state.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/OpenHands/openhands/controller/state/state.py",
+      "line_start": 167,
+      "line_end": 167,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/OpenHands/openhands/controller/state/state.py",
+      "line_start": 175,
+      "line_end": 175,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "OpenHands/openhands/server/services/conversation_stats.py": [
+    {
+      "file_path": "projects/python/OpenHands/openhands/server/services/conversation_stats.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/OpenHands/openhands/server/services/conversation_stats.py",
+      "line_start": 85,
+      "line_end": 85,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "OpenHands/tests/unit/test_conversation_stats.py": [
+    {
+      "file_path": "projects/python/OpenHands/tests/unit/test_conversation_stats.py",
+      "line_start": 2,
+      "line_end": 2,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/OpenHands/tests/unit/test_conversation_stats.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/OpenHands/tests/unit/test_conversation_stats.py",
+      "line_start": 544,
+      "line_end": 544,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/OpenHands/tests/unit/test_conversation_stats.py",
+      "line_start": 720,
+      "line_end": 720,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/benchmark/PaddleOCR_DBNet/utils/util.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/util.py",
+      "line_start": 284,
+      "line_end": 284,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/util.py",
+      "line_start": 347,
+      "line_end": 347,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/util.py",
+      "line_start": 355,
+      "line_end": 355,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/util.py",
+      "line_start": 284,
+      "line_end": 284,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/util.py",
+      "line_start": 347,
+      "line_end": 347,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/benchmark/PaddleOCR_DBNet/utils/util.py",
+      "line_start": 355,
+      "line_end": 355,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    }
+  ],
+  "PaddleOCR/configs/rec/multi_language/generate_multi_language_configs.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/configs/rec/multi_language/generate_multi_language_configs.py",
+      "line_start": 133,
+      "line_end": 133,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/configs/rec/multi_language/generate_multi_language_configs.py",
+      "line_start": 183,
+      "line_end": 183,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/configs/rec/multi_language/generate_multi_language_configs.py",
+      "line_start": 133,
+      "line_end": 135,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/configs/rec/multi_language/generate_multi_language_configs.py",
+      "line_start": 183,
+      "line_end": 183,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    }
+  ],
+  "PaddleOCR/ppocr/data/latexocr_dataset.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/latexocr_dataset.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/latexocr_dataset.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/ppocr/data/lmdb_dataset.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/lmdb_dataset.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/lmdb_dataset.py",
+      "line_start": 227,
+      "line_end": 227,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/data/lmdb_dataset.py",
+      "line_start": 256,
+      "line_end": 256,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/ppocr/losses/center_loss.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/center_loss.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/center_loss.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/ppocr/losses/text_focus_loss.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/text_focus_loss.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/losses/text_focus_loss.py",
+      "line_start": 32,
+      "line_end": 32,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/ppocr/utils/save_load.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/utils/save_load.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/utils/save_load.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppocr/utils/save_load.py",
+      "line_start": 158,
+      "line_end": 158,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/ppstructure/table/eval_table.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppstructure/table/eval_table.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppstructure/table/eval_table.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/ppstructure/table/table_master_match.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/ppstructure/table/table_master_match.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppstructure/table/table_master_match.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/ppstructure/table/table_master_match.py",
+      "line_start": 96,
+      "line_end": 96,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/test_tipc/supplementary/config.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/config.py",
+      "line_start": 41,
+      "line_end": 41,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/config.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/config.py",
+      "line_start": 41,
+      "line_end": 41,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/config.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    }
+  ],
+  "PaddleOCR/test_tipc/supplementary/load_cifar.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/load_cifar.py",
+      "line_start": 1,
+      "line_end": 1,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/test_tipc/supplementary/load_cifar.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "PaddleOCR/tools/program.py": [
+    {
+      "file_path": "projects/python/PaddleOCR/tools/program.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/tools/program.py",
+      "line_start": 84,
+      "line_end": 84,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/tools/program.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    },
+    {
+      "file_path": "projects/python/PaddleOCR/tools/program.py",
+      "line_start": 84,
+      "line_end": 84,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.deserialization.avoid-pyyaml-load.avoid-pyyaml-load",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Detected a possible YAML deserialization vulnerability. `yaml.unsafe_load`, `yaml.Loader`, `yaml.CLoader`, and `yaml.UnsafeLoader` are all known to be unsafe methods of deserializing YAML. An attacker with control over the YAML input could create special YAML input that allows the attacker to run arbitrary Python code. This would allow the attacker to steal files, download and install malware, or otherwise take over the machine. Use `yaml.safe_load` or `yaml.SafeLoader` instead."
+    }
+  ],
+  "Python/neural_network/convolution_neural_network.py": [
+    {
+      "file_path": "projects/python/Python/neural_network/convolution_neural_network.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/Python/neural_network/convolution_neural_network.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "TTS/TTS/utils/io.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/utils/io.py",
+      "line_start": 2,
+      "line_end": 2,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    }
+  ],
+  "Umi-OCR/UmiOCR-data/py_src/server/bottle.py": [
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 106,
+      "line_end": 106,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 132,
+      "line_end": 132,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with cPickle module."
+    }
+  ],
+  "ailearning/src/py2.x/ml/15.BigData_MapReduce/mrSVM.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py2.x/ml/15.BigData_MapReduce/mrSVM.py",
+      "line_start": 13,
+      "line_end": 13,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py2.x/ml/15.BigData_MapReduce/mrSVM.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/src/py2.x/ml/15.BigData_MapReduce/proximalSVM.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py2.x/ml/15.BigData_MapReduce/proximalSVM.py",
+      "line_start": 11,
+      "line_end": 11,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py2.x/ml/15.BigData_MapReduce/proximalSVM.py",
+      "line_start": 45,
+      "line_end": 45,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/src/py2.x/ml/3.DecisionTree/DecisionTree.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py2.x/ml/3.DecisionTree/DecisionTree.py",
+      "line_start": 292,
+      "line_end": 292,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py2.x/ml/3.DecisionTree/DecisionTree.py",
+      "line_start": 306,
+      "line_end": 306,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py2.x/ml/3.DecisionTree/DecisionTree.py",
+      "line_start": 308,
+      "line_end": 308,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/src/py3.x/ml/15.BigData_MapReduce/mrSVM.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/15.BigData_MapReduce/mrSVM.py",
+      "line_start": 11,
+      "line_end": 11,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/15.BigData_MapReduce/mrSVM.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/src/py3.x/ml/15.BigData_MapReduce/proximalSVM.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/15.BigData_MapReduce/proximalSVM.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/15.BigData_MapReduce/proximalSVM.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/src/py3.x/ml/3.DecisionTree/DecisionTree.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/3.DecisionTree/DecisionTree.py",
+      "line_start": 319,
+      "line_end": 319,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/3.DecisionTree/DecisionTree.py",
+      "line_start": 341,
+      "line_end": 341,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/3.DecisionTree/DecisionTree.py",
+      "line_start": 343,
+      "line_end": 343,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/src/py3.x/tensorflow2.x/text_Emotion.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/tensorflow2.x/text_Emotion.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/tensorflow2.x/text_Emotion.py",
+      "line_start": 40,
+      "line_end": 40,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/src/py3.x/tensorflow2.x/zh-NER-keras-master/bilsm_crf_model.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/tensorflow2.x/zh-NER-keras-master/bilsm_crf_model.py",
+      "line_start": 5,
+      "line_end": 5,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/tensorflow2.x/zh-NER-keras-master/bilsm_crf_model.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ailearning/tutorials/keras/text_NER.py": [
+    {
+      "file_path": "projects/python/ailearning/tutorials/keras/text_NER.py",
+      "line_start": 1,
+      "line_end": 1,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ailearning/tutorials/keras/text_NER.py",
+      "line_start": 129,
+      "line_end": 129,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/airflow-core/src/airflow/migrations/versions/0055_3_0_0_remove_pickled_data_from_dagrun_table.py": [
+    {
+      "file_path": "projects/python/airflow/airflow-core/src/airflow/migrations/versions/0055_3_0_0_remove_pickled_data_from_dagrun_table.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/src/airflow/migrations/versions/0055_3_0_0_remove_pickled_data_from_dagrun_table.py",
+      "line_start": 97,
+      "line_end": 97,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/airflow-core/tests/unit/models/test_dag.py": [
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/models/test_dag.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/models/test_dag.py",
+      "line_start": 1078,
+      "line_end": 1078,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/airflow-core/tests/unit/serialization/test_dag_serialization.py": [
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/serialization/test_dag_serialization.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/serialization/test_dag_serialization.py",
+      "line_start": 2928,
+      "line_end": 2928,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/serialization/test_dag_serialization.py",
+      "line_start": 3018,
+      "line_end": 3018,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/airflow-core/tests/unit/utils/test_sqlalchemy.py": [
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/utils/test_sqlalchemy.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/utils/test_sqlalchemy.py",
+      "line_start": 246,
+      "line_end": 246,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/utils/test_sqlalchemy.py",
+      "line_start": 247,
+      "line_end": 247,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/airflow/airflow-core/tests/unit/utils/test_sqlalchemy.py",
+      "line_start": 280,
+      "line_end": 280,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/dev/stats/get_important_pr_candidates.py": [
+    {
+      "file_path": "projects/python/airflow/dev/stats/get_important_pr_candidates.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/dev/stats/get_important_pr_candidates.py",
+      "line_start": 728,
+      "line_end": 728,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/providers/cncf/kubernetes/tests/unit/cncf/kubernetes/decorators/test_kubernetes.py": [
+    {
+      "file_path": "projects/python/airflow/providers/cncf/kubernetes/tests/unit/cncf/kubernetes/decorators/test_kubernetes.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/cncf/kubernetes/tests/unit/cncf/kubernetes/decorators/test_kubernetes.py",
+      "line_start": 74,
+      "line_end": 74,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/cncf/kubernetes/tests/unit/cncf/kubernetes/decorators/test_kubernetes.py",
+      "line_start": 125,
+      "line_end": 125,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/providers/docker/src/airflow/providers/docker/operators/docker.py": [
+    {
+      "file_path": "projects/python/airflow/providers/docker/src/airflow/providers/docker/operators/docker.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    }
+  ],
+  "airflow/providers/google/src/airflow/providers/google/cloud/utils/mlengine_prediction_summary.py": [
+    {
+      "file_path": "projects/python/airflow/providers/google/src/airflow/providers/google/cloud/utils/mlengine_prediction_summary.py",
+      "line_start": 119,
+      "line_end": 119,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with dill module."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/google/src/airflow/providers/google/cloud/utils/mlengine_prediction_summary.py",
+      "line_start": 189,
+      "line_end": 189,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/providers/http/src/airflow/providers/http/operators/http.py": [
+    {
+      "file_path": "projects/python/airflow/providers/http/src/airflow/providers/http/operators/http.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/http/src/airflow/providers/http/operators/http.py",
+      "line_start": 290,
+      "line_end": 290,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/providers/openlineage/tests/unit/openlineage/plugins/test_facets.py": [
+    {
+      "file_path": "projects/python/airflow/providers/openlineage/tests/unit/openlineage/plugins/test_facets.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/openlineage/tests/unit/openlineage/plugins/test_facets.py",
+      "line_start": 120,
+      "line_end": 120,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "airflow/providers/standard/tests/unit/standard/operators/test_python.py": [
+    {
+      "file_path": "projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "line_start": 402,
+      "line_end": 402,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "line_start": 1307,
+      "line_end": 1307,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with dill module."
+    },
+    {
+      "file_path": "projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "line_start": 1314,
+      "line_end": 1314,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with dill module."
+    }
+  ],
+  "airflow/task-sdk/tests/task_sdk/api/test_client.py": [
+    {
+      "file_path": "projects/python/airflow/task-sdk/tests/task_sdk/api/test_client.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/airflow/task-sdk/tests/task_sdk/api/test_client.py",
+      "line_start": 167,
+      "line_end": 167,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/lib/ansible/cli/doc.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/cli/doc.py",
+      "line_start": 136,
+      "line_end": 136,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/cli/doc.py",
+      "line_start": 715,
+      "line_end": 715,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/lib/ansible/cli/scripts/ansible_connection_cli_stub.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/cli/scripts/ansible_connection_cli_stub.py",
+      "line_start": 8,
+      "line_end": 8,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/cli/scripts/ansible_connection_cli_stub.py",
+      "line_start": 242,
+      "line_end": 242,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/cli/scripts/ansible_connection_cli_stub.py",
+      "line_start": 243,
+      "line_end": 243,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/lib/ansible/executor/module_common.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/executor/module_common.py",
+      "line_start": 28,
+      "line_end": 28,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/executor/module_common.py",
+      "line_start": 975,
+      "line_end": 975,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/lib/ansible/module_utils/connection.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/connection.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/connection.py",
+      "line_start": 162,
+      "line_end": 162,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/lib/ansible/module_utils/service.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/service.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/service.py",
+      "line_start": 245,
+      "line_end": 245,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/lib/ansible/parsing/plugin_docs.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/parsing/plugin_docs.py",
+      "line_start": 41,
+      "line_end": 41,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/parsing/plugin_docs.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/parsing/plugin_docs.py",
+      "line_start": 159,
+      "line_end": 159,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/lib/ansible/parsing/utils/yaml.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/parsing/utils/yaml.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/lib/ansible/plugins/filter/core.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/filter/core.py",
+      "line_start": 261,
+      "line_end": 261,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/lib/ansible/plugins/loader.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/loader.py",
+      "line_start": 511,
+      "line_end": 511,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/lib/ansible/plugins/loader.py",
+      "line_start": 1586,
+      "line_end": 1586,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/lib/ansible/utils/collection_loader/_collection_meta.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/utils/collection_loader/_collection_meta.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/lib/ansible/utils/jsonrpc.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/utils/jsonrpc.py",
+      "line_start": 7,
+      "line_end": 7,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    }
+  ],
+  "ansible/lib/ansible/utils/plugin_docs.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/utils/plugin_docs.py",
+      "line_start": 175,
+      "line_end": 175,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/test/integration/targets/connection_persistent/connection_plugins/persistent.py": [
+    {
+      "file_path": "projects/python/ansible/test/integration/targets/connection_persistent/connection_plugins/persistent.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/test/integration/targets/connection_persistent/connection_plugins/persistent.py",
+      "line_start": 62,
+      "line_end": 62,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/test/lib/ansible_test/_internal/content_config.py": [
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_internal/content_config.py",
+      "line_start": 6,
+      "line_end": 6,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_internal/content_config.py",
+      "line_start": 175,
+      "line_end": 175,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/test/lib/ansible_test/_internal/host_configs.py": [
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_internal/host_configs.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_internal/host_configs.py",
+      "line_start": 545,
+      "line_end": 545,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/test/lib/ansible_test/_util/target/pytest/plugins/ansible_forked.py": [
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_util/target/pytest/plugins/ansible_forked.py",
+      "line_start": 11,
+      "line_end": 11,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_util/target/pytest/plugins/ansible_forked.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/test/units/_internal/templating/test_common_.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_common_.py",
+      "line_start": 4,
+      "line_end": 4,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/_internal/templating/test_common_.py",
+      "line_start": 178,
+      "line_end": 178,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/test/units/module_utils/datatag/test_datatag.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/module_utils/datatag/test_datatag.py",
+      "line_start": 13,
+      "line_end": 13,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/module_utils/datatag/test_datatag.py",
+      "line_start": 528,
+      "line_end": 528,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ansible/test/units/parsing/yaml/test_dumper.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_dumper.py",
+      "line_start": 67,
+      "line_end": 67,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_dumper.py",
+      "line_start": 80,
+      "line_end": 80,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/test/units/parsing/yaml/test_loader.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 58,
+      "line_end": 58,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 67,
+      "line_end": 67,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 78,
+      "line_end": 78,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 108,
+      "line_end": 108,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 121,
+      "line_end": 121,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 129,
+      "line_end": 129,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 139,
+      "line_end": 139,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 145,
+      "line_end": 145,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 150,
+      "line_end": 150,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 159,
+      "line_end": 159,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 219,
+      "line_end": 219,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 258,
+      "line_end": 258,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "line_start": 469,
+      "line_end": 469,
+      "scanner": "bandit",
+      "rule_id": "B506",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load()."
+    }
+  ],
+  "ansible/test/units/utils/test_datatag.py": [
+    {
+      "file_path": "projects/python/ansible/test/units/utils/test_datatag.py",
+      "line_start": 4,
+      "line_end": 4,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ansible/test/units/utils/test_datatag.py",
+      "line_start": 137,
+      "line_end": 137,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "autogen/python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/_memory_bank.py": [
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/_memory_bank.py",
+      "line_start": 2,
+      "line_end": 2,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/_memory_bank.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "autogen/python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/_string_similarity_map.py": [
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/_string_similarity_map.py",
+      "line_start": 2,
+      "line_end": 2,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/autogen/python/packages/autogen-ext/src/autogen_ext/experimental/task_centric_memory/_string_similarity_map.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "black/src/black/cache.py": [
+    {
+      "file_path": "projects/python/black/src/black/cache.py",
+      "line_start": 5,
+      "line_end": 5,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/black/src/black/cache.py",
+      "line_start": 80,
+      "line_end": 80,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "black/src/blib2to3/pgen2/grammar.py": [
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/grammar.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/grammar.py",
+      "line_start": 124,
+      "line_end": 124,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/black/src/blib2to3/pgen2/grammar.py",
+      "line_start": 129,
+      "line_end": 129,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "ccxt/python/ccxt/static_dependencies/lark/lark.py": [
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/lark/lark.py",
+      "line_start": 3,
+      "line_end": 3,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/lark/lark.py",
+      "line_start": 340,
+      "line_end": 340,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/lark/lark.py",
+      "line_start": 342,
+      "line_end": 342,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    },
+    {
+      "file_path": "projects/python/ccxt/python/ccxt/static_dependencies/lark/lark.py",
+      "line_start": 528,
+      "line_end": 528,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "chatgpt-on-wechat/config.py": [
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/config.py",
+      "line_start": 6,
+      "line_end": 6,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/config.py",
+      "line_start": 226,
+      "line_end": 226,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "chatgpt-on-wechat/lib/itchat/async_components/hotreload.py": [
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/lib/itchat/async_components/hotreload.py",
+      "line_start": 1,
+      "line_end": 1,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/lib/itchat/async_components/hotreload.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "chatgpt-on-wechat/lib/itchat/components/hotreload.py": [
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/lib/itchat/components/hotreload.py",
+      "line_start": 1,
+      "line_end": 1,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/chatgpt-on-wechat/lib/itchat/components/hotreload.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ],
+  "cpython/Lib/idlelib/rpc.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/idlelib/rpc.py",
+      "line_start": 34,
+      "line_end": 34,
+      "scanner": "bandit",
+      "rule_id": "B403",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Consider possible security implications associated with pickle module."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/idlelib/rpc.py",
+      "line_start": 47,
+      "line_end": 47,
+      "scanner": "bandit",
+      "rule_id": "B302",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Deserialization with the marshal module is possibly dangerous."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/idlelib/rpc.py",
+      "line_start": 388,
+      "line_end": 388,
+      "scanner": "bandit",
+      "rule_id": "B301",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue."
+    }
+  ]
+}

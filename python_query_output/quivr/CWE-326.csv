@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/quivr/examples/quivr-whisper/app.py","call function: 77:62-77:75","call in function: upload_file@53-83","callee=os.urandom","basic block: 77:62-77:81"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MinerU/mineru/cli/fast_api.py","call function: 88:51-88:62","call in function: parse_pdf@64-253","callee=uuid.uuid4","basic block: 88:51-88:62"
-"path: /home/sixsquare/codeQL/projects/MinerU/mineru/model/mfr/unimernet/unimernet_hf/unimer_swin/image_processing_unimer_swin.py","call function: 168:25-168:70","call in function: _get_padding_values@162-174","callee=numpy.random.randint","basic block: 168:25-169:22"
-"path: /home/sixsquare/codeQL/projects/MinerU/mineru/model/mfr/unimernet/unimernet_hf/unimer_swin/image_processing_unimer_swin.py","call function: 169:26-169:72","call in function: _get_padding_values@162-174","callee=numpy.random.randint","basic block: 168:25-169:22"

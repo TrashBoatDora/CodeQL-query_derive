@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/app/backend/services/graph.py","call function: 30:36-30:70","call in function: extract_base_agent_key@15-32","callee=re.match","basic block: 30:36-30:70"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/src/utils/ollama.py","call function: 236:36-236:71","call in function: download_model@188-289","callee=re.search","basic block: 236:46-236:71"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/src/utils/ollama.py","call function: 244:31-244:67","call in function: download_model@188-289","callee=re.search","basic block: 244:41-244:67"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/src/agents/portfolio_manager.py","call function: 40:12-40:52","call in function: portfolio_management_agent@25-93","callee=str.startswith","basic block: 36:9-40:52"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/bitcoin/src/random.cpp","call function: 304:9-304:17","call in function: GetOSRand@286-338","callee=getrandom","basic block: 287:1-304:71"
-"Path: /home/sixsquare/codeQL/projects/bitcoin/build/CMakeFiles/CMakeScratch/TryCompile-Gb4ocR/src.cxx","call function: 6:5-6:13","call in function: main@4-7","callee=getrandom","basic block: 5:3-4:10"
-"Path: /home/sixsquare/codeQL/projects/bitcoin/build/CMakeFiles/CMakeScratch/TryCompile-RNYdbK/src.cxx","call function: 6:5-6:14","call in function: main@4-7","callee=getentropy","basic block: 5:3-4:10"

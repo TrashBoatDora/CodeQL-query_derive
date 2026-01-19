@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/faceswap/tools/alignments/media.py","call function: 139:22-139:50","call in function: check_input_folder@116-145","callee=cv2.VideoCapture","basic block: 138:13-139:18"
-"path: /home/sixsquare/codeQL/projects/faceswap/tests/simple_tests.py","call function: 76:20-76:45","call in function: download_file@69-80","callee=urllib.request.urlretrieve","basic block: 76:32-76:45"
-"path: /home/sixsquare/codeQL/projects/faceswap/lib/utils.py","call function: 674:23-674:57","call in function: _download_model@668-694","callee=urllib.request.Request","basic block: 674:23-674:57"
-"path: /home/sixsquare/codeQL/projects/faceswap/lib/utils.py","call function: 677:22-677:53","call in function: _download_model@668-694","callee=urllib.request.urlopen","basic block: 677:38-677:53"

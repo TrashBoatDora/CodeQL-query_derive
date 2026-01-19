@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/HanLP/hanlp/utils/io_util.py","call function: 594:12-594:27","call in function: get_exitcode_stdout_stderr@584-598","callee=shlex.split","basic block: 584:32-598:61"
-"path: /home/sixsquare/codeQL/projects/HanLP/hanlp/utils/io_util.py","call function: 595:12-595:48","call in function: get_exitcode_stdout_stderr@584-598","callee=subprocess.Popen","basic block: 584:32-598:61"
-"path: /home/sixsquare/codeQL/projects/HanLP/hanlp/common/keras_component.py","call function: 513:9-513:69","call in function: serve@508-519","callee=os.system","basic block: 511:17-519:26"
-"path: /home/sixsquare/codeQL/projects/HanLP/hanlp/common/keras_component.py","call function: 513:9-513:69","call in function: serve@508-519","callee=os.system","basic block: 512:9-518:22"
-"path: /home/sixsquare/codeQL/projects/HanLP/hanlp/common/keras_component.py","call function: 519:13-519:26","call in function: serve@508-519","callee=os.system","basic block: 511:17-519:26"

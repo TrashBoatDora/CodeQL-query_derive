@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/co_async/3rd/bearssl/include/bearssl/impl/ssl/ssl_engine.hpp","call function: 477:7-477:10","call in function: br_ssl_engine_init_rand@464-525","callee=open","basic block: 474:29-478:12"

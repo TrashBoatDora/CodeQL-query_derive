@@ -1,0 +1,120 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:13:35Z",
+  "metrics": {
+    "./projects/python/django/tests/forms_tests/tests/test_forms.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4805,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4805,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "1411             special_name = CharField(label=\"<em>Special</em> Field\")\n1412             special_safe_name = CharField(label=mark_safe(\"<em>Special</em> Field\"))\n1413 \n",
+      "col_offset": 48,
+      "end_col_offset": 83,
+      "filename": "./projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 1412,
+      "line_range": [
+        1412
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1420                 raise ValidationError(\n1421                     mark_safe(\n1422                         \"'<b>%s</b>' is a safe string\"\n1423                         % self.cleaned_data[\"special_safe_name\"]\n1424                     )\n1425                 )\n",
+      "col_offset": 20,
+      "end_col_offset": 21,
+      "filename": "./projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 1421,
+      "line_range": [
+        1421,
+        1422,
+        1423,
+        1424
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "1420                 raise ValidationError(\n1421                     mark_safe(\n1422                         \"'<b>%s</b>' is a safe string\"\n1423                         % self.cleaned_data[\"special_safe_name\"]\n1424                     )\n1425                 )\n",
+      "col_offset": 20,
+      "end_col_offset": 21,
+      "filename": "./projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 1421,
+      "line_range": [
+        1421,
+        1422,
+        1423,
+        1424
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "4217             (\n4218                 (mark_safe(\"custom&\"),),\n4219                 {},\n",
+      "col_offset": 17,
+      "end_col_offset": 37,
+      "filename": "./projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 4218,
+      "line_range": [
+        4218
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    }
+  ]
+}

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/api/common/middleware.py","call function: 42:12-42:45","call in function: verify_pat@34-44","callee=hmac.compare_digest","basic block: 41:9-42:45"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/api/common/middleware.py","call function: 53:12-53:45","call in function: revoke_pat@47-56","callee=hmac.compare_digest","basic block: 52:9-53:45"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/api/a2a/common/utils/push_notification_auth.py","call function: 114:24-119:9","call in function: verify_push_notification@106-131","callee=jwt.decode","basic block: 111:17-122:68"

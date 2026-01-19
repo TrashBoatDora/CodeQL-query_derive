@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Deep-Learning-Papers-Reading-Roadmap/download.py","call function: 31:9-31:55","call in function: download_pdf@24-35","callee=print","basic block: 30:5-32:13"
-"path: /home/sixsquare/codeQL/projects/Deep-Learning-Papers-Reading-Roadmap/download.py","call function: 34:9-34:80","call in function: download_pdf@24-35","callee=print","basic block: 33:5-35:13"
-"path: /home/sixsquare/codeQL/projects/Deep-Learning-Papers-Reading-Roadmap/download.py","call function: 43:5-43:15","call in function: clean_pdf_link@37-44","callee=print","basic block: 43:5-44:15"
-"path: /home/sixsquare/codeQL/projects/Deep-Learning-Papers-Reading-Roadmap/download.py","call function: 52:5-52:55","call in function: print_title@51-52","callee=print","basic block: 51:17-52:55"

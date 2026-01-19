@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 28:10-28:27","call in function: check_model@19-43","callee=open","basic block: 28:10-31:25"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 149:10-149:53","call in function: download_dns_yaml@146-151","callee=open","basic block: 146:23-151:61"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/core.py","call function: 43:14-45:9","call in function: __init__@33-48","callee=open","basic block: 33:18-48:20"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/core.py","call function: 78:22-78:50","call in function: download_models@66-135","callee=tempfile.TemporaryDirectory","basic block: 78:22-82:17"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/examples/cmd/run.py","call function: 27:10-27:33","call in function: save_mp3_file@24-29","callee=open","basic block: 24:19-29:49"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/norm.py","call function: 227:14-227:55","call in function: _load_homophones_map@226-233","callee=open","basic block: 226:30-230:52"

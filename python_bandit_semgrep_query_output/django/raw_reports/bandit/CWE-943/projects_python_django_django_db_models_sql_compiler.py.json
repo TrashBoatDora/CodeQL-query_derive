@@ -1,0 +1,239 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:27:09Z",
+  "metrics": {
+    "./projects/python/django/django/db/models/sql/compiler.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 5,
+      "CONFIDENCE.MEDIUM": 5,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 10,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1867,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 5,
+      "CONFIDENCE.MEDIUM": 5,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 10,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1867,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "271                 *(\n272                     (alias, RawSQL(*args))\n273                     for alias, args in self.query.extra_select.items()\n",
+      "col_offset": 28,
+      "end_col_offset": 41,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 272,
+      "line_range": [
+        272
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    },
+    {
+      "code": "441                     OrderBy(\n442                         RawSQL(\n443                             \"%s.%s\" % (self.quote_name_unless_alias(table), col), []\n444                         ),\n445                         descending=descending,\n",
+      "col_offset": 24,
+      "end_col_offset": 25,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 442,
+      "line_range": [
+        442,
+        443,
+        444
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    },
+    {
+      "code": "454                         OrderBy(\n455                             Ref(col, RawSQL(*self.query.extra[col])),\n456                             descending=descending,\n",
+      "col_offset": 37,
+      "end_col_offset": 67,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 455,
+      "line_range": [
+        455
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    },
+    {
+      "code": "461                     yield (\n462                         OrderBy(RawSQL(*self.query.extra[col]), descending=descending),\n463                         False,\n",
+      "col_offset": 32,
+      "end_col_offset": 62,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 462,
+      "line_range": [
+        462
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    },
+    {
+      "code": "654             if not features.supports_parentheses_in_compound:\n655                 part_sql = \"SELECT * FROM ({})\".format(part_sql)\n656             # Add parentheses when combining with compound query if not\n",
+      "col_offset": 27,
+      "end_col_offset": 47,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 655,
+      "line_range": [
+        655
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "979                         sub_params.extend(subparams)\n980                 return \"SELECT %s FROM (%s) subquery\" % (\n981                     \", \".join(sub_selects),\n982                     \" \".join(result),\n983                 ), tuple(sub_params + params)\n984 \n",
+      "col_offset": 23,
+      "end_col_offset": 53,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 980,
+      "line_range": [
+        980,
+        981,
+        982,
+        983
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "1996     def _as_sql(self, query):\n1997         delete = \"DELETE FROM %s\" % self.quote_name_unless_alias(query.base_table)\n1998         try:\n",
+      "col_offset": 17,
+      "end_col_offset": 33,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 1997,
+      "line_range": [
+        1997
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "2023             sql, params = innerq.get_compiler(connection=self.connection).as_sql()\n2024             innerq = RawSQL(\"SELECT * FROM (%s) subquery\" % sql, params)\n2025         outerq.add_filter(\"pk__in\", innerq)\n",
+      "col_offset": 21,
+      "end_col_offset": 72,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 2024,
+      "line_range": [
+        2024
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    },
+    {
+      "code": "2023             sql, params = innerq.get_compiler(connection=self.connection).as_sql()\n2024             innerq = RawSQL(\"SELECT * FROM (%s) subquery\" % sql, params)\n2025         outerq.add_filter(\"pk__in\", innerq)\n",
+      "col_offset": 28,
+      "end_col_offset": 57,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 2024,
+      "line_range": [
+        2024
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "2249         ).as_sql(with_col_aliases=True)\n2250         sql = \"SELECT %s FROM (%s) subquery\" % (sql, inner_query_sql)\n2251         params += inner_query_params\n",
+      "col_offset": 14,
+      "end_col_offset": 44,
+      "filename": "./projects/python/django/django/db/models/sql/compiler.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 2250,
+      "line_range": [
+        2250
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:36:47Z",
+  "metrics": {
+    "./projects/python/MetaGPT/tests/metagpt/tools/libs/test_editor.py": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 628,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 3,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 3,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 628,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "736     command = f\"cp -rf {str(src_path)} {str(chat_path)}\"\n737     os.system(command)\n738     filenames = list_files(chat_path)\n",
+      "col_offset": 4,
+      "end_col_offset": 22,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/tools/libs/test_editor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 737,
+      "line_range": [
+        737
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "747     command = f\"cp -rf {str(src_path)} {str(UPLOAD_ROOT)}\"\n748     os.system(command)\n749     filenames = list_files(UPLOAD_ROOT)\n",
+      "col_offset": 4,
+      "end_col_offset": 22,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/tools/libs/test_editor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 748,
+      "line_range": [
+        748
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    },
+    {
+      "code": "802     save_to.parent.mkdir(parents=True, exist_ok=True)\n803     os.system(f\"cp {str(filename)} {str(save_to)}\")\n804 \n",
+      "col_offset": 4,
+      "end_col_offset": 51,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/tools/libs/test_editor.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Starting a process with a shell, possible injection detected, security issue.",
+      "line_number": 803,
+      "line_range": [
+        803
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b605_start_process_with_a_shell.html",
+      "test_id": "B605",
+      "test_name": "start_process_with_a_shell"
+    }
+  ]
+}

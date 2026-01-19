@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/iowrapper.cpp","call function: 200:94-200:122","call in function: verify_callback@165-205","callee=X509_verify_cert","basic block: 192:9-202:5"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/iowrapper.cpp","call function: 200:94-200:122","call in function: verify_callback@165-205","callee=X509_verify","basic block: 192:9-202:5"

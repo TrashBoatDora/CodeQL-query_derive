@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/diagrams/diagrams/cli.py","call function: 28:13-28:26","call in function: run@5-30","callee=exec","basic block: 26:9-28:26"

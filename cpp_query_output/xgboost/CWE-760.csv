@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/xgboost/src/objective/lambdarank_obj.h","call function: 239:26-239:30","call in function: MakePairs@222-283","callee=std::linear_congruential_engine","basic block: 238:5-248:26"
-"Path: /home/sixsquare/codeQL/projects/xgboost/src/objective/lambdarank_obj.h","call function: 239:26-239:30","call in function: MakePairs@222-283","callee=std::linear_congruential_engine","basic block: 236:44-248:26"
-"Path: /home/sixsquare/codeQL/projects/xgboost/src/tree/hist/sampler.h","call function: 85:34-85:48","call in function: operator()@78-102","callee=std::linear_congruential_engine","basic block: 83:7-87:23"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/include/dmlc/logging.h","call function: 301:25-301:28","call in function: HumanDate@296-316","callee=time","basic block: 296:27-296:23"
-"Path: /home/sixsquare/codeQL/projects/xgboost/build/CMakeFiles/CMakeScratch/TryCompile-1wTxPG/CheckFunctionExists.c","call function: 17:3-17:23","call in function: main@14-22","callee=clock_gettime","basic block: 15:1-18:15"
-"Path: /home/sixsquare/codeQL/projects/xgboost/build/CMakeFiles/CMakeScratch/TryCompile-1wTxPG/CheckFunctionExists.c","call function: 17:3-17:23","call in function: main@14-22","callee=clock","basic block: 15:1-18:15"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/include/dmlc/timer.h","call function: 30:49-30:64","call in function: GetTime@27-47","callee=std::time","basic block: 27:29-27:21"

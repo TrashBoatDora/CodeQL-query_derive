@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/CpuInfo.cpp","call function: 524:22-524:37","call in function: getCpuName@522-545","callee=std::basic_ifstream::basic_ifstream","basic block: 523:1-527:7"
-"Path: /home/sixsquare/codeQL/projects/primesieve/src/CpuInfo.cpp","call function: 431:22-431:30","call in function: getString@429-440","callee=std::basic_ifstream::basic_ifstream","basic block: 430:1-436:7"

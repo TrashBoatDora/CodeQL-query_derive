@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Apache Struts 2 CVE-2018-11776.py","call function: 85:14-85:39","call in function: parse_url@73-108","callee=urllib.parse.urlparse","basic block: 85:14-92:23"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Apache Struts 2 CVE-2018-11776.py","call function: 88:29-88:54","call in function: parse_url@73-108","callee=urllib.parse.urlparse","basic block: 85:14-92:23"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Apache Struts 2 CVE-2018-11776.py","call function: 91:17-91:42","call in function: parse_url@73-108","callee=urllib.parse.urlparse","basic block: 85:14-92:23"

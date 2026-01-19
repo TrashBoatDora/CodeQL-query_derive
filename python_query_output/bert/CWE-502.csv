@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/bert/modeling_test.py","call function: 131:11-131:45","call in function: test_config_to_json_string@129-133","callee=json.loads","basic block: 129:34-133:44"
-"path: /home/sixsquare/codeQL/projects/bert/modeling.py","call function: 95:26-95:41","call in function: from_json_file@91-95","callee=json.loads","basic block: 91:22-95:42"
-"path: /home/sixsquare/codeQL/projects/bert/run_squad.py","call function: 230:18-230:34","call in function: read_squad_examples@227-306","callee=json.load","basic block: 227:25-238:25"

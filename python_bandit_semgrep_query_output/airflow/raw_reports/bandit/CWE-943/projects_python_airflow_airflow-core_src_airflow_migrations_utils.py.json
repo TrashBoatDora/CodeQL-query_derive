@@ -1,0 +1,135 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:22:50Z",
+  "metrics": {
+    "./projects/python/airflow/airflow-core/src/airflow/migrations/utils.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 3,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 83,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 1,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 3,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 83,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "38     query = text(\n39         f\"\"\"SELECT tc.CONSTRAINT_NAME , tc.CONSTRAINT_TYPE, ccu.COLUMN_NAME\n40      FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS AS tc\n41      JOIN INFORMATION_SCHEMA.CONSTRAINT_COLUMN_USAGE AS ccu ON ccu.CONSTRAINT_NAME = tc.CONSTRAINT_NAME\n42      WHERE tc.TABLE_NAME = '{table_name}' AND\n43      (tc.CONSTRAINT_TYPE = 'PRIMARY KEY' or UPPER(tc.CONSTRAINT_TYPE) = 'UNIQUE'\n44      or UPPER(tc.CONSTRAINT_TYPE) = 'FOREIGN KEY')\n45     \"\"\"\n46     )\n",
+      "col_offset": 8,
+      "end_col_offset": 7,
+      "filename": "./projects/python/airflow/airflow-core/src/airflow/migrations/utils.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 39,
+      "line_range": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "65     \"\"\"Older Mysql versions do not support DROP FOREIGN KEY IF EXISTS.\"\"\"\n66     op.execute(f\"\"\"\n67     CREATE PROCEDURE DropForeignKeyIfExists()\n68     BEGIN\n69         IF EXISTS (\n70             SELECT 1\n71             FROM information_schema.TABLE_CONSTRAINTS\n72             WHERE\n73                 CONSTRAINT_SCHEMA = DATABASE() AND\n74                 TABLE_NAME = '{table_name}' AND\n75                 CONSTRAINT_NAME = '{constraint_name}' AND\n76                 CONSTRAINT_TYPE = 'FOREIGN KEY'\n77         ) THEN\n78             ALTER TABLE {table_name}\n79             DROP CONSTRAINT {constraint_name};\n80         ELSE\n81             SELECT 1;\n82         END IF;\n83     END;\n84     CALL DropForeignKeyIfExists();\n85     DROP PROCEDURE DropForeignKeyIfExists;\n86     \"\"\")\n87 \n",
+      "col_offset": 15,
+      "end_col_offset": 7,
+      "filename": "./projects/python/airflow/airflow-core/src/airflow/migrations/utils.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 66,
+      "line_range": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "90     \"\"\"Older Mysql versions do not support DROP INDEX IF EXISTS.\"\"\"\n91     op.execute(f\"\"\"\n92         IF EXISTS (\n93             SELECT 1\n94             FROM information_schema.TABLE_CONSTRAINTS\n95             WHERE\n96                 CONSTRAINT_SCHEMA = DATABASE() AND\n97                 TABLE_NAME = '{table_name}' AND\n98                 CONSTRAINT_NAME = '{index_name}' AND\n99                 CONSTRAINT_TYPE = 'INDEX'\n100         ) THEN\n101             ALTER TABLE {table_name}\n102             DROP INDEX {index_name};\n103         ELSE\n104             SELECT 1;\n105         END IF;\n106     \"\"\")\n107 \n",
+      "col_offset": 15,
+      "end_col_offset": 7,
+      "filename": "./projects/python/airflow/airflow-core/src/airflow/migrations/utils.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 91,
+      "line_range": [
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

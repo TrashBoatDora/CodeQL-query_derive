@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/github_bot/github_bot.py","call function: 79:16-80:76","call in function: get_data@70-87","callee=requests.get","basic block: 70:14-82:25"
-"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/github_bot/github_bot.py","call function: 148:26-148:72","call in function: get_stars@134-162","callee=requests.get","basic block: 148:71-148:72"

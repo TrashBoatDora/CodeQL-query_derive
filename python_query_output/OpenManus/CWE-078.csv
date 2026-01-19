@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/bash.py","call function: 35:31-43:9","call in function: start@31-45","callee=asyncio.create_subprocess_shell","basic block: 35:31-45:21"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/chart_visualization/data_visualization.py","call function: 244:25-252:9","call in function: invoke_vmind@217-263","callee=asyncio.create_subprocess_exec","basic block: 218:9-255:54"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/file_operators.py","call function: 73:25-75:9","call in function: run_command@69-93","callee=asyncio.create_subprocess_shell","basic block: 70:9-78:42"

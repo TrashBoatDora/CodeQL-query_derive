@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/kbd-audio/subbreak3.cpp","call function: 354:25-354:25","call in function: loadFreqMap@332-460","callee=std::basic_istream::operator>>","basic block: 353:22-355:23"
-"Path: /home/sixsquare/codeQL/projects/kbd-audio/keytap3-app.cpp","call function: 297:24-297:24","call in function: operator()@286-316","callee=std::basic_istream::operator>>","basic block: 295:45-297:21"
-"Path: /home/sixsquare/codeQL/projects/kbd-audio/subbreak2.cpp","call function: 486:25-486:25","call in function: loadFreqMap@466-523","callee=std::basic_istream::operator>>","basic block: 485:22-487:23"
-"Path: /home/sixsquare/codeQL/projects/kbd-audio/subbreak2.cpp","call function: 496:25-496:25","call in function: loadFreqMap@466-523","callee=std::basic_istream::operator>>","basic block: 495:22-497:23"

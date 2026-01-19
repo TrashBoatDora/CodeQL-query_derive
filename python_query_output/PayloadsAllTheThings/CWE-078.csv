@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Apache Struts 2 CVE-2013-2251 CVE-2017-5638 CVE-2018-11776_.py","call function: 26:5-26:48","call in function: cls@25-26","callee=os.system","basic block: 26:5-26:48"

@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/Fastor/Fastor/util/write.h","call function: 25:19-25:25","call in function: write@24-29","callee=std::basic_ofstream::basic_ofstream","basic block: 24:48-24:17"
-"Path: /home/sixsquare/codeQL/projects/Fastor/Fastor/util/write.h","call function: 26:13-26:16","call in function: write@24-29","callee=std::basic_ofstream::open","basic block: 24:48-24:17"

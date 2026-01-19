@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/OpenSubdiv/examples/common/stopwatch.h","call function: 35:9-35:20","call in function: Stop@32-39","callee=gettimeofday","basic block: 32:17-32:13"
-"Path: /home/sixsquare/codeQL/projects/OpenSubdiv/examples/common/stopwatch.h","call function: 28:9-28:20","call in function: Start@26-30","callee=gettimeofday","basic block: 26:18-26:14"
-"Path: /home/sixsquare/codeQL/projects/OpenSubdiv/tutorials/far/tutorial_5_1/far_tutorial_5_1.cpp","call function: 213:5-213:9","call in function: main@121-292","callee=srand","basic block: 202:5-217:28"
-"Path: /home/sixsquare/codeQL/projects/OpenSubdiv/tutorials/far/tutorial_5_1/far_tutorial_5_1.cpp","call function: 221:28-221:31","call in function: main@121-292","callee=rand","basic block: 219:71-236:25"
-"Path: /home/sixsquare/codeQL/projects/OpenSubdiv/tutorials/far/tutorial_5_1/far_tutorial_5_1.cpp","call function: 222:28-222:31","call in function: main@121-292","callee=rand","basic block: 219:71-236:25"

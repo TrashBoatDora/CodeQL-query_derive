@@ -1,0 +1,114 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T11:03:00Z",
+  "metrics": {
+    "./projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1983,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 3,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1983,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "22 import os\n23 import pickle\n24 import re\n",
+      "col_offset": 0,
+      "end_col_offset": 13,
+      "filename": "./projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with pickle module.",
+      "line_number": 23,
+      "line_range": [
+        23
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_imports.html#b403-import-pickle",
+      "test_id": "B403",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "401 \n402         setstate_operator = pickle.loads(pickle.dumps(python_operator))\n403         assert setstate_operator.log.name == logger_name\n",
+      "col_offset": 28,
+      "end_col_offset": 71,
+      "filename": "./projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Pickle and modules that wrap it can be unsafe when used to deserialize untrusted data, possible security issue.",
+      "line_number": 402,
+      "line_range": [
+        402
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b301-pickle",
+      "test_id": "B301",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1306             \"\"\"Ensure dill is correctly installed.\"\"\"\n1307             import dill  # noqa: F401\n1308 \n",
+      "col_offset": 12,
+      "end_col_offset": 23,
+      "filename": "./projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with dill module.",
+      "line_number": 1307,
+      "line_range": [
+        1307
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_imports.html#b403-import-pickle",
+      "test_id": "B403",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "1313             \"\"\"Ensure dill is correctly installed.\"\"\"\n1314             import dill  # noqa: F401\n1315 \n",
+      "col_offset": 12,
+      "end_col_offset": 23,
+      "filename": "./projects/python/airflow/providers/standard/tests/unit/standard/operators/test_python.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 502,
+        "link": "https://cwe.mitre.org/data/definitions/502.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Consider possible security implications associated with dill module.",
+      "line_number": 1314,
+      "line_range": [
+        1314
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_imports.html#b403-import-pickle",
+      "test_id": "B403",
+      "test_name": "blacklist"
+    }
+  ]
+}

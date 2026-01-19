@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/rr/src/BuildidCommand.cc","call function: 37:10-37:16","call in function: run@30-54","callee=std::getline","basic block: 37:18-37:10"
-"Path: /home/sixsquare/codeQL/projects/rr/src/main.cc","call function: 38:28-38:28","call in function: assert_prerequisites@31-50","callee=std::basic_istream::operator>>","basic block: 34:27-39:39"
-"Path: /home/sixsquare/codeQL/projects/rr/src/main.cc","call function: 38:12-38:12","call in function: assert_prerequisites@31-50","callee=std::basic_istream::operator>>","basic block: 34:27-39:39"

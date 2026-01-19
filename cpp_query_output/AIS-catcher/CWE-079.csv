@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/AIS-catcher/Library/Logger.cpp","call function: 58:3-58:8","call in function: operator()@40-59","callee=syslog","basic block: 57:3-40:16"

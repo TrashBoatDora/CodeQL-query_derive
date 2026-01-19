@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/vendor/bcrypt/BCrypt.hpp","call function: 19:15-19:27","call in function: generateHash@13-22","callee=bcrypt_hashpw","basic block: 19:9-20:19"
-"Path: /home/sixsquare/codeQL/projects/OpenFusion/vendor/bcrypt/bcrypt.c","call function: 177:8-177:20","call in function: bcrypt_checkpw@172-182","callee=bcrypt_hashpw","basic block: 173:1-178:13"

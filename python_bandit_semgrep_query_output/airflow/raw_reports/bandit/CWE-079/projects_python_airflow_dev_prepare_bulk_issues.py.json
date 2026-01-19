@@ -1,0 +1,84 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:03:45Z",
+  "metrics": {
+    "./projects/python/airflow/dev/prepare_bulk_issues.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 190,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 190,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "69     template_loader = jinja2.FileSystemLoader(searchpath=MY_DIR_PATH)\n70     template_env = jinja2.Environment(\n71         loader=template_loader,\n72         undefined=jinja2.StrictUndefined,\n73         autoescape=autoescape,\n74         keep_trailing_newline=keep_trailing_newline,\n75     )\n76     template = template_env.get_template(template_name)\n",
+      "col_offset": 19,
+      "end_col_offset": 5,
+      "filename": "./projects/python/airflow/dev/prepare_bulk_issues.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 94,
+        "link": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",
+      "line_number": 70,
+      "line_range": [
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b701_jinja2_autoescape_false.html",
+      "test_id": "B701",
+      "test_name": "jinja2_autoescape_false"
+    },
+    {
+      "code": "96 \n97     template = jinja2.Environment(\n98         loader=BaseLoader(),\n99         undefined=jinja2.StrictUndefined,\n100         autoescape=autoescape,\n101         keep_trailing_newline=keep_trailing_newline,\n102     ).from_string(template_string)\n103     content: str = template.render(context)\n",
+      "col_offset": 15,
+      "end_col_offset": 5,
+      "filename": "./projects/python/airflow/dev/prepare_bulk_issues.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 94,
+        "link": "https://cwe.mitre.org/data/definitions/94.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities.",
+      "line_number": 97,
+      "line_range": [
+        97,
+        98,
+        99,
+        100,
+        101,
+        102
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b701_jinja2_autoescape_false.html",
+      "test_id": "B701",
+      "test_name": "jinja2_autoescape_false"
+    }
+  ]
+}

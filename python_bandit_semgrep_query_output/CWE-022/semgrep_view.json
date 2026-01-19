@@ -1,0 +1,14 @@
+{
+  "mindsdb/tests/unused/unit/handler_tests/test_rag_pipelines.py": [
+    {
+      "file_path": "projects/python/mindsdb/tests/unused/unit/handler_tests/test_rag_pipelines.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "semgrep",
+      "rule_id": "python.django.security.injection.path-traversal.path-traversal-open.path-traversal-open",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks and therefore sensitive data being leaked. To mitigate, consider using os.path.abspath or os.path.realpath or the pathlib library."
+    }
+  ]
+}

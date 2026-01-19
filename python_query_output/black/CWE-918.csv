@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/black/scripts/diff_shades_gha_helper.py","call function: 73:9-73:42","call in function: http_get@64-84","callee=urllib3.PoolManager.request","basic block: 71:25-74:14"
-"path: /home/sixsquare/codeQL/projects/black/gallery/gallery.py","call function: 35:10-35:52","call in function: get_pypi_download_url@34-55","callee=urllib.request.urlopen","basic block: 34:27-38:22"
-"path: /home/sixsquare/codeQL/projects/black/gallery/gallery.py","call function: 59:10-59:35","call in function: get_top_packages@58-62","callee=urllib.request.urlopen","basic block: 59:10-62:61"
-"path: /home/sixsquare/codeQL/projects/black/gallery/gallery.py","call function: 99:21-99:69","call in function: download_and_extract@96-103","callee=urllib.request.urlretrieve","basic block: 96:26-103:33"

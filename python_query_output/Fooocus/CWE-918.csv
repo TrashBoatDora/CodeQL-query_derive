@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Fooocus/extras/BLIP/models/blip.py","call function: 213:14-213:38","call in function: is_url@212-214","callee=urllib.parse.urlparse","basic block: 212:12-214:45"
-"path: /home/sixsquare/codeQL/projects/Fooocus/extras/facexlib/utils/misc.py","call function: 70:13-70:25","call in function: load_file_from_url@59-78","callee=urllib.parse.urlparse","basic block: 68:5-72:28"
-"path: /home/sixsquare/codeQL/projects/Fooocus/modules/model_loader.py","call function: 21:17-21:29","call in function: load_file_from_url@6-28","callee=urllib.parse.urlparse","basic block: 21:17-22:17"
-"path: /home/sixsquare/codeQL/projects/Fooocus/ldm_patched/k_diffusion/utils.py","call function: 42:14-42:40","call in function: download_file@37-48","callee=urllib.request.urlopen","basic block: 42:14-43:43"

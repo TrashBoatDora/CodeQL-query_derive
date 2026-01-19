@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/gym/gym/vector/utils/misc.py","call function: 25:19-25:34","call in function: __setstate__@21-25","callee=pickle.loads","basic block: 21:22-25:15"
-"path: /home/sixsquare/codeQL/projects/gym/tests/envs/test_envs.py","call function: 193:19-193:49","call in function: test_pickle_env@192-200","callee=pickle.loads","basic block: 192:21-200:23"
-"path: /home/sixsquare/codeQL/projects/gym/tests/utils/test_seeding.py","call function: 26:12-26:32","call in function: test_rng_pickle@23-30","callee=pickle.loads","basic block: 24:14-29:5"
-"path: /home/sixsquare/codeQL/projects/gym/tests/spaces/test_spaces.py","call function: 43:27-43:61","call in function: test_roundtripping@36-52","callee=json.loads","basic block: 36:24-49:5"
-"path: /home/sixsquare/codeQL/projects/gym/tests/spaces/test_spaces.py","call function: 464:23-464:49","call in function: test_space_pickling@458-480","callee=pickle.loads","basic block: 458:25-465:35"
-"path: /home/sixsquare/codeQL/projects/gym/tests/spaces/test_spaces.py","call function: 471:32-471:45","call in function: test_space_pickling@458-480","callee=pickle.load","basic block: 465:5-473:40"

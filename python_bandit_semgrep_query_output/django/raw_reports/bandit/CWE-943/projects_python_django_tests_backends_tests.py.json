@@ -1,0 +1,262 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:28:04Z",
+  "metrics": {
+    "./projects/python/django/tests/backends/tests.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 8,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 10,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 812,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 8,
+      "CONFIDENCE.MEDIUM": 2,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 10,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 812,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "93         \"\"\"last_executed_query() returns a string.\"\"\"\n94         data = RawData.objects.filter(raw_data=b\"\\x00\\x46  \\xfe\").extra(\n95             select={\"f\u00f6\u00f6\": 1}\n96         )\n97         sql, params = data.query.sql_with_params()\n",
+      "col_offset": 15,
+      "end_col_offset": 9,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of extra potential SQL attack vector.",
+      "line_number": 94,
+      "line_range": [
+        94,
+        95,
+        96
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b610_django_extra_used.html",
+      "test_id": "B610",
+      "test_name": "django_extra_used"
+    },
+    {
+      "code": "123         square_opts = Square._meta\n124         sql = \"INSERT INTO %s (%s, %s) VALUES (%%(root)s, %%(square)s)\" % (\n125             connection.introspection.identifier_converter(square_opts.db_table),\n126             connection.ops.quote_name(square_opts.get_field(\"root\").column),\n127             connection.ops.quote_name(square_opts.get_field(\"square\").column),\n128         )\n129         with connection.cursor() as cursor:\n",
+      "col_offset": 14,
+      "end_col_offset": 71,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 124,
+      "line_range": [
+        124,
+        125,
+        126,
+        127,
+        128
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "139         square_opts = Square._meta\n140         sql = \"INSERT INTO %s (%s, %s) VALUES (%%(root)s, %%(root2)s)\" % (\n141             connection.introspection.identifier_converter(square_opts.db_table),\n142             connection.ops.quote_name(square_opts.get_field(\"root\").column),\n143             connection.ops.quote_name(square_opts.get_field(\"square\").column),\n144         )\n145         with connection.cursor() as cursor:\n",
+      "col_offset": 14,
+      "end_col_offset": 70,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 140,
+      "line_range": [
+        140,
+        141,
+        142,
+        143,
+        144
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "157         root_column = connection.ops.quote_name(square_opts.get_field(\"root\").column)\n158         sql = f\"UPDATE {table} SET {root_column} = %s + %s WHERE {id_column} = %s\"\n159         with connection.cursor() as cursor:\n",
+      "col_offset": 14,
+      "end_col_offset": 82,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 158,
+      "line_range": [
+        158
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "166                 last_executed_query,\n167                 f\"UPDATE {table} SET {root_column} = 42 + 42 WHERE {id_column} = 1\",\n168             )\n",
+      "col_offset": 16,
+      "end_col_offset": 83,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 167,
+      "line_range": [
+        167
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "177         with connection.cursor() as cursor:\n178             query = \"INSERT INTO %s (%s, %s) VALUES (%%s, %%s)\" % (\n179                 connection.introspection.identifier_converter(\"backends_square\"),\n180                 connection.ops.quote_name(\"root\"),\n181                 connection.ops.quote_name(\"square\"),\n182             )\n183             with self.assertRaises(Exception):\n",
+      "col_offset": 20,
+      "end_col_offset": 63,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 178,
+      "line_range": [
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "321         if paramstyle == \"format\":\n322             query = \"INSERT INTO %s (%s, %s) VALUES (%%s, %%s)\" % (tbl, f1, f2)\n323         elif paramstyle == \"pyformat\":\n",
+      "col_offset": 20,
+      "end_col_offset": 63,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 322,
+      "line_range": [
+        322
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "323         elif paramstyle == \"pyformat\":\n324             query = \"INSERT INTO %s (%s, %s) VALUES (%%(root)s, %%(square)s)\" % (\n325                 tbl,\n326                 f1,\n327                 f2,\n328             )\n329         else:\n",
+      "col_offset": 20,
+      "end_col_offset": 77,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 324,
+      "line_range": [
+        324,
+        325,
+        326,
+        327,
+        328
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "404             cursor.execute(\n405                 \"SELECT %s, %s FROM %s ORDER BY %s\"\n406                 % (\n407                     qn(f3.column),\n408                     qn(f4.column),\n409                     connection.introspection.identifier_converter(opts2.db_table),\n410                     qn(f3.column),\n411                 )\n412             )\n",
+      "col_offset": 16,
+      "end_col_offset": 51,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 405,
+      "line_range": [
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        411
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "524 \n525         sql = \"INSERT INTO %s (%s, %s) VALUES (%%s, %%s)\" % (\n526             connection.introspection.identifier_converter(\"backends_square\"),\n527             connection.ops.quote_name(\"root\"),\n528             connection.ops.quote_name(\"square\"),\n529         )\n530         with connection.cursor() as cursor:\n",
+      "col_offset": 14,
+      "end_col_offset": 57,
+      "filename": "./projects/python/django/tests/backends/tests.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 525,
+      "line_range": [
+        525,
+        526,
+        527,
+        528,
+        529
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

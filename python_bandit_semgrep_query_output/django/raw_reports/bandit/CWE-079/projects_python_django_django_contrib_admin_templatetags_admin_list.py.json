@@ -1,0 +1,157 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:09:37Z",
+  "metrics": {
+    "./projects/python/django/django/contrib/admin/templatetags/admin_list.py": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 476,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 6,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 6,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 476,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "105                 yield {\n106                     \"text\": SafeString(\n107                         f'<input type=\"checkbox\" id=\"action-toggle\" '\n108                         f'aria-label=\"{aria_label}\">'\n109                     ),\n110                     \"class_attrib\": SafeString(' class=\"action-checkbox-column\"'),\n",
+      "col_offset": 28,
+      "end_col_offset": 21,
+      "filename": "./projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 106,
+      "line_range": [
+        106,
+        107,
+        108,
+        109
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "258                     row_classes.append(\"nowrap\")\n259         row_class = SafeString(' class=\"%s\"' % \" \".join(row_classes))\n260         # If list_display_links not defined, add the link tag to the first\n",
+      "col_offset": 20,
+      "end_col_offset": 69,
+      "filename": "./projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 259,
+      "line_range": [
+        259
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "309                 bf = form[field_name]\n310                 result_repr = mark_safe(str(bf.errors) + str(bf))\n311             yield format_html(\"<td{}>{}</td>\", row_class, result_repr)\n",
+      "col_offset": 30,
+      "end_col_offset": 65,
+      "filename": "./projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 310,
+      "line_range": [
+        310
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "309                 bf = form[field_name]\n310                 result_repr = mark_safe(str(bf.errors) + str(bf))\n311             yield format_html(\"<td{}>{}</td>\", row_class, result_repr)\n",
+      "col_offset": 30,
+      "end_col_offset": 65,
+      "filename": "./projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 310,
+      "line_range": [
+        310
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "340             if form[cl.model._meta.pk.name].is_hidden:\n341                 yield mark_safe(form[cl.model._meta.pk.name])\n342 \n",
+      "col_offset": 22,
+      "end_col_offset": 61,
+      "filename": "./projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 80,
+        "link": "https://cwe.mitre.org/data/definitions/80.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Potential XSS on mark_safe function.",
+      "line_number": 341,
+      "line_range": [
+        341
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b703_django_mark_safe.html",
+      "test_id": "B703",
+      "test_name": "django_mark_safe"
+    },
+    {
+      "code": "340             if form[cl.model._meta.pk.name].is_hidden:\n341                 yield mark_safe(form[cl.model._meta.pk.name])\n342 \n",
+      "col_offset": 22,
+      "end_col_offset": 61,
+      "filename": "./projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 341,
+      "line_range": [
+        341
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    }
+  ]
+}

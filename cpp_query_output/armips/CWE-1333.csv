@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/armips/Core/ExpressionFunctions.cpp","call function: 436:16-436:32","call in function: expFuncRegExExtract@420-451","callee=std::regex_search","basic block: 428:47-437:12"
-"Path: /home/sixsquare/codeQL/projects/armips/Core/ExpressionFunctions.cpp","call function: 436:16-436:32","call in function: expFuncRegExExtract@420-451","callee=std::regex","basic block: 428:47-437:12"
-"Path: /home/sixsquare/codeQL/projects/armips/Core/ExpressionFunctions.cpp","call function: 409:16-409:32","call in function: expFuncRegExSearch@396-418","callee=std::regex_search","basic block: 402:37-410:30"
-"Path: /home/sixsquare/codeQL/projects/armips/Core/ExpressionFunctions.cpp","call function: 409:16-409:32","call in function: expFuncRegExSearch@396-418","callee=std::regex","basic block: 402:37-410:30"
-"Path: /home/sixsquare/codeQL/projects/armips/Core/ExpressionFunctions.cpp","call function: 385:16-385:31","call in function: expFuncRegExMatch@372-394","callee=std::regex","basic block: 378:37-386:30"
-"Path: /home/sixsquare/codeQL/projects/armips/Core/ExpressionFunctions.cpp","call function: 385:16-385:31","call in function: expFuncRegExMatch@372-394","callee=std::regex_match","basic block: 378:37-386:30"

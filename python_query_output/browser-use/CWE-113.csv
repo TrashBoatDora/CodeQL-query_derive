@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/browser-use/browser_use/browser/watchdogs/downloads_watchdog.py","call function: 797:14-797:30","call in function: trigger_pdf_download@742-919","callee=urllib.parse.urlparse","basic block: 797:23-797:30"
-"path: /home/sixsquare/codeQL/projects/browser-use/browser_use/browser/watchdogs/security_watchdog.py","call function: 146:13-146:25","call in function: _is_url_allowed@121-172","callee=urllib.parse.urlparse","basic block: 143:8-146:25"
-"path: /home/sixsquare/codeQL/projects/browser-use/browser_use/browser/profile.py","call function: 231:15-231:27","call in function: validate_url@229-236","callee=urllib.parse.urlparse","basic block: 229:18-232:25"
-"path: /home/sixsquare/codeQL/projects/browser-use/browser_use/mcp/server.py","call function: 693:15-693:35","call in function: _click@669-718","callee=urllib.parse.urlparse","basic block: 691:11-694:13"
-"path: /home/sixsquare/codeQL/projects/browser-use/browser_use/agent/service.py","call function: 1305:13-1305:50","call in function: _log_agent_event@1272-1318","callee=urllib.parse.urlparse","basic block: 1305:13-1305:59"
-"path: /home/sixsquare/codeQL/projects/browser-use/browser_use/browser/session.py","call function: 1467:18-1467:30","call in function: get_tabs@1430-1492","callee=urllib.parse.urlparse","basic block: 1465:32-1467:30"
-"path: /home/sixsquare/codeQL/projects/browser-use/browser_use/utils.py","call function: 463:16-463:28","call in function: match_url_with_domain_pattern@435-534","callee=urllib.parse.urlparse","basic block: 463:25-463:28"

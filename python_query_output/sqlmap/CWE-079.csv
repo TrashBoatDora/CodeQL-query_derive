@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/sqlmap/thirdparty/bottle/bottle.py","call function: 4314:20-4314:76","call in function: prepare@4312-4321","callee=jinja2.Environment","basic block: 4312:17-4315:18"
-"path: /home/sixsquare/codeQL/projects/sqlmap/thirdparty/bottle/bottle.py","call function: 4321:24-4321:55","call in function: prepare@4312-4321","callee=jinja2.Environment.get_template","basic block: 4321:24-4321:20"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/core/dump.py","call function: 570:75-570:92","call in function: dbTableValues@397-675","callee=html.escape","basic block: 570:25-570:131"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/core/dump.py","call function: 642:75-642:91","call in function: dbTableValues@397-675","callee=html.escape","basic block: 642:25-642:130"

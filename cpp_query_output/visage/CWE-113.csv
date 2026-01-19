@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/visage/build/_deps/bgfx-src/bimg/3rdparty/astc-encoder/source/astcenc_vecmathlib_common_4.h","call function: 410:2-410:7","call in function: print@406-413","callee=printf","basic block: 407:1-406:30"
-"Path: /home/sixsquare/codeQL/projects/visage/build/_deps/bgfx-src/bimg/3rdparty/astc-encoder/source/astcenc_vecmathlib_common_4.h","call function: 399:2-399:7","call in function: printx@395-401","callee=printf","basic block: 396:1-395:31"
-"Path: /home/sixsquare/codeQL/projects/visage/build/_deps/bgfx-src/bimg/3rdparty/astc-encoder/source/astcenc_vecmathlib_common_4.h","call function: 388:2-388:7","call in function: print@384-390","callee=printf","basic block: 385:1-384:30"
-"Path: /home/sixsquare/codeQL/projects/visage/build/_deps/bgfx-src/bx/src/debug.cpp","call function: 138:3-138:7","call in function: debugOutput@114-141","callee=fputs","basic block: 115:2-114:17"
-"Path: /home/sixsquare/codeQL/projects/visage/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp","call function: 65:13-65:25","call in function: getFormattedDuration@50-68","callee=snprintf","basic block: 50:57-50:36"
-"Path: /home/sixsquare/codeQL/projects/visage/visage_utils/posix/defines.cpp","call function: 38:5-38:18","call in function: debugLogArgs@35-40","callee=vsnprintf","basic block: 35:96-35:19"

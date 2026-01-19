@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/llama/example_text_completion.py","call function: 63:9-63:21","call in function: main@9-65","callee=print","basic block: 62:9-65:55"
-"path: /home/sixsquare/codeQL/projects/llama/example_text_completion.py","call function: 64:9-64:42","call in function: main@9-65","callee=print","basic block: 62:9-65:55"
-"path: /home/sixsquare/codeQL/projects/llama/example_text_completion.py","call function: 65:9-65:55","call in function: main@9-65","callee=print","basic block: 62:9-65:55"
-"path: /home/sixsquare/codeQL/projects/llama/example_chat_completion.py","call function: 96:13-96:68","call in function: main@11-100","callee=print","basic block: 95:13-96:68"
-"path: /home/sixsquare/codeQL/projects/llama/example_chat_completion.py","call function: 97:9-99:9","call in function: main@11-100","callee=print","basic block: 97:9-100:55"
-"path: /home/sixsquare/codeQL/projects/llama/example_chat_completion.py","call function: 100:9-100:55","call in function: main@11-100","callee=print","basic block: 97:9-100:55"
-"path: /home/sixsquare/codeQL/projects/llama/llama/generation.py","call function: 121:9-121:66","call in function: build@53-123","callee=print","basic block: 103:9-123:38"

@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/mailio/src/dialog.cpp","call function: 141:5-141:17","call in function: connect_async@134-151","callee=boost::asio::async_connect","basic block: 135:1-134:26"
-"Path: /home/sixsquare/codeQL/projects/mailio/src/dialog.cpp","call function: 69:13-69:32","call in function: connect@62-78","callee=boost::asio::connect","basic block: 67:9-70:9"

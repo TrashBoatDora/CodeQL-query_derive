@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/make_content/make_content.py","call function: 45:10-45:30","call in function: read_file@44-46","callee=open","basic block: 44:15-46:24"
-"path: /home/sixsquare/codeQL/projects/HelloGitHub/script/make_content/make_content.py","call function: 50:10-50:31","call in function: write_file@49-51","callee=open","basic block: 49:16-51:29"

@@ -1,0 +1,235 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T12:22:35Z",
+  "metrics": {
+    "./projects/python/cpython/Lib/test/test_urllib2_localnet.py": {
+      "CONFIDENCE.HIGH": 10,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 10,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 521,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 10,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 10,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 521,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "310         try:\n311             self.assertTrue(urllib.request.urlopen(self.server_url))\n312         except urllib.error.HTTPError:\n",
+      "col_offset": 28,
+      "end_col_offset": 67,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 311,
+      "line_range": [
+        311
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "319         with self.assertRaises(urllib.error.HTTPError) as cm:\n320             urllib.request.urlopen(self.server_url)\n321         cm.exception.close()\n",
+      "col_offset": 12,
+      "end_col_offset": 51,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 320,
+      "line_range": [
+        320
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "469         l = []\n470         f = urllib.request.urlopen(url, data, **kwargs)\n471         try:\n",
+      "col_offset": 12,
+      "end_col_offset": 55,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 470,
+      "line_range": [
+        470
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "591                                      headers={\"Range\": \"bytes=20-39\"})\n592         with urllib.request.urlopen(req):\n593             pass\n",
+      "col_offset": 13,
+      "end_col_offset": 40,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 592,
+      "line_range": [
+        592
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "599                                      headers={\"X-SoMe-hEader\": \"foobar\"})\n600         with urllib.request.urlopen(req):\n601             pass\n",
+      "col_offset": 13,
+      "end_col_offset": 40,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 600,
+      "line_range": [
+        600
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "606         handler = self.start_server()\n607         with urllib.request.urlopen(\"http://localhost:%s\" % handler.port) as open_url:\n608             for attr in (\"read\", \"close\", \"info\", \"geturl\"):\n",
+      "col_offset": 13,
+      "end_col_offset": 73,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 607,
+      "line_range": [
+        607
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "613         handler = self.start_server()\n614         open_url = urllib.request.urlopen(\n615             \"http://localhost:%s\" % handler.port)\n616         with open_url:\n",
+      "col_offset": 19,
+      "end_col_offset": 49,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 614,
+      "line_range": [
+        614,
+        615
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "625         handler = self.start_server()\n626         open_url = urllib.request.urlopen(\"http://localhost:%s\" % handler.port)\n627         with open_url:\n",
+      "col_offset": 19,
+      "end_col_offset": 79,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 626,
+      "line_range": [
+        626
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "633         handler = self.start_server([(200, [], expected_response)])\n634         data = urllib.request.urlopen(\"http://localhost:%s\" % handler.port)\n635         for line in data:\n",
+      "col_offset": 15,
+      "end_col_offset": 75,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 634,
+      "line_range": [
+        634
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "641         handler = self.start_server([(200, [], expected_response)])\n642         data = urllib.request.urlopen(\"http://localhost:%s\" % handler.port)\n643         for index, line in enumerate(data):\n",
+      "col_offset": 15,
+      "end_col_offset": 75,
+      "filename": "./projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 642,
+      "line_range": [
+        642
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    }
+  ]
+}

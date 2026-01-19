@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/openpilot/tools/bodyteleop/web.py","call function: 82:12-82:63","call in function: index@79-82","callee=aiohttp.web.Response","basic block: 79:17-82:63"
-"path: /home/sixsquare/codeQL/projects/openpilot/tools/bodyteleop/web.py","call function: 86:10-86:34","call in function: ping@85-86","callee=aiohttp.web.Response","basic block: 85:16-86:34"

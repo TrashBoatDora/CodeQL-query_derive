@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/bert/extract_features.py","call function: 331:11-331:47","call in function: read_examples@319-340","callee=re.match","basic block: 328:14-332:18"
-"path: /home/sixsquare/codeQL/projects/bert/modeling_test.py","call function: 174:23-174:35","call in function: assert_all_tensors_reachable@162-191","callee=re.compile","basic block: 174:41-174:35"
-"path: /home/sixsquare/codeQL/projects/bert/modeling_test.py","call function: 174:23-174:35","call in function: listcomp@174-174","callee=re.compile","basic block: 174:41-174:35"
-"path: /home/sixsquare/codeQL/projects/bert/optimization.py","call function: 165:12-165:35","call in function: _do_use_weight_decay@159-167","callee=re.search","basic block: 164:11-165:47"
-"path: /home/sixsquare/codeQL/projects/bert/optimization.py","call function: 171:9-171:43","call in function: _get_variable_name@169-174","callee=re.match","basic block: 169:26-172:20"
-"path: /home/sixsquare/codeQL/projects/bert/modeling.py","call function: 325:9-325:37","call in function: get_assignment_map_from_checkpoint@317-341","callee=re.match","basic block: 323:7-326:20"
-"path: /home/sixsquare/codeQL/projects/bert/tokenization.py","call function: 39:7-39:71","call in function: validate_case_matches_checkpoint@28-75","callee=re.match","basic block: 39:7-40:14"

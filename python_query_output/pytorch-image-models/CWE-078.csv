@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/pytorch-image-models/bulk_runner.py","call function: 200:25-200:62","call in function: main@141-231","callee=subprocess.check_output","basic block: 200:54-200:62"

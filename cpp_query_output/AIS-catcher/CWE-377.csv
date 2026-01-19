@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/AIS-catcher/Application/MapTiles.h","call function: 336:20-336:26","call in function: listDirectory@315-351","callee=open","basic block: 316:5-337:15"
-"Path: /home/sixsquare/codeQL/projects/AIS-catcher/Device/Serial.cpp","call function: 184:15-184:18","call in function: Play@141-254","callee=open","basic block: 142:2-185:21"
-"Path: /home/sixsquare/codeQL/projects/AIS-catcher/Library/Logger.cpp","call function: 32:3-32:9","call in function: SyslogHandler@30-33","callee=open","basic block: 31:2-30:14"
-"Path: /home/sixsquare/codeQL/projects/AIS-catcher/Library/Utilities.cpp","call function: 1181:14-1181:20","call in function: getFilesWithExtension@1159-1197","callee=open","basic block: 1160:2-1181:51"

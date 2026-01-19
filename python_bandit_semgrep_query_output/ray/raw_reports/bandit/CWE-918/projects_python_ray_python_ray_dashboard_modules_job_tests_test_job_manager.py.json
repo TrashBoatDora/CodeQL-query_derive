@@ -1,0 +1,57 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:17:32Z",
+  "metrics": {
+    "./projects/python/ray/python/ray/dashboard/modules/job/tests/test_job_manager.py": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1233,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 1,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1233,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "761         with tempfile.NamedTemporaryFile(suffix=\".zip\") as f:\n762             filename, _ = urllib.request.urlretrieve(\n763                 \"https://runtime-env-test.s3.amazonaws.com/script_runtime_env.zip\",\n764                 filename=f.name,\n765             )\n766             job_id = await job_manager.submit_job(\n",
+      "col_offset": 26,
+      "end_col_offset": 13,
+      "filename": "./projects/python/ray/python/ray/dashboard/modules/job/tests/test_job_manager.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected.",
+      "line_number": 762,
+      "line_range": [
+        762,
+        763,
+        764,
+        765
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b310-urllib-urlopen",
+      "test_id": "B310",
+      "test_name": "blacklist"
+    }
+  ]
+}

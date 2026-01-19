@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 16821:13-16821:21","call in function: getCurrentTimestamp@16817-16841","callee=time","basic block: 16817:43-16817:39"
-"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 14952:112-14952:127","call in function: getCurrentNanosecondsSinceEpoch@14951-14953","callee=std::time","basic block: 14951:56-14951:40"
-"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 13161:13-13161:22","call in function: seedRng@13159-13164","callee=srand","basic block: 13160:36-13162:22"
-"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 9760:61-9760:69","call in function: operator()@9757-9762","callee=time","basic block: 9760:17-9761:39"

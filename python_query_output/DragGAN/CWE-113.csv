@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/DragGAN/stylegan_human/dnnlib/util.py","call function: 408:20-408:45","call in function: open_url@384-479","callee=urllib.parse.urlparse","basic block: 408:20-409:45"
-"path: /home/sixsquare/codeQL/projects/DragGAN/dnnlib/util.py","call function: 420:20-420:45","call in function: open_url@396-491","callee=urllib.parse.urlparse","basic block: 420:20-421:45"

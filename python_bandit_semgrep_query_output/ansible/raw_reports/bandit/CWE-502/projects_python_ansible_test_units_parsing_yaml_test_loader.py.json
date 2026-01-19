@@ -1,0 +1,314 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T11:11:01Z",
+  "metrics": {
+    "./projects/python/ansible/test/units/parsing/yaml/test_loader.py": {
+      "CONFIDENCE.HIGH": 14,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 14,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 335,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 14,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 14,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 335,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "57         stream.name = file_name\n58         data = yaml.load(stream, Loader=AnsibleLoader)\n59         self.assertEqual(data, 1)\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 58,
+      "line_range": [
+        58
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "66         stream.name = file_name\n67         data = yaml.load(stream, Loader=AnsibleLoader)\n68         self.assertEqual(data, u'Ansible')\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 67,
+      "line_range": [
+        67
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "77         stream.name = file_name\n78         data = yaml.load(stream, Loader=AnsibleLoader)\n79         self.assertEqual(data, u'Caf\u00e8 E\u00f1yei')\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 78,
+      "line_range": [
+        78
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "89         stream.name = file_name\n90         data = yaml.load(stream, Loader=AnsibleLoader)\n91         self.assertEqual(data, {'webster': 'daniel', 'oed': 'oxford'})\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 90,
+      "line_range": [
+        90
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "107         stream.name = file_name\n108         data = yaml.load(stream, Loader=AnsibleLoader)\n109         self.assertEqual(data, [u'a', u'b'])\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 108,
+      "line_range": [
+        108
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "120         stream.name = file_name\n121         data = yaml.load(stream, Loader=AnsibleLoader)\n122         self.assertEqual(data, dict(foo=u'bar'))\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 121,
+      "line_range": [
+        121
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "128         stream.name = file_name\n129         data = yaml.load(stream, Loader=AnsibleLoader)\n130         self.assertEqual(data, dict(foo=u'bar'))\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 129,
+      "line_range": [
+        129
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "138         with self.assertRaises(ParserError):\n139             yaml.load(stream, Loader=AnsibleLoader)\n140 \n",
+      "col_offset": 12,
+      "end_col_offset": 51,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 139,
+      "line_range": [
+        139
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "144         with self.assertRaises(ScannerError):\n145             yaml.load(stream, Loader=AnsibleLoader)\n146 \n",
+      "col_offset": 12,
+      "end_col_offset": 51,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 145,
+      "line_range": [
+        145
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "149         stream.name = file_name\n150         data = yaml.load(stream, Loader=AnsibleLoader)\n151         self.assertEqual(data, dict(foo=u'bar'))\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 150,
+      "line_range": [
+        150
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "158         stream.name = file_name\n159         data = yaml.load(stream, Loader=AnsibleLoader)\n160         self.assertEqual(data, [{u'foo': u'bar', u'baz': u'qux'}])\n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 159,
+      "line_range": [
+        159
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "218         stream = self._build_stream(yaml_text)\n219         data = yaml.load(stream, Loader=AnsibleLoader)\n220 \n",
+      "col_offset": 15,
+      "end_col_offset": 54,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 219,
+      "line_range": [
+        219
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "257         stream.name = self.play_filename\n258         self.data = yaml.load(stream, Loader=AnsibleLoader)\n259 \n",
+      "col_offset": 20,
+      "end_col_offset": 59,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 258,
+      "line_range": [
+        258
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    },
+    {
+      "code": "468 \n469     res = yaml.load(data, Loader=AnsibleLoader)  # type: ignore[arg-type]\n470 \n",
+      "col_offset": 10,
+      "end_col_offset": 47,
+      "filename": "./projects/python/ansible/test/units/parsing/yaml/test_loader.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 20,
+        "link": "https://cwe.mitre.org/data/definitions/20.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of unsafe yaml load. Allows instantiation of arbitrary objects. Consider yaml.safe_load().",
+      "line_number": 469,
+      "line_range": [
+        469
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b506_yaml_load.html",
+      "test_id": "B506",
+      "test_name": "yaml_load"
+    }
+  ]
+}

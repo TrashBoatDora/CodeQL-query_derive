@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/QSimpleUpdater/src/Downloader.cpp","call function: 128:15-128:26","call in function: startDownload@109-148","callee=QNetworkRequest::setRawHeader","basic block: 128:7-128:26"
-"Path: /home/sixsquare/codeQL/projects/QSimpleUpdater/src/Downloader.cpp","call function: 131:25-131:27","call in function: startDownload@109-148","callee=QNetworkAccessManager::get","basic block: 131:4-135:30"
-"Path: /home/sixsquare/codeQL/projects/QSimpleUpdater/src/Updater.cpp","call function: 241:15-241:26","call in function: checkForUpdates@234-244","callee=QNetworkRequest::setRawHeader","basic block: 241:7-241:26"
-"Path: /home/sixsquare/codeQL/projects/QSimpleUpdater/src/Updater.cpp","call function: 243:15-243:17","call in function: checkForUpdates@234-244","callee=QNetworkAccessManager::get","basic block: 243:4-234:29"

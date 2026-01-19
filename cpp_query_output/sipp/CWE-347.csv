@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/sipp/src/sslsocket.cpp","call function: 221:17-221:45","call in function: sip_tls_verify_callback@203-224","callee=X509_verify","basic block: 209:14-220:15"
-"Path: /home/sixsquare/codeQL/projects/sipp/src/sslsocket.cpp","call function: 221:17-221:45","call in function: sip_tls_verify_callback@203-224","callee=X509_verify_cert","basic block: 209:14-220:15"

@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/RenderPipelineShaders/external/catch2/single_include/catch2/catch.hpp","call function: 10475:36-10475:47","call in function: isDebuggerActive@10470-10486","callee=std::getline","basic block: 10475:49-10475:36"
-"Path: /home/sixsquare/codeQL/projects/RenderPipelineShaders/external/catch2/single_include/catch2/catch.hpp","call function: 9730:24-9730:35","call in function: operator()@9724-9744","callee=std::getline","basic block: 9730:38-9730:24"
-"Path: /home/sixsquare/codeQL/projects/RenderPipelineShaders/external/catch2/single_include/catch2/catch.hpp","call function: 9075:12-9075:12","call in function: convertInto@9072-9080","callee=std::basic_istream::operator>>","basic block: 9072:85-9076:19"

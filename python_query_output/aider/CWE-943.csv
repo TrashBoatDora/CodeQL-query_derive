@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/aider/scripts/homepage.py","call function: 133:21-133:39","call in function: get_downloads_from_bigquery@88-150","callee=google.cloud.bigquery.Client.query","basic block: 133:34-133:39"

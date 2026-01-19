@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 11:9-11:20","call in function: Model@5-54","callee=std::getline","basic block: 10:23-14:37"
-"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 17:39-17:39","call in function: Model@5-54","callee=std::basic_istream::operator>>","basic block: 17:13-0:0"
-"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 22:39-22:39","call in function: Model@5-54","callee=std::basic_istream::operator>>","basic block: 22:13-0:0"
-"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 27:37-27:37","call in function: Model@5-54","callee=std::basic_istream::operator>>","basic block: 27:13-0:0"
-"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 32:52-32:52","call in function: Model@5-54","callee=std::basic_istream::operator>>","basic block: 32:55-32:20"
-"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 32:38-32:38","call in function: Model@5-54","callee=std::basic_istream::operator>>","basic block: 32:55-32:20"
-"Path: /home/sixsquare/codeQL/projects/tinyrenderer/model.cpp","call function: 32:24-32:24","call in function: Model@5-54","callee=std::basic_istream::operator>>","basic block: 32:55-32:20"

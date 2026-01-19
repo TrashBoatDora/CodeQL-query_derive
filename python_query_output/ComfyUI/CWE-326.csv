@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ComfyUI/server.py","call function: 967:23-967:97","call in function: start_multi_address@961-993","callee=ssl.SSLContext","basic block: 967:23-970:18"

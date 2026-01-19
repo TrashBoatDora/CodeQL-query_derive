@@ -1,0 +1,54 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:27:13Z",
+  "metrics": {
+    "./projects/python/django/django/db/models/sql/query.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2231,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2231,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "2582                         extra_names.append(f)\n2583                         selected[f] = RawSQL(*extra)\n2584                     elif f in self.annotation_select:\n",
+      "col_offset": 38,
+      "end_col_offset": 52,
+      "filename": "./projects/python/django/django/db/models/sql/query.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of RawSQL potential SQL attack vector.",
+      "line_number": 2583,
+      "line_range": [
+        2583
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b611_django_rawsql_used.html",
+      "test_id": "B611",
+      "test_name": "django_rawsql_used"
+    }
+  ]
+}

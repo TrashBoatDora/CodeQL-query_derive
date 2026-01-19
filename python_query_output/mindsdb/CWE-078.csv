@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/integrations/handlers/byom_handler/byom_handler.py","call function: 544:13-547:13","call in function: prepare_env@477-548","callee=subprocess.run","basic block: 538:23-548:29"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/integrations/handlers/byom_handler/byom_handler.py","call function: 585:17-585:86","call in function: install_modules@581-588","callee=subprocess.Popen","basic block: 583:13-587:32"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/integrations/handlers/byom_handler/byom_handler.py","call function: 595:13-600:9","call in function: _run_command@590-612","callee=subprocess.Popen","basic block: 590:22-609:24"
-"path: /home/sixsquare/codeQL/projects/mindsdb/tests/scripts/check_requirements.py","call function: 244:18-249:9","call in function: run_deptry@239-263","callee=subprocess.run","basic block: 248:13-249:9"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/integrations/utilities/install.py","call function: 37:14-41:9","call in function: install_dependencies@7-65","callee=subprocess.Popen","basic block: 40:13-41:9"
-"path: /home/sixsquare/codeQL/projects/mindsdb/mindsdb/integrations/handlers/openai_handler/openai_handler.py","call function: 987:9-999:9","call in function: _prepare_ft_jsonl@972-1007","callee=subprocess.run","basic block: 972:27-1007:25"

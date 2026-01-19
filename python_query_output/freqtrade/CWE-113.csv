@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/freqtrade/ft_client/freqtrade_client/ft_rest_client.py","call function: 54:54-54:71","call in function: _call@46-67","callee=urllib.parse.urlparse","basic block: 49:20-56:43"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/misc.py","call function: 178:21-178:33","call in function: parse_db_uri_for_logging@172-182","callee=urllib.parse.urlparse","basic block: 172:30-179:31"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/web_ui.py","call function: 13:12-13:70","call in function: favicon@12-13","callee=starlette.responses.FileResponse","basic block: 13:12-13:70"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/web_ui.py","call function: 18:12-18:77","call in function: fallback@17-18","callee=starlette.responses.FileResponse","basic block: 18:12-18:77"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/web_ui.py","call function: 49:16-49:65","call in function: index_html@34-55","callee=starlette.responses.FileResponse","basic block: 49:16-49:65"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/web_ui.py","call function: 53:16-53:70","call in function: index_html@34-55","callee=starlette.responses.FileResponse","basic block: 53:16-53:70"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/web_ui.py","call function: 55:12-55:40","call in function: index_html@34-55","callee=starlette.responses.FileResponse","basic block: 55:12-55:40"

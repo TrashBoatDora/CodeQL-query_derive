@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/AutoGPT/autogpt_platform/backend/backend/util/text.py","call function: 122:25-128:9","call in function: format_email@107-152","callee=bleach.clean","basic block: 108:9-152:64"
-"path: /home/sixsquare/codeQL/projects/AutoGPT/autogpt_platform/backend/backend/util/text.py","call function: 139:45-139:58","call in function: format_email@107-152","callee=markupsafe.Markup","basic block: 139:45-139:58"
-"path: /home/sixsquare/codeQL/projects/AutoGPT/autogpt_platform/backend/backend/util/text.py","call function: 139:45-139:58","call in function: lambda@138-140","callee=markupsafe.Markup","basic block: 139:45-139:58"
-"path: /home/sixsquare/codeQL/projects/AutoGPT/autogpt_platform/backend/backend/util/text.py","call function: 131:24-131:44","call in function: format_email@107-152","callee=markupsafe.Markup","basic block: 108:9-152:64"

@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/keras/integration_tests/import_test.py","call function: 107:9-107:43","call in function: run_commands_local@104-107","callee=subprocess.run","basic block: 105:9-107:43"
-"path: /home/sixsquare/codeQL/projects/keras/integration_tests/import_test.py","call function: 21:5-21:54","call in function: setup_package@20-37","callee=subprocess.run","basic block: 21:5-33:19"
-"path: /home/sixsquare/codeQL/projects/keras/integration_tests/import_test.py","call function: 22:21-27:5","call in function: setup_package@20-37","callee=subprocess.run","basic block: 21:5-33:19"
-"path: /home/sixsquare/codeQL/projects/keras/integration_tests/import_test.py","call function: 119:13-119:43","call in function: run_commands_venv@110-120","callee=subprocess.Popen","basic block: 116:13-120:28"
-"path: /home/sixsquare/codeQL/projects/keras/pip_build.py","call function: 99:5-99:33","call in function: build_and_save_output@97-119","callee=os.system","basic block: 97:27-103:41"
-"path: /home/sixsquare/codeQL/projects/keras/pip_build.py","call function: 124:5-124:78","call in function: install_whl@122-124","callee=os.system","basic block: 122:17-124:78"

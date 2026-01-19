@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/logger.cpp","call function: 163:17-163:21","call in function: reOpen@143-167","callee=fopen","basic block: 163:5-163:55"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/oneinstancelock.cpp","call function: 36:10-36:13","call in function: lock@34-49","callee=open","basic block: 35:1-37:14"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/persistencefile.cpp","call function: 457:26-457:29","call in function: closeFile@415-465","callee=open","basic block: 457:13-458:26"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/persistencefile.cpp","call function: 356:9-356:13","call in function: openRead@351-408","callee=fopen","basic block: 356:5-358:20"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/persistencefile.cpp","call function: 384:26-384:30","call in function: openRead@351-408","callee=creat","basic block: 380:13-385:26"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/persistencefile.cpp","call function: 330:14-330:18","call in function: openWrite@325-349","callee=creat","basic block: 330:5-331:14"
-"Path: /home/sixsquare/codeQL/projects/FlashMQ/persistencefile.cpp","call function: 335:9-335:13","call in function: openWrite@325-349","callee=fopen","basic block: 333:5-337:20"

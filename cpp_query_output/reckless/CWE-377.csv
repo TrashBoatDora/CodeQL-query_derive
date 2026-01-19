@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/src/file_writer.cpp","call function: 50:14-50:17","call in function: open_file@44-54","callee=open","basic block: 45:1-51:15"

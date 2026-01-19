@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MockingBird/control/mkgui/base/api/fastapi_utils.py","call function: 51:16-51:58","call in function: redoc_ui_html@44-51","callee=starlette.responses.HTMLResponse","basic block: 45:9-51:58"
-"path: /home/sixsquare/codeQL/projects/MockingBird/control/mkgui/base/api/fastapi_utils.py","call function: 51:16-51:58","call in function: patch_fastapi@34-102","callee=starlette.responses.HTMLResponse","basic block: 45:9-51:58"
-"path: /home/sixsquare/codeQL/projects/MockingBird/control/mkgui/base/api/fastapi_utils.py","call function: 72:16-77:9","call in function: patch_fastapi@34-102","callee=starlette.responses.HTMLResponse","basic block: 54:9-77:9"
-"path: /home/sixsquare/codeQL/projects/MockingBird/control/mkgui/base/api/fastapi_utils.py","call function: 72:16-77:9","call in function: swagger_ui_html@53-77","callee=starlette.responses.HTMLResponse","basic block: 54:9-77:9"

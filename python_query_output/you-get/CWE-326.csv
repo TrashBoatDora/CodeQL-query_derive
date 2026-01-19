@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/infoq.py","call function: 33:21-33:54","call in function: prepare@17-45","callee=ssl.SSLContext","basic block: 32:23-43:12"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/common.py","call function: 375:15-375:42","call in function: get_response@370-396","callee=ssl.create_default_context","basic block: 375:15-377:23"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/common.py","call function: 434:23-434:50","call in function: urlopen_with_retry@428-448","callee=ssl.create_default_context","basic block: 434:23-434:50"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/nicovideo.py","call function: 15:9-15:42","call in function: nicovideo_download@12-45","callee=ssl.SSLContext","basic block: 12:24-22:26"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/tucao.py","call function: 36:93-36:114","call in function: tucao_single_download@19-46","callee=random.getrandbits","basic block: 36:11-40:48"
-"path: /home/sixsquare/codeQL/projects/you-get/src/you_get/extractors/tumblr.py","call function: 16:48-16:83","call in function: tumblr_download@10-143","callee=ssl.SSLContext","basic block: 15:12-23:27"

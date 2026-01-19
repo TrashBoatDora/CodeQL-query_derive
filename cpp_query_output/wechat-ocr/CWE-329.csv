@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/wechat-ocr/build/_deps/protobuf-src/src/google/protobuf/stubs/time.cc","call function: 267:14-267:17","call in function: GetCurrentTime@264-269","callee=time","basic block: 264:55-264:19"

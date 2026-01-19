@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/utils/api.py","call function: 380:24-380:36","call in function: task_new@376-386","callee=os.urandom","basic block: 377:5-386:55"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/utils/api.py","call function: 688:39-688:52","call in function: server@683-737","callee=os.urandom","basic block: 683:12-692:19"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/core/compat.py","call function: 43:42-43:55","call in function: seed@27-55","callee=os.urandom","basic block: 43:53-43:55"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/request/httpshandler.py","call function: 71:47-71:70","call in function: connect@54-135","callee=ssl.SSLContext","basic block: 71:62-71:70"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/request/httpshandler.py","call function: 103:25-103:139","call in function: connect@54-135","callee=ssl.wrap_socket","basic block: 103:82-103:139"
-"path: /home/sixsquare/codeQL/projects/sqlmap/lib/core/patch.py","call function: 95:9-95:21","call in function: dirtyPatches@51-161","callee=os.urandom","basic block: 95:20-95:21"

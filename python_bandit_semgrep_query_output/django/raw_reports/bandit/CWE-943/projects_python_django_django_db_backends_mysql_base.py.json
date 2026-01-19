@@ -1,0 +1,69 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:26:56Z",
+  "metrics": {
+    "./projects/python/django/django/db/backends/mysql/base.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 356,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 1,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 1,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 356,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "339                     cursor.execute(\n340                         \"\"\"\n341                         SELECT REFERRING.`%s`, REFERRING.`%s` FROM `%s` as REFERRING\n342                         LEFT JOIN `%s` as REFERRED\n343                         ON (REFERRING.`%s` = REFERRED.`%s`)\n344                         WHERE REFERRING.`%s` IS NOT NULL AND REFERRED.`%s` IS NULL\n345                         \"\"\"\n346                         % (\n347                             primary_key_column_name,\n348                             column_name,\n349                             table_name,\n350                             referenced_table_name,\n351                             column_name,\n352                             referenced_column_name,\n353                             column_name,\n354                             referenced_column_name,\n355                         )\n356                     )\n",
+      "col_offset": 24,
+      "end_col_offset": 27,
+      "filename": "./projects/python/django/django/db/backends/mysql/base.py",
+      "issue_confidence": "MEDIUM",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 340,
+      "line_range": [
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

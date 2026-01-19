@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/util/template_renderer.py","call function: 9:11-12:5","call in function: render_template@6-14","callee=jinja2.Environment","basic block: 6:21-14:39"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/util/template_renderer.py","call function: 11:20-11:53","call in function: render_template@6-14","callee=jinja2.select_autoescape","basic block: 6:21-14:39"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/util/template_renderer.py","call function: 13:16-13:45","call in function: render_template@6-14","callee=jinja2.Environment.get_template","basic block: 6:21-14:39"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/telegram.py","call function: 1799:31-1799:45","call in function: _locks@1781-1801","callee=html.escape","basic block: 1790:13-1801:68"

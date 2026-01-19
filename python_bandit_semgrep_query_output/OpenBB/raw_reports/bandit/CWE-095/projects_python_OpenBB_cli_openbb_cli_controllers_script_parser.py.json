@@ -1,0 +1,142 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:32:26Z",
+  "metrics": {
+    "./projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 5,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 360,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 5,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 360,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "250                                 if VAR_NAME in ROUTINE_VARS:\n251                                     values = eval(  # noqa: S307\n252                                         f'ROUTINE_VARS[\"{VAR_NAME}\"]'\n253                                     )\n254                                     if isinstance(values, list):\n",
+      "col_offset": 45,
+      "end_col_offset": 37,
+      "filename": "./projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 251,
+      "line_range": [
+        251,
+        252,
+        253
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "256                                             match[0],\n257                                             eval(f\"values[{VAR_SLICE}]\"),  # noqa: S307\n258                                         )\n",
+      "col_offset": 44,
+      "end_col_offset": 72,
+      "filename": "./projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 257,
+      "line_range": [
+        257
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "268                             elif VAR_NAME in ROUTINE_VARS:\n269                                 variable = eval(  # noqa: S307\n270                                     f'ROUTINE_VARS[\"{VAR_NAME}\"]'\n271                                 )\n272                                 length_variable = (\n",
+      "col_offset": 43,
+      "end_col_offset": 33,
+      "filename": "./projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 269,
+      "line_range": [
+        269,
+        270,
+        271
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "316 \n317                             vars_to_loop = eval(  # noqa: S307\n318                                 f'ROUTINE_VARS[\"{VAR_NAME}\"][{slicing_tuple}]'\n319                             )\n320 \n",
+      "col_offset": 43,
+      "end_col_offset": 29,
+      "filename": "./projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 317,
+      "line_range": [
+        317,
+        318,
+        319
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "354                             if VAR_NAME in ROUTINE_VARS:\n355                                 value = eval(  # noqa: S307\n356                                     f'ROUTINE_VARS[\"{VAR_NAME}\"]'\n357                                 )\n358 \n",
+      "col_offset": 40,
+      "end_col_offset": 33,
+      "filename": "./projects/python/OpenBB/cli/openbb_cli/controllers/script_parser.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of possibly insecure function - consider using safer ast.literal_eval.",
+      "line_number": 355,
+      "line_range": [
+        355,
+        356,
+        357
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b307-eval",
+      "test_id": "B307",
+      "test_name": "blacklist"
+    }
+  ]
+}

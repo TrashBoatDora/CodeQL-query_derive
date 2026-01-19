@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/ext/glog/src/signalhandler.cc","call function: 159:24-159:27","call in function: DumpTimeInfo@158-169","callee=time","basic block: 158:21-158:17"
-"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/ext/glog/src/utilities.cc","call function: 213:3-213:14","call in function: CycleClock_Now@210-215","callee=gettimeofday","basic block: 210:24-210:20"
-"Path: /home/sixsquare/codeQL/projects/pbrt-v3/src/tests/gtest/gtest-all.cc","call function: 2308:3-2308:14","call in function: GetTimeInMillis@2264-2313","callee=gettimeofday","basic block: 2264:32-2264:28"

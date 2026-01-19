@@ -1,0 +1,84 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:32:39Z",
+  "metrics": {
+    "./projects/python/ComfyUI/tests/inference/test_inference.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 174,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 174,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "153         # Start server\n154         p = subprocess.Popen([\n155                 'python','main.py',\n156                 '--output-directory', args_pytest[\"output_dir\"],\n157                 '--listen', args_pytest[\"listen\"],\n158                 '--port', str(args_pytest[\"port\"]),\n159                 ])\n160         yield\n",
+      "col_offset": 12,
+      "end_col_offset": 18,
+      "filename": "./projects/python/ComfyUI/tests/inference/test_inference.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 154,
+      "line_range": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "153         # Start server\n154         p = subprocess.Popen([\n155                 'python','main.py',\n156                 '--output-directory', args_pytest[\"output_dir\"],\n157                 '--listen', args_pytest[\"listen\"],\n158                 '--port', str(args_pytest[\"port\"]),\n159                 ])\n160         yield\n",
+      "col_offset": 12,
+      "end_col_offset": 18,
+      "filename": "./projects/python/ComfyUI/tests/inference/test_inference.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 154,
+      "line_range": [
+        154,
+        155,
+        156,
+        157,
+        158,
+        159
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

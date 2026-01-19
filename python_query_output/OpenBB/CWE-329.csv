@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/providers/finra/openbb_finra/utils/data_storage.py","call function: 61:15-61:34","call in function: get_data_from_date_and_store@47-75","callee=random.randint","basic block: 47:34-64:29"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/extensions/econometrics/openbb_econometrics/utils.py","call function: 108:23-108:59","call in function: mock_multi_index_data@94-115","callee=numpy.random.randint","basic block: 95:5-115:13"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/extensions/econometrics/openbb_econometrics/utils.py","call function: 109:20-109:50","call in function: mock_multi_index_data@94-115","callee=numpy.random.randint","basic block: 95:5-115:13"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/extensions/econometrics/openbb_econometrics/utils.py","call function: 110:26-110:56","call in function: mock_multi_index_data@94-115","callee=numpy.random.randint","basic block: 95:5-115:13"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/app/logs/utils/utils.py","call function: 11:22-11:33","call in function: get_session_id@9-12","callee=uuid.uuid4","basic block: 10:5-12:21"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/app/logs/utils/utils.py","call function: 54:25-54:36","call in function: create_log_uuid_if_not_exists@50-59","callee=uuid.uuid4","basic block: 54:22-55:55"

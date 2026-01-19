@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/highway/hwy/contrib/sort/vqsort.cc","call function: 96:23-96:31","call in function: Fill16BytesSecure@93-112","callee=getrandom","basic block: 93:37-97:15"

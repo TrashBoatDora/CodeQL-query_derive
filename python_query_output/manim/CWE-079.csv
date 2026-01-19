@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/manim/docs/source/manim_example_ext.py","call function: 50:29-57:9","call in function: run@30-62","callee=jinja2.Template.render","basic block: 50:29-62:17"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/big-list-of-naughty-strings/naughtystrings/__init__.py","call function: 21:10-21:28","call in function: naughty_strings@9-35","callee=open","basic block: 9:21-35:18"

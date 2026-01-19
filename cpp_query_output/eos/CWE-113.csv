@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/eos/3rdparty/nanoflann/include/nanoflann.hpp","call function: 815:17-815:23","call in function: malloc@790-837","callee=fprintf","basic block: 814:13-816:38"
-"Path: /home/sixsquare/codeQL/projects/eos/3rdparty/toml11/toml/combinator.hpp","call function: 48:24-48:36","call in function: show_char@30-54","callee=snprintf","basic block: 45:5-52:39"

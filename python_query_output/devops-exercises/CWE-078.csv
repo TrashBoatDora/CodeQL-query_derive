@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/scripts/random_question.py","call function: 43:13-43:30","call in function: main@6-54","callee=os.system","basic block: 43:23-43:30"

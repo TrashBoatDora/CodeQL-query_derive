@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/taskflow/3rd-party/doctest/doctest.h","call function: 4179:31-4179:42","call in function: isDebuggerActive@4176-4186","callee=std::getline","basic block: 4179:44-4179:31"

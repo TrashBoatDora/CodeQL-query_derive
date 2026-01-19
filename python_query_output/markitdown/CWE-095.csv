@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/markitdown/packages/markitdown/src/markitdown/converters/_exiftool.py","call function: 48:16-50:9","call in function: exiftool_metadata@11-52","callee=json.loads","basic block: 48:16-50:9"
-"path: /home/sixsquare/codeQL/projects/markitdown/packages/markitdown/src/markitdown/converters/_ipynb_converter.py","call function: 55:30-55:57","call in function: convert@46-55","callee=json.loads","basic block: 53:9-55:58"
-"path: /home/sixsquare/codeQL/projects/markitdown/packages/markitdown/src/markitdown/converters/_youtube_converter.py","call function: 109:32-109:57","call in function: convert@70-197","callee=json.loads","basic block: 109:32-109:57"

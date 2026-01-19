@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/clip/src/utils/file.cc","call function: 60:12-60:15","call in function: openFile@24-70","callee=open","basic block: 60:3-61:12"
-"Path: /home/sixsquare/codeQL/projects/clip/src/utils/outputstream.cc","call function: 76:10-76:13","call in function: openFile@66-86","callee=open","basic block: 75:37-76:37"
-"Path: /home/sixsquare/codeQL/projects/clip/src/utils/outputstream.cc","call function: 78:10-78:13","call in function: openFile@66-86","callee=open","basic block: 77:10-78:24"
-"Path: /home/sixsquare/codeQL/projects/clip/src/utils/fileutil.cc","call function: 134:14-134:20","call in function: ls@117-157","callee=open","basic block: 134:3-136:20"
-"Path: /home/sixsquare/codeQL/projects/clip/src/graphics/png.cc","call function: 42:16-42:20","call in function: pngWriteImageFile@24-86","callee=fopen","basic block: 40:3-45:10"

@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/scripts/random_question.py","call function: 17:10-17:31","call in function: main@6-54","callee=open","basic block: 7:5-20:13"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/tests/syntax_checker_unittest.py","call function: 15:10-15:61","call in function: open_test_case_file@12-17","callee=open","basic block: 12:25-17:20"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/tests/scripts_question_utils_unittest.py","call function: 10:10-10:61","call in function: open_test_case_file@7-12","callee=open","basic block: 7:25-12:20"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/topics/flask_container_ci/app/tests.py","call function: 17:64-18:31","call in function: setUp@14-20","callee=os.path.join","basic block: 14:15-20:23"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/topics/flask_container_ci2/app/tests.py","call function: 17:64-18:31","call in function: setUp@14-20","callee=os.path.join","basic block: 14:15-20:23"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/tests/syntax_lint.py","call function: 137:10-137:22","call in function: check_md_file@136-140","callee=open","basic block: 136:19-140:32"

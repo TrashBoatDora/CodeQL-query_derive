@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/KDTree/tests/knn_error_test.cpp","call function: 63:5-63:9","call in function: main@60-156","callee=srand","basic block: 60:12-0:0"
-"Path: /home/sixsquare/codeQL/projects/KDTree/tests/knn_error_test.cpp","call function: 14:35-14:38","call in function: getNum@14-14","callee=rand","basic block: 14:17-14:13"
-"Path: /home/sixsquare/codeQL/projects/KDTree/tests/error_test.cpp","call function: 44:5-44:9","call in function: main@42-116","callee=srand","basic block: 42:12-0:0"
-"Path: /home/sixsquare/codeQL/projects/KDTree/tests/error_test.cpp","call function: 13:35-13:38","call in function: getNum@13-13","callee=rand","basic block: 13:17-13:13"
-"Path: /home/sixsquare/codeQL/projects/KDTree/tests/construction_time.cpp","call function: 13:35-13:38","call in function: getNum@13-13","callee=rand","basic block: 13:17-13:13"
-"Path: /home/sixsquare/codeQL/projects/KDTree/tests/construction_time.cpp","call function: 33:5-33:9","call in function: main@31-47","callee=srand","basic block: 31:12-31:8"

@@ -1,0 +1,624 @@
+{
+  "ChatTTS/ChatTTS/utils/dl.py": [
+    {
+      "file_path": "projects/python/ChatTTS/ChatTTS/utils/dl.py",
+      "line_start": 126,
+      "line_end": 126,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/ChatTTS/ChatTTS/utils/dl.py",
+      "line_start": 142,
+      "line_end": 142,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "ColossalAI/examples/images/diffusion/ldm/data/imagenet.py": [
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/diffusion/ldm/data/imagenet.py",
+      "line_start": 182,
+      "line_end": 182,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/diffusion/ldm/data/imagenet.py",
+      "line_start": 190,
+      "line_end": 190,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/images/diffusion/ldm/data/imagenet.py",
+      "line_start": 247,
+      "line_end": 247,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "HanLP/hanlp/utils/io_util.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/utils/io_util.py",
+      "line_start": 252,
+      "line_end": 252,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "MetaGPT/metagpt/ext/aflow/data/download_data.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/ext/aflow/data/download_data.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "OpenManus/app/sandbox/core/sandbox.py": [
+    {
+      "file_path": "projects/python/OpenManus/app/sandbox/core/sandbox.py",
+      "line_start": 294,
+      "line_end": 294,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "TTS/TTS/utils/manage.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/utils/manage.py",
+      "line_start": 545,
+      "line_end": 545,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/TTS/TTS/utils/manage.py",
+      "line_start": 580,
+      "line_end": 580,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "black/gallery/gallery.py": [
+    {
+      "file_path": "projects/python/black/gallery/gallery.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "cpython/Lib/shutil.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/shutil.py",
+      "line_start": 1349,
+      "line_end": 1349,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "cpython/Lib/test/test_tarfile.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 718,
+      "line_end": 718,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 753,
+      "line_end": 753,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 780,
+      "line_end": 780,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 1660,
+      "line_end": 1660,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 2800,
+      "line_end": 2800,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 3252,
+      "line_end": 3252,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 3351,
+      "line_end": 3351,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 3379,
+      "line_end": 3379,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 3718,
+      "line_end": 3718,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 4476,
+      "line_end": 4476,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 4482,
+      "line_end": 4482,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_tarfile.py",
+      "line_start": 4681,
+      "line_end": 4681,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "cpython/PCbuild/get_external.py": [
+    {
+      "file_path": "projects/python/cpython/PCbuild/get_external.py",
+      "line_start": 85,
+      "line_end": 85,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "d2l-zh/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py": [
+    {
+      "file_path": "projects/python/d2l-zh/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "d2l-zh/contrib/to-rm-mx-contrib-text/d2lzh/utils.py": [
+    {
+      "file_path": "projects/python/d2l-zh/contrib/to-rm-mx-contrib-text/d2lzh/utils.py",
+      "line_start": 125,
+      "line_end": 125,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/d2l-zh/contrib/to-rm-mx-contrib-text/d2lzh/utils.py",
+      "line_start": 146,
+      "line_end": 146,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "d2l-zh/d2l/mxnet.py": [
+    {
+      "file_path": "projects/python/d2l-zh/d2l/mxnet.py",
+      "line_start": 380,
+      "line_end": 380,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "d2l-zh/d2l/paddle.py": [
+    {
+      "file_path": "projects/python/d2l-zh/d2l/paddle.py",
+      "line_start": 418,
+      "line_end": 418,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "d2l-zh/d2l/tensorflow.py": [
+    {
+      "file_path": "projects/python/d2l-zh/d2l/tensorflow.py",
+      "line_start": 396,
+      "line_end": 396,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "d2l-zh/d2l/torch.py": [
+    {
+      "file_path": "projects/python/d2l-zh/d2l/torch.py",
+      "line_start": 407,
+      "line_end": 407,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "gpt_academic/crazy_functions/Latex_Function.py": [
+    {
+      "file_path": "projects/python/gpt_academic/crazy_functions/Latex_Function.py",
+      "line_start": 234,
+      "line_end": 234,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "gpt_academic/shared_utils/handle_upload.py": [
+    {
+      "file_path": "projects/python/gpt_academic/shared_utils/handle_upload.py",
+      "line_start": 129,
+      "line_end": 129,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/gpt_academic/shared_utils/handle_upload.py",
+      "line_start": 145,
+      "line_end": 145,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    },
+    {
+      "file_path": "projects/python/gpt_academic/shared_utils/handle_upload.py",
+      "line_start": 173,
+      "line_end": 173,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "keras/keras/src/utils/file_utils.py": [
+    {
+      "file_path": "projects/python/keras/keras/src/utils/file_utils.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "LOW",
+      "confidence": "LOW",
+      "description": "Usage of tarfile.extractall(members=function(tarfile)). Make sure your function properly discards dangerous members {'Function': 'filter_safe_zipinfos'})."
+    },
+    {
+      "file_path": "projects/python/keras/keras/src/utils/file_utils.py",
+      "line_start": 112,
+      "line_end": 112,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "LOW",
+      "confidence": "LOW",
+      "description": "Usage of tarfile.extractall(members=function(tarfile)). Make sure your function properly discards dangerous members {'Function': 'filter_safe_tarinfos'})."
+    }
+  ],
+  "localstack/localstack-core/localstack/utils/archives.py": [
+    {
+      "file_path": "projects/python/localstack/localstack-core/localstack/utils/archives.py",
+      "line_start": 87,
+      "line_end": 87,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "localstack/localstack-core/localstack/utils/container_utils/container_client.py": [
+    {
+      "file_path": "projects/python/localstack/localstack-core/localstack/utils/container_utils/container_client.py",
+      "line_start": 1245,
+      "line_end": 1245,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "mindsdb/mindsdb/api/http/namespaces/file.py": [
+    {
+      "file_path": "projects/python/mindsdb/mindsdb/api/http/namespaces/file.py",
+      "line_start": 219,
+      "line_end": 219,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "mindsdb/tests/unused/unit/handler_tests/test_rag_pipelines.py": [
+    {
+      "file_path": "projects/python/mindsdb/tests/unused/unit/handler_tests/test_rag_pipelines.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "semgrep",
+      "rule_id": "python.django.security.injection.path-traversal.path-traversal-open.path-traversal-open",
+      "severity": "MEDIUM",
+      "confidence": "MEDIUM",
+      "description": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks and therefore sensitive data being leaked. To mitigate, consider using os.path.abspath or os.path.realpath or the pathlib library."
+    }
+  ],
+  "models/official/legacy/transformer/data_download.py": [
+    {
+      "file_path": "projects/python/models/official/legacy/transformer/data_download.py",
+      "line_start": 206,
+      "line_end": 206,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "models/research/deep_speech/data/download.py": [
+    {
+      "file_path": "projects/python/models/research/deep_speech/data/download.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "models/research/slim/datasets/dataset_utils.py": [
+    {
+      "file_path": "projects/python/models/research/slim/datasets/dataset_utils.py",
+      "line_start": 138,
+      "line_end": 138,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "models/research/slim/datasets/download_and_convert_cifar10.py": [
+    {
+      "file_path": "projects/python/models/research/slim/datasets/download_and_convert_cifar10.py",
+      "line_start": 142,
+      "line_end": 142,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "openpilot/system/updated/casync/tar.py": [
+    {
+      "file_path": "projects/python/openpilot/system/updated/casync/tar.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "openpilot/tools/plotjuggler/juggle.py": [
+    {
+      "file_path": "projects/python/openpilot/tools/plotjuggler/juggle.py",
+      "line_start": 50,
+      "line_end": 50,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "ray/doc/load_doc_cache.py": [
+    {
+      "file_path": "projects/python/ray/doc/load_doc_cache.py",
+      "line_start": 72,
+      "line_end": 72,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "ray/python/ray/dashboard/modules/metrics/install_and_start_prometheus.py": [
+    {
+      "file_path": "projects/python/ray/python/ray/dashboard/modules/metrics/install_and_start_prometheus.py",
+      "line_start": 70,
+      "line_end": 70,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "ray/python/ray/tune/utils/file_transfer.py": [
+    {
+      "file_path": "projects/python/ray/python/ray/tune/utils/file_transfer.py",
+      "line_start": 390,
+      "line_end": 390,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "scikit-learn/sklearn/datasets/_lfw.py": [
+    {
+      "file_path": "projects/python/scikit-learn/sklearn/datasets/_lfw.py",
+      "line_start": 126,
+      "line_end": 126,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "scikit-learn/sklearn/datasets/_twenty_newsgroups.py": [
+    {
+      "file_path": "projects/python/scikit-learn/sklearn/datasets/_twenty_newsgroups.py",
+      "line_start": 85,
+      "line_end": 85,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "thefuck/tests/rules/test_dirty_untar.py": [
+    {
+      "file_path": "projects/python/thefuck/tests/rules/test_dirty_untar.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ],
+  "transformers/src/transformers/models/parakeet/convert_nemo_to_hf.py": [
+    {
+      "file_path": "projects/python/transformers/src/transformers/models/parakeet/convert_nemo_to_hf.py",
+      "line_start": 73,
+      "line_end": 73,
+      "scanner": "bandit",
+      "rule_id": "B202",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "tarfile.extractall used without any validation. Please check and discard dangerous members."
+    }
+  ]
+}

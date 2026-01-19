@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/SummerTTS/src/tn/glog/src/logging.cc","call function: 1809:18-1809:22","call in function: SendEmailInternal@1793-1834","callee=popen","basic block: 1807:5-1810:20"
-"Path: /home/sixsquare/codeQL/projects/SummerTTS/src/tn/glog/src/logging.cc","call function: 1814:17-1814:22","call in function: SendEmailInternal@1793-1834","callee=pclose","basic block: 1814:7-1815:14"

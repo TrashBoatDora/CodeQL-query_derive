@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googletest/src/gtest-port.cc","call function: 110:8-110:8","call in function: ReadProcFileField@103-112","callee=std::basic_istream::operator>>","basic block: 109:3-103:3"

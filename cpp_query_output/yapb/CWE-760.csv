@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/yapb/ext/crlib/crlib/platform.h","call function: 404:7-404:18","call in function: seconds@391-410","callee=gettimeofday","basic block: 391:21-406:40"
-"Path: /home/sixsquare/codeQL/projects/yapb/ext/crlib/crlib/logger.h","call function: 59:22-59:25","call in function: logToFile@54-69","callee=time","basic block: 59:7-69:4"
-"Path: /home/sixsquare/codeQL/projects/yapb/ext/crlib/crlib/random.h","call function: 43:49-43:52","call in function: RWrand@42-50","callee=time","basic block: 42:33-0:0"
-"Path: /home/sixsquare/codeQL/projects/yapb/src/storage.cpp","call function: 376:22-376:25","call in function: buildPath@345-392","callee=time","basic block: 375:34-383:18"
-"Path: /home/sixsquare/codeQL/projects/yapb/src/support.cpp","call function: 285:19-285:22","call in function: getCurrentDateTime@284-294","callee=time","basic block: 284:42-284:37"

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/mitmproxy/mitmproxy/tools/web/webaddons.py","call function: 79:20-82:13","call in function: is_valid_password@72-82","callee=hmac.compare_digest","basic block: 79:20-82:13"

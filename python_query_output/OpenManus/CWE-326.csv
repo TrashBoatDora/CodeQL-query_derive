@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/sandbox/core/sandbox.py","call function: 135:49-135:61","call in function: _ensure_host_dir@124-138","callee=os.urandom","basic block: 124:26-138:24"

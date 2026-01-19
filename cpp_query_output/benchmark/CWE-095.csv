@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/benchmark/src/benchmark.cc","call function: 859:3-859:7","call in function: MaybeReenterWithoutASLR@830-865","callee=execv","basic block: 859:3-865:1"
-"Path: /home/sixsquare/codeQL/projects/benchmark/src/timers.cc","call function: 216:21-216:36","call in function: LocalDateTimeString@213-286","callee=std::system","basic block: 213:35-249:27"
-"Path: /home/sixsquare/codeQL/projects/benchmark/src/timers.cc","call function: 216:38-216:47","call in function: LocalDateTimeString@213-286","callee=std::system","basic block: 213:35-249:27"

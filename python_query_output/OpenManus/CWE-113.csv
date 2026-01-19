@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/crawl4ai.py","call function: 263:22-263:34","call in function: _is_valid_url@260-269","callee=urllib.parse.urlparse","basic block: 263:31-263:34"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/sandbox/sb_vision_tool.py","call function: 138:28-138:58","call in function: execute@107-178","callee=mimetypes.guess_type","basic block: 138:49-138:58"

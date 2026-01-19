@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MediaCrawler/database/db_session.py","call function: 19:32-19:98","call in function: create_database_if_not_exists@13-20","callee=sqlalchemy.text","basic block: 16:22-20:30"

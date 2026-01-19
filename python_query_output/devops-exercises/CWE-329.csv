@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/coding/python/binary_search.py","call function: 23:19-23:46","call in function: generate_random_list@22-23","callee=random.randint","basic block: 23:52-23:46"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/coding/python/binary_search.py","call function: 23:19-23:46","call in function: genexpr@23-23","callee=random.randint","basic block: 23:52-23:46"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/coding/python/binary_search.py","call function: 36:14-36:34","call in function: main@30-38","callee=random.randint","basic block: 31:5-38:67"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/coding/python/merge_sort.py","call function: 32:13-32:40","call in function: generate_random_list@31-32","callee=random.randint","basic block: 32:46-32:40"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/coding/python/merge_sort.py","call function: 32:13-32:40","call in function: listcomp@32-32","callee=random.randint","basic block: 32:46-32:40"
-"path: /home/sixsquare/codeQL/projects/devops-exercises/scripts/random_question.py","call function: 39:42-39:73","call in function: main@6-54","callee=random.randint","basic block: 39:57-39:73"

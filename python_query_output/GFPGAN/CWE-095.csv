@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/setup.py","call function: 71:9-71:53","call in function: get_version@69-72","callee=exec","basic block: 70:10-72:34"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/setup.py","call function: 71:14-71:52","call in function: get_version@69-72","callee=compile","basic block: 70:10-72:34"

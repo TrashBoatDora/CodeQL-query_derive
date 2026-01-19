@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/wechat-ocr/build/_deps/protobuf-src/src/google/protobuf/compiler/importer.cc","call function: 511:23-511:26","call in function: OpenDiskFile@491-520","callee=open","basic block: 510:6-512:30"

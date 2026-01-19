@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/stable-diffusion.cpp/ggml/src/ggml.c","call function: 174:9-174:14","call in function: ggml_print_backtrace@133-198","callee=execlp","basic block: 165:32-189:13"
-"Path: /home/sixsquare/codeQL/projects/stable-diffusion.cpp/ggml/src/ggml.c","call function: 174:9-174:14","call in function: ggml_print_backtrace@133-198","callee=execl","basic block: 165:32-189:13"
-"Path: /home/sixsquare/codeQL/projects/stable-diffusion.cpp/ggml/src/ggml.c","call function: 182:9-182:14","call in function: ggml_print_backtrace@133-198","callee=execlp","basic block: 165:32-189:13"
-"Path: /home/sixsquare/codeQL/projects/stable-diffusion.cpp/ggml/src/ggml.c","call function: 182:9-182:14","call in function: ggml_print_backtrace@133-198","callee=execl","basic block: 165:32-189:13"

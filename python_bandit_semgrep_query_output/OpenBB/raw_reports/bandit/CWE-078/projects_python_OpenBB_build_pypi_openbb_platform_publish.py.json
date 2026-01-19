@@ -1,0 +1,90 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:37:17Z",
+  "metrics": {
+    "./projects/python/OpenBB/build/pypi/openbb_platform/publish.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 223,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 2,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 223,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "174         logger.info(\"\ud83d\udea7 (5/%s) Building python interface...\", STEPS)\n175         result = run(\n176             [sys.executable, \"-c\", \"import openbb; openbb.build()\"],  # noqa: S603\n177             cwd=DIR_PLATFORM,\n178             check=True,\n179             capture_output=True,\n180             text=True,\n181         )\n182         if verbose:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": "./projects/python/OpenBB/build/pypi/openbb_platform/publish.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 175,
+      "line_range": [
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "193         # TODO: Improve smoke test coverage here\n194         result = run(  # noqa: S603\n195             [  # noqa: S603\n196                 sys.executable,\n197                 \"-c\",\n198                 \"from openbb import obb; obb.equity.price.historical('AAPL', provider='yfinance')\",\n199             ],\n200             cwd=DIR_PLATFORM,\n201             check=True,\n202             capture_output=True,\n203             text=True,\n204         )\n205         if verbose:\n",
+      "col_offset": 17,
+      "end_col_offset": 9,
+      "filename": "./projects/python/OpenBB/build/pypi/openbb_platform/publish.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 194,
+      "line_range": [
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

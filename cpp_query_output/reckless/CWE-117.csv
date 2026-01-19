@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/src/fd_writer.cpp","call function: 129:27-129:33","call in function: write@123-140","callee=write","basic block: 128:22-130:24"

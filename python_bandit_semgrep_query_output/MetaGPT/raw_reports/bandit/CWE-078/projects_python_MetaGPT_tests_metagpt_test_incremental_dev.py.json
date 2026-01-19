@@ -1,0 +1,494 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:36:44Z",
+  "metrics": {
+    "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py": {
+      "CONFIDENCE.HIGH": 23,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 22,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 149,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 23,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 1,
+      "SEVERITY.LOW": 22,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 149,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "100         # After running, there will be new commit\n101         cur_tag = subprocess.run([\"git\", \"describe\", \"--tags\"], capture_output=True, text=True).stdout.strip()\n102         if cur_tag == \"base\":\n",
+      "col_offset": 18,
+      "end_col_offset": 95,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 101,
+      "line_range": [
+        101
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "100         # After running, there will be new commit\n101         cur_tag = subprocess.run([\"git\", \"describe\", \"--tags\"], capture_output=True, text=True).stdout.strip()\n102         if cur_tag == \"base\":\n",
+      "col_offset": 18,
+      "end_col_offset": 95,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 101,
+      "line_range": [
+        101
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "105             assert True\n106             if subprocess.run([\"git\", \"show-ref\", \"--verify\", \"--quiet\", f\"refs/tags/{tag_name}\"]).returncode == 0:\n107                 tag_name += str(int(time.time()))\n",
+      "col_offset": 15,
+      "end_col_offset": 98,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 106,
+      "line_range": [
+        106
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "105             assert True\n106             if subprocess.run([\"git\", \"show-ref\", \"--verify\", \"--quiet\", f\"refs/tags/{tag_name}\"]).returncode == 0:\n107                 tag_name += str(int(time.time()))\n",
+      "col_offset": 15,
+      "end_col_offset": 98,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 106,
+      "line_range": [
+        106
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "108             try:\n109                 subprocess.run([\"git\", \"tag\", tag_name], check=True)\n110             except subprocess.CalledProcessError as e:\n",
+      "col_offset": 16,
+      "end_col_offset": 68,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 109,
+      "line_range": [
+        109
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "108             try:\n109                 subprocess.run([\"git\", \"tag\", tag_name], check=True)\n110             except subprocess.CalledProcessError as e:\n",
+      "col_offset": 16,
+      "end_col_offset": 68,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 109,
+      "line_range": [
+        109
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "120             if shutil.which(\"unzip\"):\n121                 subprocess.run([\"unzip\", f\"{project_path}.zip\", \"-d\", str(project_path.parent)], check=True)\n122             elif shutil.which(\"tar\"):\n",
+      "col_offset": 16,
+      "end_col_offset": 108,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 121,
+      "line_range": [
+        121
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "120             if shutil.which(\"unzip\"):\n121                 subprocess.run([\"unzip\", f\"{project_path}.zip\", \"-d\", str(project_path.parent)], check=True)\n122             elif shutil.which(\"tar\"):\n",
+      "col_offset": 16,
+      "end_col_offset": 108,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 121,
+      "line_range": [
+        121
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "122             elif shutil.which(\"tar\"):\n123                 subprocess.run([\"tar\", \"-xf\", f\"{project_path}.zip\", \"-C\", str(project_path.parent)], check=True)\n124             logger.info(f\"Extracted project {project_name} successfully.\")\n",
+      "col_offset": 16,
+      "end_col_offset": 113,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 123,
+      "line_range": [
+        123
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "122             elif shutil.which(\"tar\"):\n123                 subprocess.run([\"tar\", \"-xf\", f\"{project_path}.zip\", \"-C\", str(project_path.parent)], check=True)\n124             logger.info(f\"Extracted project {project_name} successfully.\")\n",
+      "col_offset": 16,
+      "end_col_offset": 113,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 123,
+      "line_range": [
+        123
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "142     # Initialize a Git repository\n143     subprocess.run([\"git\", \"init\"], check=True)\n144 \n",
+      "col_offset": 4,
+      "end_col_offset": 47,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 143,
+      "line_range": [
+        143
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "142     # Initialize a Git repository\n143     subprocess.run([\"git\", \"init\"], check=True)\n144 \n",
+      "col_offset": 4,
+      "end_col_offset": 47,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 143,
+      "line_range": [
+        143
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "145     # Check if the .gitignore exists. If it doesn't exist, create .gitignore and add the comment\n146     subprocess.run(f\"echo # Ignore these files or directories > {'.gitignore'}\", shell=True)\n147 \n",
+      "col_offset": 4,
+      "end_col_offset": 92,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "subprocess call with shell=True identified, security issue.",
+      "line_number": 146,
+      "line_range": [
+        146
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b602_subprocess_popen_with_shell_equals_true.html",
+      "test_id": "B602",
+      "test_name": "subprocess_popen_with_shell_equals_true"
+    },
+    {
+      "code": "149     check_base_tag_cmd = [\"git\", \"show-ref\", \"--verify\", \"--quiet\", \"refs/tags/base\"]\n150     if subprocess.run(check_base_tag_cmd).returncode == 0:\n151         has_base_tag = True\n",
+      "col_offset": 7,
+      "end_col_offset": 41,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 150,
+      "line_range": [
+        150
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "158         try:\n159             status = subprocess.run([\"git\", \"status\", \"-s\"], capture_output=True, text=True).stdout.strip()\n160             if status:\n",
+      "col_offset": 21,
+      "end_col_offset": 92,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 159,
+      "line_range": [
+        159
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "158         try:\n159             status = subprocess.run([\"git\", \"status\", \"-s\"], capture_output=True, text=True).stdout.strip()\n160             if status:\n",
+      "col_offset": 21,
+      "end_col_offset": 92,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 159,
+      "line_range": [
+        159
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "160             if status:\n161                 subprocess.run([\"git\", \"clean\", \"-df\"])\n162             subprocess.run([\"git\", \"checkout\", \"-f\", \"base\"], check=True)\n",
+      "col_offset": 16,
+      "end_col_offset": 55,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 161,
+      "line_range": [
+        161
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "160             if status:\n161                 subprocess.run([\"git\", \"clean\", \"-df\"])\n162             subprocess.run([\"git\", \"checkout\", \"-f\", \"base\"], check=True)\n",
+      "col_offset": 16,
+      "end_col_offset": 55,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 161,
+      "line_range": [
+        161
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "161                 subprocess.run([\"git\", \"clean\", \"-df\"])\n162             subprocess.run([\"git\", \"checkout\", \"-f\", \"base\"], check=True)\n163             logger.info(\"Switched to base branch\")\n",
+      "col_offset": 12,
+      "end_col_offset": 73,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 162,
+      "line_range": [
+        162
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "161                 subprocess.run([\"git\", \"clean\", \"-df\"])\n162             subprocess.run([\"git\", \"checkout\", \"-f\", \"base\"], check=True)\n163             logger.info(\"Switched to base branch\")\n",
+      "col_offset": 12,
+      "end_col_offset": 73,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 162,
+      "line_range": [
+        162
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "172         try:\n173             subprocess.run(add_cmd, check=True)\n174             logger.info(\"Files added successfully.\")\n",
+      "col_offset": 12,
+      "end_col_offset": 47,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 173,
+      "line_range": [
+        173
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "179         try:\n180             subprocess.run(commit_cmd, check=True)\n181             logger.info(\"Committed all files with the message 'Initial commit'.\")\n",
+      "col_offset": 12,
+      "end_col_offset": 50,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 180,
+      "line_range": [
+        180
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "189         try:\n190             subprocess.run(add_base_tag_cmd, check=True)\n191             logger.info(\"Added 'base' tag.\")\n",
+      "col_offset": 12,
+      "end_col_offset": 56,
+      "filename": "./projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 190,
+      "line_range": [
+        190
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T07:14:21Z",
+  "metrics": {
+    "./projects/python/django/tests/i18n/tests.py": {
+      "CONFIDENCE.HIGH": 7,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 7,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2008,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 7,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 7,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 2008,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "412             self.assertEqual(\"\", gettext(\"\"))\n413             s = mark_safe(\"\")\n414             self.assertEqual(s, gettext(s))\n",
+      "col_offset": 16,
+      "end_col_offset": 29,
+      "filename": "./projects/python/django/tests/i18n/tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 413,
+      "line_range": [
+        413
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "423         trans_real._translations = {}\n424         s1 = mark_safe(\"Password\")\n425         s2 = mark_safe(\"May\")\n",
+      "col_offset": 13,
+      "end_col_offset": 34,
+      "filename": "./projects/python/django/tests/i18n/tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 424,
+      "line_range": [
+        424
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "424         s1 = mark_safe(\"Password\")\n425         s2 = mark_safe(\"May\")\n426         with translation.override(\"de\", deactivate=True):\n",
+      "col_offset": 13,
+      "end_col_offset": 29,
+      "filename": "./projects/python/django/tests/i18n/tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 425,
+      "line_range": [
+        425
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "430         self.assertEqual(\"Passworda\", s1 + SafeString(\"a\"))\n431         self.assertEqual(\"Passworda\", s1 + mark_safe(\"a\"))\n432         self.assertEqual(\"aPassword\", mark_safe(\"a\") + s1)\n",
+      "col_offset": 43,
+      "end_col_offset": 57,
+      "filename": "./projects/python/django/tests/i18n/tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 431,
+      "line_range": [
+        431
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "431         self.assertEqual(\"Passworda\", s1 + mark_safe(\"a\"))\n432         self.assertEqual(\"aPassword\", mark_safe(\"a\") + s1)\n433         self.assertEqual(\"as\", mark_safe(\"a\") + mark_safe(\"s\"))\n",
+      "col_offset": 38,
+      "end_col_offset": 52,
+      "filename": "./projects/python/django/tests/i18n/tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 432,
+      "line_range": [
+        432
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "432         self.assertEqual(\"aPassword\", mark_safe(\"a\") + s1)\n433         self.assertEqual(\"as\", mark_safe(\"a\") + mark_safe(\"s\"))\n434 \n",
+      "col_offset": 31,
+      "end_col_offset": 45,
+      "filename": "./projects/python/django/tests/i18n/tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 433,
+      "line_range": [
+        433
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    },
+    {
+      "code": "432         self.assertEqual(\"aPassword\", mark_safe(\"a\") + s1)\n433         self.assertEqual(\"as\", mark_safe(\"a\") + mark_safe(\"s\"))\n434 \n",
+      "col_offset": 48,
+      "end_col_offset": 62,
+      "filename": "./projects/python/django/tests/i18n/tests.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 79,
+        "link": "https://cwe.mitre.org/data/definitions/79.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed.",
+      "line_number": 433,
+      "line_range": [
+        433
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/blacklists/blacklist_calls.html#b308-mark-safe",
+      "test_id": "B308",
+      "test_name": "blacklist"
+    }
+  ]
+}

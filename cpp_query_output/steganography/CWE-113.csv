@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/zlib/gzlib.c","call function: 611:11-611:18","call in function: gz_error@579-618","callee=snprintf","basic block: 611:5-618:1"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/zlib/gzlib.c","call function: 296:11-296:18","call in function: gzdopen@286-303","callee=snprintf","basic block: 296:5-302:13"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/zlib/gzlib.c","call function: 214:15-214:22","call in function: gz_open@91-267","callee=snprintf","basic block: 214:9-228:16"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/zlib/gzwrite.c","call function: 428:11-428:19","call in function: gzvprintf@379-449","callee=vsnprintf","basic block: 413:5-433:16"
-"Path: /home/sixsquare/codeQL/projects/steganography/ext/stb/stb_image_write.h","call function: 738:13-738:19","call in function: stbi_write_hdr_core@723-747","callee=sprintf","basic block: 727:9-742:13"

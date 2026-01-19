@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/HanLP/hanlp/utils/io_util.py","call function: 96:37-96:68","call in function: temp_lock@93-97","callee=hashlib.md5","basic block: 93:15-97:15"

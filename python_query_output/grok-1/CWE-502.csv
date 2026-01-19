@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/grok-1/checkpoint.py","call function: 74:20-74:33","call in function: fast_unpickle@71-74","callee=pickle.load","basic block: 71:19-74:33"

@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/glslViewer/src/main.cpp","call function: 819:21-819:26","call in function: operator()@768-860","callee=system","basic block: 817:47-820:17"
-"Path: /home/sixsquare/codeQL/projects/glslViewer/src/main.cpp","call function: 824:21-824:26","call in function: operator()@768-860","callee=system","basic block: 822:47-825:17"
-"Path: /home/sixsquare/codeQL/projects/glslViewer/src/core/tools/tracker.cpp","call function: 35:23-35:61","call in function: end@31-50","callee=std::system","basic block: 35:5-37:30"
-"Path: /home/sixsquare/codeQL/projects/glslViewer/src/core/tools/tracker.cpp","call function: 28:28-28:66","call in function: begin@21-29","callee=std::system","basic block: 28:5-29:1"
-"Path: /home/sixsquare/codeQL/projects/glslViewer/src/core/tools/tracker.cpp","call function: 16:18-16:56","call in function: start@13-19","callee=std::system","basic block: 13:23-13:19"

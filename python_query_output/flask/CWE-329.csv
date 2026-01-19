@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/flask/tests/test_basic.py","call function: 450:16-450:27","call in function: test_session_special_types@448-476","callee=uuid.uuid4","basic block: 448:32-467:34"

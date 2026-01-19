@@ -1,0 +1,179 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:30:27Z",
+  "metrics": {
+    "./projects/python/freqtrade/freqtrade/persistence/migrations.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 4,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 320,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 4,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 4,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 320,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "170             text(\n171                 f\"\"\"insert into trades\n172             (id, exchange, pair, base_currency, stake_currency, is_open,\n173             fee_open, fee_open_cost, fee_open_currency,\n174             fee_close, fee_close_cost, fee_close_currency, open_rate,\n175             open_rate_requested, close_rate, close_rate_requested, close_profit,\n176             stake_amount, amount, amount_requested, open_date, close_date,\n177             stop_loss, stop_loss_pct, initial_stop_loss, initial_stop_loss_pct,\n178             is_stop_loss_trailing,\n179             max_rate, min_rate, exit_reason, exit_order_status, strategy, enter_tag,\n180             timeframe, open_trade_value, close_profit_abs,\n181             trading_mode, leverage, liquidation_price, is_short,\n182             interest_rate, funding_fees, funding_fee_running, realized_profit,\n183             amount_precision, price_precision, precision_mode, precision_mode_price, contract_size,\n184             max_stake_amount, record_version\n185             )\n186         select id, lower(exchange), pair, {base_currency} base_currency,\n187             {stake_currency} stake_currency,\n188             is_open, {fee_open} fee_open, {fee_open_cost} fee_open_cost,\n189             {fee_open_currency} fee_open_currency, {fee_close} fee_close,\n190             {fee_close_cost} fee_close_cost, {fee_close_currency} fee_close_currency,\n191             open_rate, {open_rate_requested} open_rate_requested, close_rate,\n192             {close_rate_requested} close_rate_requested, close_profit,\n193             stake_amount, amount, {amount_requested}, open_date, close_date,\n194             {stop_loss} stop_loss, {stop_loss_pct} stop_loss_pct,\n195             {initial_stop_loss} initial_stop_loss,\n196             {initial_stop_loss_pct} initial_stop_loss_pct,\n197             {is_stop_loss_trailing} is_stop_loss_trailing,\n198             {max_rate} max_rate, {min_rate} min_rate,\n199             case when {exit_reason} = 'sell_signal' then 'exit_signal'\n200                  when {exit_reason} = 'custom_sell' then 'custom_exit'\n201                  when {exit_reason} = 'force_sell' then 'force_exit'\n202                  when {exit_reason} = 'emergency_sell' then 'emergency_exit'\n203                  else {exit_reason}\n204             end exit_reason,\n205             {exit_order_status} exit_order_status,\n206             {strategy} strategy, {enter_tag} enter_tag, {timeframe} timeframe,\n207             {open_trade_value} open_trade_value, {close_profit_abs} close_profit_abs,\n208             {trading_mode} trading_mode, {leverage} leverage, {liquidation_price} liquidation_price,\n209             {is_short} is_short, {interest_rate} interest_rate,\n210             {funding_fees} funding_fees, {funding_fee_running} funding_fee_running,\n211             {realized_profit} realized_profit,\n212             {amount_precision} amount_precision, {price_precision} price_precision,\n213             {precision_mode} precision_mode, {precision_mode_price} precision_mode_price,\n214             {contract_size} contract_size, {max_stake_amount} max_stake_amount,\n215             {record_version} record_version\n216             from {trade_back_name}\n217             \"\"\"\n218             )\n",
+      "col_offset": 16,
+      "end_col_offset": 15,
+      "filename": "./projects/python/freqtrade/freqtrade/persistence/migrations.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 171,
+      "line_range": [
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "229     with engine.begin() as connection:\n230         connection.execute(text(f\"create table {table_back_name} as select * from orders\"))\n231         connection.execute(text(\"drop table orders\"))\n",
+      "col_offset": 32,
+      "end_col_offset": 89,
+      "filename": "./projects/python/freqtrade/freqtrade/persistence/migrations.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 230,
+      "line_range": [
+        230
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "247             text(\n248                 f\"\"\"\n249             insert into orders (id, ft_trade_id, ft_order_side, ft_pair, ft_is_open, order_id,\n250             status, symbol, order_type, side, price, amount, filled, average, remaining, cost,\n251             stop_price, order_date, order_filled_date, order_update_date, ft_fee_base, funding_fee,\n252             ft_amount, ft_price, ft_cancel_reason, ft_order_tag\n253             )\n254             select id, ft_trade_id, ft_order_side, ft_pair, ft_is_open, order_id,\n255             status, symbol, order_type, side, price, amount, filled, {average} average, remaining,\n256             cost, {stop_price} stop_price, order_date, order_filled_date,\n257             order_update_date, {ft_fee_base} ft_fee_base, {funding_fee} funding_fee,\n258             {ft_amount} ft_amount, {ft_price} ft_price, {ft_cancel_reason} ft_cancel_reason,\n259             {ft_order_tag} ft_order_tag\n260             from {table_back_name}\n261             \"\"\"\n262             )\n",
+      "col_offset": 16,
+      "end_col_offset": 15,
+      "filename": "./projects/python/freqtrade/freqtrade/persistence/migrations.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 248,
+      "line_range": [
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "280             text(\n281                 f\"\"\"insert into pairlocks\n282         (id, pair, side, reason, lock_time,\n283          lock_end_time, active)\n284         select id, pair, {side} side, reason, lock_time,\n285          lock_end_time, active\n286         from {pairlock_back_name}\n287         \"\"\"\n288             )\n",
+      "col_offset": 16,
+      "end_col_offset": 11,
+      "filename": "./projects/python/freqtrade/freqtrade/persistence/migrations.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 281,
+      "line_range": [
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

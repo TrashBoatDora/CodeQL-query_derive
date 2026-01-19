@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/tracking-with-Extended-Kalman-Filter/src/main.cpp","call function: 57:21-57:56","call in function: main@52-184","callee=std::basic_ifstream::basic_ifstream","basic block: 52:34-125:3"
-"Path: /home/sixsquare/codeQL/projects/tracking-with-Extended-Kalman-Filter/src/main.cpp","call function: 60:22-60:59","call in function: main@52-184","callee=std::basic_ofstream::basic_ofstream","basic block: 52:34-125:3"

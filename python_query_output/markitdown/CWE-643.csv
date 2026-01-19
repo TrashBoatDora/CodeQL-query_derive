@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/markitdown/packages/markitdown/src/markitdown/converter_utils/docx/math/omml.py","call function: 44:12-44:27","call in function: load@43-46","callee=defusedxml.ElementTree.parse","basic block: 43:10-45:48"
-"path: /home/sixsquare/codeQL/projects/markitdown/packages/markitdown/src/markitdown/converter_utils/docx/math/omml.py","call function: 50:12-50:32","call in function: load_string@49-52","callee=defusedxml.ElementTree.fromstring","basic block: 49:17-51:48"

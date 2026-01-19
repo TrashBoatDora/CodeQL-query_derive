@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/fastapi/tests/test_dependency_contextmanager.py","call function: 288:24-288:62","call in function: test_background_tasks@282-294","callee=json.loads","basic block: 287:5-289:55"
-"path: /home/sixsquare/codeQL/projects/fastapi/tests/test_ws_dependencies.py","call function: 58:16-58:51","call in function: test_index@55-59","callee=json.loads","basic block: 56:14-59:39"
-"path: /home/sixsquare/codeQL/projects/fastapi/tests/test_ws_dependencies.py","call function: 65:16-65:51","call in function: test_routerindex@62-66","callee=json.loads","basic block: 63:14-66:66"
-"path: /home/sixsquare/codeQL/projects/fastapi/tests/test_ws_dependencies.py","call function: 72:16-72:51","call in function: test_routerprefixindex@69-73","callee=json.loads","basic block: 70:14-73:86"
-"path: /home/sixsquare/codeQL/projects/fastapi/scripts/translate.py","call function: 677:12-677:86","call in function: get_langs@676-677","callee=yaml.safe_load","basic block: 677:12-677:86"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/path_operation_advanced_configuration/tutorial007.py","call function: 27:16-27:39","call in function: create_item@24-34","callee=yaml.safe_load","basic block: 27:31-27:39"
-"path: /home/sixsquare/codeQL/projects/fastapi/docs_src/path_operation_advanced_configuration/tutorial007_pv1.py","call function: 27:16-27:39","call in function: create_item@24-34","callee=yaml.safe_load","basic block: 27:31-27:39"

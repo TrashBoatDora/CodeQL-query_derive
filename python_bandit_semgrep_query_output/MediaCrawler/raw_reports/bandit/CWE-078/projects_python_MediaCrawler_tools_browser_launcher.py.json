@@ -1,0 +1,153 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:35:56Z",
+  "metrics": {
+    "./projects/python/MediaCrawler/tools/browser_launcher.py": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 5,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 221,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 5,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 5,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 221,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "169             if self.system == \"Windows\":\n170                 process = subprocess.Popen(\n171                     args,\n172                     stdout=subprocess.DEVNULL,\n173                     stderr=subprocess.DEVNULL,\n174                     creationflags=subprocess.CREATE_NEW_PROCESS_GROUP\n175                 )\n176             else:\n",
+      "col_offset": 26,
+      "end_col_offset": 17,
+      "filename": "./projects/python/MediaCrawler/tools/browser_launcher.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 170,
+      "line_range": [
+        170,
+        171,
+        172,
+        173,
+        174,
+        175
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "176             else:\n177                 process = subprocess.Popen(\n178                     args,\n179                     stdout=subprocess.DEVNULL,\n180                     stderr=subprocess.DEVNULL,\n181                     preexec_fn=os.setsid  # Create new process group\n182                 )\n183 \n",
+      "col_offset": 26,
+      "end_col_offset": 17,
+      "filename": "./projects/python/MediaCrawler/tools/browser_launcher.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 177,
+      "line_range": [
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "229             try:\n230                 result = subprocess.run([browser_path, \"--version\"],\n231                                       capture_output=True, text=True, timeout=5)\n232                 version = result.stdout.strip() if result.stdout else \"Unknown Version\"\n",
+      "col_offset": 25,
+      "end_col_offset": 80,
+      "filename": "./projects/python/MediaCrawler/tools/browser_launcher.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 230,
+      "line_range": [
+        230,
+        231
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "264                     utils.logger.warning(\"[BrowserLauncher] Normal termination timeout, using taskkill to force kill\")\n265                     subprocess.run(\n266                         [\"taskkill\", \"/F\", \"/T\", \"/PID\", str(process.pid)],\n267                         capture_output=True,\n268                         check=False,\n269                     )\n270                     process.wait(timeout=5)\n",
+      "col_offset": 20,
+      "end_col_offset": 21,
+      "filename": "./projects/python/MediaCrawler/tools/browser_launcher.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 265,
+      "line_range": [
+        265,
+        266,
+        267,
+        268,
+        269
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "264                     utils.logger.warning(\"[BrowserLauncher] Normal termination timeout, using taskkill to force kill\")\n265                     subprocess.run(\n266                         [\"taskkill\", \"/F\", \"/T\", \"/PID\", str(process.pid)],\n267                         capture_output=True,\n268                         check=False,\n269                     )\n270                     process.wait(timeout=5)\n",
+      "col_offset": 20,
+      "end_col_offset": 21,
+      "filename": "./projects/python/MediaCrawler/tools/browser_launcher.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 265,
+      "line_range": [
+        265,
+        266,
+        267,
+        268,
+        269
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

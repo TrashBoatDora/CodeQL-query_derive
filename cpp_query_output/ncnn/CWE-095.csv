@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/ncnn/src/benchmark.cpp","call function: 47:16-47:54","call in function: get_current_time@44-65","callee=std::system","basic block: 45:1-44:23"

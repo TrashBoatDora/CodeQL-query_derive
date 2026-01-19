@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/pytorch/tools/linter/adapters/bazel_linter.py","call function: 55:22-55:34","call in function: is_required_checksum@47-59","callee=urllib.parse.urlparse","basic block: 55:22-56:64"
-"path: /home/sixsquare/codeQL/projects/pytorch/torch/hub.py","call function: 865:13-865:25","call in function: load_state_dict_from_url@812-880","callee=urllib.parse.urlparse","basic block: 863:5-867:28"
-"path: /home/sixsquare/codeQL/projects/pytorch/torch/distributed/rendezvous.py","call function: 129:14-129:26","call in function: _file_rendezvous_handler@125-154","callee=urllib.parse.urlparse","basic block: 125:30-131:30"
-"path: /home/sixsquare/codeQL/projects/pytorch/torch/distributed/rendezvous.py","call function: 256:14-256:26","call in function: _env_rendezvous_handler@240-285","callee=urllib.parse.urlparse","basic block: 241:5-264:27"
-"path: /home/sixsquare/codeQL/projects/pytorch/torch/distributed/rendezvous.py","call function: 75:14-75:26","call in function: _rendezvous_helper@74-100","callee=urllib.parse.urlparse","basic block: 74:24-76:29"
-"path: /home/sixsquare/codeQL/projects/pytorch/torch/distributed/rendezvous.py","call function: 215:14-215:26","call in function: _tcp_rendezvous_handler@209-237","callee=urllib.parse.urlparse","basic block: 210:5-216:26"

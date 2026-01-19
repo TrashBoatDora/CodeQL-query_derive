@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/gtl/build/googletest-src/googletest/src/gtest-port.cc","call function: 110:8-110:8","call in function: ReadProcFileField@103-112","callee=std::basic_istream::operator>>","basic block: 109:3-103:3"
-"Path: /home/sixsquare/codeQL/projects/gtl/examples/phmap/mt_word_counter.cpp","call function: 42:16-42:27","call in function: main@18-98","callee=std::getline","basic block: 42:29-42:16"

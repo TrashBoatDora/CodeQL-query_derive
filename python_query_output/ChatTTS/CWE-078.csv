@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 189:9-189:85","call in function: download_all_assets@154-222","callee=subprocess.run","basic block: 189:25-189:85"
-"path: /home/sixsquare/codeQL/projects/ChatTTS/ChatTTS/utils/dl.py","call function: 210:9-222:9","call in function: download_all_assets@154-222","callee=subprocess.run","basic block: 210:9-222:9"

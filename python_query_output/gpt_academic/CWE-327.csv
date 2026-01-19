@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/themes/common.py","call function: 38:20-38:64","call in function: minimize_js@24-46","callee=hashlib.sha256","basic block: 38:20-38:64"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/request_llms/com_sparkapi.py","call function: 41:25-41:124","call in function: create_url@30-55","callee=hmac.new","basic block: 30:20-55:18"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/shared_utils/nltk_downloader.py","call function: 2220:18-2220:22","call in function: _md5_hexdigest@2219-2226","callee=hashlib.md5","basic block: 2219:20-2220:14"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/toolbox.py","call function: 949:16-949:38","call in function: map_file_to_sha256@942-951","callee=hashlib.sha256","basic block: 942:24-951:19"

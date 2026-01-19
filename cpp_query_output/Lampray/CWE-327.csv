@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/Lampray/Lampray/Filesystem/lampUpdate.cpp","call function: 15:9-15:56","call in function: checkForUpdates@11-38","callee=curl_easy_setopt","basic block: 13:15-20:27"
-"Path: /home/sixsquare/codeQL/projects/Lampray/Lampray/Filesystem/lampUpdate.cpp","call function: 17:9-17:68","call in function: checkForUpdates@11-38","callee=curl_easy_setopt","basic block: 13:15-20:27"
-"Path: /home/sixsquare/codeQL/projects/Lampray/Lampray/Filesystem/lampUpdate.cpp","call function: 18:9-18:65","call in function: checkForUpdates@11-38","callee=curl_easy_setopt","basic block: 13:15-20:27"

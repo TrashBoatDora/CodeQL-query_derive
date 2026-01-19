@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/duckdb/test/sqlite/sqllogic_parser.cpp","call function: 17:9-17:20","call in function: OpenFile@8-21","callee=std::getline","basic block: 17:22-17:9"
-"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/pcg/pcg_extras.hpp","call function: 223:8-223:8","call in function: operator>>@220-232","callee=std::basic_istream::operator>>","basic block: 221:1-224:9"
-"Path: /home/sixsquare/codeQL/projects/duckdb/src/common/string_util.cpp","call function: 354:9-354:15","call in function: Split@350-358","callee=std::getline","basic block: 354:17-354:9"
-"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/catch/catch.hpp","call function: 10551:36-10551:47","call in function: isDebuggerActive@10546-10562","callee=std::getline","basic block: 10551:49-10551:36"
-"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/catch/catch.hpp","call function: 9785:24-9785:35","call in function: operator()@9779-9799","callee=std::getline","basic block: 9785:38-9785:24"
-"Path: /home/sixsquare/codeQL/projects/duckdb/third_party/catch/catch.hpp","call function: 9130:12-9130:12","call in function: convertInto@9126-9135","callee=std::basic_istream::operator>>","basic block: 9126:85-9131:19"

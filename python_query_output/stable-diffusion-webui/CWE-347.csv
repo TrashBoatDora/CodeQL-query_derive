@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/stable-diffusion-webui/modules/api/api.py","call function: 281:16-281:91","call in function: auth@279-284","callee=secrets.compare_digest","basic block: 281:16-281:91"

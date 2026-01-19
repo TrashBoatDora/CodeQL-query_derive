@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/highway/hwy/timer.cc","call function: 60:10-60:14","call in function: MeasureNominalClockRate@51-77","callee=std::time","basic block: 54:37-69:5"
-"Path: /home/sixsquare/codeQL/projects/highway/hwy/contrib/random/random_test.cc","call function: 76:54-76:54","call in function: TestMultiThreadSeeding@74-100","callee=std::rand","basic block: 74:31-80:26"
-"Path: /home/sixsquare/codeQL/projects/highway/hwy/contrib/random/random_test.cc","call function: 76:34-76:53","call in function: TestMultiThreadSeeding@74-100","callee=std::rand","basic block: 76:34-76:53"
-"Path: /home/sixsquare/codeQL/projects/highway/hwy/contrib/random/random_test.cc","call function: 76:34-76:53","call in function: TestMultiThreadSeeding@74-100","callee=std::rand","basic block: 74:31-80:26"
-"Path: /home/sixsquare/codeQL/projects/highway/hwy/contrib/random/random_test.cc","call function: 30:56-30:64","call in function: GetSeed@30-30","callee=time","basic block: 30:25-30:21"

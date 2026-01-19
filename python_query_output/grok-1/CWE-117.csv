@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/grok-1/run.py","call function: 67:5-67:98","call in function: main@24-67","callee=print","basic block: 25:20-67:98"
-"path: /home/sixsquare/codeQL/projects/grok-1/checkpoint.py","call function: 138:33-138:90","call in function: get_load_path_str@122-141","callee=re.sub","basic block: 138:33-139:21"
-"path: /home/sixsquare/codeQL/projects/grok-1/runners.py","call function: 592:23-592:80","call in function: make_mesh@580-593","callee=re.sub","basic block: 584:5-593:60"

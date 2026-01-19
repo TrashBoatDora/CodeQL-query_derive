@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Open-Assistant/data/datasets/oa_stackexchange/process.py","call function: 56:22-56:67","call in function: parse_and_convert@52-85","callee=subprocess.getoutput","basic block: 52:23-66:53"
-"path: /home/sixsquare/codeQL/projects/Open-Assistant/model/pretokenizer/pretokenize.py","call function: 427:9-427:82","call in function: main@368-427","callee=subprocess.run","basic block: 427:9-427:82"

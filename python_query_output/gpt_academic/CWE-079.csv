@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/shared_utils/advanced_markdown_format.py","call function: 494:28-494:44","call in function: compat_non_markdown_input@481-502","callee=html.escape","basic block: 494:28-495:31"
-"path: /home/sixsquare/codeQL/projects/gpt_academic/crazy_functions/paper_fns/file2file_doc/html_doc.py","call function: 165:16-165:32","call in function: _escape_html@162-165","callee=html.escape","basic block: 162:22-165:32"

@@ -1,0 +1,3102 @@
+{
+  "AutoGPT/autogpt_platform/backend/backend/util/text.py": [
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/backend/util/text.py",
+      "line_start": 135,
+      "line_end": 135,
+      "scanner": "bandit",
+      "rule_id": "B704",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS with ``markupsafe.Markup`` detected. Do not use ``Markup`` on untrusted data."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/backend/util/text.py",
+      "line_start": 143,
+      "line_end": 143,
+      "scanner": "bandit",
+      "rule_id": "B704",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS with ``markupsafe.Markup`` detected. Do not use ``Markup`` on untrusted data."
+    }
+  ],
+  "OpenHands/enterprise/integrations/github/github_manager.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/github/github_manager.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/integrations/gitlab/gitlab_manager.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/gitlab/gitlab_manager.py",
+      "line_start": 35,
+      "line_end": 35,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/integrations/jira/jira_manager.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/jira/jira_manager.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/integrations/jira_dc/jira_dc_manager.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/jira_dc/jira_dc_manager.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/integrations/linear/linear_manager.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/linear/linear_manager.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/integrations/slack/slack_manager.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/slack/slack_manager.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/integrations/solvability/prompts/__init__.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/solvability/prompts/__init__.py",
+      "line_start": 8,
+      "line_end": 8,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/integrations/utils.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/integrations/utils.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/tests/unit/integrations/jira/conftest.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/tests/unit/integrations/jira/conftest.py",
+      "line_start": 168,
+      "line_end": 168,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/tests/unit/integrations/jira_dc/conftest.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/tests/unit/integrations/jira_dc/conftest.py",
+      "line_start": 171,
+      "line_end": 171,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/enterprise/tests/unit/integrations/linear/conftest.py": [
+    {
+      "file_path": "projects/python/OpenHands/enterprise/tests/unit/integrations/linear/conftest.py",
+      "line_start": 147,
+      "line_end": 147,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/evaluation/benchmarks/nocode_bench/run_infer_nc.py": [
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/nocode_bench/run_infer_nc.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/evaluation/benchmarks/swe_bench/run_infer.py": [
+    {
+      "file_path": "projects/python/OpenHands/evaluation/benchmarks/swe_bench/run_infer.py",
+      "line_start": 135,
+      "line_end": 135,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/openhands/integrations/service_types.py": [
+    {
+      "file_path": "projects/python/OpenHands/openhands/integrations/service_types.py",
+      "line_start": 91,
+      "line_end": 91,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/openhands/runtime/utils/runtime_build.py": [
+    {
+      "file_path": "projects/python/OpenHands/openhands/runtime/utils/runtime_build.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/openhands/server/routes/manage_conversations.py": [
+    {
+      "file_path": "projects/python/OpenHands/openhands/server/routes/manage_conversations.py",
+      "line_start": 655,
+      "line_end": 655,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "OpenHands/openhands/utils/prompt.py": [
+    {
+      "file_path": "projects/python/OpenHands/openhands/utils/prompt.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "Umi-OCR/UmiOCR-data/py_src/server/bottle.py": [
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 3663,
+      "line_end": 3663,
+      "scanner": "bandit",
+      "rule_id": "B702",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Mako templates allow HTML/JS rendering by default and are inherently open to XSS attacks. Ensure variables in all templates are properly sanitized via the 'n', 'h' or 'x' flags (depending on context). For example, to HTML escape the variable 'data' do ${ data |h }."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 3665,
+      "line_end": 3665,
+      "scanner": "bandit",
+      "rule_id": "B702",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Mako templates allow HTML/JS rendering by default and are inherently open to XSS attacks. Ensure variables in all templates are properly sanitized via the 'n', 'h' or 'x' flags (depending on context). For example, to HTML escape the variable 'data' do ${ data |h }."
+    },
+    {
+      "file_path": "projects/python/Umi-OCR/UmiOCR-data/py_src/server/bottle.py",
+      "line_start": 3708,
+      "line_end": 3708,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "airflow/dev/assign_cherry_picked_prs_with_milestone.py": [
+    {
+      "file_path": "projects/python/airflow/dev/assign_cherry_picked_prs_with_milestone.py",
+      "line_start": 159,
+      "line_end": 159,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "description": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "airflow/dev/breeze/src/airflow_breeze/commands/release_management_commands.py": [
+    {
+      "file_path": "projects/python/airflow/dev/breeze/src/airflow_breeze/commands/release_management_commands.py",
+      "line_start": 2793,
+      "line_end": 2793,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "description": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "airflow/dev/breeze/src/airflow_breeze/utils/packages.py": [
+    {
+      "file_path": "projects/python/airflow/dev/breeze/src/airflow_breeze/utils/packages.py",
+      "line_start": 753,
+      "line_end": 753,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "description": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "airflow/dev/prepare_bulk_issues.py": [
+    {
+      "file_path": "projects/python/airflow/dev/prepare_bulk_issues.py",
+      "line_start": 70,
+      "line_end": 70,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "description": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    },
+    {
+      "file_path": "projects/python/airflow/dev/prepare_bulk_issues.py",
+      "line_start": 97,
+      "line_end": 97,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "MEDIUM",
+      "description": "Using jinja2 templates with autoescape=False is dangerous and can lead to XSS. Ensure autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "airflow/devel-common/src/sphinx_exts/docs_build/dev_index_generator.py": [
+    {
+      "file_path": "projects/python/airflow/devel-common/src/sphinx_exts/docs_build/dev_index_generator.py",
+      "line_start": 36,
+      "line_end": 36,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "airflow/devel-common/src/sphinx_exts/operators_and_hooks_ref.py": [
+    {
+      "file_path": "projects/python/airflow/devel-common/src/sphinx_exts/operators_and_hooks_ref.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "airflow/providers/fab/src/airflow/providers/fab/auth_manager/security_manager/override.py": [
+    {
+      "file_path": "projects/python/airflow/providers/fab/src/airflow/providers/fab/auth_manager/security_manager/override.py",
+      "line_start": 2494,
+      "line_end": 2494,
+      "scanner": "bandit",
+      "rule_id": "B704",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS with ``markupsafe.Markup`` detected. Do not use ``Markup`` on untrusted data."
+    }
+  ],
+  "airflow/providers/openlineage/tests/system/openlineage/operator.py": [
+    {
+      "file_path": "projects/python/airflow/providers/openlineage/tests/system/openlineage/operator.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "ansible/packaging/cli-doc/build.py": [
+    {
+      "file_path": "projects/python/ansible/packaging/cli-doc/build.py",
+      "line_start": 106,
+      "line_end": 106,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "ansible/test/integration/targets/var_precedence/ansible-var-precedence-check.py": [
+    {
+      "file_path": "projects/python/ansible/test/integration/targets/var_precedence/ansible-var-precedence-check.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    },
+    {
+      "file_path": "projects/python/ansible/test/integration/targets/var_precedence/ansible-var-precedence-check.py",
+      "line_start": 103,
+      "line_end": 103,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "diagrams/scripts/generate.py": [
+    {
+      "file_path": "projects/python/diagrams/scripts/generate.py",
+      "line_start": 15,
+      "line_end": 15,
+      "scanner": "bandit",
+      "rule_id": "B701",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "By default, jinja2 sets autoescape to False. Consider using autoescape=True or use the select_autoescape function to mitigate XSS vulnerabilities."
+    }
+  ],
+  "django/django/contrib/admin/helpers.py": [
+    {
+      "file_path": "projects/python/django/django/contrib/admin/helpers.py",
+      "line_start": 161,
+      "line_end": 161,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/helpers.py",
+      "line_start": 161,
+      "line_end": 161,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/helpers.py",
+      "line_start": 193,
+      "line_end": 193,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/helpers.py",
+      "line_start": 193,
+      "line_end": 193,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/helpers.py",
+      "line_start": 200,
+      "line_end": 200,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/helpers.py",
+      "line_start": 200,
+      "line_end": 200,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/contrib/admin/options.py": [
+    {
+      "file_path": "projects/python/django/django/contrib/admin/options.py",
+      "line_start": 379,
+      "line_end": 379,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/options.py",
+      "line_start": 379,
+      "line_end": 379,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/options.py",
+      "line_start": 381,
+      "line_end": 381,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/options.py",
+      "line_start": 381,
+      "line_end": 381,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/contrib/admin/templatetags/admin_list.py": [
+    {
+      "file_path": "projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "line_start": 106,
+      "line_end": 106,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "line_start": 259,
+      "line_end": 259,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "line_start": 310,
+      "line_end": 310,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "line_start": 310,
+      "line_end": 310,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "line_start": 341,
+      "line_end": 341,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admin/templatetags/admin_list.py",
+      "line_start": 341,
+      "line_end": 341,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/contrib/admindocs/utils.py": [
+    {
+      "file_path": "projects/python/django/django/contrib/admindocs/utils.py",
+      "line_start": 92,
+      "line_end": 92,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admindocs/utils.py",
+      "line_start": 92,
+      "line_end": 92,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admindocs/utils.py",
+      "line_start": 268,
+      "line_end": 268,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/admindocs/utils.py",
+      "line_start": 268,
+      "line_end": 268,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/contrib/flatpages/views.py": [
+    {
+      "file_path": "projects/python/django/django/contrib/flatpages/views.py",
+      "line_start": 67,
+      "line_end": 67,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/flatpages/views.py",
+      "line_start": 67,
+      "line_end": 67,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/flatpages/views.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/flatpages/views.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/contrib/humanize/templatetags/humanize.py": [
+    {
+      "file_path": "projects/python/django/django/contrib/humanize/templatetags/humanize.py",
+      "line_start": 66,
+      "line_end": 66,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/humanize/templatetags/humanize.py",
+      "line_start": 66,
+      "line_end": 66,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/contrib/messages/storage/cookie.py": [
+    {
+      "file_path": "projects/python/django/django/contrib/messages/storage/cookie.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/contrib/messages/storage/cookie.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/forms/utils.py": [
+    {
+      "file_path": "projects/python/django/django/forms/utils.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/forms/utils.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/forms/widgets.py": [
+    {
+      "file_path": "projects/python/django/django/forms/widgets.py",
+      "line_start": 146,
+      "line_end": 146,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/forms/widgets.py",
+      "line_start": 146,
+      "line_end": 146,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/forms/widgets.py",
+      "line_start": 336,
+      "line_end": 336,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/forms/widgets.py",
+      "line_start": 336,
+      "line_end": 336,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/template/base.py": [
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 807,
+      "line_end": 807,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 807,
+      "line_end": 807,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 817,
+      "line_end": 817,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 817,
+      "line_end": 817,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 906,
+      "line_end": 906,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 906,
+      "line_end": 906,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 935,
+      "line_end": 935,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 935,
+      "line_end": 935,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/base.py",
+      "line_start": 1091,
+      "line_end": 1091,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    }
+  ],
+  "django/django/template/defaultfilters.py": [
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 49,
+      "line_end": 49,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 185,
+      "line_end": 185,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 185,
+      "line_end": 185,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 213,
+      "line_end": 213,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 213,
+      "line_end": 213,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 244,
+      "line_end": 244,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 244,
+      "line_end": 244,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 386,
+      "line_end": 386,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 386,
+      "line_end": 386,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 398,
+      "line_end": 398,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 398,
+      "line_end": 398,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 448,
+      "line_end": 448,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 448,
+      "line_end": 448,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 494,
+      "line_end": 494,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 494,
+      "line_end": 494,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 508,
+      "line_end": 508,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 508,
+      "line_end": 508,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 515,
+      "line_end": 515,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 515,
+      "line_end": 515,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 525,
+      "line_end": 525,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 525,
+      "line_end": 525,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 621,
+      "line_end": 621,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 621,
+      "line_end": 621,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 737,
+      "line_end": 737,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaultfilters.py",
+      "line_start": 737,
+      "line_end": 737,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/template/defaulttags.py": [
+    {
+      "file_path": "projects/python/django/django/template/defaulttags.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaulttags.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaulttags.py",
+      "line_start": 256,
+      "line_end": 256,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/defaulttags.py",
+      "line_start": 256,
+      "line_end": 256,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/template/loader_tags.py": [
+    {
+      "file_path": "projects/python/django/django/template/loader_tags.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/template/loader_tags.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/templatetags/i18n.py": [
+    {
+      "file_path": "projects/python/django/django/templatetags/i18n.py",
+      "line_start": 96,
+      "line_end": 96,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/templatetags/i18n.py",
+      "line_start": 96,
+      "line_end": 96,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/templatetags/i18n.py",
+      "line_start": 201,
+      "line_end": 201,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    }
+  ],
+  "django/django/utils/html.py": [
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 62,
+      "line_end": 62,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 90,
+      "line_end": 90,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 113,
+      "line_end": 113,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 113,
+      "line_end": 113,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 116,
+      "line_end": 116,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 116,
+      "line_end": 116,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 145,
+      "line_end": 145,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 145,
+      "line_end": 145,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 162,
+      "line_end": 162,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 162,
+      "line_end": 162,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 400,
+      "line_end": 400,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 403,
+      "line_end": 403,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 403,
+      "line_end": 403,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 407,
+      "line_end": 407,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 407,
+      "line_end": 407,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 532,
+      "line_end": 532,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/html.py",
+      "line_start": 532,
+      "line_end": 532,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/utils/numberformat.py": [
+    {
+      "file_path": "projects/python/django/django/utils/numberformat.py",
+      "line_start": 29,
+      "line_end": 29,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/numberformat.py",
+      "line_start": 29,
+      "line_end": 29,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/numberformat.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/numberformat.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/django/utils/translation/trans_real.py": [
+    {
+      "file_path": "projects/python/django/django/utils/translation/trans_real.py",
+      "line_start": 392,
+      "line_end": 392,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/translation/trans_real.py",
+      "line_start": 392,
+      "line_end": 392,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/translation/trans_real.py",
+      "line_start": 404,
+      "line_end": 404,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/django/utils/translation/trans_real.py",
+      "line_start": 404,
+      "line_end": 404,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/admin_utils/tests.py": [
+    {
+      "file_path": "projects/python/django/tests/admin_utils/tests.py",
+      "line_start": 441,
+      "line_end": 441,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/admin_utils/tests.py",
+      "line_start": 442,
+      "line_end": 442,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/admin_views/admin.py": [
+    {
+      "file_path": "projects/python/django/tests/admin_views/admin.py",
+      "line_start": 629,
+      "line_end": 629,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/forms_tests/tests/test_error_messages.py": [
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_error_messages.py",
+      "line_start": 241,
+      "line_end": 241,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_error_messages.py",
+      "line_start": 241,
+      "line_end": 241,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/forms_tests/tests/test_forms.py": [
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "line_start": 1412,
+      "line_end": 1412,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "line_start": 1421,
+      "line_end": 1421,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "line_start": 1421,
+      "line_end": 1421,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_forms.py",
+      "line_start": 4218,
+      "line_end": 4218,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/forms_tests/tests/test_utils.py": [
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_utils.py",
+      "line_start": 149,
+      "line_end": 149,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/forms_tests/tests/test_utils.py",
+      "line_start": 160,
+      "line_end": 160,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/forms_tests/widget_tests/test_radioselect.py": [
+    {
+      "file_path": "projects/python/django/tests/forms_tests/widget_tests/test_radioselect.py",
+      "line_start": 259,
+      "line_end": 259,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/forms_tests/widget_tests/test_select.py": [
+    {
+      "file_path": "projects/python/django/tests/forms_tests/widget_tests/test_select.py",
+      "line_start": 202,
+      "line_end": 202,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/forms_tests/widget_tests/test_textarea.py": [
+    {
+      "file_path": "projects/python/django/tests/forms_tests/widget_tests/test_textarea.py",
+      "line_start": 59,
+      "line_end": 59,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/forms_tests/widget_tests/test_textinput.py": [
+    {
+      "file_path": "projects/python/django/tests/forms_tests/widget_tests/test_textinput.py",
+      "line_start": 109,
+      "line_end": 109,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/i18n/tests.py": [
+    {
+      "file_path": "projects/python/django/tests/i18n/tests.py",
+      "line_start": 413,
+      "line_end": 413,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/i18n/tests.py",
+      "line_start": 424,
+      "line_end": 424,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/i18n/tests.py",
+      "line_start": 425,
+      "line_end": 425,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/i18n/tests.py",
+      "line_start": 431,
+      "line_end": 431,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/i18n/tests.py",
+      "line_start": 432,
+      "line_end": 432,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/i18n/tests.py",
+      "line_start": 433,
+      "line_end": 433,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/i18n/tests.py",
+      "line_start": 433,
+      "line_end": 433,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/messages_tests/test_cookie.py": [
+    {
+      "file_path": "projects/python/django/tests/messages_tests/test_cookie.py",
+      "line_start": 190,
+      "line_end": 190,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/messages_tests/test_session.py": [
+    {
+      "file_path": "projects/python/django/tests/messages_tests/test_session.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_addslashes.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_addslashes.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_addslashes.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_capfirst.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_capfirst.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_capfirst.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_center.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_center.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_center.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_chaining.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_chaining.py",
+      "line_start": 15,
+      "line_end": 15,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_chaining.py",
+      "line_start": 29,
+      "line_end": 29,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_chaining.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_chaining.py",
+      "line_start": 51,
+      "line_end": 51,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_cut.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "line_start": 45,
+      "line_end": 45,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "line_start": 60,
+      "line_end": 60,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_cut.py",
+      "line_start": 67,
+      "line_end": 67,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_default.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_default.py",
+      "line_start": 29,
+      "line_end": 29,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_default.py",
+      "line_start": 34,
+      "line_end": 34,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_escape.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_escape.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_escape.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_escapeseq.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_escapeseq.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_first.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_first.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_first.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_floatformat.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_floatformat.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_floatformat.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_iriencode.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_iriencode.py",
+      "line_start": 28,
+      "line_end": 28,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_iriencode.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_join.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_join.py",
+      "line_start": 40,
+      "line_end": 40,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_join.py",
+      "line_start": 54,
+      "line_end": 54,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_last.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_last.py",
+      "line_start": 11,
+      "line_end": 11,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_last.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_length.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_length.py",
+      "line_start": 34,
+      "line_end": 34,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_length.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_linebreaks.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_linebreaks.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_linebreaks.py",
+      "line_start": 32,
+      "line_end": 32,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_linebreaksbr.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_linebreaksbr.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_linebreaksbr.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_linenumbers.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_linenumbers.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_linenumbers.py",
+      "line_start": 35,
+      "line_end": 35,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_ljust.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_ljust.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_ljust.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_lower.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_lower.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_lower.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_make_list.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_make_list.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_make_list.py",
+      "line_start": 21,
+      "line_end": 21,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_make_list.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_make_list.py",
+      "line_start": 38,
+      "line_end": 38,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_phone2numeric.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_phone2numeric.py",
+      "line_start": 13,
+      "line_end": 13,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_phone2numeric.py",
+      "line_start": 28,
+      "line_end": 28,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_random.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_random.py",
+      "line_start": 11,
+      "line_end": 11,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_random.py",
+      "line_start": 11,
+      "line_end": 11,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_random.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_random.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_rjust.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_rjust.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_rjust.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_slice.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_slice.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_slice.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_slugify.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_slugify.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_slugify.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_stringformat.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_stringformat.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_stringformat.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_striptags.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_striptags.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_striptags.py",
+      "line_start": 34,
+      "line_end": 34,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_truncatewords.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_truncatewords.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_truncatewords.py",
+      "line_start": 28,
+      "line_end": 28,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_unordered_list.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_unordered_list.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_unordered_list.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_upper.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_upper.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_upper.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_urlize.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_urlize.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_urlize.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_urlize.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_urlize.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_urlizetrunc.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_urlizetrunc.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_urlizetrunc.py",
+      "line_start": 40,
+      "line_end": 40,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_wordcount.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_wordcount.py",
+      "line_start": 19,
+      "line_end": 19,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_wordcount.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/filter_tests/test_wordwrap.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_wordwrap.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/filter_tests/test_wordwrap.py",
+      "line_start": 27,
+      "line_end": 27,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/syntax_tests/i18n/test_blocktranslate.py",
+      "line_start": 202,
+      "line_end": 202,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/syntax_tests/i18n/test_translate.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/syntax_tests/i18n/test_translate.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/syntax_tests/test_autoescape.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/syntax_tests/test_autoescape.py",
+      "line_start": 53,
+      "line_end": 53,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/template_tests/syntax_tests/test_autoescape.py",
+      "line_start": 60,
+      "line_end": 60,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/template_tests/utils.py": [
+    {
+      "file_path": "projects/python/django/tests/template_tests/utils.py",
+      "line_start": 188,
+      "line_end": 188,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/utils_tests/test_html.py": [
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_html.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_html.py",
+      "line_start": 70,
+      "line_end": 70,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_html.py",
+      "line_start": 375,
+      "line_end": 375,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_html.py",
+      "line_start": 376,
+      "line_end": 376,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/utils_tests/test_safestring.py": [
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 32,
+      "line_end": 32,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 51,
+      "line_end": 51,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 51,
+      "line_end": 51,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 61,
+      "line_end": 61,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 66,
+      "line_end": 66,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 69,
+      "line_end": 69,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 69,
+      "line_end": 69,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 73,
+      "line_end": 73,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 100,
+      "line_end": 100,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 100,
+      "line_end": 100,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 111,
+      "line_end": 111,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 111,
+      "line_end": 111,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 147,
+      "line_end": 147,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 147,
+      "line_end": 147,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 155,
+      "line_end": 155,
+      "scanner": "bandit",
+      "rule_id": "B703",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Potential XSS on mark_safe function."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 155,
+      "line_end": 155,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 162,
+      "line_end": 162,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 164,
+      "line_end": 164,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 167,
+      "line_end": 167,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/utils_tests/test_safestring.py",
+      "line_start": 169,
+      "line_end": 169,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ],
+  "django/tests/view_tests/tests/test_debug.py": [
+    {
+      "file_path": "projects/python/django/tests/view_tests/tests/test_debug.py",
+      "line_start": 735,
+      "line_end": 735,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/view_tests/tests/test_debug.py",
+      "line_start": 798,
+      "line_end": 798,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/view_tests/tests/test_debug.py",
+      "line_start": 801,
+      "line_end": 801,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/view_tests/tests/test_debug.py",
+      "line_start": 803,
+      "line_end": 803,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/view_tests/tests/test_debug.py",
+      "line_start": 844,
+      "line_end": 844,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/view_tests/tests/test_debug.py",
+      "line_start": 1079,
+      "line_end": 1079,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    },
+    {
+      "file_path": "projects/python/django/tests/view_tests/tests/test_debug.py",
+      "line_start": 1133,
+      "line_end": 1133,
+      "scanner": "bandit",
+      "rule_id": "B308",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Use of mark_safe() may expose cross-site scripting vulnerabilities and should be reviewed."
+    }
+  ]
+}

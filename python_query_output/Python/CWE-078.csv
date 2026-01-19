@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Python/machine_learning/linear_discriminant_analysis.py","call function: 403:9-403:50","call in function: main@287-403","callee=os.system","basic block: 403:16-403:50"

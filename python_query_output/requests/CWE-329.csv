@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/requests/src/requests/auth.py","call function: 203:14-203:26","call in function: build_digest_header@126-234","callee=os.urandom","basic block: 199:19-206:35"

@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/src/io/local_filesys.cc","call function: 201:10-201:16","call in function: Open@148-213","callee=fopen","basic block: 201:5-205:3"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/src/io/local_filesys.cc","call function: 102:14-102:20","call in function: ListDirectory@100-146","callee=open","basic block: 100:87-103:17"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/src/io/single_file_split.h","call function: 44:13-44:19","call in function: SingleFileSplit@34-51","callee=fopen","basic block: 42:22-48:24"
-"Path: /home/sixsquare/codeQL/projects/xgboost/dmlc-core/include/dmlc/filesystem.h","call function: 108:20-108:26","call in function: TemporaryDirectory@61-118","callee=mkdtemp","basic block: 105:5-109:15"
-"Path: /home/sixsquare/codeQL/projects/xgboost/src/common/io.cc","call function: 347:55-347:59","call in function: ReadFileIntoBuffer@341-370","callee=fopen","basic block: 345:3-355:14"
-"Path: /home/sixsquare/codeQL/projects/xgboost/src/common/io.cc","call function: 244:13-244:16","call in function: OpenMmap@233-283","callee=open","basic block: 244:3-245:17"

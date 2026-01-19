@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/app/service/system_service.py","call function: 42:23-42:38","call in function: _compare_hash@39-46","callee=hashlib.sha256","basic block: 40:9-46:44"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/app/logs/utils/utils.py","call function: 11:22-11:33","call in function: get_session_id@9-12","callee=uuid.uuid4","basic block: 10:5-12:21"
-"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/app/logs/utils/utils.py","call function: 54:25-54:36","call in function: create_log_uuid_if_not_exists@50-59","callee=uuid.uuid4","basic block: 54:22-55:55"

@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ultralytics/ultralytics/utils/__init__.py","call function: 1318:21-1318:64","call in function: __init__@1301-1348","callee=hashlib.sha256","basic block: 1309:26-1344:37"
-"path: /home/sixsquare/codeQL/projects/ultralytics/tests/test_exports.py","call function: 73:58-73:69","call in function: test_export_openvino_matrix@57-75","callee=uuid.uuid4","basic block: 72:16-73:12"

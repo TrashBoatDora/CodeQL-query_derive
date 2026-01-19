@@ -1,0 +1,276 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T02:16:50Z",
+  "metrics": {
+    "./projects/python/cpython/Lib/test/test_tarfile.py": {
+      "CONFIDENCE.HIGH": 12,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 12,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3714,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 12,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 12,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3714,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "717             directories = [t for t in tar if t.isdir()]\n718             tar.extractall(DIR, directories, filter='fully_trusted')\n719             for tarinfo in directories:\n",
+      "col_offset": 12,
+      "end_col_offset": 68,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 718,
+      "line_range": [
+        718
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "752             directories = [t for t in tar if t.isdir()]\n753             tar.extractall(DIR, directories)\n754 \n",
+      "col_offset": 12,
+      "end_col_offset": 44,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 753,
+      "line_range": [
+        753
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "779             directories = [t for t in tar if t.isdir()]\n780             tar.extractall(os_helper.FakePath(DIR), directories, filter='fully_trusted')\n781             for tarinfo in directories:\n",
+      "col_offset": 12,
+      "end_col_offset": 88,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 780,
+      "line_range": [
+        780
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "1659                 try:\n1660                     tar.extractall(path=tempdir,\n1661                                    filter='fully_trusted')\n1662                 except OSError:\n",
+      "col_offset": 20,
+      "end_col_offset": 58,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 1660,
+      "line_range": [
+        1660,
+        1661
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "2799         try:\n2800             arc.open().extractall(path=tempdir, filter='tar')\n2801         finally:\n",
+      "col_offset": 12,
+      "end_col_offset": 61,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 2800,
+      "line_range": [
+        2800
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "3251                                                 filename_2):\n3252             tarfl.extractall(TEMPDIR, numeric_owner=True,\n3253                              filter='fully_trusted')\n3254 \n",
+      "col_offset": 12,
+      "end_col_offset": 52,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 3252,
+      "line_range": [
+        3252,
+        3253
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "3350                     action=\"ignore\", category=DeprecationWarning))\n3351             tar.extractall(cls.control_dir, filter=cls.extraction_filter)\n3352         tar.close()\n",
+      "col_offset": 12,
+      "end_col_offset": 73,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 3351,
+      "line_range": [
+        3351
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "3378         with os_helper.temp_dir(DIR):\n3379             self.tar.extractall(DIR, filter='fully_trusted')\n3380             self.check_files_present(DIR)\n",
+      "col_offset": 12,
+      "end_col_offset": 60,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 3379,
+      "line_range": [
+        3379
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "3717             try:\n3718                 tar.extractall(self.destdir, filter=filter)\n3719             except Exception as exc:\n",
+      "col_offset": 16,
+      "end_col_offset": 59,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 3718,
+      "line_range": [
+        3718
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "4475             with self.assertRaises(UnicodeEncodeError):\n4476                 tar.extractall()\n4477             self.assertEqual(os.listdir(), [])\n",
+      "col_offset": 16,
+      "end_col_offset": 32,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 4476,
+      "line_range": [
+        4476
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "4481             with support.captured_stderr() as stderr:\n4482                 tar.extractall()\n4483             self.assertEqual(os.listdir(), [])\n",
+      "col_offset": 16,
+      "end_col_offset": 32,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 4482,
+      "line_range": [
+        4482
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    },
+    {
+      "code": "4680     def extractall(self, ar):\n4681         ar.extractall(self.testdir, filter='fully_trusted')\n4682 \n",
+      "col_offset": 8,
+      "end_col_offset": 59,
+      "filename": "./projects/python/cpython/Lib/test/test_tarfile.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 22,
+        "link": "https://cwe.mitre.org/data/definitions/22.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "tarfile.extractall used without any validation. Please check and discard dangerous members.",
+      "line_number": 4681,
+      "line_range": [
+        4681
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b202_tarfile_unsafe_members.html",
+      "test_id": "B202",
+      "test_name": "tarfile_unsafe_members"
+    }
+  ]
+}

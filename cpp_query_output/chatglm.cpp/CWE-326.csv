@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/chatglm.cpp/third_party/abseil-cpp/absl/random/internal/seed_material.cc","call function: 148:18-148:27","call in function: ReadSeedMaterialFromGetEntropy@142-159","callee=getentropy","basic block: 145:27-149:18"

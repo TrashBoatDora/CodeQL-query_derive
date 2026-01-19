@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/hnswlib/tests/cpp/sift_1b.cpp","call function: 130:15-130:19","call in function: getCurrentRSS@110-143","callee=fopen","basic block: 110:31-130:53"

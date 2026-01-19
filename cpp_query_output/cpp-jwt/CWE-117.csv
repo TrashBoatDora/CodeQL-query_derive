@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/json/json.hpp","call function: 15894:38-15894:50","call in function: dump_escaped@15817-16063","callee=snprintf","basic block: 15893:33-15896:46"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/json/json.hpp","call function: 15900:38-15900:50","call in function: dump_escaped@15817-16063","callee=snprintf","basic block: 15899:33-15903:47"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/json/json.hpp","call function: 15938:30-15938:42","call in function: dump_escaped@15817-16063","callee=snprintf","basic block: 15935:25-15940:25"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/json/json.hpp","call function: 15938:30-15938:42","call in function: dump_escaped@15817-16063","callee=snprintf","basic block: 15935:25-15939:128"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/json/json.hpp","call function: 16032:22-16032:34","call in function: dump_escaped@15817-16063","callee=snprintf","basic block: 16029:17-16033:101"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/json/json.hpp","call function: 16032:22-16032:34","call in function: dump_escaped@15817-16063","callee=snprintf","basic block: 16029:17-16034:17"
-"Path: /home/sixsquare/codeQL/projects/cpp-jwt/include/jwt/json/json.hpp","call function: 7329:18-7329:30","call in function: get_token_string@7319-7340","callee=snprintf","basic block: 7326:13-7330:24"

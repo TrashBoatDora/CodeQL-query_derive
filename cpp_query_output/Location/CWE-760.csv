@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/Location/include/eigen3/Eigen/src/Core/MathFunctions.h","call function: 633:29-633:37","call in function: run@618-636","callee=rand","basic block: 632:8-634:27"
-"Path: /home/sixsquare/codeQL/projects/Location/include/eigen3/Eigen/src/Core/arch/CUDA/Half.h","call function: 481:35-481:43","call in function: run@479-482","callee=rand","basic block: 480:3-479:24"

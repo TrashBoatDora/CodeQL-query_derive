@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/interview_internal_reference/sync_link","call function: 22:17-22:50","call in function: get_path@20-27","callee=pathlib.Path.glob","basic block: 22:17-22:50"

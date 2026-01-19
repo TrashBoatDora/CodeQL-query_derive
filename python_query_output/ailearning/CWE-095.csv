@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ailearning/src/py3.x/ml/8.Regression/regression.py","call function: 315:15-315:35","call in function: searchForSet@310-329","callee=json.loads","basic block: 310:18-316:41"

@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/single_agent_apps/windows_use_autonomous_agent/windows_use/desktop/__init__.py","call function: 61:22-62:44","call in function: execute_command@59-65","callee=subprocess.run","basic block: 62:28-62:44"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/scheduler.py","call function: 97:19-103:9","call in function: execute_task@59-129","callee=subprocess.Popen","basic block: 101:13-103:9"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tests/tts_kokoro_test.py","call function: 20:13-20:44","call in function: play_audio@16-29","callee=os.system","basic block: 20:13-20:44"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tests/tts_kokoro_test.py","call function: 22:13-22:43","call in function: play_audio@16-29","callee=os.system","basic block: 22:13-22:43"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/beifong/tests/tts_kokoro_test.py","call function: 24:13-24:48","call in function: play_audio@16-29","callee=os.system","basic block: 24:13-24:48"

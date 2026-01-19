@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/mcl/src/xbyak/xbyak_util.h","call function: 898:11-898:15","call in function: init@884-918","callee=fopen","basic block: 891:3-899:16"
-"Path: /home/sixsquare/codeQL/projects/mcl/src/fp.cpp","call function: 111:14-111:18","call in function: isEnableJIT@103-133","callee=fopen","basic block: 108:20-112:8"

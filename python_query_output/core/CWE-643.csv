@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/core/tests/components/rss_feed_template/test_init.py","call function: 56:11-56:38","call in function: test_get_rss_feed@45-62","callee=defusedxml.ElementTree.fromstring","basic block: 52:5-60:50"
-"path: /home/sixsquare/codeQL/projects/core/tests/components/emulated_hue/test_upnp.py","call function: 172:16-172:49","call in function: test_description_xml@162-176","callee=defusedxml.ElementTree.fromstring","basic block: 172:16-172:49"
-"path: /home/sixsquare/codeQL/projects/core/homeassistant/components/namecheapdns/__init__.py","call function: 66:12-66:36","call in function: _update_namecheapdns@60-73","callee=defusedxml.ElementTree.fromstring","basic block: 60:32-69:26"
-"path: /home/sixsquare/codeQL/projects/core/homeassistant/components/ihc/auto_setup.py","call function: 92:15-92:49","call in function: autosetup_ihc_products@87-112","callee=defusedxml.ElementTree.fromstring","basic block: 92:15-96:36"
-"path: /home/sixsquare/codeQL/projects/core/homeassistant/components/ohmconnect/sensor.py","call function: 83:20-83:47","call in function: update@78-89","callee=defusedxml.ElementTree.fromstring","basic block: 83:20-83:47"
-"path: /home/sixsquare/codeQL/projects/core/homeassistant/components/sonos/speaker.py","call function: 836:19-836:36","call in function: async_update_groups@833-859","callee=defusedxml.ElementTree.fromstring","basic block: 836:19-837:62"

@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/image_generation/core.py","call function: 72:15-72:45","call in function: extract_dimensions@70-80","callee=re.findall","basic block: 70:24-74:14"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/image_generation/core.py","call function: 85:14-85:33","call in function: create_alt_url_mapping@83-93","callee=bs4.BeautifulSoup.find_all","basic block: 83:28-89:23"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/image_generation/core.py","call function: 105:14-105:33","call in function: generate_images@96-158","callee=bs4.BeautifulSoup.find_all","basic block: 97:5-109:21"
-"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/codegen/utils.py","call function: 6:13-6:64","call in function: extract_html_content@4-14","callee=re.search","basic block: 4:26-7:12"

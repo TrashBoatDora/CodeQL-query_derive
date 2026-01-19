@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/search/bing_search.py","call function: 44:24-44:41","call in function: __init__@41-45","callee=requests.Session","basic block: 41:18-45:44"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/crawl4ai.py","call function: 263:22-263:34","call in function: _is_valid_url@260-269","callee=urllib.parse.urlparse","basic block: 263:31-263:34"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/chart_visualization/data_visualization.py","call function: 100:18-100:68","call in function: data_visualization@94-146","callee=pandas.read_csv","basic block: 99:13-113:13"
-"path: /home/sixsquare/codeQL/projects/OpenManus/protocol/a2a/app/main.py","call function: 83:24-83:42","call in function: main@27-100","callee=httpx.AsyncClient","basic block: 83:24-83:42"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/web_search.py","call function: 128:31-128:81","call in function: fetch_content@110-153","callee=requests.get","basic block: 128:31-128:81"
-"path: /home/sixsquare/codeQL/projects/OpenManus/app/tool/web_search.py","call function: 128:31-128:81","call in function: lambda@128-128","callee=requests.get","basic block: 128:31-128:81"

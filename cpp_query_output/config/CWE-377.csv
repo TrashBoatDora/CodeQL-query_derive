@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/config/external/json/external/PEGTL/include/tao/pegtl/internal/mmap_file_posix.hpp","call function: 68:25-68:30","call in function: open@65-84","callee=open","basic block: 66:7-74:20"
-"Path: /home/sixsquare/codeQL/projects/config/external/json/external/PEGTL/include/tao/pegtl/internal/read_file_stdio.hpp","call function: 43:24-43:33","call in function: read_file_open@24-56","callee=fopen","basic block: 25:4-43:56"

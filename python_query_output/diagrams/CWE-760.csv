@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/diagrams/diagrams/__init__.py","call function: 431:16-431:27","call in function: _rand_id@430-431","callee=uuid.uuid4","basic block: 431:16-431:31"

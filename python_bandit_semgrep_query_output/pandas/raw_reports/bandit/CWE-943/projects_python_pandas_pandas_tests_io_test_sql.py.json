@@ -1,0 +1,205 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-10T13:33:44Z",
+  "metrics": {
+    "./projects/python/pandas/pandas/tests/io/test_sql.py": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 8,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 8,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3396,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 8,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 8,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 3396,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "385 def count_rows(conn, table_name: str):\n386     stmt = f\"SELECT count(*) AS count_1 FROM {table_name}\"\n387     adbc = import_optional_dependency(\"adbc_driver_manager.dbapi\", errors=\"ignore\")\n",
+      "col_offset": 11,
+      "end_col_offset": 58,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 386,
+      "line_range": [
+        386
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "1473     sql_stmt = text(\n1474         f\"\"\"\n1475     CREATE TABLE {table_name} (\n1476         group_id INTEGER,\n1477         name TEXT\n1478     );\n1479     INSERT INTO {table_name} VALUES\n1480         (1, 'name');\n1481     CREATE VIEW {view_name}\n1482     AS\n1483     SELECT * FROM {table_name};\n1484     \"\"\"\n1485     )\n",
+      "col_offset": 8,
+      "end_col_offset": 7,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 1474,
+      "line_range": [
+        1474,
+        1475,
+        1476,
+        1477,
+        1478,
+        1479,
+        1480,
+        1481,
+        1482,
+        1483,
+        1484
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "2743             result_df = pandasSQL.read_query(\n2744                 f\"SELECT * FROM {table_name}\", dtype=\"int32\"\n2745             )\n",
+      "col_offset": 16,
+      "end_col_offset": 45,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 2744,
+      "line_range": [
+        2744
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "3162         ixs = sql.read_sql_query(\n3163             \"SELECT * FROM sqlite_master WHERE type = 'index' \"\n3164             f\"AND tbl_name = '{tbl_name}'\",\n3165             conn,\n",
+      "col_offset": 12,
+      "end_col_offset": 42,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 3163,
+      "line_range": [
+        3163,
+        3164
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "3593         result = getattr(pd, func)(\n3594             f\"Select * from {table}\", conn, dtype_backend=dtype_backend\n3595         )\n",
+      "col_offset": 12,
+      "end_col_offset": 36,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 3594,
+      "line_range": [
+        3594
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "3607         iterator = getattr(pd, func)(\n3608             f\"Select * from {table}\",\n3609             con=conn,\n",
+      "col_offset": 12,
+      "end_col_offset": 36,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 3608,
+      "line_range": [
+        3608
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "3775     result = getattr(pd, func)(\n3776         f\"Select * from {table}\",\n3777         conn,\n",
+      "col_offset": 8,
+      "end_col_offset": 32,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 3776,
+      "line_range": [
+        3776
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    },
+    {
+      "code": "4318     table_name = \"table_if_exists\"\n4319     sql_select = f\"SELECT * FROM {table_name}\"\n4320 \n",
+      "col_offset": 17,
+      "end_col_offset": 46,
+      "filename": "./projects/python/pandas/pandas/tests/io/test_sql.py",
+      "issue_confidence": "LOW",
+      "issue_cwe": {
+        "id": 89,
+        "link": "https://cwe.mitre.org/data/definitions/89.html"
+      },
+      "issue_severity": "MEDIUM",
+      "issue_text": "Possible SQL injection vector through string-based query construction.",
+      "line_number": 4319,
+      "line_range": [
+        4319
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b608_hardcoded_sql_expressions.html",
+      "test_id": "B608",
+      "test_name": "hardcoded_sql_expressions"
+    }
+  ]
+}

@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/gradio/gradio/route_utils.py","call function: 821:12-821:82","call in function: compare_passwords_securely@820-821","callee=hmac.compare_digest","basic block: 820:32-821:82"

@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/python-cheatsheet/pdf/create_index.py","call function: 32:9-32:30","call in function: print_hhh@28-38","callee=print","basic block: 30:9-34:39"
-"path: /home/sixsquare/codeQL/projects/python-cheatsheet/pdf/create_index.py","call function: 37:13-37:43","call in function: print_hhh@28-38","callee=print","basic block: 34:13-37:43"
-"path: /home/sixsquare/codeQL/projects/python-cheatsheet/pdf/create_index.py","call function: 38:9-38:15","call in function: print_hhh@28-38","callee=print","basic block: 38:9-38:15"
-"path: /home/sixsquare/codeQL/projects/python-cheatsheet/web/update_plots.py","call function: 15:5-15:37","call in function: main@14-18","callee=print","basic block: 15:5-18:28"
-"path: /home/sixsquare/codeQL/projects/python-cheatsheet/web/update_plots.py","call function: 17:5-17:36","call in function: main@14-18","callee=print","basic block: 15:5-18:28"

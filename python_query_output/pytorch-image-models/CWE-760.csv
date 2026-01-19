@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/pytorch-image-models/timm/models/_hub.py","call function: 116:26-116:49","call in function: check_cached_file@97-120","callee=hashlib.sha256","basic block: 115:22-117:59"
-"path: /home/sixsquare/codeQL/projects/pytorch-image-models/avg_checkpoints.py","call function: 147:20-147:43","call in function: main@61-148","callee=hashlib.sha256","basic block: 146:10-148:67"
-"path: /home/sixsquare/codeQL/projects/pytorch-image-models/clean_checkpoint.py","call function: 94:24-94:47","call in function: clean_checkpoint@55-111","callee=hashlib.sha256","basic block: 93:14-96:14"
-"path: /home/sixsquare/codeQL/projects/pytorch-image-models/convert/convert_from_mxnet.py","call function: 68:20-68:43","call in function: convert@15-71","callee=hashlib.sha256","basic block: 64:5-71:90"

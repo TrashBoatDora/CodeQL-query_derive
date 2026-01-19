@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/HanLP/hanlp/utils/io_util.py","call function: 199:40-199:52","call in function: parse_url_path@198-201","callee=urllib.parse.urlparse","basic block: 198:20-201:30"

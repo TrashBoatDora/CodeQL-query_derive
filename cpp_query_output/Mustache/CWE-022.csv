@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/Mustache/tests/catch.hpp","call function: 10467:30-10467:49","call in function: isDebuggerActive@10463-10479","callee=std::basic_ifstream::basic_ifstream","basic block: 10463:32-10468:33"
-"Path: /home/sixsquare/codeQL/projects/Mustache/tests/catch.hpp","call function: 13688:23-13688:26","call in function: FileStream@13687-13690","callee=std::basic_ofstream::open","basic block: 13687:46-13689:92"
-"Path: /home/sixsquare/codeQL/projects/Mustache/tests/catch.hpp","call function: 9718:33-9718:51","call in function: operator()@9717-9737","callee=std::basic_ifstream::basic_ifstream","basic block: 9717:79-9719:32"

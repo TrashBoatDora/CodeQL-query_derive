@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/include/reckless/policy_log.hpp","call function: 52:9-52:21","call in function: timestamp_field@49-56","callee=clock_gettime","basic block: 50:5-49:19"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/include/reckless/policy_log.hpp","call function: 52:9-52:21","call in function: timestamp_field@49-56","callee=clock","basic block: 50:5-49:19"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/include/reckless/detail/spsc_event.hpp","call function: 70:17-70:29","call in function: wait@64-93","callee=clock_gettime","basic block: 69:9-70:54"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/include/reckless/detail/spsc_event.hpp","call function: 70:17-70:29","call in function: wait@64-93","callee=clock","basic block: 69:9-70:54"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/include/reckless/detail/spsc_event.hpp","call function: 86:21-86:33","call in function: wait@64-93","callee=clock_gettime","basic block: 85:13-86:56"
-"Path: /home/sixsquare/codeQL/projects/reckless/reckless/include/reckless/detail/spsc_event.hpp","call function: 86:21-86:33","call in function: wait@64-93","callee=clock","basic block: 85:13-86:56"

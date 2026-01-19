@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/private-gpt/private_gpt/server/utils/auth.py","call function: 42:12-42:79","call in function: _simple_authentication@40-45","callee=secrets.compare_digest","basic block: 40:28-42:79"

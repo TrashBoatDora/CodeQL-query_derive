@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/picobench/build/_deps/doctest-lib-src/doctest/parts/doctest.cpp","call function: 1440:31-1440:42","call in function: isDebuggerActive@1437-1447","callee=std::getline","basic block: 1440:44-1440:31"
-"Path: /home/sixsquare/codeQL/projects/picobench/tools/picobench.cpp","call function: 138:9-138:15","call in function: parse_bfile@117-164","callee=std::getline","basic block: 0:0-0:0"

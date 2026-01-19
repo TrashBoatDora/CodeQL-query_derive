@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/cli/httpie/client.py","call function: 394:35-394:52","call in function: ensure_path_as_is@377-400","callee=urllib.parse.urlparse","basic block: 377:23-400:49"
-"path: /home/sixsquare/codeQL/projects/cli/httpie/client.py","call function: 394:55-394:75","call in function: ensure_path_as_is@377-400","callee=urllib.parse.urlparse","basic block: 377:23-400:49"
-"path: /home/sixsquare/codeQL/projects/cli/tests/utils/http_server.py","call function: 25:24-25:42","call in function: do_generic@24-30","callee=urllib.parse.urlparse","basic block: 24:20-27:23"
-"path: /home/sixsquare/codeQL/projects/cli/tests/utils/http_server.py","call function: 110:24-110:45","call in function: set_cookies@109-116","callee=urllib.parse.urlparse","basic block: 109:17-113:42"
-"path: /home/sixsquare/codeQL/projects/cli/tests/test_cookie.py","call function: 41:48-41:62","call in function: do_GET@30-42","callee=http.cookies.SimpleCookie.output","basic block: 30:24-42:34"
-"path: /home/sixsquare/codeQL/projects/cli/tests/test_cookie.py","call function: 41:48-41:62","call in function: test_cookie_parser@22-47","callee=http.cookies.SimpleCookie.output","basic block: 30:24-42:34"
-"path: /home/sixsquare/codeQL/projects/cli/httpie/utils.py","call function: 140:12-140:55","call in function: get_content_type@133-140","callee=mimetypes.guess_type","basic block: 133:22-140:58"

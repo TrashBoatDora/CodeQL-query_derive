@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/Open-Assistant/backend/oasst_backend/api/v1/auth.py","call function: 30:12-35:5","call in function: get_current_user@24-40","callee=cryptography.hazmat.primitives.kdf.hkdf.HKDF","basic block: 24:28-40:39"
-"path: /home/sixsquare/codeQL/projects/Open-Assistant/inference/server/oasst_inference_server/auth.py","call function: 113:12-118:5","call in function: derive_key@111-120","callee=cryptography.hazmat.primitives.kdf.hkdf.HKDF","basic block: 112:5-120:14"
-"path: /home/sixsquare/codeQL/projects/Open-Assistant/backend/oasst_backend/api/deps.py","call function: 74:19-74:31","call in function: create_api_client@63-89","callee=secrets.token_hex","basic block: 74:19-74:15"

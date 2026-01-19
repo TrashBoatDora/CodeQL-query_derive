@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/rag_tutorials/rag-as-a-service/rag_app.py","call function: 26:20-26:32","call in function: upload_document@21-45","callee=urllib.parse.urlparse","basic block: 26:20-26:52"
-"path: /home/sixsquare/codeQL/projects/awesome-llm-apps/ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_2_function_tools/utility_agent/tools.py","call function: 344:18-344:30","call in function: validate_url@323-370","callee=urllib.parse.urlparse","basic block: 344:27-344:30"

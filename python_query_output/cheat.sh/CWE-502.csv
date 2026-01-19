@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/cache.py","call function: 60:21-60:37","call in function: get@49-64","callee=json.loads","basic block: 60:32-60:37"
-"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/config.py","call function: 254:21-254:63","call in function: _load_config_from_file@246-268","callee=yaml.load","basic block: 253:10-255:42"
-"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/adapter/rosetta.py","call function: 44:20-44:58","call in function: _load_rosetta_code_names@36-52","callee=yaml.load","basic block: 42:13-45:27"

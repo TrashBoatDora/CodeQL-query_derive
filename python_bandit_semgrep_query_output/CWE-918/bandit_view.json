@@ -1,0 +1,1992 @@
+{
+  "AutoGPT/classic/forge/forge/components/web/selenium.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/components/web/selenium.py",
+      "line_start": 356,
+      "line_end": 356,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py",
+      "line_start": 148,
+      "line_end": 148,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ComfyUI/comfy/k_diffusion/utils.py": [
+    {
+      "file_path": "projects/python/ComfyUI/comfy/k_diffusion/utils.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ComfyUI/script_examples/basic_api_example.py": [
+    {
+      "file_path": "projects/python/ComfyUI/script_examples/basic_api_example.py",
+      "line_start": 110,
+      "line_end": 110,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ComfyUI/script_examples/websockets_api_example.py": [
+    {
+      "file_path": "projects/python/ComfyUI/script_examples/websockets_api_example.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/script_examples/websockets_api_example.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/script_examples/websockets_api_example.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ComfyUI/script_examples/websockets_api_example_ws_images.py": [
+    {
+      "file_path": "projects/python/ComfyUI/script_examples/websockets_api_example_ws_images.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/script_examples/websockets_api_example_ws_images.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/script_examples/websockets_api_example_ws_images.py",
+      "line_start": 26,
+      "line_end": 26,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ComfyUI/tests/execution/test_execution.py": [
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_execution.py",
+      "line_start": 75,
+      "line_end": 75,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_execution.py",
+      "line_start": 80,
+      "line_end": 80,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_execution.py",
+      "line_start": 84,
+      "line_end": 84,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_execution.py",
+      "line_start": 99,
+      "line_end": 99,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_execution.py",
+      "line_start": 120,
+      "line_end": 120,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_execution.py",
+      "line_start": 126,
+      "line_end": 126,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ComfyUI/tests/inference/test_inference.py": [
+    {
+      "file_path": "projects/python/ComfyUI/tests/inference/test_inference.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/inference/test_inference.py",
+      "line_start": 82,
+      "line_end": 82,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/inference/test_inference.py",
+      "line_start": 86,
+      "line_end": 86,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "Deep-Live-Cam/modules/utilities.py": [
+    {
+      "file_path": "projects/python/Deep-Live-Cam/modules/utilities.py",
+      "line_start": 196,
+      "line_end": 196,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/Deep-Live-Cam/modules/utilities.py",
+      "line_start": 205,
+      "line_end": 205,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "Fooocus/ldm_patched/k_diffusion/utils.py": [
+    {
+      "file_path": "projects/python/Fooocus/ldm_patched/k_diffusion/utils.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "HanLP/hanlp/utils/io_util.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/utils/io_util.py",
+      "line_start": 702,
+      "line_end": 702,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "HanLP/plugins/hanlp_restful/hanlp_restful/__init__.py": [
+    {
+      "file_path": "projects/python/HanLP/plugins/hanlp_restful/hanlp_restful/__init__.py",
+      "line_start": 34,
+      "line_end": 34,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/HanLP/plugins/hanlp_restful/hanlp_restful/__init__.py",
+      "line_start": 150,
+      "line_end": 150,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "Open-Assistant/data/datasets/youtube_subs_howto100M/prepare.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/data/datasets/youtube_subs_howto100M/prepare.py",
+      "line_start": 41,
+      "line_end": 41,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "Open-Assistant/model/model_training/custom_datasets/qa_datasets.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/model/model_training/custom_datasets/qa_datasets.py",
+      "line_start": 327,
+      "line_end": 327,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "Python/machine_learning/sequential_minimum_optimization.py": [
+    {
+      "file_path": "projects/python/Python/machine_learning/sequential_minimum_optimization.py",
+      "line_start": 458,
+      "line_end": 458,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "Python/neural_network/input_data.py": [
+    {
+      "file_path": "projects/python/Python/neural_network/input_data.py",
+      "line_start": 262,
+      "line_end": 262,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "Python/web_programming/download_images_from_google_query.py": [
+    {
+      "file_path": "projects/python/Python/web_programming/download_images_from_google_query.py",
+      "line_start": 99,
+      "line_end": 99,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "TTS/TTS/tts/layers/bark/hubert/hubert_manager.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/tts/layers/bark/hubert/hubert_manager.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "TTS/TTS/tts/layers/tortoise/utils.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/tts/layers/tortoise/utils.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "TTS/TTS/utils/download.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/utils/download.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/TTS/TTS/utils/download.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/TTS/TTS/utils/download.py",
+      "line_start": 79,
+      "line_end": 79,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "TTS/TTS/vc/modules/freevc/wavlm/__init__.py": [
+    {
+      "file_path": "projects/python/TTS/TTS/vc/modules/freevc/wavlm/__init__.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ailearning/src/py3.x/ml/8.Regression/regression.py": [
+    {
+      "file_path": "projects/python/ailearning/src/py3.x/ml/8.Regression/regression.py",
+      "line_start": 314,
+      "line_end": 314,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "airflow/dev/breeze/src/airflow_breeze/utils/add_back_references.py": [
+    {
+      "file_path": "projects/python/airflow/dev/breeze/src/airflow_breeze/utils/add_back_references.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "airflow/dev/breeze/src/airflow_breeze/utils/constraints_version_check.py": [
+    {
+      "file_path": "projects/python/airflow/dev/breeze/src/airflow_breeze/utils/constraints_version_check.py",
+      "line_start": 364,
+      "line_end": 364,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "airflow/dev/breeze/src/airflow_breeze/utils/kubernetes_utils.py": [
+    {
+      "file_path": "projects/python/airflow/dev/breeze/src/airflow_breeze/utils/kubernetes_utils.py",
+      "line_start": 104,
+      "line_end": 104,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "airflow/providers/amazon/tests/system/amazon/aws/example_bedrock_retrieve_and_generate.py": [
+    {
+      "file_path": "projects/python/airflow/providers/amazon/tests/system/amazon/aws/example_bedrock_retrieve_and_generate.py",
+      "line_start": 312,
+      "line_end": 312,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ansible/lib/ansible/module_utils/urls.py": [
+    {
+      "file_path": "projects/python/ansible/lib/ansible/module_utils/urls.py",
+      "line_start": 903,
+      "line_end": 903,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ansible/test/integration/targets/ansible-test-sanity-replace-urlopen/ansible_collections/ns/col/do-not-check-me.py": [
+    {
+      "file_path": "projects/python/ansible/test/integration/targets/ansible-test-sanity-replace-urlopen/ansible_collections/ns/col/do-not-check-me.py",
+      "line_start": 7,
+      "line_end": 7,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ansible/test/integration/targets/ansible-test-sanity-replace-urlopen/ansible_collections/ns/col/plugins/modules/check-me.py": [
+    {
+      "file_path": "projects/python/ansible/test/integration/targets/ansible-test-sanity-replace-urlopen/ansible_collections/ns/col/plugins/modules/check-me.py",
+      "line_start": 7,
+      "line_end": 7,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ansible/test/lib/ansible_test/_internal/http.py": [
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_internal/http.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ansible/test/lib/ansible_test/_util/target/setup/requirements.py": [
+    {
+      "file_path": "projects/python/ansible/test/lib/ansible_test/_util/target/setup/requirements.py",
+      "line_start": 283,
+      "line_end": 283,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "black/gallery/gallery.py": [
+    {
+      "file_path": "projects/python/black/gallery/gallery.py",
+      "line_start": 35,
+      "line_end": 35,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/black/gallery/gallery.py",
+      "line_start": 59,
+      "line_end": 59,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/black/gallery/gallery.py",
+      "line_start": 99,
+      "line_end": 99,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "browser-use/browser_use/browser/profile.py": [
+    {
+      "file_path": "projects/python/browser-use/browser_use/browser/profile.py",
+      "line_start": 1102,
+      "line_end": 1102,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cli/tests/test_downloads.py": [
+    {
+      "file_path": "projects/python/cli/tests/test_downloads.py",
+      "line_start": 127,
+      "line_end": 127,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cli/tests/test_output.py": [
+    {
+      "file_path": "projects/python/cli/tests/test_output.py",
+      "line_start": 41,
+      "line_end": 41,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_httpservers.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_httpservers.py",
+      "line_start": 1515,
+      "line_end": 1515,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_pydoc/test_pydoc.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_pydoc/test_pydoc.py",
+      "line_start": 2100,
+      "line_end": 2100,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_pydoc/test_pydoc.py",
+      "line_start": 2104,
+      "line_end": 2104,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_site.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_site.py",
+      "line_start": 561,
+      "line_end": 561,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_ssl.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_ssl.py",
+      "line_start": 3645,
+      "line_end": 3645,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_urllib.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 113,
+      "line_end": 113,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 188,
+      "line_end": 188,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 308,
+      "line_end": 308,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 321,
+      "line_end": 321,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 329,
+      "line_end": 329,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 351,
+      "line_end": 351,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 354,
+      "line_end": 354,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 373,
+      "line_end": 373,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 375,
+      "line_end": 375,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 390,
+      "line_end": 390,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 392,
+      "line_end": 392,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 405,
+      "line_end": 405,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 407,
+      "line_end": 407,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 432,
+      "line_end": 432,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 449,
+      "line_end": 449,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 464,
+      "line_end": 464,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 481,
+      "line_end": 481,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 492,
+      "line_end": 492,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 500,
+      "line_end": 500,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 505,
+      "line_end": 505,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 511,
+      "line_end": 511,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 546,
+      "line_end": 546,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 548,
+      "line_end": 548,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 549,
+      "line_end": 549,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 563,
+      "line_end": 563,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 653,
+      "line_end": 653,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 663,
+      "line_end": 663,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 687,
+      "line_end": 687,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 697,
+      "line_end": 697,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 710,
+      "line_end": 710,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 724,
+      "line_end": 724,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 754,
+      "line_end": 754,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib.py",
+      "line_start": 773,
+      "line_end": 773,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_urllib2.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2.py",
+      "line_start": 1400,
+      "line_end": 1400,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_urllib2_localnet.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 311,
+      "line_end": 311,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 320,
+      "line_end": 320,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 470,
+      "line_end": 470,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 592,
+      "line_end": 592,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 600,
+      "line_end": 600,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 607,
+      "line_end": 607,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 614,
+      "line_end": 614,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 626,
+      "line_end": 626,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 634,
+      "line_end": 634,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2_localnet.py",
+      "line_start": 642,
+      "line_end": 642,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_urllib2net.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2net.py",
+      "line_start": 236,
+      "line_end": 236,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllib2net.py",
+      "line_start": 245,
+      "line_end": 245,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/test/test_urllibnet.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllibnet.py",
+      "line_start": 34,
+      "line_end": 34,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllibnet.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllibnet.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllibnet.py",
+      "line_start": 147,
+      "line_end": 147,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/cpython/Lib/test/test_urllibnet.py",
+      "line_start": 161,
+      "line_end": 161,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/urllib/robotparser.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/urllib/robotparser.py",
+      "line_start": 77,
+      "line_end": 77,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/xml/dom/xmlbuilder.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/xml/dom/xmlbuilder.py",
+      "line_start": 194,
+      "line_end": 194,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Lib/xml/sax/saxutils.py": [
+    {
+      "file_path": "projects/python/cpython/Lib/xml/sax/saxutils.py",
+      "line_start": 365,
+      "line_end": 365,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Mac/BuildScript/build-installer.py": [
+    {
+      "file_path": "projects/python/cpython/Mac/BuildScript/build-installer.py",
+      "line_start": 780,
+      "line_end": 780,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/PCbuild/get_external.py": [
+    {
+      "file_path": "projects/python/cpython/PCbuild/get_external.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Tools/build/generate_sbom.py": [
+    {
+      "file_path": "projects/python/cpython/Tools/build/generate_sbom.py",
+      "line_start": 174,
+      "line_end": 174,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Tools/build/parse_html5_entities.py": [
+    {
+      "file_path": "projects/python/cpython/Tools/build/parse_html5_entities.py",
+      "line_start": 28,
+      "line_end": 28,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Tools/build/verify_ensurepip_wheels.py": [
+    {
+      "file_path": "projects/python/cpython/Tools/build/verify_ensurepip_wheels.py",
+      "line_start": 64,
+      "line_end": 64,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Tools/unicode/makeunicodedata.py": [
+    {
+      "file_path": "projects/python/cpython/Tools/unicode/makeunicodedata.py",
+      "line_start": 808,
+      "line_end": 808,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "cpython/Tools/wasm/emscripten/__main__.py": [
+    {
+      "file_path": "projects/python/cpython/Tools/wasm/emscripten/__main__.py",
+      "line_start": 188,
+      "line_end": 188,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "crawl4ai/tests/docker/simple_api_test.py": [
+    {
+      "file_path": "projects/python/crawl4ai/tests/docker/simple_api_test.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/crawl4ai/tests/docker/simple_api_test.py",
+      "line_start": 80,
+      "line_end": 80,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "django/tests/file_storage/tests.py": [
+    {
+      "file_path": "projects/python/django/tests/file_storage/tests.py",
+      "line_start": 1217,
+      "line_end": 1217,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/django/tests/file_storage/tests.py",
+      "line_start": 1221,
+      "line_end": 1221,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "django/tests/servers/tests.py": [
+    {
+      "file_path": "projects/python/django/tests/servers/tests.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "django/tests/servers/views.py": [
+    {
+      "file_path": "projects/python/django/tests/servers/views.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/django/tests/servers/views.py",
+      "line_start": 44,
+      "line_end": 44,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/django/tests/servers/views.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "django/tests/staticfiles_tests/test_liveserver.py": [
+    {
+      "file_path": "projects/python/django/tests/staticfiles_tests/test_liveserver.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "faceswap/lib/utils.py": [
+    {
+      "file_path": "projects/python/faceswap/lib/utils.py",
+      "line_start": 698,
+      "line_end": 698,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "gpt_academic/crazy_functions/review_fns/data_sources/arxiv_source.py": [
+    {
+      "file_path": "projects/python/gpt_academic/crazy_functions/review_fns/data_sources/arxiv_source.py",
+      "line_start": 318,
+      "line_end": 318,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/gpt_academic/crazy_functions/review_fns/data_sources/arxiv_source.py",
+      "line_start": 343,
+      "line_end": 343,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "gpt_academic/shared_utils/nltk_downloader.py": [
+    {
+      "file_path": "projects/python/gpt_academic/shared_utils/nltk_downloader.py",
+      "line_start": 709,
+      "line_end": 709,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/gpt_academic/shared_utils/nltk_downloader.py",
+      "line_start": 954,
+      "line_end": 954,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "gradio/test/test_networking.py": [
+    {
+      "file_path": "projects/python/gradio/test/test_networking.py",
+      "line_start": 174,
+      "line_end": 174,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "keras/keras/src/utils/file_utils.py": [
+    {
+      "file_path": "projects/python/keras/keras/src/utils/file_utils.py",
+      "line_start": 354,
+      "line_end": 354,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "llama_index/llama-index-integrations/readers/llama-index-readers-joplin/llama_index/readers/joplin/base.py": [
+    {
+      "file_path": "projects/python/llama_index/llama-index-integrations/readers/llama-index-readers-joplin/llama_index/readers/joplin/base.py",
+      "line_start": 87,
+      "line_end": 87,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/llama_index/llama-index-integrations/readers/llama-index-readers-joplin/llama_index/readers/joplin/base.py",
+      "line_start": 110,
+      "line_end": 110,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/llama_index/llama-index-integrations/readers/llama-index-readers-joplin/llama_index/readers/joplin/base.py",
+      "line_start": 116,
+      "line_end": 116,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "llama_index/llama-index-integrations/readers/llama-index-readers-remote/llama_index/readers/remote/base.py": [
+    {
+      "file_path": "projects/python/llama_index/llama-index-integrations/readers/llama-index-readers-remote/llama_index/readers/remote/base.py",
+      "line_start": 74,
+      "line_end": 74,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "llama_index/llama-index-integrations/readers/llama-index-readers-stripe-docs/llama_index/readers/stripe_docs/base.py": [
+    {
+      "file_path": "projects/python/llama_index/llama-index-integrations/readers/llama-index-readers-stripe-docs/llama_index/readers/stripe_docs/base.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "localstack/scripts/tinybird/retrieve_legacy_data_from_circleci.py": [
+    {
+      "file_path": "projects/python/localstack/scripts/tinybird/retrieve_legacy_data_from_circleci.py",
+      "line_start": 210,
+      "line_end": 210,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/localstack/scripts/tinybird/retrieve_legacy_data_from_circleci.py",
+      "line_start": 214,
+      "line_end": 214,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/localstack/scripts/tinybird/retrieve_legacy_data_from_circleci.py",
+      "line_start": 218,
+      "line_end": 218,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "localstack/tests/aws/services/cloudwatch/test_cloudwatch.py": [
+    {
+      "file_path": "projects/python/localstack/tests/aws/services/cloudwatch/test_cloudwatch.py",
+      "line_start": 111,
+      "line_end": 111,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "localstack/tests/aws/services/lambda_/functions/lambda_networks.py": [
+    {
+      "file_path": "projects/python/localstack/tests/aws/services/lambda_/functions/lambda_networks.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "manim/manimlib/utils/file_ops.py": [
+    {
+      "file_path": "projects/python/manim/manimlib/utils/file_ops.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "mitmproxy/release/build.py": [
+    {
+      "file_path": "projects/python/mitmproxy/release/build.py",
+      "line_start": 326,
+      "line_end": 326,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "models/official/legacy/transformer/data_download.py": [
+    {
+      "file_path": "projects/python/models/official/legacy/transformer/data_download.py",
+      "line_start": 167,
+      "line_end": 167,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "models/official/recommendation/movielens.py": [
+    {
+      "file_path": "projects/python/models/official/recommendation/movielens.py",
+      "line_start": 117,
+      "line_end": 117,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "models/research/deep_speech/data/download.py": [
+    {
+      "file_path": "projects/python/models/research/deep_speech/data/download.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "models/research/slim/datasets/dataset_utils.py": [
+    {
+      "file_path": "projects/python/models/research/slim/datasets/dataset_utils.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "models/research/slim/datasets/download_and_convert_cifar10.py": [
+    {
+      "file_path": "projects/python/models/research/slim/datasets/download_and_convert_cifar10.py",
+      "line_start": 138,
+      "line_end": 138,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "models/research/slim/datasets/download_and_convert_mnist.py": [
+    {
+      "file_path": "projects/python/models/research/slim/datasets/download_and_convert_mnist.py",
+      "line_start": 163,
+      "line_end": 163,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "models/research/slim/datasets/imagenet.py": [
+    {
+      "file_path": "projects/python/models/research/slim/datasets/imagenet.py",
+      "line_start": 93,
+      "line_end": 93,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/models/research/slim/datasets/imagenet.py",
+      "line_start": 98,
+      "line_end": 98,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "odoo/setup/requirements-check.py": [
+    {
+      "file_path": "projects/python/odoo/setup/requirements-check.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pandas/pandas/io/common.py": [
+    {
+      "file_path": "projects/python/pandas/pandas/io/common.py",
+      "line_start": 284,
+      "line_end": 284,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/.github/scripts/filter_test_configs.py": [
+    {
+      "file_path": "projects/python/pytorch/.github/scripts/filter_test_configs.py",
+      "line_start": 451,
+      "line_end": 451,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/.github/scripts/get_workflow_job_id.py": [
+    {
+      "file_path": "projects/python/pytorch/.github/scripts/get_workflow_job_id.py",
+      "line_start": 54,
+      "line_end": 54,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/.github/scripts/github_utils.py": [
+    {
+      "file_path": "projects/python/pytorch/.github/scripts/github_utils.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/.github/scripts/runner_determinator.py": [
+    {
+      "file_path": "projects/python/pytorch/.github/scripts/runner_determinator.py",
+      "line_start": 551,
+      "line_end": 551,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/benchmarks/dynamo/ci_expected_accuracy/update_expected.py": [
+    {
+      "file_path": "projects/python/pytorch/benchmarks/dynamo/ci_expected_accuracy/update_expected.py",
+      "line_start": 155,
+      "line_end": 155,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/functorch/examples/maml_omniglot/support/omniglot_loaders.py": [
+    {
+      "file_path": "projects/python/pytorch/functorch/examples/maml_omniglot/support/omniglot_loaders.py",
+      "line_start": 108,
+      "line_end": 108,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/download_mnist.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/download_mnist.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/github/github_utils.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/github/github_utils.py",
+      "line_start": 32,
+      "line_end": 32,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/linter/adapters/s3_init.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/linter/adapters/s3_init.py",
+      "line_start": 133,
+      "line_end": 133,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/linter/adapters/testowners_linter.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/linter/adapters/testowners_linter.py",
+      "line_start": 47,
+      "line_end": 47,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/nightly_hotpatch.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/nightly_hotpatch.py",
+      "line_start": 118,
+      "line_end": 118,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/stats/import_test_stats.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/stats/import_test_stats.py",
+      "line_start": 72,
+      "line_end": 72,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/stats/upload_external_contrib_stats.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/stats/upload_external_contrib_stats.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/tools/testing/target_determination/heuristics/utils.py": [
+    {
+      "file_path": "projects/python/pytorch/tools/testing/target_determination/heuristics/utils.py",
+      "line_start": 52,
+      "line_end": 52,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/pytorch/tools/testing/target_determination/heuristics/utils.py",
+      "line_start": 119,
+      "line_end": 119,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/torch/cuda/_memory_viz.py": [
+    {
+      "file_path": "projects/python/pytorch/torch/cuda/_memory_viz.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/torch/hub.py": [
+    {
+      "file_path": "projects/python/pytorch/torch/hub.py",
+      "line_start": 163,
+      "line_end": 163,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/pytorch/torch/hub.py",
+      "line_start": 187,
+      "line_end": 187,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    },
+    {
+      "file_path": "projects/python/pytorch/torch/hub.py",
+      "line_start": 738,
+      "line_end": 738,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "pytorch/torch/testing/_internal/common_utils.py": [
+    {
+      "file_path": "projects/python/pytorch/torch/testing/_internal/common_utils.py",
+      "line_start": 4677,
+      "line_end": 4677,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ray/doc/source/custom_directives.py": [
+    {
+      "file_path": "projects/python/ray/doc/source/custom_directives.py",
+      "line_start": 124,
+      "line_end": 124,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ],
+  "ray/python/ray/dashboard/modules/job/tests/test_job_manager.py": [
+    {
+      "file_path": "projects/python/ray/python/ray/dashboard/modules/job/tests/test_job_manager.py",
+      "line_start": 762,
+      "line_end": 762,
+      "scanner": "bandit",
+      "rule_id": "B310",
+      "severity": "MEDIUM",
+      "confidence": "HIGH",
+      "description": "Audit url open for permitted schemes. Allowing use of file:/ or custom schemes is often unexpected."
+    }
+  ]
+}

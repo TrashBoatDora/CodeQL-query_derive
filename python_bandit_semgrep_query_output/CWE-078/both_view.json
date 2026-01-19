@@ -1,0 +1,748 @@
+{
+  "DeepSpeed/op_builder/builder.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 53,
+      "line_end": 53,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 210,
+      "line_end": 210,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 210,
+      "line_end": 210,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 263,
+      "line_end": 263,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 281,
+      "line_end": 281,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 444,
+      "line_end": 444,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 444,
+      "line_end": 444,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 497,
+      "line_end": 497,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 263,
+      "line_end": 263,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'check_output' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 281,
+      "line_end": 281,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'check_output' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ],
+  "DragGAN/stylegan_human/edit.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 179,
+      "line_end": 179,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 182,
+      "line_end": 182,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 184,
+      "line_end": 184,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 179,
+      "line_end": 179,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'call' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 182,
+      "line_end": 182,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'call' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 184,
+      "line_end": 184,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'call' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ],
+  "FastChat/fastchat/serve/launch_all_serve.py": [
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 252,
+      "line_end": 252,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 253,
+      "line_end": 253,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 262,
+      "line_end": 262,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 263,
+      "line_end": 263,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 279,
+      "line_end": 279,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 280,
+      "line_end": 280,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 252,
+      "line_end": 252,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 253,
+      "line_end": 253,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 262,
+      "line_end": 262,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 263,
+      "line_end": 263,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 279,
+      "line_end": 279,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 280,
+      "line_end": 280,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ],
+  "GPT-SoVITS/webui.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 238,
+      "line_end": 238,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 287,
+      "line_end": 287,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 317,
+      "line_end": 317,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 355,
+      "line_end": 355,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 395,
+      "line_end": 395,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 453,
+      "line_end": 453,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 553,
+      "line_end": 553,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 645,
+      "line_end": 645,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 728,
+      "line_end": 728,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 810,
+      "line_end": 810,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 900,
+      "line_end": 900,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 922,
+      "line_end": 922,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 994,
+      "line_end": 994,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1094,
+      "line_end": 1094,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1141,
+      "line_end": 1141,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1163,
+      "line_end": 1163,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1203,
+      "line_end": 1203,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1297,
+      "line_end": 1297,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 238,
+      "line_end": 238,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 287,
+      "line_end": 287,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 317,
+      "line_end": 317,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 355,
+      "line_end": 355,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 395,
+      "line_end": 395,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 453,
+      "line_end": 453,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 553,
+      "line_end": 553,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 645,
+      "line_end": 645,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 728,
+      "line_end": 728,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 810,
+      "line_end": 810,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 900,
+      "line_end": 900,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 922,
+      "line_end": 922,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 994,
+      "line_end": 994,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1094,
+      "line_end": 1094,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1141,
+      "line_end": 1141,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1163,
+      "line_end": 1163,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1203,
+      "line_end": 1203,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1297,
+      "line_end": 1297,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'Popen' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ],
+  "MetaGPT/metagpt/environment/android/android_ext_env.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/environment/android/android_ext_env.py",
+      "line_start": 139,
+      "line_end": 139,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/environment/android/android_ext_env.py",
+      "line_start": 139,
+      "line_end": 139,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ],
+  "MetaGPT/metagpt/repo_parser.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/repo_parser.py",
+      "line_start": 731,
+      "line_end": 731,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/repo_parser.py",
+      "line_start": 731,
+      "line_end": 731,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ],
+  "MockingBird/control/mkgui/base/ui/streamlit_ui.py": [
+    {
+      "file_path": "projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py",
+      "line_start": 60,
+      "line_end": 60,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py",
+      "line_start": 60,
+      "line_end": 60,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ],
+  "Open-Assistant/model/pretokenizer/pretokenize.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/model/pretokenizer/pretokenize.py",
+      "line_start": 427,
+      "line_end": 427,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/Open-Assistant/model/pretokenizer/pretokenize.py",
+      "line_start": 427,
+      "line_end": 427,
+      "scanner": "semgrep",
+      "rule_id": "python.lang.security.audit.subprocess-shell-true.subprocess-shell-true",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Found 'subprocess' function 'run' with 'shell=True'. This is dangerous because this call will spawn the command using a shell process. Doing so propagates current shell settings and variables, which makes it much easier for a malicious actor to execute commands. Use 'shell=False' instead."
+    }
+  ]
+}

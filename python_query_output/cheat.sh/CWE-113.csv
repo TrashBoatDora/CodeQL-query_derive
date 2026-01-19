@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/cheat.sh/bin/app.py","call function: 293:20-293:32","call in function: answer@256-333","callee=flask.redirect","basic block: 293:20-293:32"
-"path: /home/sixsquare/codeQL/projects/cheat.sh/bin/app.py","call function: 297:16-297:58","call in function: answer@256-333","callee=flask.redirect","basic block: 297:16-297:58"
-"path: /home/sixsquare/codeQL/projects/cheat.sh/lib/standalone.py","call function: 52:14-52:65","call in function: parse_cmdline@41-61","callee=urllib.parse.urlparse","basic block: 51:20-58:16"

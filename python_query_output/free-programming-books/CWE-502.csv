@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/free-programming-books/scripts/rtl_ltr_linter.py","call function: 67:24-67:40","call in function: load_config@29-74","callee=yaml.safe_load","basic block: 67:39-67:40"

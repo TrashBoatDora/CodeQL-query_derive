@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/python-cheatsheet/pdf/create_index.py","call function: 20:18-20:38","call in function: main@15-25","callee=bs4.BeautifulSoup.find_all","basic block: 19:9-20:38"

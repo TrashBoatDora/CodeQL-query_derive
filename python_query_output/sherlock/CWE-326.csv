@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/sherlock/sherlock_project/sites.py","call function: 59:35-59:59","call in function: __init__@15-63","callee=secrets.token_urlsafe","basic block: 15:18-63:14"

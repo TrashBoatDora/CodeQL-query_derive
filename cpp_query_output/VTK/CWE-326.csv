@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/VTK/ThirdParty/expat/vtkexpat/lib/xmlparse.c","call function: 826:9-826:17","call in function: writeRandomBytes_getrandom_nonblock@815-839","callee=getrandom","basic block: 820:6-831:28"
-"Path: /home/sixsquare/codeQL/projects/VTK/ThirdParty/libxml2/vtklibxml2/dict.c","call function: 970:17-970:26","call in function: xmlInitRandom@953-990","callee=getentropy","basic block: 969:19-970:71"

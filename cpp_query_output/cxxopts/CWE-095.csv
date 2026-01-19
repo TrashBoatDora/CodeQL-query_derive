@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/cxxopts/test/catch.hpp","call function: 14952:70-14952:108","call in function: getCurrentNanosecondsSinceEpoch@14951-14953","callee=std::system","basic block: 14951:56-14951:40"

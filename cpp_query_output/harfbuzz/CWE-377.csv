@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/harfbuzz/src/hb-blob.cc","call function: 643:12-643:15","call in function: hb_blob_create_from_file_or_fail@635-792","callee=open","basic block: 643:3-644:25"
-"Path: /home/sixsquare/codeQL/projects/harfbuzz/src/hb-blob.cc","call function: 756:14-756:18","call in function: hb_blob_create_from_file_or_fail@635-792","callee=fopen","basic block: 756:3-757:20"

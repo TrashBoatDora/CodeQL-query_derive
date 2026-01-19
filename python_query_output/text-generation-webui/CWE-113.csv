@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/text-generation-webui/extensions/superboogav2/api.py","call function: 93:27-93:45","call in function: do_POST@88-139","callee=urllib.parse.urlparse","basic block: 93:27-93:45"
-"path: /home/sixsquare/codeQL/projects/text-generation-webui/extensions/superboogav2/api.py","call function: 143:27-143:45","call in function: do_DELETE@141-153","callee=urllib.parse.urlparse","basic block: 143:27-143:45"

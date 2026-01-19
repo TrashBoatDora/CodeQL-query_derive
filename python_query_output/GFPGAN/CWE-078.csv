@@ -1,8 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/cog_predict.py","call function: 33:13-35:13","call in function: setup@29-64","callee=os.system","basic block: 33:13-35:13"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/cog_predict.py","call function: 37:13-38:120","call in function: setup@29-64","callee=os.system","basic block: 37:13-38:120"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/cog_predict.py","call function: 40:13-41:120","call in function: setup@29-64","callee=os.system","basic block: 40:13-41:120"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/cog_predict.py","call function: 43:13-44:120","call in function: setup@29-64","callee=os.system","basic block: 43:13-44:120"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/cog_predict.py","call function: 46:13-48:13","call in function: setup@29-64","callee=os.system","basic block: 46:13-48:13"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/setup.py","call function: 31:15-31:68","call in function: _minimal_ext_cmd@20-32","callee=subprocess.Popen","basic block: 28:27-32:18"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/setup.py","call function: 31:15-31:68","call in function: get_git_hash@18-40","callee=subprocess.Popen","basic block: 28:27-32:18"

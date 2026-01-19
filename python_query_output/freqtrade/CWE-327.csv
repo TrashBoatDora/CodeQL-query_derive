@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 41:19-41:71","call in function: get_user_from_token@34-50","callee=jwt.decode","basic block: 41:60-41:71"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/rpc/api_server/api_auth.py","call function: 104:19-104:72","call in function: create_token@89-105","callee=jwt.encode","basic block: 97:5-105:22"
-"path: /home/sixsquare/codeQL/projects/freqtrade/freqtrade/optimize/backtest_caching.py","call function: 15:14-15:27","call in function: get_strategy_run_id@8-37","callee=hashlib.sha1","basic block: 8:25-20:31"

@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/json/tests/thirdparty/doctest/doctest.h","call function: 6917:13-6917:22","call in function: run@6823-7085","callee=srand","basic block: 6916:59-6921:47"
-"Path: /home/sixsquare/codeQL/projects/json/tests/thirdparty/doctest/doctest.h","call function: 6922:33-6922:41","call in function: run@6823-7085","callee=rand","basic block: 6921:62-6921:59"
-"Path: /home/sixsquare/codeQL/projects/json/tests/thirdparty/doctest/doctest.h","call function: 5748:17-5748:25","call in function: getCurrentTimestamp@5744-5763","callee=time","basic block: 5744:54-5744:50"
-"Path: /home/sixsquare/codeQL/projects/json/tests/thirdparty/doctest/doctest.h","call function: 3401:9-3401:20","call in function: getCurrentTicks@3399-3403","callee=gettimeofday","basic block: 3399:31-3399:27"

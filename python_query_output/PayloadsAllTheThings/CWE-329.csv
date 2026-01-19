@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/Server Side Request Forgery/Files/ip.py","call function: 54:46-54:72","call in function: RANDOM_TEXT_SPEC@50-54","callee=random.randint","basic block: 51:13-54:74"
-"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/Server Side Request Forgery/Files/ip.py","call function: 60:46-60:72","call in function: RANDOM_TEXT@56-60","callee=random.randint","basic block: 57:13-60:74"

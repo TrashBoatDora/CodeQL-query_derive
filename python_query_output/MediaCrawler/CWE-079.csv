@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/MediaCrawler/media_platform/tieba/help.py","call function: 351:34-351:64","call in function: extract_data_field_value@337-356","callee=html.unescape","basic block: 351:48-351:64"

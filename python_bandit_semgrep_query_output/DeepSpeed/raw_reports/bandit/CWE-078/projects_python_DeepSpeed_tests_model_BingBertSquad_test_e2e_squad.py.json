@@ -1,0 +1,114 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T18:34:06Z",
+  "metrics": {
+    "./projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 4,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 86,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 4,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 4,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 86,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "68 \n69     proc = sp.Popen([\"bash\", script_file_name, num_gpus, model_file, squad_dir, output_dir, config_file], cwd=base_dir)\n70 \n",
+      "col_offset": 11,
+      "end_col_offset": 119,
+      "filename": "./projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 69,
+      "line_range": [
+        69
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "68 \n69     proc = sp.Popen([\"bash\", script_file_name, num_gpus, model_file, squad_dir, output_dir, config_file], cwd=base_dir)\n70 \n",
+      "col_offset": 11,
+      "end_col_offset": 119,
+      "filename": "./projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 69,
+      "line_range": [
+        69
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    },
+    {
+      "code": "104 \n105     proc = sp.Popen([\"bash\", script_file_name, num_gpus, model_file, squad_dir, output_dir, config_file], cwd=base_dir)\n106 \n",
+      "col_offset": 11,
+      "end_col_offset": 119,
+      "filename": "./projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "Starting a process with a partial executable path",
+      "line_number": 105,
+      "line_range": [
+        105
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b607_start_process_with_partial_path.html",
+      "test_id": "B607",
+      "test_name": "start_process_with_partial_path"
+    },
+    {
+      "code": "104 \n105     proc = sp.Popen([\"bash\", script_file_name, num_gpus, model_file, squad_dir, output_dir, config_file], cwd=base_dir)\n106 \n",
+      "col_offset": 11,
+      "end_col_offset": 119,
+      "filename": "./projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 78,
+        "link": "https://cwe.mitre.org/data/definitions/78.html"
+      },
+      "issue_severity": "LOW",
+      "issue_text": "subprocess call - check for execution of untrusted input.",
+      "line_number": 105,
+      "line_range": [
+        105
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b603_subprocess_without_shell_equals_true.html",
+      "test_id": "B603",
+      "test_name": "subprocess_without_shell_equals_true"
+    }
+  ]
+}

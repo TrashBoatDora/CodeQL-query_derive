@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/armips/ext/filesystem/include/ghc/filesystem.hpp","call function: 4148:23-4148:38","call in function: last_write_time@4145-4204","callee=std::time","basic block: 4146:1-4198:73"
-"Path: /home/sixsquare/codeQL/projects/armips/ext/filesystem/include/ghc/filesystem.hpp","call function: 4131:18-4131:36","call in function: last_write_time@4126-4132","callee=std::time","basic block: 4131:18-4131:36"

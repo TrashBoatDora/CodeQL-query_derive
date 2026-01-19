@@ -1,2 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/stablediffusion/ldm/modules/midas/utils.py","call function: 34:21-34:82","call in function: read_pfm@9-55","callee=re.match","basic block: 34:21-35:20"

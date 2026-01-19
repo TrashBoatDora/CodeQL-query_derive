@@ -1,0 +1,74 @@
+{
+  "errors": [],
+  "generated_at": "2026-01-09T21:22:44Z",
+  "metrics": {
+    "./projects/python/airflow/providers/databricks/src/airflow/providers/databricks/operators/databricks.py": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1418,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 2,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 2,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 1418,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": [
+    {
+      "code": "1246                 task_key = f\"{self.dag_id}__{task_id}\".encode()\n1247                 _databricks_task_key = hashlib.md5(task_key).hexdigest()\n1248             return _databricks_task_key\n",
+      "col_offset": 39,
+      "end_col_offset": 60,
+      "filename": "./projects/python/airflow/providers/databricks/src/airflow/providers/databricks/operators/databricks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 1247,
+      "line_range": [
+        1247
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    },
+    {
+      "code": "1253             task_key = f\"{self.dag_id}__{self.task_id}\".encode()\n1254             self._databricks_task_key = hashlib.md5(task_key).hexdigest()\n1255             self.log.info(\"Generated databricks task_key: %s\", self._databricks_task_key)\n",
+      "col_offset": 40,
+      "end_col_offset": 61,
+      "filename": "./projects/python/airflow/providers/databricks/src/airflow/providers/databricks/operators/databricks.py",
+      "issue_confidence": "HIGH",
+      "issue_cwe": {
+        "id": 327,
+        "link": "https://cwe.mitre.org/data/definitions/327.html"
+      },
+      "issue_severity": "HIGH",
+      "issue_text": "Use of weak MD5 hash for security. Consider usedforsecurity=False",
+      "line_number": 1254,
+      "line_range": [
+        1254
+      ],
+      "more_info": "https://bandit.readthedocs.io/en/1.9.2/plugins/b324_hashlib.html",
+      "test_id": "B324",
+      "test_name": "hashlib"
+    }
+  ]
+}

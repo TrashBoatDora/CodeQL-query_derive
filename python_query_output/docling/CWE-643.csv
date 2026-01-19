@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/docling/docling/backend/msword_backend.py","call function: 190:26-190:72","call in function: _walk_linear@170-281","callee=lxml.etree.XPath","basic block: 176:13-196:64"
-"path: /home/sixsquare/codeQL/projects/docling/docling/backend/msword_backend.py","call function: 198:30-200:17","call in function: _walk_linear@170-281","callee=lxml.etree.XPath","basic block: 198:30-204:39"
-"path: /home/sixsquare/codeQL/projects/docling/docling/backend/msword_backend.py","call function: 206:38-209:21","call in function: _walk_linear@170-281","callee=lxml.etree.XPath","basic block: 206:38-213:43"
-"path: /home/sixsquare/codeQL/projects/docling/docling/backend/msword_backend.py","call function: 214:44-217:25","call in function: _walk_linear@170-281","callee=lxml.etree.XPath","basic block: 214:44-219:46"

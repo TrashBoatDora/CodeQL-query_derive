@@ -1,5 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/tileson/external_libs/catch.hpp","call function: 16812:13-16812:21","call in function: getCurrentTimestamp@16808-16832","callee=time","basic block: 16808:43-16808:39"
-"Path: /home/sixsquare/codeQL/projects/tileson/external_libs/catch.hpp","call function: 14943:112-14943:127","call in function: getCurrentNanosecondsSinceEpoch@14942-14944","callee=std::time","basic block: 14942:56-14942:40"
-"Path: /home/sixsquare/codeQL/projects/tileson/external_libs/catch.hpp","call function: 13156:13-13156:22","call in function: seedRng@13154-13159","callee=srand","basic block: 13155:36-13157:22"
-"Path: /home/sixsquare/codeQL/projects/tileson/external_libs/catch.hpp","call function: 9759:61-9759:69","call in function: operator()@9756-9761","callee=time","basic block: 9759:17-9760:39"

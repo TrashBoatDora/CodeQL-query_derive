@@ -1,7 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/app/backend/services/graph.py","call function: 183:16-183:35","call in function: parse_hedge_fund_response@180-192","callee=json.loads","basic block: 183:27-183:35"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/src/main.py","call function: 32:16-32:35","call in function: parse_hedge_fund_response@29-41","callee=json.loads","basic block: 32:27-32:35"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/src/utils/llm.py","call function: 118:24-118:44","call in function: extract_json_from_response@109-121","callee=json.loads","basic block: 118:35-118:44"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/src/llm/models.py","call function: 80:23-80:34","call in function: load_models_from_json@77-93","callee=json.load","basic block: 77:27-83:33"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/app/backend/services/ollama_service.py","call function: 492:20-492:31","call in function: _load_models_from_file@489-492","callee=json.load","basic block: 489:32-492:31"
-"path: /home/sixsquare/codeQL/projects/ai-hedge-fund/src/graph/state.py","call function: 45:29-45:46","call in function: show_agent_reasoning@21-51","callee=json.loads","basic block: 45:40-45:46"

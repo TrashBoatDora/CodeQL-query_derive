@@ -1,6 +1,0 @@
-"col0","col1","col2","col3","col4"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/gfpgan/archs/gfpgan_bilinear_arch.py","call function: 94:32-94:69","call in function: forward@45-128","callee=random.randint","basic block: 94:32-94:28"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/gfpgan/archs/gfpganv1_clean_arch.py","call function: 83:32-83:69","call in function: forward@34-117","callee=random.randint","basic block: 83:32-83:28"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/gfpgan/archs/gfpganv1_arch.py","call function: 95:32-95:69","call in function: forward@46-129","callee=random.randint","basic block: 95:32-95:28"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/gfpgan/archs/stylegan2_bilinear_arch.py","call function: 439:32-439:69","call in function: forward@388-462","callee=random.randint","basic block: 439:32-439:28"
-"path: /home/sixsquare/codeQL/projects/GFPGAN/gfpgan/archs/stylegan2_clean_arch.py","call function: 345:32-345:69","call in function: forward@298-368","callee=random.randint","basic block: 345:32-345:28"

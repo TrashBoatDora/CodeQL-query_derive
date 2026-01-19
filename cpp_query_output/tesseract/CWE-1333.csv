@@ -1,3 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/tesseract/src/api/pagerenderer.cpp","call function: 641:9-641:25","call in function: AddImageHandler@625-680","callee=std::regex_search","basic block: 626:23-641:25"
-"Path: /home/sixsquare/codeQL/projects/tesseract/src/api/pagerenderer.cpp","call function: 641:9-641:25","call in function: AddImageHandler@625-680","callee=std::regex","basic block: 626:23-641:25"

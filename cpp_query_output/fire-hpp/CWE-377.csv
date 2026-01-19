@@ -1,4 +1,0 @@
-"col0","col1","col2","col3","col4"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h","call function: 2150:10-2150:16","call in function: FReopen@2149-2151","callee=freopen","basic block: 2149:72-2149:20"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h","call function: 2145:10-2145:14","call in function: FOpen@2137-2147","callee=fopen","basic block: 2137:56-2137:18"
-"Path: /home/sixsquare/codeQL/projects/fire-hpp/build/_deps/googletest-src/googletest/src/gtest-port.cc","call function: 1142:29-1142:37","call in function: CapturedStream@1071-1153","callee=mkstemp","basic block: 1071:70-1143:25"

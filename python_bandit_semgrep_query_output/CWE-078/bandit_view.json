@@ -1,0 +1,2952 @@
+{
+  "AutoGPT/autogpt_platform/backend/linter.py": [
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/linter.py",
+      "line_start": 15,
+      "line_end": 15,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "AutoGPT/autogpt_platform/backend/run_tests.py": [
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 42,
+      "line_end": 42,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 110,
+      "line_end": 110,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 110,
+      "line_end": 110,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 116,
+      "line_end": 116,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 116,
+      "line_end": 116,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/autogpt_platform/backend/run_tests.py",
+      "line_start": 121,
+      "line_end": 121,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "AutoGPT/classic/benchmark/agbenchmark/challenges/builtin.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/builtin.py",
+      "line_start": 332,
+      "line_end": 332,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/builtin.py",
+      "line_start": 347,
+      "line_end": 347,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "AutoGPT/classic/benchmark/agbenchmark/challenges/verticals/code/3_file_organizer/custom_python/test.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/verticals/code/3_file_organizer/custom_python/test.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/verticals/code/3_file_organizer/custom_python/test.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "AutoGPT/classic/benchmark/agbenchmark/challenges/verticals/code/5_tic_tac_toe/custom_python/test.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/verticals/code/5_tic_tac_toe/custom_python/test.py",
+      "line_start": 8,
+      "line_end": 8,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/benchmark/agbenchmark/challenges/verticals/code/5_tic_tac_toe/custom_python/test.py",
+      "line_start": 8,
+      "line_end": 8,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "AutoGPT/classic/cli.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 12,
+      "line_end": 12,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 50,
+      "line_end": 50,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 150,
+      "line_end": 150,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 160,
+      "line_end": 160,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 188,
+      "line_end": 188,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 188,
+      "line_end": 188,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 198,
+      "line_end": 198,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 198,
+      "line_end": 198,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/cli.py",
+      "line_start": 262,
+      "line_end": 262,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "AutoGPT/classic/forge/forge/components/code_executor/code_executor.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/components/code_executor/code_executor.py",
+      "line_start": 209,
+      "line_end": 209,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/components/code_executor/code_executor.py",
+      "line_start": 287,
+      "line_end": 287,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/components/code_executor/code_executor.py",
+      "line_start": 334,
+      "line_end": 334,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "AutoGPT/classic/forge/forge/speech/macos_tts.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/speech/macos_tts.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/speech/macos_tts.py",
+      "line_start": 18,
+      "line_end": 18,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/speech/macos_tts.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/speech/macos_tts.py",
+      "line_start": 20,
+      "line_end": 20,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/speech/macos_tts.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/forge/forge/speech/macos_tts.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py": [
+    {
+      "file_path": "projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py",
+      "line_start": 115,
+      "line_end": 115,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/AutoGPT/classic/original_autogpt/scripts/llamafile/serve.py",
+      "line_start": 126,
+      "line_end": 126,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ChatGLM-6B/cli_demo.py": [
+    {
+      "file_path": "projects/python/ChatGLM-6B/cli_demo.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/ChatGLM-6B/cli_demo.py",
+      "line_start": 50,
+      "line_end": 50,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/ChatGLM-6B/cli_demo.py",
+      "line_start": 53,
+      "line_end": 53,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "ChatGLM-6B/cli_demo_vision.py": [
+    {
+      "file_path": "projects/python/ChatGLM-6B/cli_demo_vision.py",
+      "line_start": 51,
+      "line_end": 51,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/ChatGLM-6B/cli_demo_vision.py",
+      "line_start": 54,
+      "line_end": 54,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "ChatTTS/ChatTTS/utils/dl.py": [
+    {
+      "file_path": "projects/python/ChatTTS/ChatTTS/utils/dl.py",
+      "line_start": 181,
+      "line_end": 181,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ColossalAI/applications/ColossalChat/examples/inference/inference.py": [
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalChat/examples/inference/inference.py",
+      "line_start": 140,
+      "line_end": 140,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/ColossalAI/applications/ColossalChat/examples/inference/inference.py",
+      "line_start": 140,
+      "line_end": 140,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    }
+  ],
+  "ColossalAI/colossalai/auto_parallel/checkpoint/ckpt_solver_rotor.py": [
+    {
+      "file_path": "projects/python/ColossalAI/colossalai/auto_parallel/checkpoint/ckpt_solver_rotor.py",
+      "line_start": 289,
+      "line_end": 289,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ColossalAI/colossalai/cli/check/check_installation.py": [
+    {
+      "file_path": "projects/python/ColossalAI/colossalai/cli/check/check_installation.py",
+      "line_start": 204,
+      "line_end": 204,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ColossalAI/examples/tutorial/sequence_parallel/data/datasets/dataset_utils.py": [
+    {
+      "file_path": "projects/python/ColossalAI/examples/tutorial/sequence_parallel/data/datasets/dataset_utils.py",
+      "line_start": 74,
+      "line_end": 74,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/ColossalAI/examples/tutorial/sequence_parallel/data/datasets/dataset_utils.py",
+      "line_start": 74,
+      "line_end": 74,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ColossalAI/extensions/utils.py": [
+    {
+      "file_path": "projects/python/ColossalAI/extensions/utils.py",
+      "line_start": 70,
+      "line_end": 70,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ComfyUI/cuda_malloc.py": [
+    {
+      "file_path": "projects/python/ComfyUI/cuda_malloc.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/ComfyUI/cuda_malloc.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ComfyUI/tests/execution/test_async_nodes.py": [
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_async_nodes.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ComfyUI/tests/execution/test_execution.py": [
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_execution.py",
+      "line_start": 203,
+      "line_end": 203,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ComfyUI/tests/execution/test_progress_isolation.py": [
+    {
+      "file_path": "projects/python/ComfyUI/tests/execution/test_progress_isolation.py",
+      "line_start": 98,
+      "line_end": 98,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "ComfyUI/tests/inference/test_inference.py": [
+    {
+      "file_path": "projects/python/ComfyUI/tests/inference/test_inference.py",
+      "line_start": 154,
+      "line_end": 154,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/ComfyUI/tests/inference/test_inference.py",
+      "line_start": 154,
+      "line_end": 154,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "Deep-Live-Cam/modules/utilities.py": [
+    {
+      "file_path": "projects/python/Deep-Live-Cam/modules/utilities.py",
+      "line_start": 34,
+      "line_end": 34,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/Deep-Live-Cam/modules/utilities.py",
+      "line_start": 54,
+      "line_end": 54,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/ci/accelerate.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/ci/accelerate.py",
+      "line_start": 39,
+      "line_end": 39,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/ci/accelerate.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/ci/accelerate.py",
+      "line_start": 54,
+      "line_end": 54,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/ci/torch_latest.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/ci/torch_latest.py",
+      "line_start": 36,
+      "line_end": 36,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/csrc/aio/py_test/ds_aio_job.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/csrc/aio/py_test/ds_aio_job.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/autotuning/autotuner.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/autotuning/autotuner.py",
+      "line_start": 1108,
+      "line_end": 1108,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/autotuning/scheduler.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/autotuning/scheduler.py",
+      "line_start": 386,
+      "line_end": 386,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/autotuning/scheduler.py",
+      "line_start": 423,
+      "line_end": 423,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/comm/comm.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/comm/comm.py",
+      "line_start": 872,
+      "line_end": 872,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/elasticity/elastic_agent.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/elasticity/elastic_agent.py",
+      "line_start": 59,
+      "line_end": 59,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/env_report.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/env_report.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/launcher/launch.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/launch.py",
+      "line_start": 268,
+      "line_end": 268,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/launch.py",
+      "line_start": 270,
+      "line_end": 270,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/launcher/launcher_helper.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/launcher_helper.py",
+      "line_start": 103,
+      "line_end": 103,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/launcher/multinode_runner.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/multinode_runner.py",
+      "line_start": 426,
+      "line_end": 426,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/multinode_runner.py",
+      "line_start": 426,
+      "line_end": 426,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/launcher/runner.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/runner.py",
+      "line_start": 489,
+      "line_end": 489,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/runner.py",
+      "line_start": 504,
+      "line_end": 504,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/runner.py",
+      "line_start": 631,
+      "line_end": 631,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/launcher/runner.py",
+      "line_start": 637,
+      "line_end": 637,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/nvme/ds_aio_job.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/nvme/ds_aio_job.py",
+      "line_start": 47,
+      "line_end": 47,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/ops/transformer/inference/triton/matmul_ext.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/ops/transformer/inference/triton/matmul_ext.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/ops/transformer/inference/triton/matmul_ext.py",
+      "line_start": 30,
+      "line_end": 30,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/deepspeed/runtime/data_pipeline/data_sampling/data_analyzer.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/runtime/data_pipeline/data_sampling/data_analyzer.py",
+      "line_start": 75,
+      "line_end": 75,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "DeepSpeed/deepspeed/utils/numa.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/utils/numa.py",
+      "line_start": 27,
+      "line_end": 27,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/utils/numa.py",
+      "line_start": 27,
+      "line_end": 27,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/deepspeed/utils/numa.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/op_builder/async_io.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/async_io.py",
+      "line_start": 88,
+      "line_end": 88,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/op_builder/builder.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 53,
+      "line_end": 53,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 210,
+      "line_end": 210,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 210,
+      "line_end": 210,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 263,
+      "line_end": 263,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 281,
+      "line_end": 281,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 444,
+      "line_end": 444,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 444,
+      "line_end": 444,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/builder.py",
+      "line_start": 497,
+      "line_end": 497,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/op_builder/cpu/async_io.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/cpu/async_io.py",
+      "line_start": 66,
+      "line_end": 66,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/op_builder/npu/async_io.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/npu/async_io.py",
+      "line_start": 78,
+      "line_end": 78,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/op_builder/xpu/async_io.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/op_builder/xpu/async_io.py",
+      "line_start": 81,
+      "line_end": 81,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/setup.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/setup.py",
+      "line_start": 163,
+      "line_end": 163,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/setup.py",
+      "line_start": 167,
+      "line_end": 167,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/setup.py",
+      "line_start": 214,
+      "line_end": 214,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/setup.py",
+      "line_start": 216,
+      "line_end": 216,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/tests/model/BingBertSquad/BingBertSquad_test_common.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/BingBertSquad/BingBertSquad_test_common.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/BingBertSquad/BingBertSquad_test_common.py",
+      "line_start": 58,
+      "line_end": 58,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "line_start": 69,
+      "line_end": 69,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "line_start": 69,
+      "line_end": 69,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/BingBertSquad/test_e2e_squad.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/tests/model/Megatron_GPT2/run_checkpoint_test.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/Megatron_GPT2/run_checkpoint_test.py",
+      "line_start": 24,
+      "line_end": 24,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/Megatron_GPT2/run_checkpoint_test.py",
+      "line_start": 457,
+      "line_end": 457,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/Megatron_GPT2/run_checkpoint_test.py",
+      "line_start": 479,
+      "line_end": 479,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/Megatron_GPT2/run_checkpoint_test.py",
+      "line_start": 495,
+      "line_end": 495,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/Megatron_GPT2/run_checkpoint_test.py",
+      "line_start": 511,
+      "line_end": 511,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/tests/model/Megatron_GPT2/test_common.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/Megatron_GPT2/test_common.py",
+      "line_start": 52,
+      "line_end": 52,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/model/Megatron_GPT2/test_common.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/tests/unit/common.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 69,
+      "line_end": 69,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 69,
+      "line_end": 69,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 71,
+      "line_end": 71,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 73,
+      "line_end": 73,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 89,
+      "line_end": 89,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 93,
+      "line_end": 93,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 93,
+      "line_end": 93,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 96,
+      "line_end": 96,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 96,
+      "line_end": 96,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 105,
+      "line_end": 105,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 108,
+      "line_end": 108,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 108,
+      "line_end": 108,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 113,
+      "line_end": 113,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/common.py",
+      "line_start": 113,
+      "line_end": 113,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/tests/unit/launcher/test_user_args.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/launcher/test_user_args.py",
+      "line_start": 68,
+      "line_end": 68,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/launcher/test_user_args.py",
+      "line_start": 83,
+      "line_end": 83,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/launcher/test_user_args.py",
+      "line_start": 83,
+      "line_end": 83,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "DeepSpeed/tests/unit/megatron_model.py": [
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/megatron_model.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/DeepSpeed/tests/unit/megatron_model.py",
+      "line_start": 17,
+      "line_end": 17,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    }
+  ],
+  "DragGAN/stylegan_human/dnnlib/tflib/custom_ops.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/dnnlib/tflib/custom_ops.py",
+      "line_start": 59,
+      "line_end": 59,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "DragGAN/stylegan_human/edit.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 179,
+      "line_end": 179,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 182,
+      "line_end": 182,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/edit.py",
+      "line_start": 184,
+      "line_end": 184,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "DragGAN/stylegan_human/insetgan.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/insetgan.py",
+      "line_start": 388,
+      "line_end": 388,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "DragGAN/stylegan_human/torch_utils/custom_ops.py": [
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/custom_ops.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/custom_ops.py",
+      "line_start": 76,
+      "line_end": 76,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/custom_ops.py",
+      "line_start": 164,
+      "line_end": 164,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/DragGAN/stylegan_human/torch_utils/custom_ops.py",
+      "line_start": 164,
+      "line_end": 164,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    }
+  ],
+  "DragGAN/torch_utils/custom_ops.py": [
+    {
+      "file_path": "projects/python/DragGAN/torch_utils/custom_ops.py",
+      "line_start": 81,
+      "line_end": 81,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/DragGAN/torch_utils/custom_ops.py",
+      "line_start": 81,
+      "line_end": 81,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    }
+  ],
+  "FastChat/fastchat/serve/launch_all_serve.py": [
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 252,
+      "line_end": 252,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 253,
+      "line_end": 253,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 262,
+      "line_end": 262,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 263,
+      "line_end": 263,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 279,
+      "line_end": 279,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/FastChat/fastchat/serve/launch_all_serve.py",
+      "line_start": 280,
+      "line_end": 280,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "FastChat/fastchat/utils.py": [
+    {
+      "file_path": "projects/python/FastChat/fastchat/utils.py",
+      "line_start": 342,
+      "line_end": 342,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "FastChat/tests/launch_openai_api_test_server.py": [
+    {
+      "file_path": "projects/python/FastChat/tests/launch_openai_api_test_server.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "Fooocus/modules/launch_util.py": [
+    {
+      "file_path": "projects/python/Fooocus/modules/launch_util.py",
+      "line_start": 50,
+      "line_end": 50,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "GFPGAN/cog_predict.py": [
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 9,
+      "line_end": 9,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 10,
+      "line_end": 10,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 33,
+      "line_end": 33,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 37,
+      "line_end": 37,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 40,
+      "line_end": 40,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 40,
+      "line_end": 40,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GFPGAN/cog_predict.py",
+      "line_start": 46,
+      "line_end": 46,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    }
+  ],
+  "GFPGAN/setup.py": [
+    {
+      "file_path": "projects/python/GFPGAN/setup.py",
+      "line_start": 31,
+      "line_end": 31,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/BigVGAN/alias_free_activation/cuda/load.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/BigVGAN/alias_free_activation/cuda/load.py",
+      "line_start": 67,
+      "line_end": 67,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "GPT-SoVITS/GPT_SoVITS/utils.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/utils.py",
+      "line_start": 293,
+      "line_end": 293,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell: Seems safe, but may be changed in the future, consider rewriting without shell"
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/GPT_SoVITS/utils.py",
+      "line_start": 293,
+      "line_end": 293,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    }
+  ],
+  "GPT-SoVITS/api.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/api.py",
+      "line_start": 753,
+      "line_end": 753,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/api.py",
+      "line_start": 753,
+      "line_end": 753,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/api.py",
+      "line_start": 1073,
+      "line_end": 1073,
+      "scanner": "bandit",
+      "rule_id": "B606",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Starting a process without a shell."
+    }
+  ],
+  "GPT-SoVITS/api_v2.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/api_v2.py",
+      "line_start": 239,
+      "line_end": 239,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/api_v2.py",
+      "line_start": 239,
+      "line_end": 239,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/api_v2.py",
+      "line_start": 299,
+      "line_end": 299,
+      "scanner": "bandit",
+      "rule_id": "B606",
+      "severity": "LOW",
+      "confidence": "MEDIUM",
+      "description": "Starting a process without a shell."
+    }
+  ],
+  "GPT-SoVITS/tools/uvr5/bsroformer.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/bsroformer.py",
+      "line_start": 256,
+      "line_end": 256,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "GPT-SoVITS/tools/uvr5/mdxnet.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/mdxnet.py",
+      "line_start": 193,
+      "line_end": 193,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/mdxnet.py",
+      "line_start": 200,
+      "line_end": 200,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "GPT-SoVITS/tools/uvr5/vr.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/vr.py",
+      "line_start": 145,
+      "line_end": 145,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/vr.py",
+      "line_start": 182,
+      "line_end": 182,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/vr.py",
+      "line_start": 312,
+      "line_end": 312,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/vr.py",
+      "line_start": 345,
+      "line_end": 345,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "GPT-SoVITS/tools/uvr5/webui.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/tools/uvr5/webui.py",
+      "line_start": 99,
+      "line_end": 99,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "GPT-SoVITS/webui.py": [
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 238,
+      "line_end": 238,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 287,
+      "line_end": 287,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 317,
+      "line_end": 317,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 355,
+      "line_end": 355,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 395,
+      "line_end": 395,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 453,
+      "line_end": 453,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 553,
+      "line_end": 553,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 645,
+      "line_end": 645,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 728,
+      "line_end": 728,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 810,
+      "line_end": 810,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 900,
+      "line_end": 900,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 922,
+      "line_end": 922,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 994,
+      "line_end": 994,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1094,
+      "line_end": 1094,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1141,
+      "line_end": 1141,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1163,
+      "line_end": 1163,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1203,
+      "line_end": 1203,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/GPT-SoVITS/webui.py",
+      "line_start": 1297,
+      "line_end": 1297,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "HanLP/hanlp/common/keras_component.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/common/keras_component.py",
+      "line_start": 513,
+      "line_end": 513,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/HanLP/hanlp/common/keras_component.py",
+      "line_start": 519,
+      "line_end": 519,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "HanLP/hanlp/utils/io_util.py": [
+    {
+      "file_path": "projects/python/HanLP/hanlp/utils/io_util.py",
+      "line_start": 599,
+      "line_end": 599,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "LLaMA-Factory/src/llamafactory/extras/env.py": [
+    {
+      "file_path": "projects/python/LLaMA-Factory/src/llamafactory/extras/env.py",
+      "line_start": 91,
+      "line_end": 91,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/LLaMA-Factory/src/llamafactory/extras/env.py",
+      "line_start": 91,
+      "line_end": 91,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "LLaMA-Factory/src/llamafactory/webui/runner.py": [
+    {
+      "file_path": "projects/python/LLaMA-Factory/src/llamafactory/webui/runner.py",
+      "line_start": 378,
+      "line_end": 378,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/LLaMA-Factory/src/llamafactory/webui/runner.py",
+      "line_start": 378,
+      "line_end": 378,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MediaCrawler/tools/browser_launcher.py": [
+    {
+      "file_path": "projects/python/MediaCrawler/tools/browser_launcher.py",
+      "line_start": 170,
+      "line_end": 170,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MediaCrawler/tools/browser_launcher.py",
+      "line_start": 177,
+      "line_end": 177,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MediaCrawler/tools/browser_launcher.py",
+      "line_start": 230,
+      "line_end": 230,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MediaCrawler/tools/browser_launcher.py",
+      "line_start": 265,
+      "line_end": 265,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MediaCrawler/tools/browser_launcher.py",
+      "line_start": 265,
+      "line_end": 265,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/examples/build_customized_agent.py": [
+    {
+      "file_path": "projects/python/MetaGPT/examples/build_customized_agent.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/examples/build_customized_agent.py",
+      "line_start": 48,
+      "line_end": 48,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/metagpt/actions/run_code.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/run_code.py",
+      "line_start": 106,
+      "line_end": 106,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/actions/run_code.py",
+      "line_start": 151,
+      "line_end": 151,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/metagpt/environment/android/android_ext_env.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/environment/android/android_ext_env.py",
+      "line_start": 139,
+      "line_end": 139,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "MetaGPT/metagpt/repo_parser.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/repo_parser.py",
+      "line_start": 731,
+      "line_end": 731,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "MetaGPT/metagpt/tools/libs/linter.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/tools/libs/linter.py",
+      "line_start": 58,
+      "line_end": 58,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/metagpt/tools/libs/shell.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/tools/libs/shell.py",
+      "line_start": 52,
+      "line_end": 52,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "MetaGPT/metagpt/utils/common.py": [
+    {
+      "file_path": "projects/python/MetaGPT/metagpt/utils/common.py",
+      "line_start": 63,
+      "line_end": 63,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "MetaGPT/setup.py": [
+    {
+      "file_path": "projects/python/MetaGPT/setup.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/setup.py",
+      "line_start": 16,
+      "line_end": 16,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/tests/metagpt/test_incremental_dev.py": [
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 101,
+      "line_end": 101,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 106,
+      "line_end": 106,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 106,
+      "line_end": 106,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 109,
+      "line_end": 109,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 109,
+      "line_end": 109,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 121,
+      "line_end": 121,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 121,
+      "line_end": 121,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 123,
+      "line_end": 123,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 143,
+      "line_end": 143,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 143,
+      "line_end": 143,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 146,
+      "line_end": 146,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 150,
+      "line_end": 150,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 159,
+      "line_end": 159,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 159,
+      "line_end": 159,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 161,
+      "line_end": 161,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 161,
+      "line_end": 161,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 162,
+      "line_end": 162,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 162,
+      "line_end": 162,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 173,
+      "line_end": 173,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 180,
+      "line_end": 180,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/test_incremental_dev.py",
+      "line_start": 190,
+      "line_end": 190,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/tests/metagpt/tools/libs/test_editor.py": [
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/libs/test_editor.py",
+      "line_start": 737,
+      "line_end": 737,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/libs/test_editor.py",
+      "line_start": 748,
+      "line_end": 748,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/libs/test_editor.py",
+      "line_start": 803,
+      "line_end": 803,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "MetaGPT/tests/metagpt/tools/test_metagpt_oas3_api_svc.py": [
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/test_metagpt_oas3_api_svc.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/test_metagpt_oas3_api_svc.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/tests/metagpt/tools/test_openapi_v3_hello.py": [
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/test_openapi_v3_hello.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/test_openapi_v3_hello.py",
+      "line_start": 22,
+      "line_end": 22,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MetaGPT/tests/metagpt/tools/test_search_engine_meilisearch.py": [
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/test_search_engine_meilisearch.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B607",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "Starting a process with a partial executable path"
+    },
+    {
+      "file_path": "projects/python/MetaGPT/tests/metagpt/tools/test_search_engine_meilisearch.py",
+      "line_start": 25,
+      "line_end": 25,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MinerU/update_version.py": [
+    {
+      "file_path": "projects/python/MinerU/update_version.py",
+      "line_start": 8,
+      "line_end": 8,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "MockingBird/control/mkgui/base/ui/streamlit_ui.py": [
+    {
+      "file_path": "projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py",
+      "line_start": 55,
+      "line_end": 55,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    },
+    {
+      "file_path": "projects/python/MockingBird/control/mkgui/base/ui/streamlit_ui.py",
+      "line_start": 60,
+      "line_end": 60,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "MoneyPrinterTurbo/webui/Main.py": [
+    {
+      "file_path": "projects/python/MoneyPrinterTurbo/webui/Main.py",
+      "line_start": 137,
+      "line_end": 137,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    },
+    {
+      "file_path": "projects/python/MoneyPrinterTurbo/webui/Main.py",
+      "line_start": 139,
+      "line_end": 139,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "Open-Assistant/data/datasets/oa_stackexchange/process.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/data/datasets/oa_stackexchange/process.py",
+      "line_start": 56,
+      "line_end": 56,
+      "scanner": "bandit",
+      "rule_id": "B605",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "Starting a process with a shell, possible injection detected, security issue."
+    }
+  ],
+  "Open-Assistant/model/pretokenizer/pretokenize.py": [
+    {
+      "file_path": "projects/python/Open-Assistant/model/pretokenizer/pretokenize.py",
+      "line_start": 427,
+      "line_end": 427,
+      "scanner": "bandit",
+      "rule_id": "B602",
+      "severity": "HIGH",
+      "confidence": "HIGH",
+      "description": "subprocess call with shell=True identified, security issue."
+    }
+  ],
+  "OpenBB/build/pypi/openbb_platform/nightly.py": [
+    {
+      "file_path": "projects/python/OpenBB/build/pypi/openbb_platform/nightly.py",
+      "line_start": 75,
+      "line_end": 75,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "OpenBB/build/pypi/openbb_platform/publish.py": [
+    {
+      "file_path": "projects/python/OpenBB/build/pypi/openbb_platform/publish.py",
+      "line_start": 175,
+      "line_end": 175,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    },
+    {
+      "file_path": "projects/python/OpenBB/build/pypi/openbb_platform/publish.py",
+      "line_start": 194,
+      "line_end": 194,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "OpenBB/openbb_platform/core/openbb_core/app/static/utils/linters.py": [
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/core/openbb_core/app/static/utils/linters.py",
+      "line_start": 40,
+      "line_end": 40,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "OpenBB/openbb_platform/core/openbb_core/app/version.py": [
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/core/openbb_core/app/version.py",
+      "line_start": 43,
+      "line_end": 43,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ],
+  "OpenBB/openbb_platform/core/openbb_core/build.py": [
+    {
+      "file_path": "projects/python/OpenBB/openbb_platform/core/openbb_core/build.py",
+      "line_start": 23,
+      "line_end": 23,
+      "scanner": "bandit",
+      "rule_id": "B603",
+      "severity": "LOW",
+      "confidence": "HIGH",
+      "description": "subprocess call - check for execution of untrusted input."
+    }
+  ]
+}
