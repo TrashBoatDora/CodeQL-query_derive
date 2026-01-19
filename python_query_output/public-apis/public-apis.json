@@ -1,0 +1,300 @@
+{
+  "CWE-022": {
+    "open": {
+      "public-apis/scripts/validate/links.py": [
+        [
+          "find_links_in_file",
+          26,
+          38,
+          29,
+          10,
+          29,
+          51,
+          26,
+          24,
+          32,
+          30
+        ]
+      ],
+      "public-apis/scripts/validate/format.py": [
+        [
+          "main",
+          254,
+          264,
+          256,
+          10,
+          256,
+          51,
+          254,
+          10,
+          261,
+          27
+        ]
+      ]
+    }
+  },
+  "CWE-078": {},
+  "CWE-079": {},
+  "CWE-095": {},
+  "CWE-113": {},
+  "CWE-117": {
+    "print": {
+      "public-apis/scripts/validate/links.py": [
+        [
+          "start_duplicate_links_checker",
+          212,
+          226,
+          214,
+          5,
+          214,
+          44,
+          212,
+          35,
+          218,
+          25
+        ],
+        [
+          "start_duplicate_links_checker",
+          212,
+          226,
+          219,
+          9,
+          219,
+          40,
+          219,
+          9,
+          221,
+          46
+        ],
+        [
+          "start_duplicate_links_checker",
+          212,
+          226,
+          222,
+          13,
+          222,
+          33,
+          221,
+          13,
+          222,
+          33
+        ],
+        [
+          "start_duplicate_links_checker",
+          212,
+          226,
+          226,
+          9,
+          226,
+          36,
+          226,
+          9,
+          226,
+          36
+        ],
+        [
+          "start_links_working_checker",
+          229,
+          242,
+          231,
+          5,
+          231,
+          59,
+          229,
+          33,
+          234,
+          13
+        ],
+        [
+          "start_links_working_checker",
+          229,
+          242,
+          237,
+          9,
+          237,
+          81,
+          236,
+          22,
+          239,
+          35
+        ],
+        [
+          "start_links_working_checker",
+          229,
+          242,
+          240,
+          13,
+          240,
+          32,
+          239,
+          13,
+          240,
+          32
+        ]
+      ],
+      "public-apis/scripts/validate/format.py": [
+        [
+          "main",
+          254,
+          264,
+          263,
+          13,
+          263,
+          26,
+          262,
+          13,
+          263,
+          26
+        ]
+      ]
+    },
+    "str.replace": {
+      "public-apis/scripts/validate/format.py": [
+        [
+          "check_auth",
+          129,
+          142,
+          138,
+          8,
+          138,
+          33,
+          138,
+          8,
+          138,
+          50
+        ]
+      ]
+    }
+  },
+  "CWE-326": {},
+  "CWE-327": {},
+  "CWE-329": {},
+  "CWE-347": {},
+  "CWE-377": {
+    "open": {
+      "public-apis/scripts/validate/links.py": [
+        [
+          "find_links_in_file",
+          26,
+          38,
+          29,
+          10,
+          29,
+          51,
+          26,
+          24,
+          32,
+          30
+        ]
+      ],
+      "public-apis/scripts/validate/format.py": [
+        [
+          "main",
+          254,
+          264,
+          256,
+          10,
+          256,
+          51,
+          254,
+          10,
+          261,
+          27
+        ]
+      ]
+    }
+  },
+  "CWE-502": {},
+  "CWE-643": {},
+  "CWE-760": {},
+  "CWE-918": {
+    "requests.get": {
+      "public-apis/scripts/validate/links.py": [
+        [
+          "check_if_link_is_working",
+          152,
+          198,
+          167,
+          16,
+          170,
+          10,
+          169,
+          13,
+          170,
+          10
+        ]
+      ]
+    }
+  },
+  "CWE-943": {},
+  "CWE-1333": {
+    "re.compile": {
+      "public-apis/scripts/validate/links.py": [
+        [
+          "find_links_in_text",
+          12,
+          23,
+          15,
+          20,
+          15,
+          211,
+          12,
+          24,
+          23,
+          16
+        ]
+      ]
+    },
+    "re.findall": {
+      "public-apis/scripts/validate/links.py": [
+        [
+          "find_links_in_text",
+          12,
+          23,
+          17,
+          17,
+          17,
+          46,
+          12,
+          24,
+          23,
+          16
+        ]
+      ]
+    },
+    "str.startswith": {
+      "public-apis/scripts/validate/format.py": [
+        [
+          "check_auth",
+          129,
+          142,
+          134,
+          30,
+          134,
+          54,
+          134,
+          26,
+          134,
+          54
+        ]
+      ]
+    },
+    "str.endswith": {
+      "public-apis/scripts/validate/format.py": [
+        [
+          "check_auth",
+          129,
+          142,
+          134,
+          63,
+          134,
+          85,
+          134,
+          63,
+          134,
+          85
+        ]
+      ]
+    }
+  }
+}

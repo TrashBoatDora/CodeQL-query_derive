@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/professional-programming/antipatterns/python-examples/reraise_exceptions_good.py","call function: 14:9-14:52","call in function: toast@10-15","callee=print","basic block: 13:5-15:13"

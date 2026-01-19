@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/comfy_extras/nodes_audio.py","call function: 339:13-339:28","call in function: IS_CHANGED@337-342","callee=hashlib.sha256","basic block: 337:20-342:31"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/nodes.py","call function: 531:13-531:28","call in function: IS_CHANGED@529-534","callee=hashlib.sha256","basic block: 529:20-534:31"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/nodes.py","call function: 1694:13-1694:28","call in function: IS_CHANGED@1692-1697","callee=hashlib.sha256","basic block: 1692:20-1697:31"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/nodes.py","call function: 1743:13-1743:28","call in function: IS_CHANGED@1741-1746","callee=hashlib.sha256","basic block: 1741:20-1746:31"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/comfy_api_nodes/apis/request_logger.py","call function: 41:12-41:58","call in function: _short_hash@40-41","callee=hashlib.sha1","basic block: 40:18-41:79"
+"path: /home/sixsquare/codeQL/projects/ComfyUI/comfy/k_diffusion/utils.py","call function: 45:23-45:61","call in function: download_file@37-48","callee=hashlib.sha256","basic block: 45:23-46:32"

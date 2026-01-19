@@ -1,0 +1,7 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MinerU/mineru/model/table/rec/RapidTable.py","call function: 21:12-21:36","call in function: escape_html@19-21","callee=html.escape","basic block: 19:17-21:36"
+"path: /home/sixsquare/codeQL/projects/MinerU/mineru/backend/pipeline/batch_analyze.py","call function: 179:50-179:72","call in function: __call__@33-446","callee=html.escape","basic block: 178:25-180:25"
+"path: /home/sixsquare/codeQL/projects/MinerU/mineru/backend/pipeline/batch_analyze.py","call function: 183:50-183:72","call in function: __call__@33-446","callee=html.escape","basic block: 183:30-182:83"
+"path: /home/sixsquare/codeQL/projects/MinerU/mineru/utils/format_utils.py","call function: 287:23-287:52","call in function: export_to_html@256-304","callee=html.escape","basic block: 287:23-289:33"
+"path: /home/sixsquare/codeQL/projects/MinerU/mineru/model/table/rec/slanet_plus/main.py","call function: 146:12-146:36","call in function: escape_html@144-146","callee=html.escape","basic block: 144:17-146:36"
+"path: /home/sixsquare/codeQL/projects/MinerU/mineru/model/table/rec/unet_table/main.py","call function: 242:12-242:36","call in function: escape_html@240-242","callee=html.escape","basic block: 240:17-242:36"

@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MinerU/update_version.py","call function: 8:19-8:50","call in function: get_version@5-16","callee=subprocess.check_output","basic block: 8:43-8:50"

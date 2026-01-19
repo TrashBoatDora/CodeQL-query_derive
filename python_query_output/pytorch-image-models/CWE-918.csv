@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/timm/models/_factory.py","call function: 23:14-23:33","call in function: parse_model_name@18-32","callee=urllib.parse.urlsplit","basic block: 23:14-24:55"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/results/generate_csv_results.py","call function: 23:15-23:35","call in function: diff@20-70","callee=pandas.read_csv","basic block: 20:10-31:45"

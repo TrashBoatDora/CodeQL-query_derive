@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/chatgpt-on-wechat/lib/itchat/utils.py","call function: 45:5-45:59","call in function: clear_screen@44-45","callee=os.system","basic block: 45:15-45:59"
+"path: /home/sixsquare/codeQL/projects/chatgpt-on-wechat/lib/itchat/utils.py","call function: 90:9-90:42","call in function: print_qr@88-94","callee=subprocess.call","basic block: 90:9-90:42"
+"path: /home/sixsquare/codeQL/projects/chatgpt-on-wechat/lib/itchat/utils.py","call function: 92:9-92:46","call in function: print_qr@88-94","callee=subprocess.call","basic block: 92:9-92:46"
+"path: /home/sixsquare/codeQL/projects/chatgpt-on-wechat/lib/itchat/utils.py","call function: 94:9-94:29","call in function: print_qr@88-94","callee=os.startfile","basic block: 94:9-94:29"

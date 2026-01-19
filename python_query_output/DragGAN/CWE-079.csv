@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/DragGAN/stylegan_human/dnnlib/util.py","call function: 442:38-442:56","call in function: open_url@384-479","callee=html.unescape","basic block: 442:38-442:56"
+"path: /home/sixsquare/codeQL/projects/DragGAN/stylegan_human/dnnlib/util.py","call function: 442:38-442:56","call in function: listcomp@442-442","callee=html.unescape","basic block: 442:38-442:56"
+"path: /home/sixsquare/codeQL/projects/DragGAN/dnnlib/util.py","call function: 454:38-454:56","call in function: open_url@396-491","callee=html.unescape","basic block: 454:38-454:56"
+"path: /home/sixsquare/codeQL/projects/DragGAN/dnnlib/util.py","call function: 454:38-454:56","call in function: listcomp@454-454","callee=html.unescape","basic block: 454:38-454:56"

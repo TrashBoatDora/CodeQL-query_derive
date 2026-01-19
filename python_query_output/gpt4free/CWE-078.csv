@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/gpt4free/etc/tool/commit.py","call function: 169:24-174:9","call in function: get_git_diff@166-183","callee=subprocess.run","basic block: 170:14-174:9"
+"path: /home/sixsquare/codeQL/projects/gpt4free/etc/tool/commit.py","call function: 196:26-201:9","call in function: get_repository_info@185-220","callee=subprocess.run","basic block: 197:14-201:9"
+"path: /home/sixsquare/codeQL/projects/gpt4free/etc/tool/commit.py","call function: 209:26-214:9","call in function: get_repository_info@185-220","callee=subprocess.run","basic block: 210:14-214:9"
+"path: /home/sixsquare/codeQL/projects/gpt4free/etc/tool/commit.py","call function: 382:18-385:9","call in function: edit_commit_message@374-411","callee=subprocess.run","basic block: 383:14-385:9"
+"path: /home/sixsquare/codeQL/projects/gpt4free/etc/tool/commit.py","call function: 394:9-394:55","call in function: edit_commit_message@374-411","callee=subprocess.run","basic block: 394:25-394:55"
+"path: /home/sixsquare/codeQL/projects/gpt4free/etc/tool/commit.py","call function: 428:9-432:9","call in function: make_commit@425-436","callee=subprocess.run","basic block: 429:14-432:9"
+"path: /home/sixsquare/codeQL/projects/gpt4free/g4f/version.py","call function: 65:16-69:9","call in function: get_git_version@62-71","callee=subprocess.check_output","basic block: 68:13-69:9"

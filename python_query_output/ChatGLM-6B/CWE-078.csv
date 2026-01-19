@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo.py","call function: 39:13-39:36","call in function: main@29-54","callee=os.system","basic block: 38:23-41:20"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo.py","call function: 50:21-50:44","call in function: main@29-54","callee=os.system","basic block: 50:21-52:64"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo.py","call function: 53:9-53:32","call in function: main@29-54","callee=os.system","basic block: 53:9-54:48"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo_vision.py","call function: 51:25-51:48","call in function: main@31-60","callee=os.system","basic block: 51:25-53:68"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo_vision.py","call function: 54:13-54:36","call in function: main@31-60","callee=os.system","basic block: 54:13-57:39"

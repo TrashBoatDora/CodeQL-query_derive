@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/async_support/base/exchange.py","call function: 133:34-133:127","call in function: open@115-134","callee=aiohttp.TCPConnector","basic block: 133:34-134:24"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/marshmallow/fields.py","call function: 1772:20-1774:13","call in function: _deserialize@1766-1776","callee=ipaddress.ip_address","basic block: 1772:20-1774:13"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/base/exchange.py","call function: 441:28-441:36","call in function: __init__@378-443","callee=requests.Session","basic block: 441:28-442:34"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/ethereum/utils/humanize.py","call function: 106:14-106:32","call in function: humanize_ipfs_uri@99-110","callee=urllib.parse.urlparse","basic block: 106:14-110:35"
+"path: /home/sixsquare/codeQL/projects/ccxt/python/ccxt/static_dependencies/ethereum/utils/humanize.py","call function: 117:14-117:34","call in function: is_ipfs_uri@113-121","callee=urllib.parse.urlparse","basic block: 117:14-118:30"

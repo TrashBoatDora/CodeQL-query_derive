@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/open-interpreter/interpreter/computer_use/tools/computer.py","call function: 225:41-225:47","call in function: screenshot@222-245","callee=uuid.uuid4","basic block: 222:26-230:32"
+"path: /home/sixsquare/codeQL/projects/open-interpreter/interpreter/core/llm/llm.py","call function: 124:56-124:67","call in function: run@76-324","callee=uuid.uuid4","basic block: 120:39-124:48"
+"path: /home/sixsquare/codeQL/projects/open-interpreter/interpreter/computer_use/loop.py","call function: 198:20-198:31","call in function: sampling_loop@113-236","callee=uuid.uuid4","basic block: 197:20-219:75"
+"path: /home/sixsquare/codeQL/projects/open-interpreter/interpreter/core/utils/telemetry.py","call function: 35:28-35:39","call in function: get_or_create_uuid@22-41","callee=uuid.uuid4","basic block: 35:28-35:39"
+"path: /home/sixsquare/codeQL/projects/open-interpreter/interpreter/core/computer/display/point/point.py","call function: 407:27-407:62","call in function: find_icon@52-441","callee=hashlib.sha256","basic block: 392:9-415:26"

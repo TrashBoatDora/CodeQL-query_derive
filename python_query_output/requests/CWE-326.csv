@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/requests/tests/conftest.py","call function: 48:15-48:65","call in function: nosan_server@36-58","callee=ssl.create_default_context","basic block: 36:18-58:24"
+"path: /home/sixsquare/codeQL/projects/requests/src/requests/auth.py","call function: 203:14-203:26","call in function: build_digest_header@126-234","callee=os.urandom","basic block: 199:19-206:35"
+"path: /home/sixsquare/codeQL/projects/requests/tests/testserver/server.py","call function: 161:28-161:66","call in function: __init__@139-169","callee=ssl.SSLContext","basic block: 140:9-165:21"

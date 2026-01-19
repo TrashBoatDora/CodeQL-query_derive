@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/scrapy/tests/keys/__init__.py","call function: 27:11-31:5","call in function: generate_keys@24-61","callee=cryptography.hazmat.primitives.asymmetric.rsa.generate_private_key","basic block: 25:14-61:75"
+"path: /home/sixsquare/codeQL/projects/scrapy/scrapy/extensions/telnet.py","call function: 57:46-57:58","call in function: __init__@43-61","callee=os.urandom","basic block: 57:29-58:61"

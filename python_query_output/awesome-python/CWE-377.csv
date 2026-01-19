@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/awesome-python/sort.py","call function: 19:10-19:31","call in function: sort_blocks@17-43","callee=open","basic block: 19:10-25:31"
+"path: /home/sixsquare/codeQL/projects/awesome-python/sort.py","call function: 42:10-42:32","call in function: sort_blocks@17-43","callee=open","basic block: 36:20-43:39"
+"path: /home/sixsquare/codeQL/projects/awesome-python/sort.py","call function: 47:10-47:31","call in function: main@45-79","callee=open","basic block: 47:10-56:23"
+"path: /home/sixsquare/codeQL/projects/awesome-python/sort.py","call function: 70:10-70:32","call in function: main@45-79","callee=open","basic block: 70:10-79:17"

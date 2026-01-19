@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/shells/bash.py","call function: 47:62-47:68","call in function: instant_mode_alias@37-54","callee=uuid.uuid4","basic block: 46:24-54:36"
+"path: /home/sixsquare/codeQL/projects/thefuck/thefuck/shells/zsh.py","call function: 52:62-52:68","call in function: instant_mode_alias@40-59","callee=uuid.uuid4","basic block: 51:24-59:36"

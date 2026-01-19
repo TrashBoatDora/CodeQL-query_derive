@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/odoo/addons/fleet/report/odometer_report.py","call function: 231:13-231:56","call in function: init@22-233","callee=psycopg2.sql.SQL","basic block: 22:14-233:32"
+"path: /home/sixsquare/codeQL/projects/odoo/addons/fleet/report/odometer_report.py","call function: 232:17-232:43","call in function: init@22-233","callee=psycopg2.sql.Identifier","basic block: 22:14-233:32"
+"path: /home/sixsquare/codeQL/projects/odoo/addons/fleet/report/odometer_report.py","call function: 233:17-233:30","call in function: init@22-233","callee=psycopg2.sql.SQL","basic block: 22:14-233:32"
+"path: /home/sixsquare/codeQL/projects/odoo/odoo/orm/registry.py","call function: 82:16-82:47","call in function: _unaccent@78-83","callee=psycopg2.sql.SQL","basic block: 82:16-82:57"

@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/crewAI/src/crewai/cli/authentication/utils.py","call function: 24:23-24:68","call in function: validate_jwt_token@5-62","callee=jwt.PyJWKClient.get_signing_key_from_jwt","basic block: 24:59-24:68"
+"path: /home/sixsquare/codeQL/projects/crewAI/src/crewai/cli/authentication/utils.py","call function: 26:37-28:9","call in function: validate_jwt_token@5-62","callee=jwt.decode","basic block: 27:13-28:9"
+"path: /home/sixsquare/codeQL/projects/crewAI/src/crewai/cli/authentication/utils.py","call function: 29:25-42:9","call in function: validate_jwt_token@5-62","callee=jwt.decode","basic block: 32:25-42:9"

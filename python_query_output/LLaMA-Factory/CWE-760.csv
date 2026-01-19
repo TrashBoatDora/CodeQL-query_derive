@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/LLaMA-Factory/src/llamafactory/api/chat.py","call function: 187:33-187:44","call in function: create_chat_completion_response@184-235","callee=uuid.uuid4","basic block: 185:5-207:43"
+"path: /home/sixsquare/codeQL/projects/LLaMA-Factory/src/llamafactory/api/chat.py","call function: 217:59-217:70","call in function: create_chat_completion_response@184-235","callee=uuid.uuid4","basic block: 215:17-217:97"
+"path: /home/sixsquare/codeQL/projects/LLaMA-Factory/src/llamafactory/api/chat.py","call function: 241:33-241:44","call in function: create_stream_chat_completion_response@238-274","callee=uuid.uuid4","basic block: 239:5-243:12"
+"path: /home/sixsquare/codeQL/projects/LLaMA-Factory/src/llamafactory/api/chat.py","call function: 280:28-280:39","call in function: create_score_evaluation_response@277-285","callee=uuid.uuid4","basic block: 278:5-281:33"
+"path: /home/sixsquare/codeQL/projects/LLaMA-Factory/src/llamafactory/chat/vllm_engine.py","call function: 113:34-113:45","call in function: _generate@103-208","callee=uuid.uuid4","basic block: 104:9-114:29"

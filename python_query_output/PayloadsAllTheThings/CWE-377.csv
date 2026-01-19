@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Apache Struts 2 CVE-2017-9805.py","call function: 293:22-293:45","call in function: main@275-318","callee=open","basic block: 293:42-293:45"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Apache Struts 2 CVE-2018-11776.py","call function: 205:22-205:45","call in function: main@195-222","callee=open","basic block: 205:42-205:45"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Heartbleed CVE-2014-0160.py","call function: 63:9-63:23","call in function: hexdump@62-72","callee=open","basic block: 62:13-66:9"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/CVE Exploits/Telerik CVE-2019-18935.py","call function: 70:10-70:35","call in function: upload@45-95","callee=open","basic block: 49:9-95:23"
+"path: /home/sixsquare/codeQL/projects/PayloadsAllTheThings/Web Sockets/Files/ws-harness.py","call function: 22:17-22:30","call in function: LoadMessage@18-28","callee=open","basic block: 22:17-22:30"

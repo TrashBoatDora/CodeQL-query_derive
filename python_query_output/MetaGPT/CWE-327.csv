@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MetaGPT/metagpt/utils/common.py","call function: 1221:14-1221:29","call in function: generate_fingerprint@1208-1225","callee=hashlib.sha256","basic block: 1208:26-1225:22"
+"path: /home/sixsquare/codeQL/projects/MetaGPT/metagpt/tools/iflytek_tts.py","call function: 97:25-99:9","call in function: _create_url@86-113","callee=hmac.new","basic block: 86:21-113:18"
+"path: /home/sixsquare/codeQL/projects/MetaGPT/metagpt/tools/libs/sd_engine.py","call function: 133:25-133:71","call in function: simple_run_t2i@117-135","callee=hashlib.sha256","basic block: 133:25-134:63"

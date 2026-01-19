@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/transformers/tests/utils/test_modeling_utils.py","call function: 2164:63-2164:74","call in function: setUp@2163-2164","callee=uuid.uuid4","basic block: 2163:15-2164:22"
+"path: /home/sixsquare/codeQL/projects/transformers/benchmark/benchmarks_entrypoint.py","call function: 108:28-108:39","call in function: initialise_benchmark@103-144","callee=uuid.uuid4","basic block: 103:30-110:28"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/models/olmo3/convert_olmo3_weights_to_hf.py","call function: 84:16-84:27","call in function: generate_uuid@83-84","callee=uuid.uuid4","basic block: 84:12-84:28"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/dynamic_module_utils.py","call function: 300:28-300:100","call in function: get_class_in_module@268-313","callee=hashlib.sha256","basic block: 295:47-303:32"
+"path: /home/sixsquare/codeQL/projects/transformers/benchmark_v2/run_benchmarks.py","call function: 281:30-281:41","call in function: main@278-491","callee=uuid.uuid4","basic block: 279:5-380:40"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/commands/serving.py","call function: 752:67-752:78","call in function: run@660-758","callee=uuid.uuid4","basic block: 752:63-752:79"
+"path: /home/sixsquare/codeQL/projects/transformers/src/transformers/commands/serving.py","call function: 752:67-752:78","call in function: get_or_set_request_id@751-756","callee=uuid.uuid4","basic block: 752:63-752:79"

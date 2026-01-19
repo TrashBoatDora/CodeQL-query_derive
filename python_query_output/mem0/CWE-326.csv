@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/mem0/embedchain/embedchain/loaders/slack.py","call function: 46:20-46:69","call in function: _setup_loader@29-59","callee=ssl.create_default_context","basic block: 43:9-59:53"

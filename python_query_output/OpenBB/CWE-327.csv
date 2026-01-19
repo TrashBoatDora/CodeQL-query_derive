@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/providers/oecd/openbb_oecd/utils/helpers.py","call function: 49:11-49:61","call in function: get_legacy_session@47-53","callee=ssl.create_default_context","basic block: 48:5-53:18"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/provider/utils/helpers.py","call function: 268:23-268:50","call in function: get_async_requests_session@230-344","callee=ssl.create_default_context","basic block: 264:9-270:13"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/app/service/hub_service.py","call function: 279:13-284:13","call in function: _check_token_expiration@275-288","callee=jwt.decode","basic block: 282:28-284:13"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/openbb_core/app/service/system_service.py","call function: 42:23-42:38","call in function: _compare_hash@39-46","callee=hashlib.sha256","basic block: 40:9-46:44"
+"path: /home/sixsquare/codeQL/projects/OpenBB/openbb_platform/core/tests/app/service/test_hub_service.py","call function: 362:9-366:9","call in function: test__check_token_expiration@358-375","callee=jwt.encode","basic block: 362:9-366:9"

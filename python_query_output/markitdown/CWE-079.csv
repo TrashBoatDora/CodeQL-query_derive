@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/markitdown/packages/markitdown/src/markitdown/converters/_pptx_converter.py","call function: 223:44-223:65","call in function: _convert_table_to_markdown@215-233","callee=html.escape","basic block: 223:21-223:30"
+"path: /home/sixsquare/codeQL/projects/markitdown/packages/markitdown/src/markitdown/converters/_pptx_converter.py","call function: 225:44-225:65","call in function: _convert_table_to_markdown@215-233","callee=html.escape","basic block: 225:21-225:30"

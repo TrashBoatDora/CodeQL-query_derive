@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/routes/screenshot.py","call function: 18:14-18:26","call in function: normalize_url@10-37","callee=urllib.parse.urlparse","basic block: 10:19-21:24"
+"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/video_to_app.py","call function: 51:17-51:48","call in function: main@29-117","callee=mimetypes.guess_type","basic block: 37:21-117:81"

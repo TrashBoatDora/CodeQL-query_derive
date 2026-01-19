@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/synthesizer/utils/_cmudict.py","call function: 20:12-20:49","call in function: __init__@18-26","callee=open","basic block: 20:12-21:15"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/vocoder/models/fatchord_version.py","call function: 412:14-412:28","call in function: log@411-413","callee=open","basic block: 411:13-413:30"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/encoder/preprocess.py","call function: 21:26-21:85","call in function: __init__@20-27","callee=open","basic block: 20:18-27:26"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/synthesizer/synthesizer_dataset.py","call function: 12:14-12:37","call in function: __init__@9-24","callee=pathlib.Path.open","basic block: 9:18-24:60"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/vocoder/vocoder_dataset.py","call function: 13:14-13:37","call in function: __init__@10-22","callee=pathlib.Path.open","basic block: 10:18-22:60"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/synthesizer/models/tacotron.py","call function: 490:14-490:28","call in function: log@489-491","callee=open","basic block: 489:13-491:30"
+"path: /home/sixsquare/codeQL/projects/Real-Time-Voice-Cloning/synthesizer/train.py","call function: 92:14-92:62","call in function: train@27-234","callee=open","basic block: 87:9-93:33"

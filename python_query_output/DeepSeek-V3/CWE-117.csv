@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/DeepSeek-V3/inference/fp8_cast_bf16.py","call function: 82:21-82:102","call in function: main@12-103","callee=print","basic block: 81:17-83:47"

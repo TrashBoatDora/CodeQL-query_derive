@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ColossalAI/colossalai/cli/check/check_installation.py","call function: 204:26-204:106","call in function: _check_cuda_version@191-213","callee=subprocess.check_output","basic block: 204:76-204:106"
+"path: /home/sixsquare/codeQL/projects/ColossalAI/colossalai/auto_parallel/checkpoint/ckpt_solver_rotor.py","call function: 289:22-298:13","call in function: _compute_table_c@276-305","callee=subprocess.Popen","basic block: 281:9-299:33"
+"path: /home/sixsquare/codeQL/projects/ColossalAI/examples/tutorial/sequence_parallel/data/datasets/dataset_utils.py","call function: 74:11-74:46","call in function: compile_helper@67-79","callee=subprocess.run","basic block: 68:5-75:26"
+"path: /home/sixsquare/codeQL/projects/ColossalAI/applications/ColossalChat/examples/inference/inference.py","call function: 140:13-140:30","call in function: main@92-182","callee=os.system","basic block: 139:13-141:20"
+"path: /home/sixsquare/codeQL/projects/ColossalAI/colossalai/cli/launcher/multinode_runner.py","call function: 50:29-50:60","call in function: run_on_host@10-63","callee=fabric.Connection.local","basic block: 50:44-50:60"
+"path: /home/sixsquare/codeQL/projects/ColossalAI/colossalai/cli/launcher/multinode_runner.py","call function: 53:29-53:58","call in function: run_on_host@10-63","callee=fabric.Connection.run","basic block: 53:42-53:58"
+"path: /home/sixsquare/codeQL/projects/ColossalAI/extensions/utils.py","call function: 70:22-70:101","call in function: get_cuda_bare_metal_version@45-81","callee=subprocess.check_output","basic block: 70:71-70:101"

@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/stablediffusion/scripts/img2img.py","call function: 212:14-212:37","call in function: main@61-275","callee=open","basic block: 211:9-214:16"
+"path: /home/sixsquare/codeQL/projects/stablediffusion/scripts/txt2img.py","call function: 245:14-245:37","call in function: main@214-383","callee=open","basic block: 244:9-248:16"
+"path: /home/sixsquare/codeQL/projects/stablediffusion/ldm/modules/midas/utils.py","call function: 18:10-18:25","call in function: read_pfm@9-55","callee=open","basic block: 9:14-27:41"
+"path: /home/sixsquare/codeQL/projects/stablediffusion/ldm/modules/midas/utils.py","call function: 67:10-67:25","call in function: write_pfm@58-94","callee=open","basic block: 58:15-70:40"

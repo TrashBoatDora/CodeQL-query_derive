@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/api.py","call function: 26:22-26:42","call in function: create_item@22-49","callee=json.loads","basic block: 22:23-35:70"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo.py","call function: 34:17-34:30","call in function: main@29-54","callee=input","basic block: 33:5-35:34"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo_vision.py","call function: 37:22-37:40","call in function: main@31-60","callee=input","basic block: 33:5-38:31"
+"path: /home/sixsquare/codeQL/projects/ChatGLM-6B/cli_demo_vision.py","call function: 56:21-56:34","call in function: main@31-60","callee=input","basic block: 54:13-57:39"

@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Python/web_programming/emails_from_url.py","call function: 67:12-67:30","call in function: get_sub_domain_name@60-67","callee=urllib.parse.urlparse","basic block: 60:25-67:37"
+"path: /home/sixsquare/codeQL/projects/Python/web_programming/recaptcha_verification.py","call function: 75:20-75:44","call in function: login_using_recaptcha@51-76","callee=django.shortcuts.redirect","basic block: 74:13-75:44"

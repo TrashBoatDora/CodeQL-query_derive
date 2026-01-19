@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/DeepSpeed/tests/unit/ops/aio/test_aio.py","call function: 45:18-45:38","call in function: _do_ref_write@43-49","callee=os.urandom","basic block: 43:19-49:31"
+"path: /home/sixsquare/codeQL/projects/DeepSpeed/tests/unit/ops/aio/test_aio.py","call function: 345:49-345:69","call in function: test_offset_write@334-381","callee=os.urandom","basic block: 345:27-351:44"
+"path: /home/sixsquare/codeQL/projects/DeepSpeed/tests/unit/ops/aio/test_gds.py","call function: 35:18-35:38","call in function: _do_ref_write@32-39","callee=os.urandom","basic block: 32:19-39:31"

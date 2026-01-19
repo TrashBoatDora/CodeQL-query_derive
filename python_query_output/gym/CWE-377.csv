@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/gym/tests/spaces/test_spaces.py","call function: 468:10-468:33","call in function: test_space_pickling@458-480","callee=tempfile.TemporaryFile","basic block: 465:5-473:40"
+"path: /home/sixsquare/codeQL/projects/gym/tests/wrappers/test_video_recorder.py","call function: 44:9-44:22","call in function: test_record_simple@32-45","callee=open","basic block: 43:5-45:45"
+"path: /home/sixsquare/codeQL/projects/gym/tests/wrappers/test_video_recorder.py","call function: 69:9-69:22","call in function: test_autoclose@48-70","callee=open","basic block: 68:5-70:45"
+"path: /home/sixsquare/codeQL/projects/gym/gym/wrappers/monitoring/video_recorder.py","call function: 80:22-80:69","call in function: __init__@20-102","callee=tempfile.NamedTemporaryFile","basic block: 80:22-81:24"
+"path: /home/sixsquare/codeQL/projects/gym/gym/wrappers/monitoring/video_recorder.py","call function: 172:14-172:42","call in function: write_metadata@170-173","callee=open","basic block: 170:24-173:39"

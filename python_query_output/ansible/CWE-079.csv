@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/ansible/test/integration/targets/var_precedence/ansible-var-precedence-check.py","call function: 103:20-103:32","call in function: __init__@102-107","callee=jinja2.Environment","basic block: 102:18-107:20"
+"path: /home/sixsquare/codeQL/projects/ansible/packaging/cli-doc/build.py","call function: 106:15-106:86","call in function: generate_rst@101-110","callee=jinja2.Environment","basic block: 105:9-108:25"
+"path: /home/sixsquare/codeQL/projects/ansible/packaging/cli-doc/build.py","call function: 107:20-107:55","call in function: generate_rst@101-110","callee=jinja2.Environment.get_template","basic block: 105:9-108:25"
+"path: /home/sixsquare/codeQL/projects/ansible/packaging/release.py","call function: 987:11-987:30","call in function: create_template_environment@985-992","callee=jinja2.Environment","basic block: 986:5-992:14"

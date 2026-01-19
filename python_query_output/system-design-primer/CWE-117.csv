@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/system-design-primer/solutions/system_design/social_graph/social_graph_snippets.py","call function: 21:13-21:23","call in function: bfs@13-28","callee=print","basic block: 20:20-22:27"

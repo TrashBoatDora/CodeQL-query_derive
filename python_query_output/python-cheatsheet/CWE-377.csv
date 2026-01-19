@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/python-cheatsheet/pdf/remove_links.py","call function: 50:10-50:34","call in function: read_file@48-51","callee=open","basic block: 48:15-51:31"
+"path: /home/sixsquare/codeQL/projects/python-cheatsheet/pdf/remove_links.py","call function: 56:10-56:39","call in function: write_to_file@54-57","callee=open","basic block: 54:19-57:24"
+"path: /home/sixsquare/codeQL/projects/python-cheatsheet/pdf/create_index.py","call function: 46:10-46:41","call in function: read_file@45-47","callee=open","basic block: 45:15-47:31"
+"path: /home/sixsquare/codeQL/projects/python-cheatsheet/web/update_plots.py","call function: 108:10-108:34","call in function: read_file@106-109","callee=open","basic block: 106:15-109:31"
+"path: /home/sixsquare/codeQL/projects/python-cheatsheet/web/update_plots.py","call function: 114:10-114:39","call in function: write_to_file@112-115","callee=open","basic block: 112:19-115:30"

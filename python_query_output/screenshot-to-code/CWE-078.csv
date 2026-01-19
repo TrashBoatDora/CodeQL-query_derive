@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/screenshot-to-code/backend/video_to_app.py","call function: 117:5-117:81","call in function: main@29-117","callee=subprocess.run","basic block: 37:21-117:81"

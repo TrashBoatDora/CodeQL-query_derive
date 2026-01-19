@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/autogen/python/packages/autogen-ext/src/autogen_ext/code_executors/docker_jupyter/_jupyter_server.py","call function: 353:23-353:43","call in function: __init__@292-401","callee=secrets.token_hex","basic block: 353:23-353:43"
+"path: /home/sixsquare/codeQL/projects/autogen/python/packages/autogen-studio/autogenstudio/web/auth/manager.py","call function: 59:16-59:77","call in function: create_token@44-59","callee=jwt.encode","basic block: 50:18-59:77"
+"path: /home/sixsquare/codeQL/projects/autogen/python/packages/autogen-studio/autogenstudio/web/auth/providers.py","call function: 68:17-68:41","call in function: get_login_url@66-76","callee=secrets.token_urlsafe","basic block: 66:29-76:78"

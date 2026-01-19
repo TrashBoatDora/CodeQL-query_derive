@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/flask/src/flask/testing.py","call function: 75:19-75:32","call in function: __init__@49-86","callee=urllib.parse.urlsplit","basic block: 75:19-77:29"

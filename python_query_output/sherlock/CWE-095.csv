@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/sherlock/sherlock_project/sherlock.py","call function: 746:31-746:60","call in function: main@566-986","callee=json.loads","basic block: 746:42-746:60"
+"path: /home/sixsquare/codeQL/projects/sherlock/sherlock_project/sherlock.py","call function: 806:41-806:68","call in function: main@566-986","callee=json.loads","basic block: 806:52-806:68"

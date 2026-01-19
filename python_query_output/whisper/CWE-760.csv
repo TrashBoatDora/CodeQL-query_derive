@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/__init__.py","call function: 66:12-66:38","call in function: _download@54-95","callee=hashlib.sha256","basic block: 64:14-66:69"
+"path: /home/sixsquare/codeQL/projects/whisper/whisper/__init__.py","call function: 90:8-90:34","call in function: _download@54-95","callee=hashlib.sha256","basic block: 84:21-90:65"

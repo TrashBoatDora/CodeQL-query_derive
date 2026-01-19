@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/django/django/utils/crypto.py","call function: 67:12-67:71","call in function: constant_time_compare@65-67","callee=secrets.compare_digest","basic block: 65:27-67:71"

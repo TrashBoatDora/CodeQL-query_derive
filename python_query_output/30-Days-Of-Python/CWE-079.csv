@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/30-Days-Of-Python/python_for_web/app.py","call function: 15:12-15:81","call in function: home@12-15","callee=flask.render_template","basic block: 13:14-15:81"
+"path: /home/sixsquare/codeQL/projects/30-Days-Of-Python/python_for_web/app.py","call function: 20:12-20:73","call in function: about@18-20","callee=flask.render_template","basic block: 19:12-20:73"
+"path: /home/sixsquare/codeQL/projects/30-Days-Of-Python/python_for_web/app.py","call function: 24:12-24:41","call in function: result@23-24","callee=flask.render_template","basic block: 24:12-24:41"
+"path: /home/sixsquare/codeQL/projects/30-Days-Of-Python/python_for_web/app.py","call function: 30:17-30:71","call in function: post@27-33","callee=flask.render_template","basic block: 30:17-30:71"

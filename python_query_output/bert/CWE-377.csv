@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/bert/tokenization_test.py","call function: 33:10-33:50","call in function: test_full_tokenizer@28-49","callee=tempfile.NamedTemporaryFile","basic block: 28:27-34:16"

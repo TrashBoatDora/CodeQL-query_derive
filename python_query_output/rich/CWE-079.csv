@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/rich/rich/console.py","call function: 2256:28-2256:39","call in function: export_html@2219-2292","callee=html.escape","basic block: 2253:21-2257:28"
+"path: /home/sixsquare/codeQL/projects/rich/rich/console.py","call function: 2268:28-2268:39","call in function: export_html@2219-2292","callee=html.escape","basic block: 2265:21-2269:28"
+"path: /home/sixsquare/codeQL/projects/rich/rich/console.py","call function: 2418:20-2418:31","call in function: export_svg@2325-2574","callee=html.escape","basic block: 2416:25-2418:54"
+"path: /home/sixsquare/codeQL/projects/rich/rich/console.py","call function: 2418:20-2418:31","call in function: escape_text@2416-2418","callee=html.escape","basic block: 2416:25-2418:54"

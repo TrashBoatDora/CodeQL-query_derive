@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/FastChat/fastchat/serve/monitor/clean_chat_data.py","call function: 120:15-120:45","call in function: process_data@74-136","callee=hashlib.md5","basic block: 120:15-136:5"
+"path: /home/sixsquare/codeQL/projects/FastChat/fastchat/conversation.py","call function: 625:28-625:62","call in function: save_new_images@611-639","callee=hashlib.md5","basic block: 623:17-631:37"
+"path: /home/sixsquare/codeQL/projects/FastChat/fastchat/conversation.py","call function: 658:38-658:65","call in function: extract_text_and_image_hashes_from_messages@641-665","callee=hashlib.md5","basic block: 657:33-659:55"

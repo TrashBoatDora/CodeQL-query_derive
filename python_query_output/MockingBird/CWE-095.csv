@@ -1,0 +1,6 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MockingBird/models/ppg_extractor/__init__.py","call function: 86:16-86:32","call in function: load_model@75-100","callee=yaml.safe_load","basic block: 83:27-100:17"
+"path: /home/sixsquare/codeQL/projects/MockingBird/utils/hparams.py","call function: 8:14-8:29","call in function: load_hparams_json@5-11","callee=json.loads","basic block: 5:23-11:18"
+"path: /home/sixsquare/codeQL/projects/MockingBird/utils/hparams.py","call function: 88:36-88:74","call in function: parse@80-89","callee=ast.literal_eval","basic block: 87:17-88:32"
+"path: /home/sixsquare/codeQL/projects/MockingBird/models/vocoder/hifigan/inference.py","call function: 36:19-36:34","call in function: load_model@22-53","callee=json.loads","basic block: 34:10-41:32"
+"path: /home/sixsquare/codeQL/projects/MockingBird/models/vocoder/fregan/inference.py","call function: 36:19-36:34","call in function: load_model@22-53","callee=json.loads","basic block: 34:10-41:32"

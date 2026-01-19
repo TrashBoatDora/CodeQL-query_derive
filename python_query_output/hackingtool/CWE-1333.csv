@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/hackingtool/generate_readme.py","call function: 9:12-9:40","call in function: sanitize_anchor@8-9","callee=re.sub","basic block: 8:21-9:40"

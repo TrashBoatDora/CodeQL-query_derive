@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/MetaGPT/tests/conftest.py","call function: 253:24-257:17","call in function: http_server@248-267","callee=aiohttp.web.Response","basic block: 252:31-257:17"
+"path: /home/sixsquare/codeQL/projects/MetaGPT/tests/conftest.py","call function: 253:24-257:17","call in function: start@249-265","callee=aiohttp.web.Response","basic block: 252:31-257:17"
+"path: /home/sixsquare/codeQL/projects/MetaGPT/tests/conftest.py","call function: 253:24-257:17","call in function: handler@252-257","callee=aiohttp.web.Response","basic block: 252:31-257:17"
+"path: /home/sixsquare/codeQL/projects/MetaGPT/examples/stream_output_via_api.py","call function: 89:16-89:76","call in function: completions@60-91","callee=flask.Response","basic block: 89:16-89:76"

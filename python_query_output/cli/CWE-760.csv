@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/cli/tests/utils/plugins_cli.py","call function: 24:24-24:43","call in function: make_name@23-24","callee=secrets.token_hex","basic block: 24:12-24:43"

@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/langflow/src/lfx/src/lfx/services/settings/auth.py","call function: 107:29-107:53","call in function: get_secret_key@102-130","callee=secrets.token_urlsafe","basic block: 107:29-107:53"
+"path: /home/sixsquare/codeQL/projects/langflow/src/lfx/src/lfx/services/settings/auth.py","call function: 122:29-122:53","call in function: get_secret_key@102-130","callee=secrets.token_urlsafe","basic block: 122:29-124:52"
+"path: /home/sixsquare/codeQL/projects/langflow/src/lfx/src/lfx/services/settings/auth.py","call function: 126:25-126:49","call in function: get_secret_key@102-130","callee=secrets.token_urlsafe","basic block: 126:25-128:48"
+"path: /home/sixsquare/codeQL/projects/langflow/src/backend/base/langflow/services/database/models/api_key/crud.py","call function: 26:31-26:55","call in function: create_api_key@24-40","callee=secrets.token_urlsafe","basic block: 24:26-32:44"
+"path: /home/sixsquare/codeQL/projects/langflow/src/backend/tests/unit/services/auth/test_mcp_encryption.py","call function: 21:17-21:37","call in function: mock_settings_service@16-28","callee=cryptography.fernet.Fernet.generate_key","basic block: 17:5-28:23"
+"path: /home/sixsquare/codeQL/projects/langflow/src/backend/base/langflow/services/auth/utils.py","call function: 520:21-520:41","call in function: ensure_valid_key@514-524","callee=random.getrandbits","basic block: 520:47-520:41"
+"path: /home/sixsquare/codeQL/projects/langflow/src/backend/base/langflow/services/auth/utils.py","call function: 520:21-520:41","call in function: genexpr@520-520","callee=random.getrandbits","basic block: 520:47-520:41"

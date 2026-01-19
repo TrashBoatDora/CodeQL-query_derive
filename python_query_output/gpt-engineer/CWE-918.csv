@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/gpt-engineer/scripts/test_api.py","call function: 25:16-25:55","call in function: post_data@8-26","callee=requests.post","basic block: 8:15-26:19"

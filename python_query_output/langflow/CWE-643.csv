@@ -1,0 +1,3 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/langflow/src/lfx/src/lfx/components/arxiv/arxiv.py","call function: 65:16-65:40","call in function: parse_atom_response@62-89","callee=defusedxml.ElementTree.fromstring","basic block: 62:29-72:51"
+"path: /home/sixsquare/codeQL/projects/langflow/src/lfx/src/lfx/base/data/utils.py","call function: 158:27-158:54","call in function: parse_text_file_to_data@137-166","callee=defusedxml.ElementTree.fromstring","basic block: 158:50-158:54"

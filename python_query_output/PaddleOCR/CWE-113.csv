@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/PaddleOCR/mcp_server/paddleocr_mcp/pipelines.py","call function: 68:14-68:24","call in function: _is_url@65-69","callee=urllib.parse.urlparse","basic block: 66:8-69:46"

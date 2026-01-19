@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/timm/models/_hub.py","call function: 143:12-143:27","call in function: load_cfg_from_json@140-143","callee=json.loads","basic block: 140:24-143:27"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/bulk_runner.py","call function: 201:25-201:37","call in function: main@141-231","callee=json.loads","basic block: 201:36-201:37"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/timm/utils/misc.py","call function: 29:27-29:49","call in function: __call__@24-32","callee=ast.literal_eval","basic block: 29:44-29:49"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/timm/data/readers/reader_wds.py","call function: 55:33-55:49","call in function: _load_info@42-63","callee=yaml.safe_load","basic block: 55:48-55:49"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/timm/data/readers/reader_wds.py","call function: 150:16-150:41","call in function: _decode@135-168","callee=json.loads","basic block: 150:16-152:26"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/timm/data/real_labels.py","call function: 20:27-21:111","call in function: __init__@15-28","callee=json.loads","basic block: 20:27-20:23"
+"path: /home/sixsquare/codeQL/projects/pytorch-image-models/train.py","call function: 424:19-424:35","call in function: _parse_args@419-433","callee=yaml.safe_load","basic block: 423:14-425:38"

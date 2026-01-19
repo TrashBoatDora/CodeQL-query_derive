@@ -1,0 +1,2 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/Deep-Learning-Papers-Reading-Roadmap/download.py","call function: 26:20-26:37","call in function: download_pdf@24-35","callee=requests.get","basic block: 26:33-26:37"

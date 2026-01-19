@@ -1,0 +1,4 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/llama/llama/generation.py","call function: 98:26-98:46","call in function: build@53-123","callee=open","basic block: 98:26-98:22"
+"path: /home/sixsquare/codeQL/projects/llama/llama/generation.py","call function: 108:14-108:54","call in function: build@53-123","callee=open","basic block: 103:9-123:38"
+"path: /home/sixsquare/codeQL/projects/llama/setup.py","call function: 8:32-8:41","call in function: get_requirements@7-8","callee=open","basic block: 7:22-8:42"

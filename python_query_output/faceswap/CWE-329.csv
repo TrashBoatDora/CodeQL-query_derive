@@ -1,0 +1,5 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/faceswap/lib/training/augmentation.py","call function: 237:22-239:53","call in function: _random_clahe@228-248","callee=numpy.random.randint","basic block: 237:22-247:46"
+"path: /home/sixsquare/codeQL/projects/faceswap/tests/lib/model/layers_test.py","call function: 38:39-38:61","call in function: layer_test@24-101","callee=numpy.random.randint","basic block: 38:39-38:35"
+"path: /home/sixsquare/codeQL/projects/faceswap/tests/lib/model/nn_blocks_test.py","call function: 29:35-29:57","call in function: block_test@21-54","callee=numpy.random.randint","basic block: 29:35-29:31"
+"path: /home/sixsquare/codeQL/projects/faceswap/tests/utils.py","call function: 19:17-19:66","call in function: generate_test_data@9-31","callee=numpy.random.randint","basic block: 19:17-21:31"

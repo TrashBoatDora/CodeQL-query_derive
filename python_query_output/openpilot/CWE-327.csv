@@ -1,0 +1,8 @@
+"col0","col1","col2","col3","col4"
+"path: /home/sixsquare/codeQL/projects/openpilot/common/api.py","call function: 35:13-35:68","call in function: get_token@25-38","callee=jwt.encode","basic block: 35:13-36:31"
+"path: /home/sixsquare/codeQL/projects/openpilot/system/hardware/tici/agnos.py","call function: 29:19-29:34","call in function: __init__@22-29","callee=hashlib.sha256","basic block: 22:16-29:15"
+"path: /home/sixsquare/codeQL/projects/openpilot/system/hardware/tici/agnos.py","call function: 117:14-117:29","call in function: get_raw_hash@116-126","callee=hashlib.sha256","basic block: 116:18-120:31"
+"path: /home/sixsquare/codeQL/projects/openpilot/system/hardware/tici/agnos.py","call function: 168:16-168:31","call in function: extract_compressed_image@161-187","callee=hashlib.sha256","basic block: 161:30-169:41"
+"path: /home/sixsquare/codeQL/projects/openpilot/system/athena/athenad.py","call function: 434:17-434:48","call in function: uploadFilesToUrls@405-446","callee=hashlib.sha1","basic block: 425:12-437:30"
+"path: /home/sixsquare/codeQL/projects/openpilot/system/athena/registration.py","call function: 75:26-75:155","call in function: register@24-101","callee=jwt.encode","basic block: 75:56-75:155"
+"path: /home/sixsquare/codeQL/projects/openpilot/tools/lib/url_file.py","call function: 21:10-21:53","call in function: hash_256@20-21","callee=hashlib.sha256","basic block: 20:14-21:65"
