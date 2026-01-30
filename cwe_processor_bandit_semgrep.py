@@ -369,6 +369,132 @@ def scan_file_with_semgrep(file_path: Path, cwe: str, output_dir: Path) -> List[
 
 # ==================== 主要掃描流程 ====================
 
+def get_all_python_files(project_path: Path, exclude_dirs: Set[str] = None) -> List[Path]:
+    """
+    獲取專案中所有 Python 檔案
+    
+    Args:
+        project_path: 專案根目錄
+        exclude_dirs: 要排除的目錄名稱集合
+        
+    Returns:
+        List[Path]: Python 檔案路徑列表（相對路徑）
+    """
+    if exclude_dirs is None:
+        exclude_dirs = {
+            '.git', '.svn', '.hg',
+            '__pycache__', '.pytest_cache', '.mypy_cache',
+            'node_modules', '.tox', '.eggs',
+            'venv', '.venv', 'env', '.env',
+            'build', 'dist', '*.egg-info',
+            'site-packages'
+        }
+    
+    python_files = []
+    
+    try:
+        for py_file in project_path.rglob("*.py"):
+            # 檢查是否在排除目錄中
+            parts = py_file.relative_to(project_path).parts
+            if any(excluded in parts for excluded in exclude_dirs):
+                continue
+            
+            # 排除太大的檔案（超過 1MB）
+            try:
+                if py_file.stat().st_size > 1024 * 1024:
+                    continue
+            except OSError:
+                continue
+            
+            python_files.append(py_file.relative_to(project_path))
+    except Exception:
+        pass
+    
+    return python_files
+
+
+def load_existing_results(output_base_dir: Path, cwe: str, view_type: str) -> Tuple[Dict[str, Dict[str, ScanResult]], Set[str], int]:
+    """
+    載入已存在的掃描結果
+    
+    Args:
+        output_base_dir: 輸出根目錄
+        cwe: CWE ID
+        view_type: 視角類型
+        
+    Returns:
+        Tuple[results, scanned_keys, existing_vuln_count]:
+            - results: 已存在的結果（Dict[project_name, Dict[file_path, ScanResult]]）
+            - scanned_keys: 已掃描的檔案 key 集合（"project_name/relative_path"）
+            - existing_vuln_count: 在指定視角下已有的漏洞檔案數
+    """
+    results: Dict[str, Dict[str, ScanResult]] = {}
+    scanned_keys: Set[str] = set()
+    existing_vuln_count = 0
+    
+    cwe_dir = output_base_dir / f"CWE-{cwe}"
+    either_view_file = cwe_dir / "either_view.json"
+    
+    if not either_view_file.exists():
+        return results, scanned_keys, existing_vuln_count
+    
+    try:
+        with open(either_view_file, 'r', encoding='utf-8') as f:
+            either_data = json.load(f)
+        
+        for key, vulns in either_data.items():
+            scanned_keys.add(key)
+            
+            # 解析 key: "project_name/relative_path"
+            parts = key.split('/', 1)
+            if len(parts) != 2:
+                continue
+            
+            project_name, relative_path = parts
+            
+            # 重建 ScanResult
+            scan_result = ScanResult()
+            for v in vulns:
+                vuln = VulnerabilityRecord(
+                    file_path=v.get("file_path", ""),
+                    line_start=v.get("line_start", 0),
+                    line_end=v.get("line_end", 0),
+                    scanner=v.get("scanner", ""),
+                    rule_id=v.get("rule_id", ""),
+                    severity=v.get("severity", ""),
+                    confidence=v.get("confidence", ""),
+                    description=v.get("description", "")
+                )
+                if vuln.scanner == "bandit":
+                    scan_result.bandit_vulns.append(vuln)
+                elif vuln.scanner == "semgrep":
+                    scan_result.semgrep_vulns.append(vuln)
+            
+            # 保存到結果
+            if project_name not in results:
+                results[project_name] = {}
+            results[project_name][relative_path] = scan_result
+            
+            # 根據視角計算已有的漏洞數
+            meets_criteria = False
+            if view_type == "bandit":
+                meets_criteria = scan_result.has_bandit
+            elif view_type == "semgrep":
+                meets_criteria = scan_result.has_semgrep
+            elif view_type == "either":
+                meets_criteria = scan_result.has_either
+            elif view_type == "both":
+                meets_criteria = scan_result.has_both
+            
+            if meets_criteria:
+                existing_vuln_count += 1
+                
+    except Exception as e:
+        print_colored(f"載入既有結果失敗: {e}", "yellow")
+    
+    return results, scanned_keys, existing_vuln_count
+
+
 def scan_cwe_files(
     cwe: str,
     projects_dir: Path,
@@ -378,7 +504,12 @@ def scan_cwe_files(
     max_files: int = 100
 ) -> Dict[str, Dict[str, ScanResult]]:
     """
-    掃描特定 CWE 的檔案（基於 CodeQL 結果）
+    掃描特定 CWE 的檔案
+    
+    策略：
+    1. 先載入已存在的掃描結果，跳過已掃描的檔案
+    2. 優先掃描 CodeQL 已標記的檔案
+    3. 如果找不滿 max_files，則進行地毯式搜索
     
     Args:
         cwe: CWE ID (如 "327")
@@ -391,10 +522,6 @@ def scan_cwe_files(
     Returns:
         Dict[project_name, Dict[file_path, ScanResult]]
     """
-    results: Dict[str, Dict[str, ScanResult]] = {}
-    files_with_vulns = 0  # 符合視角條件的檔案數
-    total_files_scanned = 0
-    
     view_names = {
         "bandit": "Bandit 發現",
         "semgrep": "Semgrep 發現",
@@ -406,7 +533,20 @@ def scan_cwe_files(
     print(f"視角: {view_names.get(view_type, view_type)}")
     print(f"目標: 找到 {max_files} 個符合視角條件的檔案")
     
-    # 遍歷所有專案
+    # ========== 載入已存在的結果 ==========
+    results, scanned_keys, files_with_vulns = load_existing_results(output_base_dir, cwe, view_type)
+    total_files_scanned = len(scanned_keys)
+    
+    if scanned_keys:
+        print_colored(f"\n已載入 {len(scanned_keys)} 個已掃描檔案，其中 {files_with_vulns} 個符合視角條件", "yellow")
+    
+    if files_with_vulns >= max_files:
+        print_colored(f"已達到目標 {max_files} 個檔案，無需繼續掃描", "green")
+        return results
+    
+    # ========== 階段 1: 優先掃描 CodeQL 標記的檔案 ==========
+    print_colored(f"\n--- 階段 1: 掃描 CodeQL 標記的檔案 ---", "yellow")
+    
     project_dirs = sorted([d for d in codeql_output_dir.iterdir() if d.is_dir()])
     
     for project_output_dir in project_dirs:
@@ -432,15 +572,27 @@ def scan_cwe_files(
         if not codeql_files:
             continue
         
-        print(f"\n專案: {project_name} ({len(codeql_files)} 個 CodeQL 標記檔案)")
+        # 過濾掉已掃描的檔案
+        unscanned_codeql_files = []
+        for rel_path in codeql_files:
+            key = f"{project_name}/{rel_path}"
+            if key not in scanned_keys:
+                unscanned_codeql_files.append(rel_path)
+        
+        if not unscanned_codeql_files:
+            continue
+        
+        print(f"\n專案: {project_name} ({len(unscanned_codeql_files)}/{len(codeql_files)} 個未掃描的 CodeQL 標記檔案)")
         
         # 準備輸出目錄
         raw_bandit_dir = output_base_dir / project_name / "raw_reports" / "bandit" / f"CWE-{cwe}"
         raw_semgrep_dir = output_base_dir / project_name / "raw_reports" / "semgrep" / f"CWE-{cwe}"
         
-        project_results: Dict[str, ScanResult] = {}
+        # 初始化專案結果（如果還沒有）
+        if project_name not in results:
+            results[project_name] = {}
         
-        for relative_path in sorted(codeql_files):
+        for relative_path in sorted(unscanned_codeql_files):
             if files_with_vulns >= max_files:
                 break
             
@@ -449,6 +601,8 @@ def scan_cwe_files(
             if not file_path.exists() or not file_path.suffix == '.py':
                 continue
             
+            key = f"{project_name}/{relative_path}"
+            scanned_keys.add(key)
             total_files_scanned += 1
             
             # 掃描
@@ -469,7 +623,7 @@ def scan_cwe_files(
             
             # 保存所有有漏洞的結果（無論視角）
             if scan_result.has_either:
-                project_results[relative_path] = scan_result
+                results[project_name][relative_path] = scan_result
             
             # 只有符合視角條件的才計入終止計數
             if meets_criteria:
@@ -477,12 +631,104 @@ def scan_cwe_files(
                 
                 bandit_count = len(scan_result.bandit_vulns)
                 semgrep_count = len(scan_result.semgrep_vulns)
-                marker = "✓" if meets_criteria else "○"
-                print(f"  {marker} [{files_with_vulns}/{max_files}] {relative_path} "
+                print(f"  ✓ [{files_with_vulns}/{max_files}] {relative_path} "
                       f"(B:{bandit_count}, S:{semgrep_count})")
         
-        if project_results:
-            results[project_name] = project_results
+        # 清理空的專案結果
+        if not results[project_name]:
+            del results[project_name]
+    
+    print(f"\n階段 1 完成: 累計掃描 {total_files_scanned} 個檔案，找到 {files_with_vulns} 個符合條件")
+    
+    # ========== 階段 2: 地毯式搜索（如果還沒找滿） ==========
+    if files_with_vulns < max_files:
+        print_colored(f"\n--- 階段 2: 地毯式搜索（還需 {max_files - files_with_vulns} 個檔案）---", "yellow")
+        
+        # 獲取所有專案目錄
+        all_projects = sorted([d for d in projects_dir.iterdir() if d.is_dir()])
+        
+        for project_path in all_projects:
+            if files_with_vulns >= max_files:
+                break
+            
+            project_name = project_path.name
+            
+            # 獲取專案中所有 Python 檔案
+            all_python_files = get_all_python_files(project_path)
+            
+            if not all_python_files:
+                continue
+            
+            # 過濾掉已掃描的檔案
+            unscanned_files = []
+            for rel_path in all_python_files:
+                key = f"{project_name}/{rel_path}"
+                if key not in scanned_keys:
+                    unscanned_files.append(rel_path)
+            
+            if not unscanned_files:
+                continue
+            
+            print(f"\n專案: {project_name} (地毯式掃描 {len(unscanned_files)} 個未掃描檔案)")
+            
+            # 準備輸出目錄
+            raw_bandit_dir = output_base_dir / project_name / "raw_reports" / "bandit" / f"CWE-{cwe}"
+            raw_semgrep_dir = output_base_dir / project_name / "raw_reports" / "semgrep" / f"CWE-{cwe}"
+            
+            # 如果結果中還沒有這個專案，初始化
+            if project_name not in results:
+                results[project_name] = {}
+            
+            files_scanned_in_project = 0
+            
+            for relative_path in sorted(unscanned_files):
+                if files_with_vulns >= max_files:
+                    break
+                
+                file_path = project_path / relative_path
+                relative_path_str = str(relative_path)
+                
+                key = f"{project_name}/{relative_path_str}"
+                scanned_keys.add(key)
+                total_files_scanned += 1
+                files_scanned_in_project += 1
+                
+                # 每掃描 100 個檔案顯示進度
+                if files_scanned_in_project % 100 == 0:
+                    print(f"  ... 已掃描 {files_scanned_in_project} 個檔案")
+                
+                # 掃描
+                scan_result = ScanResult()
+                scan_result.bandit_vulns = scan_file_with_bandit(file_path, cwe, raw_bandit_dir)
+                scan_result.semgrep_vulns = scan_file_with_semgrep(file_path, cwe, raw_semgrep_dir)
+                
+                # 根據視角判斷是否符合條件
+                meets_criteria = False
+                if view_type == "bandit":
+                    meets_criteria = scan_result.has_bandit
+                elif view_type == "semgrep":
+                    meets_criteria = scan_result.has_semgrep
+                elif view_type == "either":
+                    meets_criteria = scan_result.has_either
+                elif view_type == "both":
+                    meets_criteria = scan_result.has_both
+                
+                # 保存所有有漏洞的結果（無論視角）
+                if scan_result.has_either:
+                    results[project_name][relative_path_str] = scan_result
+                
+                # 只有符合視角條件的才計入終止計數
+                if meets_criteria:
+                    files_with_vulns += 1
+                    
+                    bandit_count = len(scan_result.bandit_vulns)
+                    semgrep_count = len(scan_result.semgrep_vulns)
+                    print(f"  ✓ [{files_with_vulns}/{max_files}] {relative_path_str} "
+                          f"(B:{bandit_count}, S:{semgrep_count})")
+            
+            # 清理空的專案結果
+            if not results[project_name]:
+                del results[project_name]
     
     print(f"\n掃描完成: 共掃描 {total_files_scanned} 個檔案")
     print(f"符合 {view_names.get(view_type, view_type)} 視角: {files_with_vulns} 個檔案")
@@ -883,25 +1129,18 @@ def interactive_main():
     
     # 執行掃描和處理
     for cwe in cwes:
-        # 檢查是否已有掃描結果
-        cwe_result_dir = output_base_dir / f"CWE-{cwe}"
-        either_view = cwe_result_dir / "either_view.json"
+        # 執行掃描（會自動載入已有結果並繼續掃描）
+        results = scan_cwe_files(
+            cwe=cwe,
+            projects_dir=projects_dir,
+            codeql_output_dir=codeql_output_dir,
+            output_base_dir=output_base_dir,
+            view_type=view_type,
+            max_files=max_files
+        )
         
-        if either_view.exists():
-            print_colored(f"\nCWE-{cwe} 已有掃描結果，跳過掃描", "yellow")
-        else:
-            # 執行掃描
-            results = scan_cwe_files(
-                cwe=cwe,
-                projects_dir=projects_dir,
-                codeql_output_dir=codeql_output_dir,
-                output_base_dir=output_base_dir,
-                view_type=view_type,
-                max_files=max_files
-            )
-            
-            if results:
-                save_aggregated_results(cwe, results, output_base_dir)
+        if results:
+            save_aggregated_results(cwe, results, output_base_dir)
         
         # 處理並移除漏洞
         process_and_remove_vulnerabilities(
@@ -951,21 +1190,18 @@ def cli_main():
     
     for cwe in cwes:
         if not args.process_only:
-            # 檢查是否已有結果
-            either_view = output_base_dir / f"CWE-{cwe}" / "either_view.json"
+            # 執行掃描（會自動載入已有結果並繼續掃描）
+            results = scan_cwe_files(
+                cwe=cwe,
+                projects_dir=projects_dir,
+                codeql_output_dir=codeql_output_dir,
+                output_base_dir=output_base_dir,
+                view_type=args.view,
+                max_files=args.max_files
+            )
             
-            if not either_view.exists():
-                results = scan_cwe_files(
-                    cwe=cwe,
-                    projects_dir=projects_dir,
-                    codeql_output_dir=codeql_output_dir,
-                    output_base_dir=output_base_dir,
-                    view_type=args.view,
-                    max_files=args.max_files
-                )
-                
-                if results:
-                    save_aggregated_results(cwe, results, output_base_dir)
+            if results:
+                save_aggregated_results(cwe, results, output_base_dir)
         
         if not args.scan_only:
             process_and_remove_vulnerabilities(
